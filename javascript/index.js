@@ -1,1 +1,3 @@
-# index javascript
+function toggleNavbar() {
+    
+}

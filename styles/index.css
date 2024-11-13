@@ -1,1 +1,51 @@
-# index style
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background-color: midnightblue;
+    color: whitesmoke;
+    overflow: hidden;
+}
+
+.navbar-links {
+    float: right;
+    padding: 14px 16px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.active {
+    background-color: deepskyblue;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+}
+
+.dropdown-content .dropdown-item {
+    padding: 12px;
+    color: black;
+}
+
+.dropdown-content .dropdown-item:hover {
+    background-color: aqua;
+    color: whitesmoke;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
