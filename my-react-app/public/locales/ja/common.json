@@ -1,0 +1,14 @@
+{
+    "home": "ホーム",
+    "media": {
+        "media": "メディア",
+        "film": "映画",
+        "music": "音楽"
+    },
+    "visit": {
+        "visit": "観光",
+        "events": "イベント",
+        "attractions": "見どころ",
+        "itineraries": "モデルコース"
+    }
+}

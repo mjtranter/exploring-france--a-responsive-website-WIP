@@ -1,0 +1,14 @@
+{
+    "home": "Home",
+    "media": {
+        "media": "Media",
+        "film": "Film",
+        "music": "Music"
+    },
+    "visit": {
+        "visit": "Visit",
+        "events": "Events",
+        "attractions": "Attractions",
+        "itineraries": "Itineraries"
+    }
+}
