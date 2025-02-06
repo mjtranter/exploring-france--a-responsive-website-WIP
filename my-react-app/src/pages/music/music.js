@@ -10,7 +10,7 @@ export default function Music() {
         <div className="content">
             <title>Music | Explore France</title>
             <div className="left">
-                <h2>La Musique</h2>
+                <h2><b>{t('title')}</b></h2>
             </div>
             <RightColumn>
                 <Recommendation ns={"music"} />
