@@ -10,7 +10,7 @@ i18n
     .init({
         fallbackLng: 'en',
         supportedLngs: ['en', 'fr', 'ja'],
-        ns: ['common', 'film', 'music'],
+        ns: ['common', 'film', 'music', 'events', 'attractions', 'itineraries'],
         backend: {
             loadPath: '/locales/{{lng}}/{{ns}}.json'
         },
