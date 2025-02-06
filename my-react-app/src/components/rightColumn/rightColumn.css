@@ -1,0 +1,11 @@
+.column {
+    float: right;
+    background-color: bisque;
+    width: 27%;
+    height: 500px;
+    padding: 10px;
+}
+
+.children {
+    padding-top: 4px;
+}

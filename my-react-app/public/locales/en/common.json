@@ -10,5 +10,7 @@
         "events": "Events",
         "attractions": "Attractions",
         "itineraries": "Itineraries"
-    }
+    },
+
+    "happening-now": "Happening Now"
 }

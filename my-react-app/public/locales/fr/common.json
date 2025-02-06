@@ -10,5 +10,7 @@
         "events": "Événements",
         "attractions": "Attractions",
         "itineraries": "Itinéraires"
-    }
+    },
+
+    "happening-now": "En Ce Moment"
 }
