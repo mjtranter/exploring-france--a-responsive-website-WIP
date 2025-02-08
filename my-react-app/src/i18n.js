@@ -16,7 +16,8 @@ i18n
         },
         detection: {
             order: ['sessionStorage', 'navigator']
-        }
+        },
+        load: 'languageOnly'
     });
 
 export default i18n;

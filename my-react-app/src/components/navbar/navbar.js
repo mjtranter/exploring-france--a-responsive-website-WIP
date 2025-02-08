@@ -7,7 +7,7 @@ import i18next from 'i18next';
 export default function Navbar() {
     const { t } = useTranslation();
     const getLanguage = () => {
-        switch(i18next.language) {
+        switch(i18next.resolvedLanguage) {
             case 'ja':
                 return 'Japanese';
             case 'fr':
@@ -18,7 +18,7 @@ export default function Navbar() {
     }
 
     const getFlag = () => {
-        switch (i18next.language) {
+        switch (i18next.resolvedLanguage) {
             case 'ja':
                 return 'flag-icon flag-icon-jp';
             case 'fr':

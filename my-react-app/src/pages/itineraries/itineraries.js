@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import RightColumn from '../../components/rightColumn/rightColumn';
 import './itineraries.css';
 
 export default function Itineraries() {
