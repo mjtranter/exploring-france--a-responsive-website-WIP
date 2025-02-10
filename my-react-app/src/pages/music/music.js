@@ -14,6 +14,10 @@ export default function Music() {
             </div>
             <RightColumn>
                 <Recommendation ns={"music"} />
+                <div className="chart">
+                    <h5><b>Top 10</b></h5>
+                    {/*<iframe title="chart" src="https://open.spotify.com/embed/playlist/37i9dQZEVXbIPWwFssbupI?utm_source=generator&theme=0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" />*/}
+                </div>
             </RightColumn>
             
         </div>
