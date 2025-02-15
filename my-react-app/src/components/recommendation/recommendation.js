@@ -5,6 +5,8 @@ import Apple from '../../assets/images/apple-music.svg';
 import Amazon from '../../assets/images/amazon-music.svg';
 import Youtube from '../../assets/images/youtube_social_icon_red.png';
 import { useTranslation } from 'react-i18next';
+import { useContext } from 'react';
+import { CountryCodeContext } from '../../App';
 
 export default function Recommendation({ns}) {
     const { t, i18n } = useTranslation(ns);
@@ -16,10 +18,10 @@ export default function Recommendation({ns}) {
         day: 'numeric'
     };
     const formattedDate = new Intl.DateTimeFormat(i18n.language, options).format(date);
-    /*use Swedish date as it is YYYY-MM-DD and using French would swap day and month*/
+    //use Swedish date as it is YYYY-MM-DD and using French would swap day and month
     const frenchDate = new Date(date.toLocaleString("sv", {timeZone: "Europe/Paris"}));
 
-    /* source: https://stackoverflow.com/a/55717984 */
+    // source: https://stackoverflow.com/a/55717984
     const startDate = new Date("2025-02-09");
     const timeDifference = frenchDate.getTime() - startDate.getTime();
     const dayDifference = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
@@ -27,6 +29,8 @@ export default function Recommendation({ns}) {
     let songs = require('../../assets/songs.json');
     const songId = dayDifference % songs.length;
     const song = songs[songId];
+
+    const countryCode = useContext(CountryCodeContext);
 
     return (
         <div className="rec-box">
@@ -39,10 +43,10 @@ export default function Recommendation({ns}) {
                 <a href={'https://open.spotify.com/track/' + song.spotify} target="_blank" rel="noreferrer">
                     <img className="link" src={Spotify} alt="Spotify Link" />
                 </a>
-                <a href={'https://music.apple.com/gb/album/' + song.apple} target="_blank" rel="noreferrer">
+                <a href={'https://music.apple.com/' + countryCode + '/album/' + song.apple} target="_blank" rel="noreferrer">
                     <img className="link" src={Apple} alt="Apple Music Link" />
                 </a>
-                <a href={'https://music.amazon.co.uk/albums/' + song.amazon} target="_blank" rel="noreferrer">
+                <a href={song.amazon[countryCode]} target="_blank" rel="noreferrer">
                     <img className="link" src={Amazon} alt="Amazon Music Link" />
                 </a>
                 <a href={'https://youtu.be/' + song.youtube} target="_blank" rel="noreferrer">
