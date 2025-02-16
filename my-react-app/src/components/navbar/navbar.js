@@ -6,16 +6,6 @@ import i18next from 'i18next';
 
 export default function Navbar() {
     const { t } = useTranslation();
-    const getLanguage = () => {
-        switch(i18next.resolvedLanguage) {
-            case 'ja':
-                return 'Japanese';
-            case 'fr':
-                return 'French';
-            default:
-                return 'English';
-        }
-    }
 
     const getFlag = () => {
         switch (i18next.resolvedLanguage) {
@@ -62,7 +52,7 @@ export default function Navbar() {
             </div>    
             <ul className="navbar-nav ms-auto">
                 <li className="nav-item dropdown language-select">
-                    <Link className="nav-link dropdown-toggle language-dropdown" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span className={getFlag()}></span>{getLanguage()}</Link>
+                    <Link className="nav-link dropdown-toggle language-dropdown" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span className={getFlag()}></span>{t('language')}</Link>
                     <div className="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
                         <button className="dropdown-item" onClick={() => changeLanguage("en")}><span className="flag-icon flag-icon-gb"></span>English</button>
                         <button className="dropdown-item" onClick={() => changeLanguage("fr")}><span className="flag-icon flag-icon-fr"></span>Français</button>
