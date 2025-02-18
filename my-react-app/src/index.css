@@ -8,3 +8,8 @@ body {
 .content {
   display: flex;
 }
+
+.nav-title {
+  padding-bottom: 12px;
+  /*border-bottom: 4px solid black;*/
+}

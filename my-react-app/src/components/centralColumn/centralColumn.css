@@ -1,0 +1,12 @@
+.central-column {
+    float: right;
+    background-color: whitesmoke;
+    width: 75%;
+    height: 100%;
+    padding: 10px;
+    padding-top: 12px;
+}
+
+.central-children {
+    margin-bottom: 16px;
+}

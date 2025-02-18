@@ -1,13 +1,13 @@
-.column {
+.right-column {
     float: right;
     background-color: bisque;
-    width: 27%;
+    width: 25%;
     height: 100%;
     padding: 10px;
     padding-top: 12px;
 }
 
-.children > * {
+.right-children > * {
     margin-top: 16px;
     padding-top: 12px;
     border-top: 4px solid black;

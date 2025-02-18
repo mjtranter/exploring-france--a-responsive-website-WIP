@@ -1,16 +1,29 @@
 import './music.css';
+import '../../index.css';
+import LeftColumn from '../../components/leftColumn/leftColumn';
+import CentralColumn from '../../components/centralColumn/centralColumn';
 import RightColumn from '../../components/rightColumn/rightColumn';
 import Recommendation from '../../components/recommendation/recommendation';
 import { useTranslation } from 'react-i18next';
+import { useState } from 'react';
 
 export default function Music() {
     const { t } = useTranslation(['common', 'music']);
+
+    const categories = [{id: "Overview", t: "overview"}, {id: "Popular Artists", t: "popular-artists"}, {id: "Festivals", t: "festivals"}, {id: "Radio Stations", t: "radio-stations"}];
+
+    const [selectedCategory, setSelectedCategory] = useState(categories[0].id);
 
     return (
         <div className="content">
             <title>Music | Explore France</title>
             <div className="left">
-                <h2><b>{t('media.music')}</b></h2>
+                <LeftColumn ns={"music"} categories={categories} title={"media.music"} selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
+                <CentralColumn ns={"music"}>
+                    <div className="music-content">
+                        {selectedCategory}
+                    </div>
+                </CentralColumn>
             </div>
             <RightColumn>
                 <Recommendation ns={"music"} />
