@@ -16,7 +16,7 @@ export default function Music() {
 
     return (
         <div className="content">
-            <title>Music | Explore France</title>
+            <title>Music | L'Hexagone</title>
             <div className="left">
                 <LeftColumn ns={"music"} categories={categories} title={"media.music"} selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
                 <CentralColumn ns={"music"} selectedCategory={selectedCategory} />

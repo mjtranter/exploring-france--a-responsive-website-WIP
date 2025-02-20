@@ -7,7 +7,7 @@ export default function Attractions() {
 
     return (
         <div className="content"> 
-            <title>Attractions | Explore France</title>
+            <title>Attractions | L'Hexagone</title>
             <div className="left">
                 <h2><b>{t('visit.attractions')}</b></h2>
             </div>

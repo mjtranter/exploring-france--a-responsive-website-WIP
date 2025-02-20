@@ -1,16 +1,14 @@
+@import 'assets/colours/colours.css';
+
 body {
   margin: 0;
   font-family: "Poppins", serif;
   font-weight: 400;
   font-style: normal;
+  color: var(--dark-theme);
 }
 
 .content {
   display: flex;
   margin-top: 90px;
-}
-
-.nav-title {
-  padding-bottom: 12px;
-  /*border-bottom: 4px solid black;*/
 }

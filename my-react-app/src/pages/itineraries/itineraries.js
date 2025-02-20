@@ -6,7 +6,7 @@ export default function Itineraries() {
 
     return (
         <div className="content"> 
-            <title>Itineraries | Explore France</title>
+            <title>Itineraries | L'Hexagone</title>
             <div className="left">
                 <h2><b>{t('visit.itineraries')}</b></h2>
             </div>

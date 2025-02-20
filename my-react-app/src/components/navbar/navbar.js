@@ -3,6 +3,7 @@ import './navbar.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
+import Logo from '../../assets/images/france-outline.png';
 
 export default function Navbar() {
     const { t } = useTranslation();
@@ -24,9 +25,11 @@ export default function Navbar() {
 
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        {/* logo
-            <a class="navbar-brand" href="#"><img src="logo.PNG" id="logo" /></a>
-        */}
+            <div className="logo-container">
+                <img src={Logo} id="logo" alt="Outline of France" />
+                <h3 className="logo-text"><b>L'Hexagone</b></h3>
+            </div>
+        
         
         {/* source: https://getbootstrap.com/docs/5.3/components/navbar/ */}
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

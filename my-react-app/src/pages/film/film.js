@@ -7,7 +7,7 @@ export default function Film() {
 
     return (
         <div className="content"> 
-            <title>Film | Explore France</title>
+            <title>Film | L'Hexagone</title>
             <div className="left">
                 <h2><b>{t('media.film')}</b></h2>
             </div>

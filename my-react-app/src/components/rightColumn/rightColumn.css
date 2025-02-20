@@ -1,6 +1,8 @@
+@import '../../assets/colours/colours.css';
+
 .right-column {
     float: right;
-    background-color: #cee8f3;
+    background-color: var(--tertiary-theme);
     width: 25%;
     height: 100%;
     padding: 10px;
@@ -10,5 +12,5 @@
 .right-children > * {
     margin-top: 16px;
     padding-top: 12px;
-    border-top: 4px solid black;
+    border-top: 4px solid var(--dark-theme);
 }

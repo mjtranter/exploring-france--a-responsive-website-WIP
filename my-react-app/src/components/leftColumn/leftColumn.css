@@ -1,6 +1,8 @@
+@import '../../assets/colours/colours.css';
+
 .left-column {
     float: left;
-    background-color: #cee8f3;
+    background-color: var(--tertiary-theme);
     width: calc(25% * 0.75);
     height: calc(100vh - 90px);
     padding-top: 12px;
@@ -21,8 +23,8 @@
 }
 
 .selected {
-    background-color: midnightblue;
-    color: whitesmoke;
+    background-color: var(--primary-theme);
+    color: var(--secondary-theme);
 }
 
 .category-item:after {
@@ -35,9 +37,9 @@
 }
 
 .category-item:not(.selected):hover {
-    background-color: aliceblue;
+    background-color: var(--secondary-theme);
     cursor: pointer;
-    border-right: 8px solid midnightblue;
+    border-right: 8px solid var(--primary-theme);
 }
 
 .selected:hover {

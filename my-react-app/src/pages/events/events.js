@@ -7,7 +7,7 @@ export default function Events() {
 
     return (
         <div className="content"> 
-            <title>Events | Explore France</title>
+            <title>Events | L'Hexagone</title>
             <div className="left">
                 <h2><b>{t('visit.events')}</b></h2>
             </div>

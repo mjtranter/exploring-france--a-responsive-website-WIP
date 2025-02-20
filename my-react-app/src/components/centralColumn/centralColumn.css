@@ -1,6 +1,8 @@
+@import '../../assets/colours/colours.css';
+
 .central-column {
     float: right;
-    background-color: whitesmoke;
+    background-color: var(--secondary-theme);
     width: 75%;
     height: 100%;
     padding: 16px;
