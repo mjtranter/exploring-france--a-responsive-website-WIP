@@ -1,14 +1,12 @@
 import { useTranslation } from 'react-i18next';
 import './centralColumn.css';
 
-export default function CentralColumn({ns, children}) {
+export default function CentralColumn({ns, selectedCategory}) {
     const { t } = useTranslation(ns);
 
     return (
         <div className="central-column">
-            <div className="central-children">
-                {children}
-            </div>
+            <h4>{selectedCategory}</h4>
         </div>
     )
 }

@@ -23,7 +23,7 @@ export default function Navbar() {
     }
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         {/* logo
             <a class="navbar-brand" href="#"><img src="logo.PNG" id="logo" /></a>
         */}

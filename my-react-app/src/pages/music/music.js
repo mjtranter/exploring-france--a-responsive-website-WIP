@@ -10,7 +10,7 @@ import { useState } from 'react';
 export default function Music() {
     const { t } = useTranslation(['common', 'music']);
 
-    const categories = [{id: "Overview", t: "overview"}, {id: "Popular Artists", t: "popular-artists"}, {id: "Festivals", t: "festivals"}, {id: "Radio Stations", t: "radio-stations"}];
+    const categories = [{id: "Overview", t: "overview"}, {id: "Essentials", t: "essentials"}, {id: "Events", t: "events"}, {id: "Listen", t: "listen"}];
 
     const [selectedCategory, setSelectedCategory] = useState(categories[0].id);
 
@@ -19,11 +19,7 @@ export default function Music() {
             <title>Music | Explore France</title>
             <div className="left">
                 <LeftColumn ns={"music"} categories={categories} title={"media.music"} selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
-                <CentralColumn ns={"music"}>
-                    <div className="music-content">
-                        {selectedCategory}
-                    </div>
-                </CentralColumn>
+                <CentralColumn ns={"music"} selectedCategory={selectedCategory} />
             </div>
             <RightColumn>
                 <Recommendation ns={"music"} />

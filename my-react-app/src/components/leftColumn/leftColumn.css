@@ -1,9 +1,10 @@
 .left-column {
     float: left;
-    background-color: bisque;
-    width: 25%;
-    height: 100%;
+    background-color: #cee8f3;
+    width: calc(25% * 0.75);
+    height: calc(100vh - 90px);
     padding-top: 12px;
+    position: fixed;
 }
 
 .nav-title {
@@ -11,8 +12,8 @@
 }
 
 .category-item {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 16px;
     font-size: 1.2em;
     position: relative;
@@ -31,7 +32,6 @@
     bottom: 0;
     height: 2px;
     width: 100%;
-    /*border-bottom: 2px solid grey;*/
 }
 
 .category-item:not(.selected):hover {

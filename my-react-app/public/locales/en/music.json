@@ -1,8 +1,8 @@
 {
     "overview": "Overview",
-    "popular-artists": "Popular Artists",
-    "festivals": "Festivals",
-    "radio-stations": "Radio Stations",
+    "essentials": "Essentials",
+    "events": "Events",
+    "listen": "Listen",
 
     "todays-song": "Today's Song"
 }
