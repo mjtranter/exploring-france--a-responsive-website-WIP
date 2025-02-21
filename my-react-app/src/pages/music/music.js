@@ -1,5 +1,4 @@
 import './music.css';
-import '../../index.css';
 import LeftColumn from '../../components/leftColumn/leftColumn';
 import CentralColumn from '../../components/centralColumn/centralColumn';
 import RightColumn from '../../components/rightColumn/rightColumn';
@@ -12,7 +11,7 @@ export default function Music() {
 
     const categories = [{id: "Overview", t: "overview"}, {id: "Essentials", t: "essentials"}, {id: "Events", t: "events"}, {id: "Listen", t: "listen"}];
 
-    const [selectedCategory, setSelectedCategory] = useState(categories[0].id);
+    const [selectedCategory, setSelectedCategory] = useState(categories[0]);
 
     return (
         <div className="content">

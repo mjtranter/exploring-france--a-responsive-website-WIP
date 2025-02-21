@@ -5,7 +5,7 @@ export default function LeftColumn({ns, categories, title, selectedCategory, set
     const { t } = useTranslation(['common', ns]);
 
     categories = categories.map(category => 
-        <li key={category.id} className={"category-item"  + (selectedCategory === category.id ? " selected" : "")} onClick={() => setSelectedCategory(category.id)}>{t(category.t, { ns: ns })}</li>
+        <li key={category.id} className={"category-item"  + (selectedCategory.id === category.id ? " selected" : "")} onClick={() => setSelectedCategory(category)}>{t(category.t, { ns: ns })}</li>
     );
 
     return (

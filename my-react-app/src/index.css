@@ -12,3 +12,7 @@ body {
   display: flex;
   margin-top: 90px;
 }
+
+.left {
+  flex-grow: 1;
+}
