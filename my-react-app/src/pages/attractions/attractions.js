@@ -8,7 +8,7 @@ import { useState } from 'react';
 export default function Attractions() {
     const { t } = useTranslation(['common', 'attractions']);
 
-    const categories = [{id: "", t: ""}, {id: "", t: ""}, {id: "", t: ""}];
+    const categories = [{id: "1", t: ""}, {id: "2", t: ""}, {id: "3", t: ""}];
 
     const [selectedCategory, setSelectedCategory] = useState(categories[0]);
 

@@ -1,5 +1,4 @@
 import './recommendation.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Spotify from '../../assets/images/spotify.png';
 import Apple from '../../assets/images/apple-music.svg';
 import Amazon from '../../assets/images/amazon-music.svg';
