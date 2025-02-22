@@ -1,4 +1,4 @@
-export default function Listen({ns}) {
+export default function History({ns}) {
     return (
         <div>
             
