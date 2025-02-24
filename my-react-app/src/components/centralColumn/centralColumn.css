@@ -3,12 +3,9 @@
 .central-column {
     float: right;
     background-color: var(--secondary-theme);
+    max-width: 60vw;
     width: 75%;
     height: 100%;
     padding: 16px;
     padding-top: 12px;
-}
-
-.central-children {
-    margin-bottom: 16px;
 }

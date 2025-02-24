@@ -4,5 +4,23 @@
     "events": "Événements",
     "listen": "Écouter",
 
-    "todays-song": "Chanson du Jour"
+    "todays-song": "Chanson du Jour",
+
+    "essentials-genres": {
+        "titles": {
+            "dance-house": "Danse/House",
+            "electronic": "Électronique",
+            "pop": "Pop",
+            "chanson": "Chanson",
+            "rock": "Rock",
+            "metal": "Métal",
+            "rap": "Rap",
+            "jazz": "Jazz",
+            "folk": "Folk",
+            "classical": "Classique"
+        },
+        "descriptions": {
+            "dance-house": "La musique dance et house s'est développée en France dans les années 90 et est rapidement devenue une part importante de la culture. Née des scènes underground et influencée par les sons plus anciens de la disco, du funk et de l'électronique, ce style a connu une croissance massive et est devenu un incontournable dans les clubs, les festivals et même à la radio grand public. La French House a été populaire dans une grande partie du monde occidental à la fin des années 90 et au début des années 2000, et son influence s'est étendue au-delà de la musique. Contribuant à définir la scène rave, elle a donné aux jeunes un sentiment de rébellion et de liberté dans la vie nocturne française et a inspiré l'émergence du streetwear audacieux et coloré ainsi qu'une approche plus décontractée et expressive du style. De manière similaire, dans l'art, les artistes mélangeaient souvent des couleurs vives et des néons, inspirés par l'énergie vibrante des morceaux dance et house."
+        }
+    }
 }

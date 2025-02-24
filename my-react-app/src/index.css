@@ -6,6 +6,7 @@ body {
   font-weight: 400;
   font-style: normal;
   color: var(--dark-theme);
+  background-color: var(--secondary-theme);
 }
 
 .content {
@@ -15,4 +16,10 @@ body {
 
 .left {
   flex-grow: 1;
+}
+
+.category-component {
+  overflow-wrap: break-word;
+  white-space: normal;
+  word-break: break-word;
 }

@@ -4,5 +4,23 @@
     "events": "Events",
     "listen": "Listen",
 
-    "todays-song": "Today's Song"
+    "todays-song": "Today's Song",
+
+    "essentials-genres": {
+        "titles": {
+            "dance-house": "Dance/House",
+            "electronic": "Electronic",
+            "pop": "Pop",
+            "chanson": "Chanson",
+            "rock": "Rock",
+            "metal": "Metal",
+            "rap": "Rap",
+            "jazz": "Jazz",
+            "folk": "Folk",
+            "classical": "Classical"
+        },
+        "descriptions": {
+            "dance-house": "Dance and house music developed in France in the '90s and quickly became a significant part of the culture. Born out of underground scenes and influenced by earlier disco, funk, and electronic sounds, the style grew massively and became a mainstay in clubs, festivals, and even mainstream radio. French House was popular across much of the western world in the late '90s and early 2000s, and its influence extended beyond music. Helping to define the rave scene, it gave the youth a sense of rebellion and freedom within French nightlife and inspired the rise of bold, colourful streetwear and the embrace of a more relaxed, expressive style. Similarly, in art, artists often blended vivid colours and neon lights, inspired by the vibrant energy of dance and house tunes."
+        }
+    }
 }

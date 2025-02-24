@@ -1,9 +1,11 @@
 .profile-icon {
     display: inline-block;
+    width: 181.53px;
 }
 
 .icon {
     display: block;
+    /*border: 1px solid black;*/
     border-radius: 50%;
     height: 120px;
     margin-left: auto;

@@ -6,8 +6,8 @@ export default function Profile({ns, image, name}) {
 
     return (
         <div className="profile-icon">
-            <img className="icon" src={image} alt="Stromae" />
-            <h5 className="profile-name">{name}</h5>
+            <img className="icon" src={image} alt={name} />
+            <h6 className="profile-name">{name}</h6>
         </div>
     )
 }

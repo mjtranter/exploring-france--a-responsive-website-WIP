@@ -20,7 +20,7 @@ export default function Film() {
 
     useEffect(() => {
         setSearchParams({category: selectedCategory.t});
-
+        window.scrollTo(0,0);
     }, [selectedCategory, setSearchParams]);
 
     const components = [Overview, History, Events];

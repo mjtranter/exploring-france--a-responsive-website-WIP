@@ -22,7 +22,7 @@ export default function Music() {
 
     useEffect(() => {
         setSearchParams({category: selectedCategory.t});
-
+        window.scrollTo(0,0);
     }, [selectedCategory, setSearchParams]);
 
     const components = [Overview, Essentials, Events, Listen];
