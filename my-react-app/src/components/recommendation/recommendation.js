@@ -9,6 +9,8 @@ import { CountryCodeContext } from '../../App';
 
 export default function Recommendation({ns}) {
     const { t, i18n } = useTranslation(ns);
+    //make sure day number comes in front of month
+    const lang = i18n.resolvedLanguage === "en" ? "en-gb" : i18n.language;
     const date = new Date();
     const options = {
         timeZone: "Europe/Paris",
@@ -16,7 +18,7 @@ export default function Recommendation({ns}) {
         month: 'long',
         day: 'numeric'
     };
-    const formattedDate = new Intl.DateTimeFormat(i18n.language, options).format(date);
+    const formattedDate = new Intl.DateTimeFormat(lang, options).format(date);
     //use Swedish date as it is YYYY-MM-DD and using French would swap day and month
     const frenchDate = new Date(date.toLocaleString("sv", {timeZone: "Europe/Paris"}));
 
