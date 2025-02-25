@@ -51,6 +51,7 @@ export default function Essentials() {
         <div className="category-component">
             <h5 className="genre-title"><b>{t('essentials-genres.titles.dance-house')}</b></h5>
             <p className="genre-description">{t('essentials-genres.descriptions.dance-house')}</p>
+            <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
             <div className="profile-row">  
                 <Profile ns={ns} image={DaftPunk} name="Daft Punk" />
                 <Profile ns={ns} image={Justice} name="Justice" />
@@ -58,6 +59,8 @@ export default function Essentials() {
             </div>
             
             <h5 className="genre-title"><b>{t('essentials-genres.titles.electronic')}</b></h5>
+            <p className="genre-description">{t('essentials-genres.descriptions.electronic')}</p>
+            <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
             <div className="profile-row">
                 <Profile ns={ns} image={Air} name="Air" />
                 <Profile ns={ns} image={M83} name="M83" />
@@ -65,6 +68,8 @@ export default function Essentials() {
             </div>
 
             <h5 className="genre-title"><b>{t('essentials-genres.titles.pop')}</b></h5>
+            <p className="genre-description">{t('essentials-genres.descriptions.pop')}</p>
+            <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
             <div className="profile-row">
                 <Profile ns={ns} image={Angele} name="Angèle" />
                 <Profile ns={ns} image={MyleneFarmer} name="Mylène Farmer" />
@@ -72,6 +77,8 @@ export default function Essentials() {
             </div>
 
             <h5 className="genre-title"><b>{t('essentials-genres.titles.chanson')}</b></h5>
+            <p className="genre-description">{t('essentials-genres.descriptions.chanson')}</p>
+            <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
             <div className="profile-row">
                 <Profile ns={ns} image={EdithPiaf} name="Édith Piaf" />
                 <Profile ns={ns} image={Barbara} name="Barbara" />
@@ -79,6 +86,8 @@ export default function Essentials() {
             </div>
 
             <h5 className="genre-title"><b>{t('essentials-genres.titles.rock')}</b></h5>
+            <p className="genre-description">{t('essentials-genres.descriptions.lorem-ipsum')}</p>
+            <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
             <div className="profile-row">
                 <Profile ns={ns} image={Telephone} name="Téléphone" />
                 <Profile ns={ns} image={NoirDesir} name="Noir Désir" />
@@ -86,6 +95,8 @@ export default function Essentials() {
             </div>
 
             <h5 className="genre-title"><b>{t('essentials-genres.titles.metal')}</b></h5>
+            <p className="genre-description">{t('essentials-genres.descriptions.lorem-ipsum')}</p>
+            <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
             <div className="profile-row">
                 <Profile ns={ns} image={Gojira} name="Gojira" />
                 <Profile ns={ns} image={Alcest} name="Alcest" />
@@ -93,6 +104,8 @@ export default function Essentials() {
             </div>
 
             <h5 className="genre-title"><b>{t('essentials-genres.titles.rap')}</b></h5>
+            <p className="genre-description">{t('essentials-genres.descriptions.lorem-ipsum')}</p>
+            <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
             <div className="profile-row">
                 <Profile ns={ns} image={Iam} name="IAM" />
                 <Profile ns={ns} image={Orelsan} name="Orelsan" />
@@ -100,6 +113,8 @@ export default function Essentials() {
             </div>
 
             <h5 className="genre-title"><b>{t('essentials-genres.titles.jazz')}</b></h5>
+            <p className="genre-description">{t('essentials-genres.descriptions.lorem-ipsum')}</p>
+            <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
             <div className="profile-row">
                 <Profile ns={ns} image={Reinhardt} name="Django Reinhardt" />
                 <Profile ns={ns} image={Grappelli} name="Stéphane Grappelli" />
@@ -107,6 +122,8 @@ export default function Essentials() {
             </div>
 
             <h5 className="genre-title"><b>{t('essentials-genres.titles.folk')}</b></h5>
+            <p className="genre-description">{t('essentials-genres.descriptions.lorem-ipsum')}</p>
+            <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
             <div className="profile-row">
                 <Profile ns={ns} image={FrancoiseHardy} name="Françoise Hardy" />
                 <Profile ns={ns} image={GeorgesBrassens} name="Georges Brassens" />
@@ -114,6 +131,8 @@ export default function Essentials() {
             </div>
 
             <h5 className="genre-title"><b>{t('essentials-genres.titles.classical')}</b></h5>
+            <p className="genre-description">{t('essentials-genres.descriptions.lorem-ipsum')}</p>
+            <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
             <div className="profile-row">
                 <Profile ns={ns} image={Debussy} name="Claude Debussy" />
                 <Profile ns={ns} image={Bizet} name="Georges Bizet" />
