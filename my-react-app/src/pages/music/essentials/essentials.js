@@ -41,19 +41,32 @@ import LeForestier from '../../../assets/images/le-forestier-icon.jpg';
 import Debussy from '../../../assets/images/debussy-icon.jpg';
 import Bizet from '../../../assets/images/bizet-icon.jpg';
 import Satie from '../../../assets/images/satie-icon.jpg';
+
 import { useTranslation } from 'react-i18next';
+import { useContext } from 'react';
+import { CountryCodeContext } from '../../../App';
+import Popup from '../../../components/popup/popup';
 
 export default function Essentials() {
     const ns = "music";
     const { t } = useTranslation(ns);
 
+    const countryCode = useContext(CountryCodeContext);
+
     return (
         <div className="category-component">
+            
+            {/*<AccordionComponent />*/}
             <h5 className="genre-title"><b>{t('essentials-genres.titles.dance-house')}</b></h5>
             <p className="genre-description">{t('essentials-genres.descriptions.dance-house')}</p>
             <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
             <div className="profile-row">  
-                <Profile ns={ns} image={DaftPunk} name="Daft Punk" />
+                <div className="profile-container">
+                    <Profile ns={ns} image={DaftPunk} name="Daft Punk" />
+                    {countryCode === "gb" && (<Popup content={t('profile-connections.daft-punk.en')} title="Connections to the UK" />)}
+                    {countryCode === "jp" && (<Popup content={t('profile-connections.daft-punk.jp')} title="Connections to Japan" />)}
+                </div>
+                
                 <Profile ns={ns} image={Justice} name="Justice" />
                 <Profile ns={ns} image={Stromae} name="Stromae" />
             </div>

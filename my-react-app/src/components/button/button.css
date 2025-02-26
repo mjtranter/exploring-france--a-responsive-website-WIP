@@ -1,0 +1,14 @@
+@import '../../assets/colours/colours.css';
+
+.button {
+    border: none;
+    border-radius: 1.5rem;
+    background-color: var(--primary-theme);
+    font-size: 14px;
+    color: var(--secondary-theme);
+    padding: 8px;
+}
+
+.connection {
+    background-color: var(--french-red) !important;
+}

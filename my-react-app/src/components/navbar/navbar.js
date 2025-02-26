@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import './navbar.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 import Logo from '../../assets/images/france-outline.png';

@@ -28,5 +28,13 @@
             "chanson": "Chanson emerged as a dominant genre in France after World War II, deeply tied to themes of love, nostalgia, and social commentary. It resonated with everyday life, filling cafés, cabarets, and radio broadcasts, where people connected with its poetic lyricism and rich storytelling. Its emotionally expressive nature provided comfort and reflection in times of change, making it a cultural staple. Over the decades, chanson evolved, blending with other genres such as jazz and rock while retaining its emphasis on evocative lyrics and storytelling. Though its mainstream presence has diminished, its influence remains strong in contemporary French music.",
             "lorem-ipsum": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }
+    },
+
+    "profile-connections": {
+        "daft-punk": {
+            "en": "<ul className='croissant-list' ><li>Before they were global stars, in 1994, Daft Punk released their first single- The New Wave- on Soma Records, an independent Scottish label based in Glasgow.</li><li>In 1995, Daft Punk remixed Life is Sweet by The Chemical Brothers, one of the UK’s biggest electronic acts.</li><li>The song One More Time reached #2 in the UK charts in 2000. In 2013, Get Lucky reached #1, as well as the album it comes from- Random Access Memories.</li></ul>",
+            "ca": "",
+            "jp": "interstella 5555"
+        }
     }
 }
