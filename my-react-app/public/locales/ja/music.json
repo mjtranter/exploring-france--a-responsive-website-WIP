@@ -29,11 +29,34 @@
         }
     },
 
+    "view-connection": "接続を見る",
+    "connection-gb": "イギリスとのつながり",
+    "connection-ca": "ケベック、カナダとのつながり",
+    "connection-jp": "日本とのつながり",
     "profile-connections": {
         "daft-punk": {
-            "en": "",
-            "ca": "",
-            "jp": "JAPANESE"
+            "gb": "<ul><li>世界的なスターになる前の1994年、Daft Punkはグラスゴーを拠点とするスコットランドのインディーズレーベル、Soma Recordsから最初のシングル<em>The New Wave</em>をリリースした</li><li>1995年、Daft Punkはイギリスの電子音楽シーンを代表するThe Chemical Brothersの楽曲<em>Life is Sweet</em>をリミックスした</li><li>2000年、<em>One More Time</em>はイギリスのチャートで2位を獲得。2013年には<em>Get Lucky</em>が1位となり、同曲を収録したアルバム<em>Random Access Memories</em>もチャートのトップに輝いた</li></ul>",
+            "ca": "<ul><li>Daft PunkはカナダのミュージシャンGonzales（ジェイソン・ベック）と共に<em>Random Access Memories</em>で作業しました。モントリオール出身のGonzalesは、<em>Give Life Back to Music</em>と<em>Within</em>でピアノを演奏しました</li><li>グループはカナダのチャートで大成功を収め、<em>One More Time</em>と<em>Get Lucky</em>は1<sup>位</sup>を達成しました。<em>Random Access Memories</em>も1<sup>位</sup>に達し、1997年には彼らのブレイクアウトシングル<em>Around the World</em>がカナダのダンスチャートで1<sup>位</sup>に達しました</li></ul>",
+            "jp": "<ul><li>Daft Punkは、彼らの未来的でロボット的な美学に大きな影響を与えた日本の象徴的なSFアニメ映画「アキラ」（1988年）を引用しています</li><li>Daft Punkは、日本の伝説的な漫画家である松本零士と、著名なアニメ監督である竹内和久とコラボレーションし、アニメ映画「インターステラ5555: ザ・ストーリー・オブ・ザ・シークレット・スター・システム」（2003年）を制作しました。この映画は、エイリアンのバンドの誘拐と救出を追い、Daft Punkの2枚目のスタジオアルバム<em>Discovery</em> がサウンドトラックとして使用されています<iframe width='560' height='315' src='https://www.youtube.com/embed/EMroa1WgofA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></li><li>バンドは日本でも非常に成功を収めており、<em>One More Time</em> と<em>Get Lucky</em> は1位を獲得し、<em>Harder, Better, Faster, Stronger</em> は2位を獲得しました。<em>Discovery</em> も2位にランクインし、<em>Random Access Memories</em> は1位に達しました</li><li>10年間、曲 <em>Horizon</em> は <em>Random Access Memories</em> の日本版CDにおけるボーナストラックとしてのみ提供されており、10周年記念版で世界的にリリースされるまででした</li></ul>"
+        },
+        "justice": {
+            "gb": "<ul><li>Justiceの曲<em>D.A.N.C.E.</em>と彼らのデビューアルバム†は、どちらもUKダンスチャートで1位を獲得しました</li><li>JusticeはSimianの<em>Never Be Alone</em>を<em>We Are Your Friends</em>にリミックスし、Klaxonsとともに<em>As Above So Below</em>のリミックスを手掛けました</li></ul>"
+        },
+        "stromae": {
+            "gb": "<ul><li>彼のシングル <em>Alors On Danse</em> は、イギリスのシングルチャートで25位、イギリスのダンスチャートで5位に達しました</li></ul>",
+            "ca": "<ul><li>彼のシングル<em>Alors On Danse</em>はカナダで3位、アルバム<em>Racine Carrée</em>は1位を獲得しました</li><li>2015年、Stromaeはモントリオールのベル・センターで公演を行いました。この公演はプロによって撮影・編集されており、以下で視聴できます</li></ul><p><b>警告：このビデオには発作を引き起こす可能性のある点滅する光が含まれています</b></p><p><iframe width='560' height='315' src='https://www.youtube.com/embed/eOZLDQm9c2E' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='-origin-when-cross-origin' allowfullscreen></iframe></p>"
+        },
+        "air": {
+            "jp": "<ul><li>Airは「Alone in Kyoto」という曲を持っており、この曲は映画『ロスト・イン・トランスレーション』（2003）のサウンドトラックに収められています。この映画は東京と京都を舞台にしています</li></ul>"
+        },
+        "m83": {
+            "gb": "<ul><li>2009年、M83はイギリスのバンドDepeche Modeと共に「Tour of the Universe」ツアーを行いました</li></ul>",
+            "ca": "<ul><li>M83の背後にいるアンソニー・ゴンザレスは、2017年にモントリオールで初演されたサーカ・デュ・ソレイユの公演<em>Volta</em>の音楽監督を務めました。サーカ・デュ・ソレイユはモントリオールで結成され、本部を構えています</li></ul>"
+        },
+        "jean-michel-jarre": {
+            "gb": "<ul><li>彼のアルバム<em>Oxygène</em>は、UKアルバムチャートで2位に達しました</li> <li>2023年、ジャールはイギリスの作曲家アディエスカー・チェイスとコラボレーションし、<em>Synthy Sisters Take Two</em>を制作しました</li></ul>",
+            "ca": "<ul><li>2017年、バンドOxygèneはモントリオールでJean-Michel Jarreへのトリビュートコンサートを開催しました</li></ul>",
+            "jp": "<ul><li>2001年、ジャン＝ミシェル・ジャールはミュージシャンでプロデューサーの小室哲哉と共に沖縄でコンサートを行いました。このコンサートは<em>Rendez-vous in Space</em>と呼ばれ、ジャールの親しい友人であり、サイエンスフィクション作家のアーサー・C・クラークへのトリビュートでした。クラークは<em>2001: A Space Odyssey</em>や<em>Rendezvous with Rama</em>で最も知られています。ジャールと小室はThe Vizitorsという名前のもとで新しい楽曲を演奏しました</li></ul>"
         }
     }
 }

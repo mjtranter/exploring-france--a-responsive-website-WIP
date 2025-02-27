@@ -1,23 +1,29 @@
+import { useTranslation } from 'react-i18next';
 import './popup.css';
-import '../button/button.css';
 
-export default function Popup({content, title}) {
+export default function Popup({title, content, ns, visible, hidePopup}) {
+    const { t } = useTranslation(ns);
+
+    if (!visible) {
+        document.body.style.overflow = "auto";
+        return null;
+    }
+
+    document.body.style.overflow = "hidden";
 
     return (
-        <div>
-            <button type="button" className="button connection" data-bs-toggle="modal" data-bs-target="#myModal"><b>View Connection</b></button>
-
-            <div className="modal fade" id="myModal" tabIndex={"-1"} aria-labelledby="myModalLabel" aria-hidden="true">
+        <div>            
+            <div className="modal fade show" id="myModal" tabIndex="-1" aria-labelledby="myModalLabel" aria-hidden={!visible}>
                 <div className="modal-dialog modal-dialog-centered">
                     <div className="modal-content">
                         <div className="modal-header" data-bs-theme="dark">
-                            <h5 className="modal-title" id="myModalLabel">{title}</h5>
-                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <h5 className="modal-title" id="myModalLabel">{t(title)}</h5>
+                            <button type="button" className="btn-close" onClick={hidePopup} aria-label="Close"></button>
                         </div>
-                        <div className="modal-body" dangerouslySetInnerHTML={{__html: content}} />
+                        <div className="modal-body" dangerouslySetInnerHTML={{__html: t(content)}} />
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
     )
 }

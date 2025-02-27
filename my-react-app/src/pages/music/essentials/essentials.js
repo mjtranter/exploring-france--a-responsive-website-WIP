@@ -43,9 +43,10 @@ import Bizet from '../../../assets/images/bizet-icon.jpg';
 import Satie from '../../../assets/images/satie-icon.jpg';
 
 import { useTranslation } from 'react-i18next';
-import { useContext } from 'react';
+import { useState, useContext } from 'react';
 import { CountryCodeContext } from '../../../App';
 import Popup from '../../../components/popup/popup';
+import Button from '../../../components/button/button';
 
 export default function Essentials() {
     const ns = "music";
@@ -53,9 +54,25 @@ export default function Essentials() {
 
     const countryCode = useContext(CountryCodeContext);
 
+    const [popupData, setPopupData] = useState({title: "", content: "", ns: ns, visible: false});
+
+    const showPopup = (title, content) => {
+        setPopupData({title, content, ns: ns, visible: true});
+    }
+
+    const hidePopup = () => {
+        setPopupData({...popupData, visible: false});
+    }
+
+    const vnejv = "overlay" + (popupData.visible ? " visible" : "");
+    console.log(vnejv);
+
     return (
         <div className="category-component">
-            
+            <div className={"overlay" + (popupData.visible ? " visible" : "")}></div>
+            <div className={"popup-container" + (popupData.visible ? " visible": "")}>
+                <Popup {...popupData} hidePopup={hidePopup} />
+            </div>
             {/*<AccordionComponent />*/}
             <h5 className="genre-title"><b>{t('essentials-genres.titles.dance-house')}</b></h5>
             <p className="genre-description">{t('essentials-genres.descriptions.dance-house')}</p>
@@ -63,21 +80,40 @@ export default function Essentials() {
             <div className="profile-row">  
                 <div className="profile-container">
                     <Profile ns={ns} image={DaftPunk} name="Daft Punk" />
-                    {countryCode === "gb" && (<Popup content={t('profile-connections.daft-punk.en')} title="Connections to the UK" />)}
-                    {countryCode === "jp" && (<Popup content={t('profile-connections.daft-punk.jp')} title="Connections to Japan" />)}
+                    {countryCode === "gb" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-gb', 'profile-connections.daft-punk.gb')} />)}
+                    {countryCode === "ca" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-ca', 'profile-connections.daft-punk.ca')} />)}
+                    {countryCode === "jp" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-jp', 'profile-connections.daft-punk.jp')} />)}
                 </div>
-                
-                <Profile ns={ns} image={Justice} name="Justice" />
-                <Profile ns={ns} image={Stromae} name="Stromae" />
+                <div className="profile-container">
+                    <Profile ns={ns} image={Justice} name="Justice" />
+                    {countryCode === "gb" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-gb', 'profile-connections.justice.gb')} />)}
+                </div>
+                <div className="profile-container">
+                    <Profile ns={ns} image={Stromae} name="Stromae" />
+                    {countryCode === "gb" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-gb', 'profile-connections.stromae.gb')} />)}
+                    {countryCode === "ca" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-ca', 'profile-connections.stromae.ca')} />)}
+                </div>
             </div>
             
             <h5 className="genre-title"><b>{t('essentials-genres.titles.electronic')}</b></h5>
             <p className="genre-description">{t('essentials-genres.descriptions.electronic')}</p>
             <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
             <div className="profile-row">
-                <Profile ns={ns} image={Air} name="Air" />
-                <Profile ns={ns} image={M83} name="M83" />
-                <Profile ns={ns} image={JeanMichelJarre} name="Jean-Michel Jarre" />
+                <div className="profile-container">
+                    <Profile ns={ns} image={Air} name="Air" />
+                    {countryCode === "jp" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-jp', 'profile-connections.air.jp')} />)}
+                </div>
+                <div className="profile-container">
+                    <Profile ns={ns} image={M83} name="M83" />
+                    {countryCode === "gb" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-gb', 'profile-connections.m83.gb')} />)}
+                    {countryCode === "ca" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-ca', 'profile-connections.m83.ca')} />)}
+                </div>
+                <div className="profile-container">
+                    <Profile ns={ns} image={JeanMichelJarre} name="Jean-Michel Jarre" />
+                    {countryCode === "gb" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-gb', 'profile-connections.jean-michel-jarre.gb')} />)}
+                    {countryCode === "ca" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-ca', 'profile-connections.jean-michel-jarre.ca')} />)}
+                    {countryCode === "jp" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-jp', 'profile-connections.jean-michel-jarre.jp')} />)}
+                </div>
             </div>
 
             <h5 className="genre-title"><b>{t('essentials-genres.titles.pop')}</b></h5>

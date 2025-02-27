@@ -1,7 +1,7 @@
 @import '../../assets/colours/colours.css';
 
 .navbar {
-    width: 100%;
+    width: 100vw;
     height: 90px;
     overflow: visible;
 }

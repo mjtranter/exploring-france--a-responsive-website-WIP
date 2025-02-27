@@ -30,11 +30,34 @@
         }
     },
 
+    "view-connection": "View Connection",
+    "connection-gb": "Connections to Britain",
+    "connection-ca": "Connections to Quebec, Canada",
+    "connection-jp": "Connections to Japan",
     "profile-connections": {
         "daft-punk": {
-            "en": "<ul className='croissant-list' ><li>Before they were global stars, in 1994, Daft Punk released their first single- The New Wave- on Soma Records, an independent Scottish label based in Glasgow.</li><li>In 1995, Daft Punk remixed Life is Sweet by The Chemical Brothers, one of the UK’s biggest electronic acts.</li><li>The song One More Time reached #2 in the UK charts in 2000. In 2013, Get Lucky reached #1, as well as the album it comes from- Random Access Memories.</li></ul>",
-            "ca": "",
-            "jp": "interstella 5555"
+            "gb": "<ul><li>Before they were global stars, in 1994, Daft Punk released their first single <em>The New Wave</em> on Soma Records, an independent Scottish label based in Glasgow</li><li>In 1995, Daft Punk remixed <em>Life is Sweet</em> by The Chemical Brothers, one of the UK’s biggest electronic acts</li><li>The song <em>One More Time</em> reached #2 in the UK charts in 2000. In 2013, <em>Get Lucky</em> reached #1, as well as the album on which it features- <em>Random Access Memories</em></li></ul>",
+            "ca": "<ul><li>Daft Punk worked with Canadian musician Gonzales (Jason Beck) on <em>Random Access Memories</em>. Gonzales, originally from Montreal, played the piano on <em>Give Life Back to Music</em> and <em>Within</em></li><li>The group had great success in the Canadian charts, with <em>One More Time</em> and <em>Get Lucky</em> reaching #1. <em>Random Access Memories</em> also hit #1, and in 1997, their breakout single- <em>Around the World</em>- reached #1 in the Canadian Dance Chart</li></ul>",
+            "jp": "<ul><li>Daft Punk have cited <em>Akira</em> (1988), the iconic Japanese sci-fi anime film, as a major influence on their style, with their futuristic and robotic aesthetic</li><li>Daft Punk collaborated with Leiji Matsumoto, a legendary Japanese manga artist, and Kazuhisa Takenouchi, a prominent anime director, to create the anime film <em>Interstella 5555: The 5tory of the 5ecret 5tar 5ystem</em> (2003). The film follows the abduction and rescue of a band of aliens, and features Daft Punk's second studio album <em>Discovery</em> as its soundtrack <iframe width='560' height='315' src='https://www.youtube.com/embed/EMroa1WgofA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></li><li>The band has also been highly successful in Japan, with <em>One More Time</em> and <em>Get Lucky</em> hitting #1 and <em>Harder, Better, Faster, Stronger</em> hitting #2. <em>Discovery</em> also reached #2 and <em>Random Access Memories</em> hit #1</li><li>For 10 years, the song <em>Horizon</em> was exclusively available as a bonus track on the Japanese CD version of <em>Random Access Memories</em> before being released globally on the 10th anniversary edition</ul>"
+        },
+        "justice": {
+            "gb": "<ul><li>Justice's song <em>D.A.N.C.E.</em> and their debut album † both hit #1 on the UK Dance Chart</li><li>Justice remixed <em>Never Be Alone</em> by Simian into <em>We Are Your Friends</em> and worked with Klaxons on a remix of <em>As Above So Below</em></ul>"
+        },
+        "stromae": {
+            "gb": "<ul><li>His single <em>Alors On Danse</em> peaked at #25 on the UK Singles Chart and #5 on the UK Dance Chart</li></ul>",
+            "ca": "<ul><li>His single <em>Alors On Danse</em> reached #3 in Canada and his album <em>Racine Carrée</em> reached #1</li><li>In 2015, Stromae performed at the Bell Centre in Montreal. The performance was professionally shot and edited, and can be viewed below</li></ul><p><b>Warning: This video contains flashing lights that may trigger seizures</b></p><p><iframe width='560' height='315' src='https://www.youtube.com/embed/eOZLDQm9c2E' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='-origin-when-cross-origin' allowfullscreen></iframe></p>"
+        },
+        "air": {
+            "jp": "<ul><li>Air have a song called <em>Alone in Kyoto</em>, which was included on the soundtrack for the film Lost in Translation (2003)</li></ul>"
+        },
+        "m83": {
+            "gb": "<ul><li>In 2009, M83 toured with English band Depeche Mode on their Tour of the Universe</li></ul>",
+            "ca": "<ul><li>Anthony Gonzalez, the man behind M83, served as the musical director for Cirque du Soleil's production <em>Volta</em>, which premiered in Montreal in 2017. Cirque du Soleil was formed and has its headquarters in Montreal</li></ul>"
+        },
+        "jean-michel-jarre": {
+            "gb": "<ul><li>His album <em>Oxygène</em> reached #2 on the UK Albums Chart</li><li>In 2023, Jarre collaborated with British composer Adiescar Chase to create <em>Synthy Sisters Take Two</em></li></ul>",
+            "ca": "<ul><li>In 2017, the band Oxygène held a tribute concert to Jean-Michel Jarre in Montreal</li></ul>",
+            "jp": "<ul><li>In 2001, Jarre collaborated with musician and producer Tetsuya \"TK\" Komuro for a concert in Okinawa. The concert was called <em>Rendez-vous in Space</em> and was a tribute to sci-fi author, Arthur C. Clarke, who was a close friend of Jarre, and is most known for writing <em>2001: A Space Odyssey</em> and <em>Rendezvous with Rama</em>. Jarre and Komuro performed new material under the name The Vizitors</li></ul>"
         }
     }
 }

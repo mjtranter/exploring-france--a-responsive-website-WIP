@@ -27,5 +27,36 @@
             "chanson": "La chanson est devenue un genre dominant en France après la Seconde Guerre mondiale, étroitement liée aux thèmes de l'amour, de la nostalgie et du commentaire social. Elle a résonné avec la vie quotidienne, envahissant les cafés, les cabarets et les émissions de radio, où les gens se sont identifiés à sa lyrique poétique et à ses récits riches. Sa nature émotionnellement expressive apportait du réconfort et favorisait la réflexion en période de changement, en faisant un élément culturel incontournable. Au fil des décennies, la chanson a évolué, se mélangeant à d'autres genres tels que le jazz et le rock tout en conservant son accent sur des paroles évocatrices et la narration. Bien que sa présence grand public ait diminué, son influence reste forte dans la musique française contemporaine.",
             "lorem-ipsum": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }
+    },
+
+    "view-connection": "Voir Connexion",
+    "connection-gb": "Connexions avec Grande-Bretagne",
+    "connection-ca": "Connexions avec Québec, Canada",
+    "connection-jp": "Connexions avec Japon",
+    "profile-connections": {
+        "daft-punk": {
+            "gb": "<ul><li>Avant de devenir des stars mondiales, en 1994, Daft Punk a sorti son premier single, <em>The New Wave</em>, sur Soma Records, un label indépendant écossais basé à Glasgow</li><li>En 1995, Daft Punk a remixé <em>Life is Sweet</em> de The Chemical Brothers, l'un des plus grands groupes de musique électronique du Royaume-Uni</li><li>La chanson <em>One More Time</em> a atteint la 2<sup>e</sup> place des charts britanniques en 2000. En 2013, <em>Get Lucky</em> a atteint la 1<sup>re</sup> place, ainsi que l'album sur lequel elle figure, <em>Random Access Memories</em></li></ul>",
+            "ca": "<ul><li>Daft Punk a travaillé avec le musicien canadien Gonzales (Jason Beck) sur <em>Random Access Memories</em>. Gonzales, originaire de Montréal, a joué du piano sur <em>Give Life Back to Music</em> et <em>Within</em>.</li><li>Le groupe a connu un grand succès dans les classements canadiens, avec <em>One More Time</em> et <em>Get Lucky</em> atteignant la 1<sup>re</sup> place. <em>Random Access Memories</em> a également atteint la 1<sup>re</sup> place, et en 1997, leur single emblématique - <em>Around the World</em> - a atteint la 1<sup>re</sup> place du classement canadien de musique dance.</li></ul>",
+            "jp": "<ul><li>Daft Punk ont cité <em>Akira</em> (1988), le film d'animation japonais emblématique de science-fiction, comme une grande influence sur leur style, avec leur esthétique futuriste et robotique</li><li>Daft Punk ont collaboré avec Leiji Matsumoto, un artiste de manga légendaire japonais, et Kazuhisa Takenouchi, un réalisateur d'anime de renom, pour créer le film d'animation <em>Interstella 5555: The 5tory of the 5ecret 5tar 5ystem</em> (2003). Le film suit l'enlèvement et le sauvetage d'un groupe d'extraterrestres, et présente le deuxième album studio de Daft Punk, <em>Discovery</em>, comme bande sonore <iframe width='560' height='315' src='https://www.youtube.com/embed/EMroa1WgofA' title='Lecteur vidéo YouTube' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></li><li>Le groupe a également rencontré un grand succès au Japon, avec <em>One More Time</em> et <em>Get Lucky</em> atteignant la 1<sup>re</sup> place et <em>Harder, Better, Faster, Stronger</em> atteignant la 2<sup>e</sup> place. <em>Discovery</em> a également atteint la 2<sup>e</sup> place et <em>Random Access Memories</em> a atteint la 1<sup>re</sup> place</li><li>Pendant 10 ans, la chanson <em>Horizon</em> était disponible exclusivement en tant que morceau bonus sur la version CD japonaise de <em>Random Access Memories</em> avant d'être publiée mondialement dans l'édition du 10<sup>e</sup> anniversaire</li></ul>"
+        },
+        "justice": {
+            "gb": "<ul><li>Le morceau de Justice <em>D.A.N.C.E.</em> et leur premier album † ont tous deux atteint la 1<sup>re</sup> place du UK Dance Chart</li><li>Justice a remixé <em>Never Be Alone</em> de Simian en <em>We Are Your Friends</em> et a collaboré avec Klaxons sur un remix de <em>As Above So Below</em></li></ul>"
+        },
+        "stromae": {
+            "gb": "<ul><li>Son single <em>Alors On Danse</em> a atteint la 25<sup>e</sup> place du classement des singles au Royaume-Uni et la 5<sup>e</sup> place du classement Dance au Royaume-Uni</li></ul>",
+            "ca": "<ul><li>Son single <em>Alors On Danse</em> a atteint la 3<sup>e</sup> place au Canada et son album <em>Racine Carrée</em> a atteint la 1<sup>re</sup> place</li><li>En 2015, Stromae s'est produit au Centre Bell à Montréal. Le concert a été filmé et monté professionnellement, et peut être visionné ci-dessous</li></ul><p><b>Avertissement : Cette vidéo contient des lumières clignotantes pouvant déclencher des crises</b></p><p><iframe width='560' height='315' src='https://www.youtube.com/embed/eOZLDQm9c2E' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='-origin-when-cross-origin' allowfullscreen></iframe></p>"
+        },
+        "air": {
+            "jp": "<ul><li>Air a une chanson intitulée <em>Alone in Kyoto</em>, qui figure sur la bande-son du film Lost in Translation (2003), se déroulant à Tokyo et Kyoto</li></ul>"
+        },
+        "m83": {
+            "gb": "<ul><li>En 2009, M83 a fait une tournée avec le groupe anglais Depeche Mode lors de leur Tour of the Universe</li></ul>",
+            "ca": "<ul><li>Anthony Gonzalez, l'homme derrière M83, a été le directeur musical de la production <em>Volta</em> du Cirque du Soleil, qui a été présentée en première à Montréal en 2017. Le Cirque du Soleil a été formé et a son siège à Montréal</li></ul>"
+        },
+        "jean-michel-jarre": {
+            "gb": "<ul><li>Son album <em>Oxygène</em> a atteint la 2<sup>e</sup> place du UK Albums Chart</li> <li>En 2023, Jarre a collaboré avec la compositrice britannique Adiescar Chase pour créer <em>Synthy Sisters Take Two</em></li></ul>",
+            "ca": "<ul><li>En 2017, le groupe Oxygène a organisé un concert hommage à Jean-Michel Jarre à Montréal</li></ul>",
+            "jp": "<ul><li>En 2001, Jarre a collaboré avec le musicien et producteur Tetsuya \"TK\" Komuro pour un concert à Okinawa. Le concert s'appelait <em>Rendez-vous in Space</em> et était un hommage à l'auteur de science-fiction Arthur C. Clarke, qui était un ami proche de Jarre, et est surtout connu pour avoir écrit <em>2001: A Space Odyssey</em> et <em>Rendezvous with Rama</em>. Jarre et Komuro ont interprété de nouveaux morceaux sous le nom de The Vizitors</li></ul>"
+        }
     }
 }

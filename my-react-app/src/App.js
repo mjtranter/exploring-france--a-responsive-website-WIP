@@ -13,7 +13,7 @@ const CountryCodeContext = createContext();
 export {CountryCodeContext};
 
 export default function App() {
-    const [countryCode, setCountryCode] = useState("gb");
+    const [countryCode, setCountryCode] = useState("jp");
 
     /*useEffect(() => {
       fetch("http://ip-api.com/json/?fields=countryCode")
