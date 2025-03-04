@@ -8,7 +8,7 @@
     margin-right: auto;
 }
 
-iframe {
+.rec-iframe {
     border-radius: 12px;
     width: 100%;
     height: 250px;
@@ -31,7 +31,7 @@ iframe {
     text-align: right;
 }
 
-.link-row {
+/*.link-row {
     margin-top: -4px;
     margin-bottom: 8px;
     width: 80%;
@@ -47,4 +47,4 @@ iframe {
     height: 32px;
     margin-top: 10px;
     margin-bottom: 10px;
-}
+}*/

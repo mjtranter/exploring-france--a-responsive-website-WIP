@@ -1,0 +1,35 @@
+@import '../../assets/colours/colours.css';
+
+.link-row {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    background-color: var(--link-row);
+}
+
+.link-row.playlist {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.link-row.recommendation {
+    margin-top: -4px;
+    margin-bottom: 8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.link.playlist {
+    height: 28px;
+}
+
+.link.recommendation {
+    height: 32px;
+}
