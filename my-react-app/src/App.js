@@ -7,6 +7,7 @@ import Events from './pages/events/events';
 import Attractions from './pages/attractions/attractions';
 import Itineraries from './pages/itineraries/itineraries';
 import { useState, useEffect, createContext } from 'react';
+import { Analytics } from "@vercel/analytics/react";
 
 const CountryCodeContext = createContext();
 
