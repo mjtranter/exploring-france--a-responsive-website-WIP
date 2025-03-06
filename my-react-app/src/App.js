@@ -36,6 +36,7 @@ export default function App() {
             <Route path="/itineraries" element={<Itineraries />} />
           </Routes>
         </BrowserRouter>
+        <Analytics />
       </CountryCodeContext.Provider>
     )
 }
