@@ -13,14 +13,14 @@ const CountryCodeContext = createContext();
 export {CountryCodeContext};
 
 export default function App() {
-    const [countryCode, setCountryCode] = useState("ca");
+    const [countryCode, setCountryCode] = useState("gb");
 
-    /*useEffect(() => {
+    useEffect(() => {
       fetch("http://ip-api.com/json/?fields=countryCode")
         .then(response => response.json())
         .then(data => setCountryCode(data.countryCode.toLowerCase()))
         .catch(error => console.log("There was an error fetching country code!"));
-    }, []);*/
+    }, []);
 
     return (
       <CountryCodeContext.Provider value={countryCode}>
