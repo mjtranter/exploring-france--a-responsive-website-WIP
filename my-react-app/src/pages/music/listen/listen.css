@@ -9,6 +9,12 @@
     margin-bottom: 16px;
 }
 
+.listen-heading.playlist {
+    margin-top: 60px;
+    border-top: 4px solid black;
+    padding-top: 12px;
+}
+
 .playlist-title {
     margin-bottom: -8px;
 }

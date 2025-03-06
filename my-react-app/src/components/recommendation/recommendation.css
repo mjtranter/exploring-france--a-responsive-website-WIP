@@ -30,21 +30,3 @@
     flex-grow: 1;
     text-align: right;
 }
-
-/*.link-row {
-    margin-top: -4px;
-    margin-bottom: 8px;
-    width: 80%;
-    display: flex;
-    justify-content: space-evenly;
-    border-radius: 12px;
-    background-color: var(--link-row);
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.link {
-    height: 32px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}*/
