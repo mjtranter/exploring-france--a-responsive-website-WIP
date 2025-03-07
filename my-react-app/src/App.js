@@ -16,25 +16,14 @@ export default function App() {
     const [countryCode, setCountryCode] = useState("gb");
 
     useEffect(() => {
-      fetch("https://ip-api.com/json/?fields=countryCode")
+      fetch("/api/fetchCountryCode")
         .then(response => response.json())
         .then(data => setCountryCode(data.countryCode.toLowerCase()))
         .catch(error => console.log("There was an error fetching country code!"));
     }, []);
 
-    //remove any failures from third party
-    useEffect(() => {
-      const consoleError = console.error;
-      console.error = (...args) => {
-        if (args[0] && args[0].includes("Failed to load resource")) return;
-        consoleError(...args);
-      };
 
-      return () => {
-        console.error = consoleError;
-      };
-    }, []);
-
+    //http://ip-api.com/json/?fields=countryCode
     return (
       <CountryCodeContext.Provider value={countryCode}>
         <BrowserRouter>
