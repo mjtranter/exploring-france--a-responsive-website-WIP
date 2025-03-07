@@ -22,6 +22,8 @@ export default function App() {
         .catch(error => console.log("There was an error fetching country code!"));
     }, []);
 
+    console.log(countryCode);
+
     return (
       <CountryCodeContext.Provider value={countryCode}>
         <BrowserRouter>
