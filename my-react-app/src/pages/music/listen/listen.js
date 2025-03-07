@@ -45,7 +45,7 @@ export default function Listen() {
         }
     }, []);
 
-    /*const france_inter_api_key = process.env.FRANCE_INTER_API_KEY;*/
+    const france_inter_api_key = process.env.FRANCE_INTER_API_KEY;
     
     return (
         <div className="category-component">
@@ -55,7 +55,7 @@ export default function Listen() {
             {/*<p className="listen-description radio"><b>In France, there is a law called l'Exception Française</b></p>*/}<br /><br />
 
             <div className="ng-app-embedded">
-                <div ui-view="" className="microsite embedded-radio-player" data-playerwidth="340px" data-playertype="web_embedded" data-playstation="franceinter" data-autoplay="false" />
+                <div ui-view="" className="microsite embedded-radio-player" data-playerwidth="340px" data-playertype="web_embedded" data-playstation="franceinter" data-autoplay="false" data-apikey={france_inter_api_key} />
             </div>
             <noscript>
                 <a href="https://uk.radio.net/s/franceinter" target="_blank" rel="noreferrer">France Inter on radio.net</a>
