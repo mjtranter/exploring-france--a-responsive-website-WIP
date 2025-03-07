@@ -46,6 +46,7 @@ export default function Listen() {
     }, []);
 
     const france_inter_api_key = process.env.FRANCE_INTER_API_KEY;
+    console.log(france_inter_api_key);
     
     return (
         <div className="category-component">
