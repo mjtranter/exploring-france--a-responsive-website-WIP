@@ -22,8 +22,6 @@ export default function App() {
         .catch(error => console.log("There was an error fetching country code!"));
     }, []);
 
-
-    //http://ip-api.com/json/?fields=countryCode
     return (
       <CountryCodeContext.Provider value={countryCode}>
         <BrowserRouter>

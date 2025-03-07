@@ -31,19 +31,6 @@ export default function Listen() {
     const electronic = {"spotify": "1OAQ9g6JQ0OmJHy5eZQBo1", "apple": "25-electronic/pl.u-xlyNEpPTJRzNVK7", "amazon": "https://music.amazon." + amazonCode + "/user-playlists/5ce8672d9a7349c3b56a87dd6a01a23eengb?marketplaceId=A1F83G8C2ARO7P&musicTerritory=" + countryCode.toUpperCase(), "youtube": "PLoUCL2VUBQ83NPh2530Pwva2X9IlryELd"};  
     const pop = {"spotify": "7AKy2iPcqvb3vyZLPyKebx", "apple": "25-pop/pl.u-2aoq8yesGBrXpzb", "amazon": "https://music.amazon." + amazonCode + "/user-playlists/5ce8672d9a7349c3b56a87dd6a01a23eengb?marketplaceId=A1F83G8C2ARO7P&musicTerritory=" + countryCode.toUpperCase(), "youtube": "PLoUCL2VUBQ83NPh2530Pwva2X9IlryELd"};
     const chanson = {"spotify": "2tqPb8PYZ20tB0VO45Moyo", "apple": "25-chanson/pl.u-KVXBkP3sLM5jBoe", "amazon": "https://music.amazon." + amazonCode + "/user-playlists/5ce8672d9a7349c3b56a87dd6a01a23eengb?marketplaceId=A1F83G8C2ARO7P&musicTerritory=" + countryCode.toUpperCase(), "youtube": "PLoUCL2VUBQ83NPh2530Pwva2X9IlryELd"};
-   
-    useEffect(() => {
-        const script = document.createElement("script");
-        script.src = "https://uk.radio.net/inc/microsite/js/full.js";
-        script.async = true;
-        script.id = "radio-de-embedded";
-
-        document.body.appendChild(script);
-
-        return () => {
-            document.body.removeChild(script);
-        }
-    }, []);
     
     return (
         <div className="category-component">
