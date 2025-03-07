@@ -6,7 +6,7 @@ import Recommendation from '../../components/recommendation/recommendation';
 import { useTranslation } from 'react-i18next';
 import { useState, useEffect } from 'react';
 import Overview from './overview/overview';
-import Essentials from './essentials/essentials';
+import Foundations from './foundations/foundations';
 import Events from './events/events';
 import Listen from './listen/listen';
 import { useSearchParams } from 'react-router-dom';
@@ -17,7 +17,7 @@ export default function Music() {
     const [searchParams, setSearchParams] = useSearchParams();
     const categoryParam = searchParams.get('category') || 'overview';
 
-    const categories = [{id: "Overview", t: "overview"}, {id: "Essentials", t: "essentials"}, {id: "Events", t: "events"}, {id: "Listen", t: "listen"}];
+    const categories = [{id: "Overview", t: "overview"}, {id: "Foundations", t: "foundations"}, {id: "Events", t: "events"}, {id: "Listen", t: "listen"}];
     const [selectedCategory, setSelectedCategory] = useState(categories.find(category => category.t === categoryParam) || categories[0]);
 
     useEffect(() => {
@@ -25,7 +25,7 @@ export default function Music() {
         window.scrollTo(0,0);
     }, [selectedCategory, setSearchParams]);
 
-    const components = [Overview, Essentials, Events, Listen];
+    const components = [Overview, Foundations, Events, Listen];
 
     return (
         <div className="content">

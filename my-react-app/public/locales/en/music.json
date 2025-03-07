@@ -1,6 +1,6 @@
 {
     "overview": "Overview",
-    "essentials": "Essentials",
+    "foundations": "Foundations",
     "events": "Events",
     "listen": "Listen",
 
@@ -68,6 +68,22 @@
 
 
     "radio": "Radio",
+    "radio-description-1": "Radio broadcasting in France began in the 1920s, with stations like Radio Paris focusing on news, classical music, and cultural content. After World War II, the government nationalized radio, creating RDF (later ORTF), which controlled all broadcasting until the late 20th century.",
+    "radio-description-2": "In the '50s and '60s, French radio was dominated by chanson française, featuring artists like Édith Piaf, Charles Aznavour, and Jacques Brel. However, the yé-yé movement, influenced by British and American rock and pop, gained popularity among younger audiences. Despite this shift, radio remained heavily regulated, limiting the variety of programming.",
+    "radio-description-3": "During the '70s, dissatisfaction with state-controlled radio led to the rise of \"radios libres\" (free radios), which illegally broadcast pop, rock, and alternative content. In 1981, President François Mitterrand’s government legalized independent stations, leading to the rapid growth of NRJ, Skyrock, and Fun Radio, which catered to youth audiences.",
+    "radio-description-4": "By the '90s, the dominance of international pop and rock on French radio led to concerns about the decline of francophone music. In response, the 1994 Toubon Law introduced a quota requiring that at least 40% of songs played on French radio be in French, with at least 20% of that reserved for new talents. This is also known as \"l'exception française\".",
+    "radio-description-5": "The quota is active from 6:00 a.m. until 10:30 p.m on weekdays, and starts at 6:30 a.m. on Saturdays and 7:00 a.m. on Sundays. Specialised heritage stations focusing on older music are required to broadcast at least 60% French-language songs, while stations that specialise in promoting young talent have a quota of 35% French songs, of which 25% should be young talent.",
+    "radio-connection-ca": "<ul>Canada has a similar setup. <li>35% of the music broadcast between 6:00 a.m. and 6:00 p.m. on weekdays and in total over a week must be Canadian</li><li>For French-language stations, 55% of the music broadcast between 6:00 a.m. and 6:00 p.m. on weekdays and 65% in total over a week must be in French</li><li>This differs from France's rules by the fact that Canadian rules can care about both country of origin and language, whereas French rules only concern the language of the music</li></ul>",
+    "popular-stations": "Popular Stations",
+    "france-inter": "A public station offering a mix of news, culture, entertainment, and music, known for its comprehensive news coverage.",
+    "franceinfo": "A 24/7 news station providing the latest national and international news.",
+    "europe-1": "A blend of news, talk shows, and entertainment, balancing current affairs and entertainment.",
+    "nrj": "A contemporary music station playing a mix of French and international pop hits, popular among younger audiences.",
+    "nostalgie": "A station dedicated to playing classic hits from before the turn of the century for a nostalgic audience.",
+    "fip": "An eclectic music station offering diverse genres like jazz, rock, and electronic, for music lovers seeking variety.",
+    "cherie-fm": "Plays soft pop and romantic music, catering to an adult audience looking for relaxing tunes.",
+    "radio-suggestions": "Want to listen to French radio? Check out the links below!",
+    
     "curated-playlists": "Curated Playlists",
     "curated-playlists-description": "This section features curated playlists showcasing a selection of French music across various genres. Each playlist includes 25 song recommendations chosen by the team at L'Hexagone. Playlists are available on a range of platforms for easy access."
 }

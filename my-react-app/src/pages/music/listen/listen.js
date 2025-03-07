@@ -5,7 +5,10 @@ import Electronic from '../../../assets/images/electronic-cover.jpg';
 import Pop from '../../../assets/images/pop-cover.jpg';
 import Chanson from '../../../assets/images/chanson-cover.jpg';
 import LinkRow from '../../../components/linkRow/linkRow';
-import { useContext, useEffect } from 'react';
+import ORTF from '../../../assets/images/ORTF.svg';
+import Button from '../../../components/button/button';
+import Popup from '../../../components/popup/popup';
+import { useState, useContext } from 'react';
 import { CountryCodeContext } from '../../../App';
 
 export default function Listen() {
@@ -32,12 +35,51 @@ export default function Listen() {
     const pop = {"spotify": "7AKy2iPcqvb3vyZLPyKebx", "apple": "25-pop/pl.u-2aoq8yesGBrXpzb", "amazon": "https://music.amazon." + amazonCode + "/user-playlists/5ce8672d9a7349c3b56a87dd6a01a23eengb?marketplaceId=A1F83G8C2ARO7P&musicTerritory=" + countryCode.toUpperCase(), "youtube": "PLoUCL2VUBQ83NPh2530Pwva2X9IlryELd"};
     const chanson = {"spotify": "2tqPb8PYZ20tB0VO45Moyo", "apple": "25-chanson/pl.u-KVXBkP3sLM5jBoe", "amazon": "https://music.amazon." + amazonCode + "/user-playlists/5ce8672d9a7349c3b56a87dd6a01a23eengb?marketplaceId=A1F83G8C2ARO7P&musicTerritory=" + countryCode.toUpperCase(), "youtube": "PLoUCL2VUBQ83NPh2530Pwva2X9IlryELd"};
     
+    const [popupData, setPopupData] = useState({title: "", content: "", ns: ns, visible: false});
+    
+    const showPopup = (title, content) => {
+        setPopupData({title, content, ns: ns, visible: true});
+    }
+
+    const hidePopup = () => {
+        setPopupData({...popupData, visible: false});
+    }
+    
     return (
         <div className="category-component">
+            <div className={"overlay" + (popupData.visible ? " visible" : "")}></div>
+            <div className={"popup-container" + (popupData.visible ? " visible": "")}>
+                <Popup {...popupData} hidePopup={hidePopup} />
+            </div>
+
             <h5 className="listen-heading"><b>{t('radio')}</b></h5>
-            <a href="https://uk.radio.net/country/france" target="_blank" rel="noreferrer"><b>https://uk.radio.net/country/france</b></a><br />
-            <a href="https://onlineradiobox.com/fr/?lang=en" target="_blank" rel="noreferrer"><b>https://onlineradiobox.com/fr/?lang=en</b></a>
-            {/*<p className="listen-description radio"><b>In France, there is a law called l'Exception Française</b></p>*/}<br /><br />
+            
+            <img className="ORTF-logo" src={ORTF} alt="ORTF logo" />
+            <p className="listen-description">{t('radio-description-1')}</p>
+            <p className="listen-description">{t('radio-description-2')}</p>
+            <p className="listen-description">{t('radio-description-3')}</p>
+
+            <h6 className="listen-heading"><b className="heading-text">L'exception Française</b>{countryCode === "ca" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-ca', 'radio-connection-ca')} />)}</h6>
+            <p className="listen-description">{t('radio-description-4')}</p>  
+            <p className="listen-description">{t('radio-description-5')}</p>
+            
+            <h6 className="listen-heading"><b>{t('popular-stations')}</b></h6>
+            <div className="modal-body">
+                <ul>
+                    <li><i>France Inter</i> - {t('france-inter')}</li>
+                    <li><i>franceinfo</i> - {t('franceinfo')}</li>
+                    <li><i>Europe 1</i> - {t('europe-1')}</li>
+                    <li><i>NRJ</i> - {t('nrj')}</li>
+                    <li><i>Nostalgie</i> - {t('nostalgie')}</li>
+                    <li><i>Fip</i> - {t('fip')}</li>
+                    <li><i>Chérie FM</i> - {t('cherie-fm')}</li>
+                </ul>
+            </div>
+            <br />
+            <p className="listen-description">{t('radio-suggestions')}</p>
+
+            <a href="https://www.radio.net/country/france" target="_blank" rel="noreferrer"><b>Radio.net</b></a><br />
+            <a href={"https://onlineradiobox.com/fr/?lang=" + (countryCode === "ca" ? "fr" : countryCode)} target="_blank" rel="noreferrer"><b>OnlineRadioBox</b></a>
 
             <h5 className="listen-heading playlist"><b>{t('curated-playlists')}</b></h5>
             <p className="listen-description">{t('curated-playlists-description')}</p>

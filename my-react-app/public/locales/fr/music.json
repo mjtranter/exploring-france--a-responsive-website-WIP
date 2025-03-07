@@ -1,6 +1,6 @@
 {   
     "overview": "Aperçu",
-    "essentials": "Essentiels",
+    "foundations": "Fondations",
     "events": "Événements",
     "listen": "Écouter",
 
@@ -67,6 +67,22 @@
 
 
     "radio": "Radio",
+    "radio-description-1": "La radiodiffusion en France a commencé dans les années 1920, avec des stations comme Radio Paris qui se concentraient sur l'information, la musique classique et les contenus culturels. Après la Seconde Guerre mondiale, le gouvernement a nationalisé la radio, créant RDF (plus tard ORTF), qui a contrôlé toutes les émissions jusqu'à la fin du 20e siècle.",
+    "radio-description-2": "Dans les années 50 et 60, la radio française était dominée par la chanson française, avec des artistes comme Édith Piaf, Charles Aznavour et Jacques Brel. Cependant, le mouvement yé-yé, influencé par le rock et la pop britanniques et américains, a gagné en popularité auprès des jeunes. Malgré cette évolution, la radio reste fortement réglementée, ce qui limite la variété des programmes.",
+    "radio-description-3": "Dans les années 70, le mécontentement suscité par la radio contrôlée par l'État a conduit à l'essor des « radios libres », qui diffusaient illégalement des contenus pop, rock et alternatifs. En 1981, le gouvernement du président François Mitterrand a légalisé les stations indépendantes, ce qui a conduit à la croissance rapide de NRJ, Skyrock et Fun Radio, qui s'adressent à un public jeune.",
+    "radio-description-4": "Dans les années 90, la prédominance de la pop et du rock internationaux sur les radios françaises a suscité des inquiétudes quant au déclin de la musique francophone. En réponse, la loi Toubon de 1994 a introduit un quota exigeant qu'au moins 40 % des chansons diffusées sur les radios françaises soient en français, dont au moins 20 % réservés aux nouveaux talents. C'est ce que l'on appelle « l'exception française ».",
+    "radio-description-5": "Le quota est actif de 6h00 à 22h30 en semaine, et commence à 6h30 le samedi et à 7h00 le dimanche. Les stations patrimoniales spécialisées dans la musique ancienne doivent diffuser au moins 60 % de chansons francophones, tandis que les stations spécialisées dans la promotion de jeunes talents ont un quota de 35 % de chansons francophones, dont 25 % de jeunes talents.",
+    "radio-connection-ca": "<ul>Le Canada dispose d'une structure similaire. <li>35 % de la musique diffusée entre 6 heures et 18 heures en semaine et au total sur une semaine doit être canadienne</li><li>Pour les stations francophones, 55% de la musique diffusée entre 6h00 et 18h00 en semaine et 65% au total sur une semaine doit être en français</li><li>Ces règles diffèrent de celles de la France par le fait que les règles canadiennes peuvent tenir compte à la fois du pays d'origine et de la langue, alors que les règles françaises ne concernent que la langue de la musique</li></ul>",
+    "popular-stations": "Stations Populaires",
+    "france-inter": "Station publique proposant un mélange d'informations, de culture, de divertissement et de musique, connue pour sa couverture complète de l'actualité.",
+    "franceinfo": "Une chaîne d'information 24 heures sur 24, 7 jours sur 7, qui diffuse les dernières nouvelles nationales et internationales.",
+    "europe-1": "Un mélange d'informations, d'émissions-débats et de divertissements, équilibrant l'actualité et le divertissement.",
+    "nrj": "Une station de musique contemporaine diffusant un mélange de tubes français et internationaux, populaire auprès du jeune public.",
+    "nostalgie": "Une station dédiée à la diffusion de tubes classiques d'avant le tournant du siècle pour un public nostalgique.",
+    "fip": "Une station de musique éclectique proposant des genres variés tels que le jazz, le rock et l'électronique, pour les mélomanes en quête de diversité.",
+    "cherie-fm": "Joue de la musique pop douce et romantique, destinée à un public adulte à la recherche d'airs relaxants.",
+    "radio-suggestions": "Envie d'écouter la radio française ? Consultez les liens ci-dessous !",
+
     "curated-playlists": "Playlists Sélectionnées",
-    "curated-playlists-description": "Cette section propose des playlists soigneusement sélectionnées, mettant en avant une sélection de musique française à travers divers genres. Chaque playlist comprend 25 titres recommandés par l'équipe de L’Hexagone. Les playlists sont disponibles sur plusieurs plateformes pour un accès facile."
+    "curated-playlists-description": "Cette section propose des playlists sélectionnées pour présenter une sélection de musique française de différents genres. Chaque playlist comprend 25 recommandations de chansons choisies par l'équipe de L'Hexagone. Les playlists sont disponibles sur plusieurs plateformes afin d'en faciliter l'accès."
 }

@@ -1,4 +1,4 @@
-import './essentials.css';
+import './foundations.css';
 import Profile from '../../../components/profile/profile';
 
 //import images
@@ -48,7 +48,7 @@ import { CountryCodeContext } from '../../../App';
 import Popup from '../../../components/popup/popup';
 import Button from '../../../components/button/button';
 
-export default function Essentials() {
+export default function Foundations() {
     const ns = "music";
     const { t } = useTranslation(ns);
 

@@ -1,5 +1,11 @@
 @import '../../../assets/colours/colours.css';
 
+.ORTF-logo {
+    height: 128px;
+    margin-left: 16px;
+    float: right;
+}
+
 .listen-heading {
     margin-bottom: 20px;
 }
@@ -9,10 +15,14 @@
     margin-bottom: 16px;
 }
 
+.heading-text {
+    padding-right: 20px;
+}
+
 .listen-heading.playlist {
-    margin-top: 60px;
+    margin-top: 30px;
     border-top: 4px solid black;
-    padding-top: 12px;
+    padding-top: 16px;
 }
 
 .playlist-title {
