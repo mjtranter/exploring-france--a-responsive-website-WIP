@@ -52,13 +52,6 @@ export default function Listen() {
             <a href="https://onlineradiobox.com/fr/?lang=en" target="_blank" rel="noreferrer"><b>https://onlineradiobox.com/fr/?lang=en</b></a>
             {/*<p className="listen-description radio"><b>In France, there is a law called l'Exception Française</b></p>*/}<br /><br />
 
-            <div className="ng-app-embedded">
-                <div ui-view="" className="microsite embedded-radio-player" data-playerwidth="340px" data-playertype="web_embedded" data-playstation="francebleuparis" data-autoplay="false" />
-            </div>
-            <noscript>
-                <a href="https://uk.radio.net/s/francebleuparis" target="_blank" rel="noreferrer">Ici Paris on radio.net</a>
-            </noscript>
-
             <h5 className="listen-heading playlist"><b>{t('curated-playlists')}</b></h5>
             <p className="listen-description">{t('curated-playlists-description')}</p>
 
