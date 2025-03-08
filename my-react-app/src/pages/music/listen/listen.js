@@ -79,7 +79,7 @@ export default function Listen() {
             <p className="listen-description">{t('radio-suggestions')}</p>
 
             <a href="https://www.radio.net/country/france" target="_blank" rel="noreferrer"><b>Radio.net</b></a><br />
-            <a href={"https://onlineradiobox.com/fr/?lang=" + (countryCode === "ca" ? "fr" : countryCode)} target="_blank" rel="noreferrer"><b>OnlineRadioBox</b></a>
+            <a href={"https://onlineradiobox.com/fr/?lang=" + (countryCode === "ca" ? "fr" : (countryCode === "jp" ? "ja" : "en"))} target="_blank" rel="noreferrer"><b>OnlineRadioBox</b></a>
 
             <h5 className="listen-heading playlist"><b>{t('curated-playlists')}</b></h5>
             <p className="listen-description">{t('curated-playlists-description')}</p>
