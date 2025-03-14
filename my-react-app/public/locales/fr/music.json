@@ -6,6 +6,17 @@
 
     "todays-song": "Chanson du Jour",
 
+
+    "overview-description-1": "La musique française a toujours été un mélange de tradition et de modernité, depuis ses racines classiques jusqu'à ses sonorités contemporaines en pleine évolution. Si la chanson française reste un genre emblématique, de nouvelles vagues musicales, telles que le hip-hop, l'électronique et la pop, dominent désormais la scène. La musique française est en constante évolution, intégrant des influences internationales tout en conservant un style unique qui reflète la diversité de l'héritage culturel du pays. Des artistes comme Daft Punk, Stromae, Christine and the Queens et Angèle représentent le succès mondial de la musique française, repoussant les limites et explorant les thèmes de l'identité, de l'amour et des questions sociales.",
+    "overview-events": "Célébration de la musique en France",
+    "overview-description-2": "La France s'enorgueillit d'un riche calendrier de festivals de musique qui s'adressent à un large éventail de goûts musicaux. Rock en Seine, Les Vieilles Charrues et les Eurockéennes ne sont que quelques-uns des principaux événements qui mettent en valeur les talents français et internationaux. En outre, la Fête de la Musique, qui a lieu tous les 21 juin, est un événement national au cours duquel des musiciens professionnels et amateurs se produisent dans les rues, favorisant ainsi un sentiment d'appartenance à la communauté par le biais de la musique. Les festivals de musique français associent souvent les spectacles à l'art, au cinéma et même à la gastronomie, offrant ainsi une expérience immersive qui met en valeur les divers talents des artistes français et l'évolution de la scène musicale.",
+    "overview-global": "La France sur la scène mondiale",
+    "overview-description-3": "À l'ère moderne, les artistes français ont connu un immense succès sur la scène internationale. La musique pop française, avec son mélange distinctif de romantisme lyrique et de mélodies accrocheuses, continue de captiver le public dans le monde entier. L'essor de la musique française sur des plateformes de streaming telles que Spotify et YouTube a permis aux fans internationaux de découvrir facilement de nouveaux talents, ce qui a encore accru la portée des artistes français. La musique française maintient une forte présence sur les scènes électroniques et de danse mondiales, avec des clubs et des festivals dans le monde entier qui diffusent des morceaux de producteurs français. L'influence de la France est également évidente à l'Eurovision, où elle a remporté cinq victoires et présente régulièrement des candidats diversifiés qui reflètent à la fois son héritage musical et les tendances modernes. En 2024, la France a terminé 4<sup>e</sup> et a été représentée par Slimane, qui a interprété <em>Mon Amour</em>. Cette performance peut être visionnée ci-dessous.",
+
+    "christine-and-the-queens": "<em>Christine and the Queens, 2016</em>",
+    "fete-de-la-musique": "<em>Fête de la Musique, Paris</em>",
+
+
     "top-artists": "Artistes Principaux",
     "genres": {
         "titles": {
@@ -67,7 +78,7 @@
 
 
     "radio": "Radio",
-    "radio-description-1": "La radiodiffusion en France a commencé dans les années 1920, avec des stations comme Radio Paris qui se concentraient sur l'information, la musique classique et les contenus culturels. Après la Seconde Guerre mondiale, le gouvernement a nationalisé la radio, créant RDF (plus tard ORTF), qui a contrôlé toutes les émissions jusqu'à la fin du 20e siècle.",
+    "radio-description-1": "La radiodiffusion en France a commencé dans les années 1920, avec des stations comme Radio Paris qui se concentraient sur l'information, la musique classique et les contenus culturels. Après la Seconde Guerre mondiale, le gouvernement a nationalisé la radio, créant RDF (plus tard ORTF), qui a contrôlé toutes les émissions jusqu'à la fin du 20<sup>e</sup> siècle.",
     "radio-description-2": "Dans les années 50 et 60, la radio française était dominée par la chanson française, avec des artistes comme Édith Piaf, Charles Aznavour et Jacques Brel. Cependant, le mouvement yé-yé, influencé par le rock et la pop britanniques et américains, a gagné en popularité auprès des jeunes. Malgré cette évolution, la radio reste fortement réglementée, ce qui limite la variété des programmes.",
     "radio-description-3": "Dans les années 70, le mécontentement suscité par la radio contrôlée par l'État a conduit à l'essor des « radios libres », qui diffusaient illégalement des contenus pop, rock et alternatifs. En 1981, le gouvernement du président François Mitterrand a légalisé les stations indépendantes, ce qui a conduit à la croissance rapide de NRJ, Skyrock et Fun Radio, qui s'adressent à un public jeune.",
     "radio-description-4": "Dans les années 90, la prédominance de la pop et du rock internationaux sur les radios françaises a suscité des inquiétudes quant au déclin de la musique francophone. En réponse, la loi Toubon de 1994 a introduit un quota exigeant qu'au moins 40 % des chansons diffusées sur les radios françaises soient en français, dont au moins 20 % réservés aux nouveaux talents. C'est ce que l'on appelle « l'exception française ».",

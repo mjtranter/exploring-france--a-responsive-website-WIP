@@ -1,9 +1,30 @@
 import './overview.css';
+import ChristineAndTheQueens from '../../../assets/images/christine-and-the-queens.jpg';
+import FeteDeLaMusique from '../../../assets/images/fete-de-la-musique.jpg';
+import { useTranslation } from 'react-i18next';
 
-export default function Overview({ns}) {
+export default function Overview() {
+    const ns = "music";
+    const { t } = useTranslation(ns);
+
     return (
-        <div>
+        <div className="category-component">
+            <div className="overview-image-container right">
+                <img className="overview-image" src={ChristineAndTheQueens} alt="Christine and the Queens" />
+                <div dangerouslySetInnerHTML={{__html: t('christine-and-the-queens')}} />
+            </div>    
+            <p className="listen-description">{t('overview-description-1')}</p>
+
+            <h6 className="listen-heading"><b>{t('overview-events')}</b></h6>
+            <div className="overview-image-container left fete">
+                <img className="overview-image" src={FeteDeLaMusique} alt="Fête de la Musique" />         
+                <div dangerouslySetInnerHTML={{__html: t('fete-de-la-musique')}} />
+            </div>
+            <p className="listen-description">{t('overview-description-2')}</p>
             
+            <h6 className="listen-heading global-heading"><b>{t('overview-global')}</b></h6>
+            <div className="listen-description" dangerouslySetInnerHTML={{__html: t('overview-description-3')}} />
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-XyLecY2JyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     )
 }

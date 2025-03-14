@@ -6,6 +6,17 @@
 
     "todays-song": "今日の曲",
 
+
+    "overview-description-1": "フランス音楽は、クラシックのルーツから進化する現代のサウンドに至るまで、常に伝統と現代性が融合してきた。シャンソン・フランセーズが象徴的なジャンルであることに変わりはないが、ヒップホップ、エレクトロニック、ポップスといった新しい音楽の波がシーンを席巻している。フランスの音楽は、この国の多様な文化遺産を反映した独自のスタイルを維持しながら、国際的な影響を統合し、常に進化している。ダフト・パンク、ストロマエ、クリスティーヌ・アンド・ザ・クイーンズ、アンジェールのようなアーティストは、フランス音楽の世界的成功を象徴し、境界線を押し広げ、アイデンティティ、愛、社会問題といったテーマを探求している。",
+    "overview-events": "フランス音楽の祭典",
+    "overview-description-2": "フランスは、幅広い音楽的嗜好に応える音楽フェスティバルの豊富なカレンダーを誇っている。ロック・アン・セーヌ（Rock en Seine）、レ・ヴィエイユ・シャルル（Les Vieilles Charrues）、ユーロケアンヌ（Eurockéennes）などは、フランス国内外の才能を紹介する主要なイベントのほんの一例に過ぎない。さらに、毎年6月21日に開催される音楽の祭典「フェット・ド・ラ・ミュージック」は、プロとアマチュアのミュージシャンが路上で演奏する全国的なイベントであり、音楽を通じてコミュニティ意識を育む。フランスの音楽祭は、ライブ・パフォーマンスとアート、映画、そして食べ物までもが融合することが多く、フランス人アーティストの多様な才能と進化する音楽シーンを紹介する没入型の体験を提供している。",
+    "overview-global": "世界の舞台でのフランス",
+    "overview-description-3": "現代において、フランスのアーティストたちは世界の舞台で大きな成功を収めている。叙情的なロマンティシズムとキャッチーなメロディーが融合した独特のフレンチ・ポップスは、世界中の聴衆を魅了し続けている。SpotifyやYouTubeのようなストリーミング・プラットフォームでのフランス音楽の台頭により、世界中のファンが新しい才能を簡単に発見できるようになり、フランス人アーティストの活躍の場はさらに広がっている。フランス音楽は世界のダンスやエレクトロニックシーンにおいて強い存在感を保っており、世界中のクラブやフェスティバルでフランス人プロデューサーの楽曲がプレイされている。フランスの影響力はユーロビジョンでも明らかで、これまでに5回の優勝を果たし、自国の音楽的伝統と現代のトレンドの両方を反映した多様な作品を常に披露している。2024年、フランスは4位となり、スリマンが代表として「Mon Amour」を披露した。このパフォーマンスは以下で見ることができる。",
+
+    "christine-and-the-queens": "クリスティーン＆ザ・クイーンズ（2016年）",
+    "fete-de-la-musique": "音楽祭、パリ",
+
+
     "top-artists": "トップアーティスト",
     "genres": {
         "titles": {
@@ -37,12 +48,12 @@
     "connection-jp": "日本とのつながり",
     "profile-connections": {
         "daft-punk": {
-            "gb": "<ul><li>世界的なスターになる前の1994年、ダフト・パンク（Daft Punk）はグラスゴーを拠点とするスコットランドのインディーズレーベル、ソマ・レコード（Soma Records）から最初のシングル「The New Wave」をリリースした</li><li>1995年、ダフト・パンク（Daft Punk）はイギリスの電子音楽シーンを代表するザ・ケミカル・ブラザーズ（The Chemical Brothers）の楽曲「Life is Sweet」をリミックスした</li><li>2000年、「One More Time」はイギリスのチャートで2位を獲得。2013年には「Get Lucky」が1位となり、同曲を収録したアルバム「Random Access Memories」もチャートのトップに輝いた</li></ul>",
-            "ca": "<ul><li>ダフト・パンク（Daft Punk）はカナダのミュージシャン、ゴンザレス（Gonzales、ジェイソン・ベック〈Jason Beck〉）と共に「Random Access Memories」で作業しました。モントリオール出身のゴンザレスは、「Give Life Back to Music」と「Within」でピアノを演奏しました</li><li>グループはカナダのチャートで大成功を収め、「One More Time」と「Get Lucky」は1位を達成しました。「Random Access Memories」も1位に達し、1997年には彼らのブレイクアウトシングル「Around the World」がカナダのダンスチャートで1位に達しました</li></ul>",
-            "jp": "<ul><li>ダフト・パンク（Daft Punk）は、彼らの未来的でロボット的な美学に大きな影響を与えた日本の象徴的なSFアニメ映画「アキラ」（1988年）を引用しています</li><li>ダフト・パンクは、日本の伝説的な漫画家である松本零士と、著名なアニメ監督である竹内和久とコラボレーションし、アニメ映画「インターステラ5555: ザ・ストーリー・オブ・ザ・シークレット・スター・システム」（2003年）を制作しました。この映画は、エイリアンのバンドの誘拐と救出を追い、ダフト・パンクの2枚目のスタジオアルバム「Discovery」がサウンドトラックとして使用されています <iframe width='560' height='315' src='https://www.youtube.com/embed/EMroa1WgofA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></li><li>バンドは日本でも非常に成功を収めており、「One More Time」と「Get Lucky」は1位を獲得し、「Harder, Better, Faster, Stronger」は2位を獲得しました。「Discovery」も2位にランクインし、「Random Access Memories」は1位に達しました</li><li>10年間、曲「Horizon」は「Random Access Memories」の日本版CDにおけるボーナストラックとしてのみ提供されており、10周年記念版で世界的にリリースされるまででした</li></ul>"
+            "gb": "<ul><li>世界的なスターになる前の1994年、ダフト・パンクはグラスゴーを拠点とするスコットランドのインディーズレーベル、ソマ・レコードから最初のシングル「The New Wave」をリリースした</li><li>1995年、ダフト・パンク（Daft Punk）はイギリスの電子音楽シーンを代表するザ・ケミカル・ブラザーズ（The Chemical Brothers）の楽曲「Life is Sweet」をリミックスした</li><li>2000年、「One More Time」はイギリスのチャートで2位を獲得。2013年には「Get Lucky」が1位となり、同曲を収録したアルバム「Random Access Memories」もチャートのトップに輝いた</li></ul>",
+            "ca": "<ul><li>ダフト・パンクはカナダのミュージシャン、ゴンザレス（ジェイソン・ベック）と共に「Random Access Memories」で作業しました。モントリオール出身のゴンザレスは、「Give Life Back to Music」と「Within」でピアノを演奏しました</li><li>グループはカナダのチャートで大成功を収め、「One More Time」と「Get Lucky」は1位を達成しました。「Random Access Memories」も1位に達し、1997年には彼らのブレイクアウトシングル「Around the World」がカナダのダンスチャートで1位に達しました</li></ul>",
+            "jp": "<ul><li>ダフト・パンクは、彼らの未来的でロボット的な美学に大きな影響を与えた日本の象徴的なSFアニメ映画「アキラ」（1988年）を引用しています</li><li>ダフト・パンクは、日本の伝説的な漫画家である松本零士と、著名なアニメ監督である竹内和久とコラボレーションし、アニメ映画「インターステラ5555: ザ・ストーリー・オブ・ザ・シークレット・スター・システム」（2003年）を制作しました。この映画は、エイリアンのバンドの誘拐と救出を追い、ダフト・パンクの2枚目のスタジオアルバム「Discovery」がサウンドトラックとして使用されています <iframe width='560' height='315' src='https://www.youtube.com/embed/EMroa1WgofA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></li><li>バンドは日本でも非常に成功を収めており、「One More Time」と「Get Lucky」は1位を獲得し、「Harder, Better, Faster, Stronger」は2位を獲得しました。「Discovery」も2位にランクインし、「Random Access Memories」は1位に達しました</li><li>10年間、曲「Horizon」は「Random Access Memories」の日本版CDにおけるボーナストラックとしてのみ提供されており、10周年記念版で世界的にリリースされるまででした</li></ul>"
         },
         "justice": {
-            "gb": "<ul><li>ジャスティス（Justice）の曲『D.A.N.C.E.』と彼らのデビューアルバム『†』は、どちらもUKダンスチャートで1位を獲得しました</li><li>ジャスティス（Justice）はシミアン（Simian）の『Never Be Alone』を『We Are Your Friends』にリミックスし、クラクソンズ（Klaxons）とともに『As Above So Below』のリミックスを手掛けました</li></ul>"
+            "gb": "<ul><li>ジャスティスの曲『D.A.N.C.E.』と彼らのデビューアルバム『†』は、どちらもUKダンスチャートで1位を獲得しました</li><li>ジャスティスはシミアンの『Never Be Alone』を『We Are Your Friends』にリミックスし、クラクソンズ（Klaxons）とともに『As Above So Below』のリミックスを手掛けました</li></ul>"
         },
         "stromae": {
             "gb": "<ul><li>彼のシングル『Alors On Danse』は、イギリスのシングルチャートで25位、イギリスのダンスチャートで5位に達しました</li></ul>",

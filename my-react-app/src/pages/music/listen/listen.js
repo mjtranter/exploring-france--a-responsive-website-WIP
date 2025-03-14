@@ -55,7 +55,7 @@ export default function Listen() {
             <h5 className="listen-heading"><b>{t('radio')}</b></h5>
             
             <img className="ORTF-logo" src={ORTF} alt="ORTF logo" />
-            <p className="listen-description">{t('radio-description-1')}</p>
+            <div className="listen-description" dangerouslySetInnerHTML={{__html: t('radio-description-1')}} />
             <p className="listen-description">{t('radio-description-2')}</p>
             <p className="listen-description">{t('radio-description-3')}</p>
 

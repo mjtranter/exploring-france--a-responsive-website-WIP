@@ -1,0 +1,28 @@
+@import '../../../assets/colours/colours.css';
+
+.overview-image-container {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: -4px;
+}
+
+.overview-image-container.left {
+    float: left;
+    margin-right: 18px;
+}
+
+.overview-image-container.right {
+    float: right;
+    margin-left: 18px;
+}
+
+.overiew-image {
+    height: 180px;
+}
+
+.overview-image-container.fete {
+    width: 300px;
+}
