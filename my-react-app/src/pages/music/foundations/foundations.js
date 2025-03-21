@@ -54,10 +54,10 @@ export default function Foundations() {
 
     const countryCode = useContext(CountryCodeContext);
 
-    const [popupData, setPopupData] = useState({title: "", content: "", ns: ns, visible: false});
+    const [popupData, setPopupData] = useState({type: "connection", title: "", content: "", ns: ns, visible: false});
 
     const showPopup = (title, content) => {
-        setPopupData({title, content, ns: ns, visible: true});
+        setPopupData({type: "connection", title, content, ns: ns, visible: true});
     }
 
     const hidePopup = () => {
@@ -71,7 +71,7 @@ export default function Foundations() {
                 <Popup {...popupData} hidePopup={hidePopup} />
             </div>
             {/*<AccordionComponent />*/}
-            <h5 className="genre-title"><b>{t('genres.titles.dance-house')}</b></h5>
+            <h5 className="category-title"><b>{t('genres.titles.dance-house')}</b></h5>
             <p className="genre-description">{t('genres.descriptions.dance-house')}</p>
             <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
             <div className="profile-row">  
@@ -92,7 +92,7 @@ export default function Foundations() {
                 </div>
             </div>
             
-            <h5 className="genre-title"><b>{t('genres.titles.electronic')}</b></h5>
+            <h5 className="category-title"><b>{t('genres.titles.electronic')}</b></h5>
             <p className="genre-description">{t('genres.descriptions.electronic-1')}</p>
             <p className="genre-description">{t('genres.descriptions.electronic-2')}</p>
             <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
@@ -114,7 +114,7 @@ export default function Foundations() {
                 </div>
             </div>
 
-            <h5 className="genre-title"><b>{t('genres.titles.pop')}</b></h5>
+            <h5 className="category-title"><b>{t('genres.titles.pop')}</b></h5>
             <p className="genre-description top">{t('genres.descriptions.pop-1')}</p>
             <p className="genre-description bottom">{t('genres.descriptions.pop-2')}</p>
             <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
@@ -126,7 +126,7 @@ export default function Foundations() {
                 <Profile ns={ns} image={SergeGainsbourg} name="Serge Gainsbourg" />
             </div>
 
-            <h5 className="genre-title"><b>{t('genres.titles.chanson')}</b></h5>
+            <h5 className="category-title"><b>{t('genres.titles.chanson')}</b></h5>
             <p className="genre-description">{t('genres.descriptions.chanson')}</p>
             <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
             <div className="profile-row">
@@ -135,7 +135,7 @@ export default function Foundations() {
                 <Profile ns={ns} image={JacquesBrel} name="Jacques Brel" />
             </div>
 
-            <h5 className="genre-title"><b>{t('genres.titles.rock')}</b></h5>
+            <h5 className="category-title"><b>{t('genres.titles.rock')}</b></h5>
             <p className="genre-description">{t('genres.descriptions.lorem-ipsum')}</p>
             <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
             <div className="profile-row">
@@ -144,7 +144,7 @@ export default function Foundations() {
                 <Profile ns={ns} image={Indochine} name="Indochine" />
             </div>
 
-            <h5 className="genre-title"><b>{t('genres.titles.metal')}</b></h5>
+            <h5 className="category-title"><b>{t('genres.titles.metal')}</b></h5>
             <p className="genre-description">{t('genres.descriptions.lorem-ipsum')}</p>
             <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
             <div className="profile-row">
@@ -153,7 +153,7 @@ export default function Foundations() {
                 <Profile ns={ns} image={Trust} name="Trust" />
             </div>
 
-            <h5 className="genre-title"><b>{t('genres.titles.rap')}</b></h5>
+            <h5 className="category-title"><b>{t('genres.titles.rap')}</b></h5>
             <p className="genre-description">{t('genres.descriptions.lorem-ipsum')}</p>
             <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
             <div className="profile-row">
@@ -162,7 +162,7 @@ export default function Foundations() {
                 <Profile ns={ns} image={Booba} name="Booba" />
             </div>
 
-            <h5 className="genre-title"><b>{t('genres.titles.jazz')}</b></h5>
+            <h5 className="category-title"><b>{t('genres.titles.jazz')}</b></h5>
             <p className="genre-description">{t('genres.descriptions.lorem-ipsum')}</p>
             <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
             <div className="profile-row">
@@ -171,7 +171,7 @@ export default function Foundations() {
                 <Profile ns={ns} image={Petrucciani} name="Michel Petrucciani" />
             </div>
 
-            <h5 className="genre-title"><b>{t('genres.titles.folk')}</b></h5>
+            <h5 className="category-title"><b>{t('genres.titles.folk')}</b></h5>
             <p className="genre-description">{t('genres.descriptions.lorem-ipsum')}</p>
             <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
             <div className="profile-row">
@@ -180,7 +180,7 @@ export default function Foundations() {
                 <Profile ns={ns} image={LeForestier} name="Maxime Le Forestier" />
             </div>
 
-            <h5 className="genre-title"><b>{t('genres.titles.classical')}</b></h5>
+            <h5 className="category-title"><b>{t('genres.titles.classical')}</b></h5>
             <p className="genre-description">{t('genres.descriptions.lorem-ipsum')}</p>
             <h6 className="top-artists"><b>{t('top-artists')}</b></h6>
             <div className="profile-row">

@@ -6,23 +6,8 @@
     float: right;
 }
 
-.listen-heading {
-    margin-bottom: 20px;
-}
-
-.listen-description {
-    line-height: 1.3;
-    margin-bottom: 16px;
-}
-
 .heading-text {
     padding-right: 20px;
-}
-
-.listen-heading.playlist {
-    margin-top: 30px;
-    border-top: 4px solid black;
-    padding-top: 16px;
 }
 
 .playlist-title {

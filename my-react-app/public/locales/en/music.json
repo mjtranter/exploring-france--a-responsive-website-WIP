@@ -76,6 +76,49 @@
         }
     },
 
+    
+    "whats-on": "What's On",
+    "view-full-calendar": "View Full Calendar",
+    "full-calendar": "Events This Month",
+
+    "day-one": "Monday",
+    "day-two": "Tuesday",
+    "day-three": "Wednesday",
+    "day-four": "Thursday",
+    "day-five": "Friday",
+    "day-six": "Saturday",
+    "day-seven": "Sunday",
+
+    "short-day-one": "Mon",
+    "short-day-two": "Tue",
+    "short-day-three": "Wed",
+    "short-day-four": "Thu",
+    "short-day-five": "Fri",
+    "short-day-six": "Sat",
+    "short-day-seven": "Sun",
+
+    "featured-events": "Featured Events",
+
+    "list-events": [
+        {
+            "id": 1,
+            "text": "Event 1",
+            "start": "2025-03-17",
+            "end": "2025-03-21",
+            "backColor": "#ff6459"
+        },
+        {
+            "id": 2,
+            "text": "Event 2",
+            "start": "2025-03-19",
+            "end": "2025-03-26",
+            "backColor": "#95e364"
+        }
+    ],
+
+
+
+
 
     "radio": "Radio",
     "radio-description-1": "Radio broadcasting in France began in the 1920s, with stations like Radio Paris focusing on news, classical music, and cultural content. After World War II, the government nationalized radio, creating RDF (later ORTF), which controlled all broadcasting until the late 20th century.",

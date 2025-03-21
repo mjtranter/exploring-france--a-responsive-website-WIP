@@ -77,6 +77,46 @@
     },
 
 
+    "whats-on": "À l’Affiche",
+    "view-full-calendar": "Voir Calendrier Complet",
+    "full-calendar": "Évenements du Mois",
+
+    "day-one": "lundi",
+    "day-two": "mardi",
+    "day-three": "mercredi",
+    "day-four": "jeudi",
+    "day-five": "vendredi",
+    "day-six": "samedi",
+    "day-seven": "dimanche",
+
+    "short-day-one": "lun",
+    "short-day-two": "mar",
+    "short-day-three": "mer",
+    "short-day-four": "jeu",
+    "short-day-five": "ven",
+    "short-day-six": "sam",
+    "short-day-seven": "dim",
+
+    "featured-events": "Évenements en Vedette",
+
+    "list-events": [
+        {
+            "id": 1,
+            "text": "Événement 1",
+            "start": "2025-03-17",
+            "end": "2025-03-21",
+            "backColor": "#ff6459"
+        },
+        {
+            "id": 2,
+            "text": "Évenement 2",
+            "start": "2025-03-19",
+            "end": "2025-03-26",
+            "backColor": "#95e364"
+        }
+    ],
+
+
     "radio": "Radio",
     "radio-description-1": "La radiodiffusion en France a commencé dans les années 1920, avec des stations comme Radio Paris qui se concentraient sur l'information, la musique classique et les contenus culturels. Après la Seconde Guerre mondiale, le gouvernement a nationalisé la radio, créant RDF (plus tard ORTF), qui a contrôlé toutes les émissions jusqu'à la fin du 20<sup>e</sup> siècle.",
     "radio-description-2": "Dans les années 50 et 60, la radio française était dominée par la chanson française, avec des artistes comme Édith Piaf, Charles Aznavour et Jacques Brel. Cependant, le mouvement yé-yé, influencé par le rock et la pop britanniques et américains, a gagné en popularité auprès des jeunes. Malgré cette évolution, la radio reste fortement réglementée, ce qui limite la variété des programmes.",

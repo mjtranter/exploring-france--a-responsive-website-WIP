@@ -1,0 +1,17 @@
+@import '../../../assets/colours/colours.css';
+
+.whats-on {
+    margin-bottom: 20px;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 16px;
+    margin-top: -12px;
+}
+
+.header-row h5 {
+    margin: 0;
+}

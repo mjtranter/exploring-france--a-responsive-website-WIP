@@ -35,10 +35,10 @@ export default function Listen() {
     const pop = {"spotify": "7AKy2iPcqvb3vyZLPyKebx", "apple": "25-pop/pl.u-2aoq8yesGBrXpzb", "amazon": "https://music.amazon." + amazonCode + "/user-playlists/5ce8672d9a7349c3b56a87dd6a01a23eengb?marketplaceId=A1F83G8C2ARO7P&musicTerritory=" + countryCode.toUpperCase(), "youtube": "PLoUCL2VUBQ83NPh2530Pwva2X9IlryELd"};
     const chanson = {"spotify": "2tqPb8PYZ20tB0VO45Moyo", "apple": "25-chanson/pl.u-KVXBkP3sLM5jBoe", "amazon": "https://music.amazon." + amazonCode + "/user-playlists/5ce8672d9a7349c3b56a87dd6a01a23eengb?marketplaceId=A1F83G8C2ARO7P&musicTerritory=" + countryCode.toUpperCase(), "youtube": "PLoUCL2VUBQ83NPh2530Pwva2X9IlryELd"};
     
-    const [popupData, setPopupData] = useState({title: "", content: "", ns: ns, visible: false});
+    const [popupData, setPopupData] = useState({type: "connection", title: "", content: "", ns: ns, visible: false});
     
     const showPopup = (title, content) => {
-        setPopupData({title, content, ns: ns, visible: true});
+        setPopupData({type: "connection", title, content, ns: ns, visible: true});
     }
 
     const hidePopup = () => {
@@ -52,18 +52,18 @@ export default function Listen() {
                 <Popup {...popupData} hidePopup={hidePopup} />
             </div>
 
-            <h5 className="listen-heading"><b>{t('radio')}</b></h5>
+            <h5 className="category-heading"><b>{t('radio')}</b></h5>
             
             <img className="ORTF-logo" src={ORTF} alt="ORTF logo" />
-            <div className="listen-description" dangerouslySetInnerHTML={{__html: t('radio-description-1')}} />
-            <p className="listen-description">{t('radio-description-2')}</p>
-            <p className="listen-description">{t('radio-description-3')}</p>
+            <div className="category-description" dangerouslySetInnerHTML={{__html: t('radio-description-1')}} />
+            <p className="category-description">{t('radio-description-2')}</p>
+            <p className="category-description">{t('radio-description-3')}</p>
 
-            <h6 className="listen-heading"><b className="heading-text">L'exception Française</b>{countryCode === "ca" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-ca', 'radio-connection-ca')} />)}</h6>
-            <p className="listen-description">{t('radio-description-4')}</p>  
-            <p className="listen-description">{t('radio-description-5')}</p>
+            <h6 className="category-heading"><b className="heading-text">L'exception Française</b>{countryCode === "ca" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-ca', 'radio-connection-ca')} />)}</h6>
+            <p className="category-description">{t('radio-description-4')}</p>  
+            <p className="category-description">{t('radio-description-5')}</p>
             
-            <h6 className="listen-heading"><b>{t('popular-stations')}</b></h6>
+            <h6 className="category-heading"><b>{t('popular-stations')}</b></h6>
             <div className="modal-body">
                 <ul>
                     <li><i>France Inter</i> - {t('france-inter')}</li>
@@ -76,13 +76,13 @@ export default function Listen() {
                 </ul>
             </div>
             <br />
-            <p className="listen-description">{t('radio-suggestions')}</p>
+            <p className="category-description">{t('radio-suggestions')}</p>
 
             <a href="https://www.radio.net/country/france" target="_blank" rel="noreferrer"><b>Radio.net</b></a><br />
             <a href={"https://onlineradiobox.com/fr/?lang=" + (countryCode === "ca" ? "fr" : (countryCode === "jp" ? "ja" : "en"))} target="_blank" rel="noreferrer"><b>OnlineRadioBox</b></a>
 
-            <h5 className="listen-heading playlist"><b>{t('curated-playlists')}</b></h5>
-            <p className="listen-description">{t('curated-playlists-description')}</p>
+            <h5 className="category-heading divider"><b>{t('curated-playlists')}</b></h5>
+            <p className="category-description">{t('curated-playlists-description')}</p>
 
             <div className="playlist-row">
                 <div className="vertical-container">

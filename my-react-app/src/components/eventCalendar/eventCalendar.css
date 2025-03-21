@@ -1,0 +1,68 @@
+@import '../../assets/colours/colours.css';
+
+.month_default_main {
+    font-family: "Poppins", serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1000;
+}
+
+.full .month_default_main {
+    transform: translateY(-30px);
+    margin-bottom: -30px;
+}
+
+.month_default_event {
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.month_default_event_inner {
+    padding-left: 28px;
+    border-radius: 12px;
+}
+
+.month_default_event_bar {
+    left: 0px;
+    width: 24px;
+}
+
+.month_default_event_bar_inner {
+    border-radius: 12px;
+    width: 24px;
+}
+
+.calendar-container {
+    position: relative;
+    height: 130px;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+.calendar-container.full {
+    height: 100%;
+}
+
+.calendar-header {
+    height: 30px;
+    background-color: var(--tertiary-theme);
+    width: 100%;
+    display: flex;
+    z-index: 1020;
+    position: relative;
+}
+
+.calendar-day {
+    width: 14.275%;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-right: 4px;
+    line-height: 30px;
+    font-size: 0.9em;
+    border-bottom: 1px solid var(--soft-dark);
+}
+
+.calendar-day.right {
+    border-right: 1px solid var(--soft-dark);
+}

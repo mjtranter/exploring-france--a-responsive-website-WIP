@@ -6,8 +6,12 @@
 }
 
 .modal-header {
-    background-color: var(--french-red);
+    background-color: var(--primary-theme);
     color: var(--secondary-theme);
+}
+
+.modal-header.connection {
+    background-color: var(--french-red);
 }
 
 .btn-close {
