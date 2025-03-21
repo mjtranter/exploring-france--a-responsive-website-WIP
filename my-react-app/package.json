@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@daypilot/daypilot-lite-react": "3.32.1",
     "@vercel/analytics": "^1.5.0",
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
