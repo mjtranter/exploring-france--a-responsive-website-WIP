@@ -1,9 +1,8 @@
 @import '../../assets/colours/colours.css';
 
 .month_default_main {
-    font-family: "Poppins", serif;
+    font-family: "Poppins", serif !important;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: relative;
     z-index: 1000;
 }
 
