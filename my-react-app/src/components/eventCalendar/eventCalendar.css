@@ -13,23 +13,22 @@
 }
 
 .month_default_event {
-    overflow: hidden;
     border-radius: 12px;
 }
 
 .month_default_event_inner {
-    padding-left: 28px;
-    border-radius: 12px;
+    padding-left: 28px !important;
+    border-radius: 12px !important;
 }
 
 .month_default_event_bar {
-    left: 0px;
-    width: 24px;
+    left: 0px !important;
+    width: 24px !important;
 }
 
 .month_default_event_bar_inner {
     border-radius: 12px;
-    width: 24px;
+    width: 24px !important;
 }
 
 .calendar-container {
