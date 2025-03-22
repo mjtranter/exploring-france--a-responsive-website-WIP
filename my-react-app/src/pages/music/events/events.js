@@ -2,8 +2,12 @@ import { useTranslation } from "react-i18next";
 import EventCalendar from "../../../components/eventCalendar/eventCalendar";
 import { useState } from "react";
 import Popup from "../../../components/popup/popup";
-import './events.css';
 import Button from "../../../components/button/button";
+import MonteCarloSpringArts from "../../../assets/images/monte-carlo-spring-arts.jpg";
+import ParisJazz from '../../../assets/images/paris-jazz.jpg';
+import './events.css';
+
+const images = [MonteCarloSpringArts, ParisJazz];
 
 export default function Events() {
     const ns = "music";
@@ -18,6 +22,8 @@ export default function Events() {
     const hidePopup = () => {
         setPopupData({...popupData, visible: false});
     }
+
+    const events = t('list-events', { returnObjects: true });
 
     return (
         <div className="category-component">
@@ -35,6 +41,24 @@ export default function Events() {
             </div>
             
             <h5 className="category-heading"><b>{t('featured-events')}</b></h5>
+
+
+            {events.map(event => (
+                <div key={event.id} className="event-frame">
+                    <img className="event-icon" src={images[event.id - 1]} alt={event.text} />
+                    <div className="event-content">
+                        <div className="event-title">
+                            <b>{event.text}</b>
+                            <i>{event.longStart}{t('time-period')}{event.longEnd}</i>
+                        </div>
+
+                        <div className="event-details">
+                            <i>{t('location')}: {event.location}</i>
+                            <p className="event-description">{event.description}</p>
+                        </div>
+                    </div>
+                </div>
+            ))}
         </div>
     )
 }

@@ -98,21 +98,31 @@
     "short-day-seven": "dim",
 
     "featured-events": "Évenements en Vedette",
+    "time-period": " - ",
+    "location": "Lieu",
 
     "list-events": [
         {
             "id": 1,
-            "text": "Événement 1",
-            "start": "2025-03-17",
-            "end": "2025-03-21",
-            "backColor": "#ff6459"
+            "text": "Festival Printemps des Arts de Monte-Carlo",
+            "start": "2025-03-02",
+            "end": "2025-04-27",
+            "backColor": "#ff6459",
+            "location": "Monaco",
+            "description": "Le Festival Printemps des Arts de Monte-Carlo est un événement annuel qui se tient à Monaco de mars à avril et qui rassemble des musiciens, des danseurs et des artistes visuels de renommée mondiale. Le festival est connu pour son mélange de chefs-d'œuvre classiques et d'œuvres contemporaines, mettant souvent à l'honneur des compositeurs méconnus aux côtés d'orchestres renommés tels que l'Orchestre Philharmonique de Monte-Carlo et d'ensembles internationaux de premier plan. Les concerts, les expositions et les spectacles de danse se déroulent dans des lieux prestigieux tels que l'Opéra de Monte-Carlo et le Musée océanographique.",
+            "longStart": "2 mars",
+            "longEnd": "27 avril"
         },
         {
             "id": 2,
-            "text": "Évenement 2",
-            "start": "2025-03-19",
-            "end": "2025-03-26",
-            "backColor": "#95e364"
+            "text": "Paris Jazz Festival",
+            "start": "2025-06-17",
+            "end": "2025-09-07",
+            "backColor": "#95e364",
+            "location": "Paris",
+            "description": "Le Paris Jazz Festival est une célébration estivale du jazz qui se tient au Parc Floral de Paris, avec des spectacles d'artistes internationaux et émergents de renom. Le festival propose un mélange éclectique de styles de jazz, allant des classiques intemporels aux interprétations modernes, en passant par des sons expérimentaux innovants. Situé dans un cadre magnifique en plein air, l'événement offre une atmosphère détendue où les visiteurs peuvent apprécier une musique de classe mondiale entourée par la nature. De plus, les concerts sont gratuits, ce qui en fait un événement accessible et incontournable du calendrier culturel parisien.",
+            "longStart": "juin",
+            "longEnd": "septembre"
         }
     ],
 

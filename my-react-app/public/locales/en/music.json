@@ -98,21 +98,31 @@
     "short-day-seven": "Sun",
 
     "featured-events": "Featured Events",
+    "time-period": " - ",
+    "location": "Location",
 
     "list-events": [
         {
             "id": 1,
-            "text": "Event 1",
-            "start": "2025-03-17",
-            "end": "2025-03-21",
-            "backColor": "#ff6459"
+            "text": "Monte Carlo Spring Arts Festival",
+            "start": "2025-03-02",
+            "end": "2025-04-27",
+            "backColor": "#ff6459",
+            "location": "Monaco",
+            "description": "The Monte Carlo Spring Arts Festival is an annual event held in Monaco from March to April, bringing together world-class musicians, dancers and visual artists. The festival is known for blending classical masterpieces with contemporary works, often featuring overlooked composers alongside performances by renowned orchestras like the Monte Carlo Philharmonic and top international ensembles. Concerts, exhibitions, and dance performances take place in prestigious venues such as the Opéra de Monte-Carlo and the Oceanographic Museum.",
+            "longStart": "2 March",
+            "longEnd": "27 April" 
         },
         {
             "id": 2,
-            "text": "Event 2",
-            "start": "2025-03-19",
-            "end": "2025-03-26",
-            "backColor": "#95e364"
+            "text": "Paris Jazz Festival",
+            "start": "2025-06-17",
+            "end": "2025-09-07",
+            "backColor": "#95e364",
+            "location": "Paris",
+            "description": "The Paris Jazz Festival is a summer-long celebration of jazz held in the Parc Floral de Paris, featuring performances from renowned international and emerging artists. The festival features an eclectic mix of jazz styles, spanning timeless classics, modern interpretations and innovative experimental sounds. Set in a beautiful open-air setting, the event offers a relaxed atmosphere where visitors can enjoy world-class music surrounded by nature. Best of all, the concerts are free to attend, making it an accessible and unmissable highlight of Paris’s cultural calendar.",
+            "longStart": "June",
+            "longEnd": "September"
         }
     ],
 
