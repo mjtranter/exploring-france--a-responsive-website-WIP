@@ -98,7 +98,10 @@
     "short-day-seven": "Sun",
 
     "featured-events": "Featured Events",
-    "time-period": " - ",
+    "all": "All",
+    "local": "Local",
+    "free": "Free",
+    "connections": "Connections",
     "location": "Location",
 
     "list-events": [
@@ -106,23 +109,70 @@
             "id": 1,
             "text": "Monte Carlo Spring Arts Festival",
             "start": "2025-03-02",
-            "end": "2025-04-27",
+            "end": "2025-04-28",
             "backColor": "#ff6459",
             "location": "Monaco",
             "description": "The Monte Carlo Spring Arts Festival is an annual event held in Monaco from March to April, bringing together world-class musicians, dancers and visual artists. The festival is known for blending classical masterpieces with contemporary works, often featuring overlooked composers alongside performances by renowned orchestras like the Monte Carlo Philharmonic and top international ensembles. Concerts, exhibitions, and dance performances take place in prestigious venues such as the Opéra de Monte-Carlo and the Oceanographic Museum.",
-            "longStart": "2 March",
-            "longEnd": "27 April" 
+            "longDate": "2 March - 27 April",
+            "local": "False",
+            "free": "False",
+            "connection": "None"
         },
+
         {
             "id": 2,
+            "text": "Banlieues Bleues Jazz Festival",
+            "start": "2025-03-14",
+            "end": "2025-04-12",
+            "backColor": "#95e364",
+            "location": "Seine-Saint-Denis",
+            "description": "Banlieues Bleues is a jazz festival held across the suburbs of Paris from March to April, featuring both renowned and up-and-coming artists. Concerts take place in various venues throughout Seine-Saint-Denis, highlighting a broad mix of jazz styles, often infused with global influences, hip-hop, and experimental sounds. The festival also emphasizes community engagement, bringing performances to unexpected spaces and making jazz accessible to a wider audience.",
+            "longDate": "14 March - 11 April",
+            "local": "False",
+            "free": "False",
+            "connection": "None"
+        },
+        
+        {
+            "id": 3,
             "text": "Paris Jazz Festival",
             "start": "2025-06-17",
             "end": "2025-09-07",
-            "backColor": "#95e364",
+            "backColor": "#5aa8cc",
             "location": "Paris",
             "description": "The Paris Jazz Festival is a summer-long celebration of jazz held in the Parc Floral de Paris, featuring performances from renowned international and emerging artists. The festival features an eclectic mix of jazz styles, spanning timeless classics, modern interpretations and innovative experimental sounds. Set in a beautiful open-air setting, the event offers a relaxed atmosphere where visitors can enjoy world-class music surrounded by nature. Best of all, the concerts are free to attend, making it an accessible and unmissable highlight of Paris’s cultural calendar.",
-            "longStart": "June",
-            "longEnd": "September"
+            "longDate": "June - September",
+            "local": "False",
+            "free": "True",
+            "connection": "None"
+        },
+
+        {
+            "id": 4,
+            "text": "Cognac Blues Passions",
+            "start": "2025-07-02",
+            "end": "2025-07-06",
+            "backColor": "#f59de3",
+            "location": "Cognac, Nouvelle-Aquitaine",
+            "description": "Cognac Blues Passions is a music festival held in the town of Cognac, in southwestern France, celebrating jazz, soul and R&B in a relaxed, intimate setting. Taking place every July,  the festival hosts performances in both historic venues and outdoor spaces. Of the 70 concerts featured, 40 are free, making it an accessible event for a wide audience. With a mix of international stars and rising talents, Cognac Blues Passions has built a reputation as a welcoming and diverse celebration of live music.",
+            "longDate": "2 July - 5 July",
+            "local": "True",
+            "free": "True",
+            "connection": "None"
+        },
+
+        {
+            "id": 5,
+            "text": "Revolution: The Music of the Beatles",
+            "start": "2025-04-05",
+            "end": "2025-04-06",
+            "backColor": "#ad72e0",
+            "location": "Paris",
+            "description": "Held at the Grand Rex in Paris, Revolution: The Music of the Beatles is a symphonic tribute to the famous British band. The performance includes exclusive archive footage, animation and new orchestral arrangements of classic songs, such as All You Need Is Love and Here Comes the Sun. In addition, new photos from historical collections will be projected throughout the evening.",
+            "longDate": "5 April",
+            "local": "False",
+            "free": "False",
+            "connection": "gb"
         }
     ],
 

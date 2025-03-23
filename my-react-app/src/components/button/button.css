@@ -10,5 +10,35 @@
 }
 
 .connection {
-    background-color: var(--french-red) !important;
+    background-color: var(--french-red);
+}
+
+.filter {
+    background-color: transparent;
+    border: 2px solid var(--primary-theme);
+    color: var(--dark-theme);
+    padding: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.filter-connection {
+    background-color: transparent;
+    border: 2px solid var(--french-red);
+    color: var(--dark-theme);
+    padding: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.filter.selected {
+    background-color: var(--primary-theme);
+    border: none;
+    color: var(--secondary-theme);
+}
+
+.filter-connection.selected {
+    background-color: var(--french-red);
+    border: none;
+    color: var(--secondary-theme);
 }
