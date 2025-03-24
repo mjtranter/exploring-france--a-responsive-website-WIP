@@ -107,6 +107,20 @@
     "list-events": [
         {
             "id": 1,
+            "text": "J-Music Festival in Paris",
+            "start": "2025-02-24",
+            "end": "2025-02-25",
+            "backColor": "#edc351",
+            "location": "Paris",
+            "description": "Le J-Music Festival in Paris célèbre la musique et la culture japonaises, en proposant des spectacles dans des genres aussi variés que la J-pop, le rock et la musique traditionnelle japonaise. Organisé chaque année, ce festival rassemble à la fois des talents émergents et des artistes confirmés du Japon, offrant une occasion unique aux fans de découvrir des spectacles en direct au cœur de Paris. L'événement est une célébration vibrante de la diversité musicale japonaise, offrant un échange culturel passionnant pour le public.",
+            "longDate": "24 février",
+            "local": "False",
+            "free": "False",
+            "connection": "jp"
+        },
+
+        {
+            "id": 2,
             "text": "Festival Printemps des Arts de Monte-Carlo",
             "start": "2025-03-02",
             "end": "2025-04-28",
@@ -120,7 +134,7 @@
         },
 
         {
-            "id": 2,
+            "id": 3,
             "text": "Banlieues Bleues Jazz Festival",
             "start": "2025-03-14",
             "end": "2025-04-12",
@@ -134,7 +148,21 @@
         },
 
         {
-            "id": 3,
+            "id": 4,
+            "text": "Revolution: La Musique des Beatles",
+            "start": "2025-04-05",
+            "end": "2025-04-06",
+            "backColor": "#ad72e0",
+            "location": "Paris",
+            "description": "Organisé au Grand Rex à Paris, Revolution : La Musique des Beatles est un hommage symphonique au célèbre groupe britannique. Le spectacle comprend des images d'archives exclusives, des animations et de nouveaux arrangements orchestraux de chansons classiques, telles que All You Need Is Love et Here Comes the Sun. En outre, de nouvelles photos provenant de collections historiques seront projetées tout au long de la soirée.",
+            "longDate": "5 avril",
+            "local": "False",
+            "free": "False",
+            "connection": "gb"
+        },
+
+        {
+            "id": 5,
             "text": "Paris Jazz Festival",
             "start": "2025-06-17",
             "end": "2025-09-07",
@@ -148,7 +176,7 @@
         },
 
         {
-            "id": 4,
+            "id": 6,
             "text": "Cognac Blues Passions",
             "start": "2025-07-02",
             "end": "2025-07-06",
@@ -159,20 +187,6 @@
             "local": "True",
             "free": "True",
             "connection": "None"
-        },
-
-        {
-            "id": 5,
-            "text": "Revolution: La Musique des Beatles",
-            "start": "2025-04-05",
-            "end": "2025-04-06",
-            "backColor": "#ad72e0",
-            "location": "Paris",
-            "description": "Organisé au Grand Rex à Paris, Revolution : La Musique des Beatles est un hommage symphonique au célèbre groupe britannique. Le spectacle comprend des images d'archives exclusives, des animations et de nouveaux arrangements orchestraux de chansons classiques, telles que All You Need Is Love et Here Comes the Sun. En outre, de nouvelles photos provenant de collections historiques seront projetées tout au long de la soirée.",
-            "longDate": "5 avril",
-            "local": "False",
-            "free": "False",
-            "connection": "gb"
         }
     ],
 

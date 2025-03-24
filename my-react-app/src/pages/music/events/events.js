@@ -9,9 +9,10 @@ import BanlieuesBleues from '../../../assets/images/banlieues-bleues.jpg';
 import ParisJazz from '../../../assets/images/paris-jazz.jpg';
 import CognacBluesPassions from '../../../assets/images/cognac-blues-passions.jpg';
 import Beatles from '../../../assets/images/beatles.jpg';
+import JMusicFestival from '../../../assets/images/j-music-festival.jpg';
 import './events.css';
 
-const images = [MonteCarloSpringArts, BanlieuesBleues, ParisJazz, CognacBluesPassions, Beatles];
+const images = [JMusicFestival, MonteCarloSpringArts, BanlieuesBleues, Beatles, ParisJazz, CognacBluesPassions];
 
 export default function Events() {
     const ns = "music";
@@ -58,7 +59,7 @@ export default function Events() {
                     <Button type={filterSelected === "All" ? "filter selected" : "filter"} text={t('all')} onClick={() => changeFilter("All")} />
                     <Button type={filterSelected === "Local" ? "filter selected" : "filter"} text={t('local')} onClick={() => changeFilter("Local")} />
                     <Button type={filterSelected === "Free" ? "filter selected" : "filter"} text={t('free')} onClick={() => changeFilter("Free")} />
-                    <Button type={filterSelected === "Connections" ? "filter-connection selected" : "filter-connection"} text={t('connections')} onClick={() => changeFilter("Connections")} />
+                    {(countryCode === "gb" || countryCode === "ca" || countryCode === "jp") && (<Button type={filterSelected === "Connections" ? "filter-connection selected" : "filter-connection"} text={t('connections')} onClick={() => changeFilter("Connections")} />)}
                 </div>
             </div>
             

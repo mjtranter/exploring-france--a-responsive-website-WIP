@@ -76,7 +76,7 @@ export default function EventCalendar({ns, type}) {
             
             {type === "full" && (
                 <div className="full">
-                    <DayPilotMonth {...config} startDate={startDate} events={events} locale={locale} showToolTip={false} timeRangeSelectedHandling="Disabled" eventMoveHandling="Disabled" eventResizeHandling="Disabled" />
+                    <DayPilotMonth {...config} startDate={startDate} events={events} locale={locale} timeRangeSelectedHandling="Disabled" eventMoveHandling="Disabled" eventResizeHandling="Disabled" />
                 </div>
             )}
 
