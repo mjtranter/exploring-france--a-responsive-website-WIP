@@ -1,6 +1,8 @@
-# exploring-france--a-responsive-website
+# exploring-france--a-responsive-website (in progress)
 
 My final year university project- a responsive website exploring France and French culture!
+
+Website available to view here: https://exploring-france-a-responsive-website-wip.vercel.app
 
 # Getting Started with Create React App
 
