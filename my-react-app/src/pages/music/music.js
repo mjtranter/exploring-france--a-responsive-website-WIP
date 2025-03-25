@@ -62,11 +62,11 @@ export default function Music() {
                 <Recommendation ns={"music"} />
                 <div className="chart">
                     <h5><b>Top 10</b></h5>
-                    {top10.map(song => (
+                    {/*top10.map(song => (
                         <div key={song.id} className="song-frame">
                             <p><b>{song.title}</b></p>
                         </div>
-                    ))}
+                    ))*/}
                 </div>
 
                 {events.filter(event => {
