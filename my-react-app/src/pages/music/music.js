@@ -64,8 +64,8 @@ export default function Music() {
                         <div key={song.id} className="song-frame">
                             <img className="song-cover" src={song.album.cover} alt={song.title} />
                             <div className="song-content">
-                                <p><b>{song.title}</b></p>
-                                <p>{song.artist.name}</p>
+                                <p className="song-title"><b>{song.title}</b></p>
+                                <p className="song-artist">{song.artist.name}</p>
                             </div>
                         </div>
                     )))}

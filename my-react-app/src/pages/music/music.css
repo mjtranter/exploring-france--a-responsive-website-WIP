@@ -28,6 +28,14 @@ iframe {
     margin-right: 12px;
 }
 
+.song-title {
+    margin-bottom: -8px;
+}
+
+.song-artist {
+    font-size: 0.9em;
+}
+
 .right-column-event-frame {
     display: flex;
     flex-direction: column;
