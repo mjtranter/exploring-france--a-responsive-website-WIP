@@ -63,7 +63,7 @@ export default function Music() {
                     {top10.length > 0 && (top10.map((song, index) => (
                         <div key={song.id} className="song-frame">
                             <div className="song-position">
-                                <p>{index + 1}</p>
+                                <p className="song-position-text">{index + 1}</p>
                             </div>
                             <img className="song-cover" src={song.album.cover} alt={song.title} />
                             <div className="song-content">

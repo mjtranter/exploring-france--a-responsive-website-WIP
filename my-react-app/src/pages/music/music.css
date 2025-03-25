@@ -23,10 +23,11 @@ iframe {
 }
 
 .song-position {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-right: 12px;
+}
+
+.song-position-text {
+    line-height: 60px;
 }
 
 .song-cover {
