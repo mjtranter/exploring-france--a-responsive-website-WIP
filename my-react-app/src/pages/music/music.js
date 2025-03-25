@@ -49,8 +49,6 @@ export default function Music() {
         .catch(error => console.log("There was an error fetching top 10!"));
     }, []);
 
-    if (top10.length > 0) console.log(top10[0].title);
-
     return (
         <div className="content">
             <title>Music | L'Hexagone</title>
@@ -64,6 +62,7 @@ export default function Music() {
                     <h5><b>Top 10</b></h5>
                     {top10.length > 0 && (top10.map(song => (
                         <div key={song.id} className="song-frame">
+                            <img className="song-cover" src={song.album.cover} alt={song.title} />
                             <p><b>{song.title}</b></p>
                         </div>
                     )))}
