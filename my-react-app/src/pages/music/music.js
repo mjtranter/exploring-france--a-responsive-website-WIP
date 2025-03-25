@@ -49,6 +49,8 @@ export default function Music() {
         .catch(error => console.log("There was an error fetching top 10!"));
     }, []);
 
+    console.log(top10);
+
     return (
         <div className="content">
             <title>Music | L'Hexagone</title>
@@ -60,7 +62,7 @@ export default function Music() {
                 <Recommendation ns={"music"} />
                 <div className="chart">
                     <h5><b>Top 10</b></h5>
-                    {top10}
+                    
                 </div>
 
                 {events.filter(event => {
