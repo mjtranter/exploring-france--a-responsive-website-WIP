@@ -28,8 +28,10 @@ iframe {
     margin-right: 12px;
 }
 
-.song-title {
-    margin-bottom: 4px;
+.song-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .song-artist {
