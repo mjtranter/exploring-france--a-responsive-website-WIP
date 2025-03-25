@@ -24,7 +24,8 @@ iframe {
 
 .song-position {
     display: flex;
-    vertical-align: center;
+    align-items: center;
+    margin-right: 12px;
 }
 
 .song-cover {
