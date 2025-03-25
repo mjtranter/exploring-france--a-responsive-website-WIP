@@ -40,7 +40,7 @@ export default function Music() {
     const date = new Date();
     const frenchDate = date.toLocaleDateString("sv", {timeZone: "Europe/Paris"});
 
-    const [top10, setTop10] = useState({});
+    const [top10, setTop10] = useState([]);
         
     useEffect(() => {
         fetch("/api/fetchChart")
