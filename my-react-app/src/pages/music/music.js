@@ -49,8 +49,7 @@ export default function Music() {
         .catch(error => console.log("There was an error fetching top 10!"));
     }, []);
 
-
-    console.log(top10[0].title);
+    if (top10.length > 0) console.log(top10[0].title);
 
     return (
         <div className="content">
