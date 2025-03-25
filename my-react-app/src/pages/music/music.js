@@ -49,7 +49,10 @@ export default function Music() {
         .catch(error => console.log("There was an error fetching top 10!"));
     }, []);
 
-    console.log([top10]);
+
+    for (var song in top10) {
+        console.log(song);
+    }
 
     return (
         <div className="content">
