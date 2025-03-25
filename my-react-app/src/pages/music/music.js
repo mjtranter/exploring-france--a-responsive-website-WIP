@@ -60,8 +60,11 @@ export default function Music() {
                 <Recommendation ns={"music"} />
                 <div className="chart">
                     <h5><b>Top 10</b></h5>
-                    {top10.length > 0 && (top10.map(song => (
+                    {top10.length > 0 && (top10.map((song, index) => (
                         <div key={song.id} className="song-frame">
+                            <div className="song-position">
+                                <p>{index + 1}</p>
+                            </div>
                             <img className="song-cover" src={song.album.cover} alt={song.title} />
                             <div className="song-content">
                                 <p className="song-title"><b>{song.title}</b></p>

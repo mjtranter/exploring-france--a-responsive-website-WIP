@@ -22,6 +22,11 @@ iframe {
     margin-bottom: 12px;
 }
 
+.song-position {
+    display: flex;
+    vertical-align: center;
+}
+
 .song-cover {
     width: 60px;
     height: 60px;
