@@ -46,7 +46,7 @@ export default function Music() {
         fetch("/api/fetchChart")
         .then(response => response.json())
         .then(data => setTop10(data))
-        .catch(error => console.log("There was an error fetching country code!"));
+        .catch(error => console.log("There was an error fetching top 10!"));
     }, []);
 
     return (
