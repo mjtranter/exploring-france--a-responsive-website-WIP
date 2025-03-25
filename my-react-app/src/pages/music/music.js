@@ -10,6 +10,14 @@ import Foundations from './foundations/foundations';
 import Events from './events/events';
 import Listen from './listen/listen';
 import { useSearchParams } from 'react-router-dom';
+import MonteCarloSpringArts from "../../assets/images/monte-carlo-spring-arts.jpg";
+import BanlieuesBleues from '../../assets/images/banlieues-bleues.jpg';
+import ParisJazz from '../../assets/images/paris-jazz.jpg';
+import CognacBluesPassions from '../../assets/images/cognac-blues-passions.jpg';
+import Beatles from '../../assets/images/beatles.jpg';
+import JMusicFestival from '../../assets/images/j-music-festival.jpg';
+
+const images = [JMusicFestival, MonteCarloSpringArts, BanlieuesBleues, Beatles, ParisJazz, CognacBluesPassions];
 
 export default function Music() {
     const { t } = useTranslation(['common', 'music']);
@@ -27,6 +35,20 @@ export default function Music() {
 
     const components = [Overview, Foundations, Events, Listen];
 
+    const events = t('list-events', { ns: "music", returnObjects: true });
+
+    const date = new Date();
+    const frenchDate = date.toLocaleDateString("sv", {timeZone: "Europe/Paris"});
+
+    const [top10, setTop10] = useState([]);
+        
+    useEffect(() => {
+        fetch("/api/fetchChart")
+        .then(response => response.json())
+        .then(data => setTop10(data))
+        .catch(error => console.log("There was an error fetching country code!"));
+    }, []);
+
     return (
         <div className="content">
             <title>Music | L'Hexagone</title>
@@ -38,10 +60,22 @@ export default function Music() {
                 <Recommendation ns={"music"} />
                 <div className="chart">
                     <h5><b>Top 10</b></h5>
-                    {/*<iframe title="chart" src="https://open.spotify.com/embed/playlist/37i9dQZEVXbIPWwFssbupI?utm_source=generator&theme=0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" />*/}
+                    {top10}
                 </div>
+
+                {events.filter(event => {
+                    if (event.start <= frenchDate && event.end > frenchDate) return true;
+
+                    return false;
+                })
+                .map(event => (
+                    <div key={event.id} className="right-column-event-frame">
+                        <img className="right-column-event-icon" src={images[event.id - 1]} alt={event.text} />
+                        <h6 className="right-column-event-title"><b>{event.text}</b></h6>
+                        <p><i>{event.longDate}</i></p>
+                    </div>
+                ))}
             </RightColumn>
-            
         </div>
     )
 }
