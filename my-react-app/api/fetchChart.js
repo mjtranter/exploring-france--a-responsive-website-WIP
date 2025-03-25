@@ -1,8 +1,6 @@
 export default async function handler(req, res) {
     try {
-        const api = process.env.LAST_FM_API_KEY;
-
-        const response = await fetch(`https://ws.audioscrobbler.com/2.0/?method=geo.gettoptracks&country=france&api_key=${api}&format=json&limit=10`);
+        const response = await fetch(`https://api.deezer.com/chart/FR/tracks`);
         const data = await response.json();
         res.status(200).json(data);
     }
