@@ -40,7 +40,7 @@ export default function Music() {
     const date = new Date();
     const frenchDate = date.toLocaleDateString("sv", {timeZone: "Europe/Paris"});
 
-    const [top10, setTop10] = useState("");
+    const [top10, setTop10] = useState([]);
         
     useEffect(() => {
         fetch("/api/fetchChart")
@@ -49,7 +49,7 @@ export default function Music() {
         .catch(error => console.log("There was an error fetching top 10!"));
     }, []);
 
-    console.log(top10);
+    console.log(top10[0].title);
 
     return (
         <div className="content">
