@@ -50,9 +50,7 @@ export default function Music() {
     }, []);
 
 
-    for (var song in top10) {
-        console.log(song);
-    }
+    console.log(Object.values(top10));
 
     return (
         <div className="content">
