@@ -45,7 +45,7 @@ export default function Music() {
     useEffect(() => {
         fetch("/api/fetchChart")
         .then(response => response.json())
-        .then(data => setTop10(data))
+        .then(data => setTop10(data.data))
         .catch(error => console.log("There was an error fetching top 10!"));
     }, []);
 
