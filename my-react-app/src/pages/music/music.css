@@ -56,13 +56,11 @@ iframe {
     height: 100%;
 }
 
-.song-title {
+.song-title-container {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 100%;
-    display: block;
-    line-height: 1.2;
 }
 
 .song-artist {

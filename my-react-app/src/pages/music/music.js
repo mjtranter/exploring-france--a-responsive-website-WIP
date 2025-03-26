@@ -93,7 +93,9 @@ export default function Music() {
                             <img className="song-cover" src={song.album.cover} alt={song.title} />
                             <div className="song-details">
                                 <div className="song-content">
-                                    <p className="song-title"><b>{song.title}</b></p>
+                                    <div className="song-title-container">
+                                        <p className="song-title"><b>{song.title}</b></p>
+                                    </div>
                                     <p className="song-artist">{song.artist.name}</p>
                                 </div>
                                 <div className="song-preview">
