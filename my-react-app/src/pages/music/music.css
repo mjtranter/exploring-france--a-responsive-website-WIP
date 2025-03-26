@@ -23,9 +23,13 @@ iframe {
 }
 
 .song-position {
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     margin-left: 4px;
     margin-right: 12px;
-    text-align: end;
+    text-align: right;
 }
 
 .song-position-text {
