@@ -60,6 +60,13 @@ iframe {
     margin-right: 12px;
 }
 
+.btn-song-preview {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
 .material-symbols-outlined {
     font-size: 32px !important;
 }
