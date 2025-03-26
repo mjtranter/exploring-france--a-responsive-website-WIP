@@ -121,6 +121,7 @@ export default function Foundations() {
             <div className="profile-row">
                 <div className="vertical-container">
                     <Profile ns={ns} image={Angele} name="Angèle" />
+                    {countryCode === "gb" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-gb', 'profile-connections.angele.gb')} />)}
                 </div>
                 <Profile ns={ns} image={MyleneFarmer} name="Mylène Farmer" />
                 <Profile ns={ns} image={SergeGainsbourg} name="Serge Gainsbourg" />
