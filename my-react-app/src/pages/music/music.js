@@ -51,6 +51,7 @@ export default function Music() {
 
     return (
         <div className="content">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=play_circle" />
             <title>Music | L'Hexagone</title>
             <div className="left">
                 <LeftColumn ns={"music"} categories={categories} title={"media.music"} selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
@@ -69,6 +70,9 @@ export default function Music() {
                             <div className="song-content">
                                 <p className="song-title"><b>{song.title}</b></p>
                                 <p className="song-artist">{song.artist.name}</p>
+                            </div>
+                            <div className="song-preview">
+                                <span class="material-symbols-outlined">play_circle</span>
                             </div>
                         </div>
                     )))}
