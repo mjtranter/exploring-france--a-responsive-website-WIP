@@ -94,7 +94,7 @@ export default function Music() {
                                 </div>
                                 <div className="song-preview">
                                     <button className="btn-song-preview" onClick={() => handleCurrentlyPlaying(song)}>
-                                        <span class="material-symbols-outlined">{currentlyPlaying === song.id ? "pause_circle" : "play_circle"}</span>
+                                        <span class="material-symbols-outlined">{currentlyPlaying === song.id ? "stop_circle" : "play_circle"}</span>
                                     </button>
                                 </div>
                             </div>
