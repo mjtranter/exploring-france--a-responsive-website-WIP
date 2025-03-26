@@ -49,6 +49,12 @@ iframe {
     font-size: 0.9em;
 }
 
+.song-preview {
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
 .right-column-event-frame {
     display: flex;
     flex-direction: column;
