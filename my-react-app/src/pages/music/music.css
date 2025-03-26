@@ -15,7 +15,7 @@ iframe {
 }
 
 .top-10 {
-    padding-bottom: 16px;
+    padding-bottom: 8px;
 }
 
 .song-frame {
@@ -58,6 +58,7 @@ iframe {
 
 .song-artist {
     font-size: 0.9em;
+    margin-top: -2px;
 }
 
 .song-preview {
