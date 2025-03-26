@@ -45,25 +45,6 @@ iframe {
     flex-shrink: 0;
 }
 
-/*.song-details {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.song-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    width: 100%;
-}
-
-.song-title-container {
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}*/
-
 .song-details {
     display: flex;
     justify-content: space-between;
