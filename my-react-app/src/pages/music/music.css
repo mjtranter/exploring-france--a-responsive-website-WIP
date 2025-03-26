@@ -43,7 +43,7 @@ iframe {
     margin-right: 12px;
 }
 
-.song-details {
+/*.song-details {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -60,6 +60,31 @@ iframe {
 .song-title-container {
     white-space: nowrap;
     text-overflow: ellipsis;
+}*/
+
+.song-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.song-content {
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.song-title-container {
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.song-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    flex-shrink: 1;
 }
 
 .song-artist {
@@ -71,6 +96,7 @@ iframe {
     display: flex;
     align-items: center;
     margin-right: 12px;
+    flex-shrink: 0;
 }
 
 .btn-song-preview {
