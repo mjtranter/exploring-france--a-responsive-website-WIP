@@ -62,6 +62,7 @@ iframe {
     text-overflow: ellipsis;
     max-width: 100%;
     display: block;
+    line-height: 1.2;
 }
 
 .song-artist {
