@@ -58,6 +58,7 @@ iframe {
 .song-preview {
     display: flex;
     align-items: center;
+    margin-right: 4px;
 }
 
 .right-column-event-frame {
