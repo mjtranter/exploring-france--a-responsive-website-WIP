@@ -61,6 +61,7 @@ export default function Music() {
             if (audio) audio.pause();
 
             const preview = new Audio(song.preview);
+            preview.play();
             setAudio(preview);
             setCurrentlyPlaying(song.id);
 
@@ -70,7 +71,7 @@ export default function Music() {
 
     return (
         <div className="content">
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=play_circle" />
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=play_circle,pause_circle" />
             <title>Music | L'Hexagone</title>
             <div className="left">
                 <LeftColumn ns={"music"} categories={categories} title={"media.music"} selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
