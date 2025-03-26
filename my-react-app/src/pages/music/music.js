@@ -80,7 +80,7 @@ export default function Music() {
             <RightColumn>
                 <Recommendation ns={"music"} />
                 <div className="chart">
-                    <h5><b>Top 10</b></h5>
+                    <h5 className="top-10"><b>Top 10</b></h5>
                     {top10.length > 0 && (top10.map((song, index) => (
                         <div key={song.id} className="song-frame">
                             <div className="song-position">
