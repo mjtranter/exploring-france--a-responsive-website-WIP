@@ -30,6 +30,7 @@ iframe {
     margin-left: 4px;
     margin-right: 12px;
     text-align: right;
+    flex-shrink: 0;
 }
 
 .song-position-text {
@@ -41,6 +42,7 @@ iframe {
     height: 60px;
     border-radius: 8px;
     margin-right: 12px;
+    flex-shrink: 0;
 }
 
 /*.song-details {
@@ -65,7 +67,8 @@ iframe {
 .song-details {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    flex-grow: 1;
+    overflow: hidden;
 }
 
 .song-content {
@@ -77,6 +80,7 @@ iframe {
     display: flex;
     overflow: hidden;
     max-width: 100%;
+    margin-right: 8px;
 }
 
 .song-title {
