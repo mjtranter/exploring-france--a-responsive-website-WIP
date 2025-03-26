@@ -73,7 +73,7 @@ export default function Music() {
                                     <p className="song-artist">{song.artist.name}</p>
                                 </div>
                                 <div className="song-preview">
-                                    <button className="btn-song-preview" onClick={() => console.log(song.title)}>
+                                    <button className="btn-song-preview" onClick={() => { const preview = new Audio(song.preview); preview.play(); }}>
                                         <span class="material-symbols-outlined">play_circle</span>
                                     </button>
                                 </div>
