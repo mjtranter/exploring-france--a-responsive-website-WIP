@@ -67,12 +67,14 @@ export default function Music() {
                                 <p className="song-position-text">{index + 1}</p>
                             </div>
                             <img className="song-cover" src={song.album.cover} alt={song.title} />
-                            <div className="song-content">
-                                <p className="song-title"><b>{song.title}</b></p>
-                                <p className="song-artist">{song.artist.name}</p>
-                            </div>
-                            <div className="song-preview">
-                                <span class="material-symbols-outlined">play_circle</span>
+                            <div className="song-details">
+                                <div className="song-content">
+                                    <p className="song-title"><b>{song.title}</b></p>
+                                    <p className="song-artist">{song.artist.name}</p>
+                                </div>
+                                <div className="song-preview">
+                                    <span class="material-symbols-outlined">play_circle</span>
+                                </div>
                             </div>
                         </div>
                     )))}

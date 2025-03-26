@@ -38,6 +38,12 @@ iframe {
     margin-right: 12px;
 }
 
+.song-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .song-content {
     display: flex;
     flex-direction: column;
@@ -50,7 +56,6 @@ iframe {
 }
 
 .song-preview {
-    float: right;
     display: flex;
     align-items: center;
 }
