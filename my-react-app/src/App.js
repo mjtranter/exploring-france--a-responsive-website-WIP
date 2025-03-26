@@ -16,10 +16,14 @@ export default function App() {
     const [countryCode, setCountryCode] = useState("gb");
 
     useEffect(() => {
-      fetch("/api/fetchCountryCode")
-        .then(response => response.json())
-        .then(data => setCountryCode(data.countryCode.toLowerCase()))
-        .catch(error => console.log("There was an error fetching country code!"));
+      const countryParam = new URLSearchParams(window.location.search).get("countrySim");
+      if (countryParam) setCountryCode(countryParam.toLowerCase());
+      else {
+        fetch("/api/fetchCountryCode")
+          .then(response => response.json())
+          .then(data => setCountryCode(data.countryCode.toLowerCase()))
+          .catch(error => console.log("There was an error fetching country code!"));
+      }
     }, []);
 
     return (

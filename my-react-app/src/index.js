@@ -11,6 +11,7 @@ import { Analytics } from "@vercel/analytics/react";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <meta name="robots" content="noindex"></meta>
     <I18nextProvider i18n={i18n}>
       <Analytics />
       <App />

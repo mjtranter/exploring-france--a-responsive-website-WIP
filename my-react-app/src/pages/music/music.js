@@ -29,7 +29,11 @@ export default function Music() {
     const [selectedCategory, setSelectedCategory] = useState(categories.find(category => category.t === categoryParam) || categories[0]);
 
     useEffect(() => {
-        setSearchParams({category: selectedCategory.t});
+        setSearchParams(oldParams => {
+            const newParams = new URLSearchParams(oldParams);
+            newParams.set("category", selectedCategory.t);
+            return newParams;
+        });
         window.scrollTo(0,0);
     }, [selectedCategory, setSearchParams]);
 
