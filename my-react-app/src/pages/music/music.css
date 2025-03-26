@@ -56,6 +56,10 @@ iframe {
     height: 100%;
 }
 
+.song-title {
+    overflow: hidden;
+}
+
 .song-artist {
     font-size: 0.9em;
     margin-top: -2px;
