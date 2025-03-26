@@ -61,6 +61,10 @@ iframe {
     margin-right: 4px;
 }
 
+.material-symbols-outlined {
+    font-size: 48px;
+}
+
 .right-column-event-frame {
     display: flex;
     flex-direction: column;
