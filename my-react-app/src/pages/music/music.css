@@ -59,7 +59,6 @@ iframe {
 
 .song-title-container {
     white-space: nowrap;
-    overflow: hidden;
     text-overflow: ellipsis;
 }
 
