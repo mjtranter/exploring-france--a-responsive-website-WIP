@@ -62,7 +62,7 @@ iframe {
 }
 
 .material-symbols-outlined {
-    font-size: 48px;
+    font-size: 48px !important;
 }
 
 .right-column-event-frame {
