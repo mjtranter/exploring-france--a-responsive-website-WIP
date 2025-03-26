@@ -49,6 +49,25 @@ export default function Music() {
         .catch(error => console.log("There was an error fetching top 10!"));
     }, []);
 
+    const [currentlyPlaying, setCurrentlyPlaying] = useState(0);
+    const [audio, setAudio] = useState(null);
+
+    const handleCurrentlyPlaying = (song) => {
+        if (currentlyPlaying === song.id) {
+            audio.pause();
+            setCurrentlyPlaying(0);
+        }
+        else {
+            if (audio) audio.pause();
+
+            const preview = new Audio(song.preview);
+            setAudio(preview);
+            setCurrentlyPlaying(song.id);
+
+            preview.onended = () => setCurrentlyPlaying(0);
+        }
+    }
+
     return (
         <div className="content">
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=play_circle" />
@@ -73,8 +92,8 @@ export default function Music() {
                                     <p className="song-artist">{song.artist.name}</p>
                                 </div>
                                 <div className="song-preview">
-                                    <button className="btn-song-preview" onClick={() => { const preview = new Audio(song.preview); preview.play(); }}>
-                                        <span class="material-symbols-outlined">play_circle</span>
+                                    <button className="btn-song-preview" onClick={() => handleCurrentlyPlaying(song)}>
+                                        <span class="material-symbols-outlined">{currentlyPlaying === song.id ? "pause_circle" : "play_circle"}</span>
                                     </button>
                                 </div>
                             </div>
