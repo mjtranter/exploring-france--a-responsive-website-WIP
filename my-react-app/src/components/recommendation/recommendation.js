@@ -53,10 +53,11 @@ export default function Recommendation({ns, type}) {
                         </div>
                         <div className="film-content">
                             <div className="text-row">
-                                <h5 className="film-title"><b>{film.title}</b></h5>
+                                <p className="film-title"><b>{film.title}</b></p>
                                 <p className="film-year"><i>{film.year}</i></p>
                             </div>
                             <p className="film-director">{t('directed')} {film.director}</p>
+                            <p className="film-tagline"><i>{film.tagline}</i></p>
                             <p className="film-description">{film.description}</p>
                         </div>
                     </div>

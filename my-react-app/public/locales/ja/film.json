@@ -9,10 +9,11 @@
     "films": [
         {
             "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/6/8/4/51684-la-haine-0-2000-0-3000-crop.jpg?v=b6677cc136",
-            "title": "La Haine",
+            "title": "憎しみ",
             "year": "1995",
-            "director": "Mathieu Kassovitz",
-            "description": "After a chaotic night of rioting in a marginal suburb of Paris, three young friends, Vinz, Hubert and Saïd, wander around unoccupied waiting for news about the state of health of a mutual friend who has been seriously injured when confronting the police.",
+            "director": "マチュー・カソヴィッツ",
+            "tagline": "どこまで落ちるかではなく、どう着地するかだ......」。",
+            "description": "パリの郊外で暴動が起きた混乱の夜、ヴィンツ、ユベール、サイードという3人の若い友人たちは、警察と対峙して重傷を負った共通の友人の容態についての知らせを待つため、無人の街をさまよう。",
             "imdb": "https://www.imdb.com/title/tt0113247/",
             "letterboxd": "https://boxd.it/2as8",
             "justwatch": "la-haine"

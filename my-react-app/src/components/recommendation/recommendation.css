@@ -36,7 +36,7 @@
     box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: auto;
-    height: 294px;
+    height: 295px;
 }
 
 hr {
@@ -60,13 +60,22 @@ hr {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.film-title {
+    font-size: 1.1em;
+}
+
 .film-year {
     padding-right: 4px;
 }
 
 .film-director {
-    margin-top: -10px;
+    margin-top: -12px;
     font-size: 0.9em;
+}
+
+.film-tagline {
+    margin-top: -12px;
+    font-size: 0.8em;
 }
 
 .film-description {
