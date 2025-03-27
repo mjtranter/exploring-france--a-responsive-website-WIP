@@ -1,5 +1,21 @@
 {
     "overview": "Overview",
     "history": "History",
-    "events": "Events"
+    "events": "Events",
+
+    "film-of-the-week": "Film of the Week",
+    "directed": "Dir.",
+
+    "films": [
+        {
+            "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/6/8/4/51684-la-haine-0-2000-0-3000-crop.jpg?v=b6677cc136",
+            "title": "La Haine",
+            "year": "1995",
+            "director": "Mathieu Kassovitz",
+            "description": "After a chaotic night of rioting in a marginal suburb of Paris, three young friends, Vinz, Hubert and Saïd, wander around unoccupied waiting for news about the state of health of a mutual friend who has been seriously injured when confronting the police.",
+            "imdb": "https://www.imdb.com/title/tt0113247/",
+            "letterboxd": "https://boxd.it/2as8",
+            "justwatch": "la-haine"
+        }
+    ]
 }

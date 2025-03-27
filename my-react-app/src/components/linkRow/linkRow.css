@@ -13,12 +13,21 @@
     width: 100%;
 }
 
-.link-row.recommendation {
+.link-row.song {
     margin-top: -4px;
     margin-bottom: 8px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.link-row.film {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
 }
 
 .link {
@@ -30,6 +39,10 @@
     height: 28px;
 }
 
-.link.recommendation {
+.link.song {
+    height: 32px;
+}
+
+.link.film {
     height: 32px;
 }

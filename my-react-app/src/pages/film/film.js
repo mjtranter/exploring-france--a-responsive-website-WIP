@@ -8,6 +8,7 @@ import { useSearchParams } from 'react-router-dom';
 import Overview from './overview/overview';
 import History from './history/history';
 import Events from './events/events';
+import Recommendation from '../../components/recommendation/recommendation';
 
 export default function Film() {
     const { t } = useTranslation(['common', 'film']);
@@ -19,7 +20,11 @@ export default function Film() {
     const [selectedCategory, setSelectedCategory] = useState(categories.find(category => category.t === categoryParam) || categories[0]);
 
     useEffect(() => {
-        setSearchParams({category: selectedCategory.t});
+        setSearchParams(oldParams => {
+            const newParams = new URLSearchParams(oldParams);
+            newParams.set("category", selectedCategory.t);
+            return newParams;
+        });
         window.scrollTo(0,0);
     }, [selectedCategory, setSearchParams]);
 
@@ -32,7 +37,9 @@ export default function Film() {
                 <LeftColumn ns={"film"} categories={categories} title={"media.film"} selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
                 <CentralColumn ns={"film"} selectedCategory={selectedCategory} Component={components[categories.findIndex(obj => obj.id === selectedCategory.id)]} />
             </div>
-            <RightColumn />
+            <RightColumn>
+                <Recommendation ns={"film"} type={"film"} />
+            </RightColumn>
         </div>
     )
 }

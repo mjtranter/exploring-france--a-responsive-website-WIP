@@ -82,7 +82,7 @@ export default function Music() {
                 <CentralColumn ns={"music"} selectedCategory={selectedCategory} Component={components[categories.findIndex(obj => obj.id === selectedCategory.id)]} />
             </div>
             <RightColumn>
-                <Recommendation ns={"music"} />
+                <Recommendation ns={"music"} type={"music"} />
                 <div className="chart">
                     <h5 className="top-10"><b>{t('top-10', { ns: "music" })}</b></h5>
                     {top10.length > 0 && (top10.map((song, index) => (
