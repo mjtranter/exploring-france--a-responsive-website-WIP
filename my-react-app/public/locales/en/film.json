@@ -96,6 +96,19 @@
             "letterboxd": "https://boxd.it/1E3g",
             "justwatch_gb": "au-hasard-balthazar",
             "justwatch_jp": "barutazarudokohexing-ku"
+        },
+     
+        {
+            "poster": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/xyZhiOz5NHVBUKlpioxjwajy7pm.jpg",
+            "title": "Le Trou",
+            "year": "1960",
+            "director": "Jacques Becker",
+            "tagline": "",
+            "description": "Four prison inmates have been hatching a plan to literally dig out of jail when another prisoner, Claude Gaspard, is moved into their cell. They take a risk and share their plan with the newcomer. Over the course of three days, the prisoners and friends break through the concrete floor using a bed post and begin to make their way through the sewer system -- yet their escape is anything but assured.",
+            "imdb": "https://www.imdb.com/title/tt0054407/",
+            "letterboxd": "https://boxd.it/1nSw",
+            "justwatch_gb": "le-trou",
+            "justwatch_jp": "xue"
         }
     ]
 }

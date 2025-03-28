@@ -96,6 +96,19 @@
             "letterboxd": "https://boxd.it/1E3g",
             "justwatch_gb": "au-hasard-balthazar",
             "justwatch_jp": "barutazarudokohexing-ku"
+        },
+
+        {
+            "poster": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/xyZhiOz5NHVBUKlpioxjwajy7pm.jpg",
+            "title": "Le Trou",
+            "year": "1960",
+            "director": "Jacques Becker",
+            "tagline": "",
+            "description": "Accusé de tentative de meurtre sur la personne de sa femme, Claude Gaspard est enfermé à la prison de la Santé. Ses quatre compagnons de cellule lui font part de leur désir d'évasion et creusent, avec une énergie farouche, un tunnel qui les mènera à la liberté. Leur plan aboutira-t-il ?",
+            "imdb": "https://www.imdb.com/title/tt0054407/",
+            "letterboxd": "https://boxd.it/1nSw",
+            "justwatch_gb": "le-trou",
+            "justwatch_jp": "xue"
         }
     ]
 }
