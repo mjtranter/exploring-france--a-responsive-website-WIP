@@ -18,7 +18,7 @@ export default function Recommendation({ns, type}) {
     const frenchDate = new Date(date.toLocaleString("sv", {timeZone: "Europe/Paris"}));
 
     // source: https://stackoverflow.com/a/55717984
-    const startDate = new Date("2025-02-03");
+    const startDate = new Date("2025-02-19");
     const timeDifference = frenchDate.getTime() - startDate.getTime();
     const dayDifference = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
 

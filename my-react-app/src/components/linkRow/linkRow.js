@@ -25,8 +25,9 @@ export default function LinkRow({type, data}) {
         imdbLink = data.imdb;
         letterboxdLink = data.letterboxd;
         const ukCountryCode = countryCode === "gb" ? "uk" : countryCode;
-        const movieTag = countryCode === "jp" ? "/映画/" : "/movie/"
-        justwatchLink = "https://justwatch.com/" + ukCountryCode + movieTag + data.justwatch;
+        const movieTag = countryCode === "jp" ? "/映画/" : "/movie/";
+        const justwatch = countryCode === "jp" ? data.justwatch_jp : data.justwatch_gb;
+        justwatchLink = "https://justwatch.com/" + ukCountryCode + movieTag + justwatch;
     }
 
     else {

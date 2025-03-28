@@ -16,7 +16,60 @@
             "description": "After a chaotic night of rioting in a marginal suburb of Paris, three young friends, Vinz, Hubert and Saïd, wander around unoccupied waiting for news about the state of health of a mutual friend who has been seriously injured when confronting the police.",
             "imdb": "https://www.imdb.com/title/tt0113247/",
             "letterboxd": "https://boxd.it/2as8",
-            "justwatch": "la-haine"
+            "justwatch_gb": "la-haine",
+            "justwatch_jp": "la-haine"
+        },
+
+        {
+            "poster": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/oTKduWL2tpIKEmkAqF4mFEAWAsv.jpg",
+            "title": "Amélie",
+            "year": "2001",
+            "director": "Jean-Pierre Jeunet",
+            "tagline": "She’ll change your life.",
+            "description": "At a tiny Parisian café, the adorable yet painfully shy Amélie accidentally discovers a gift for helping others. Soon Amélie is spending her days as a matchmaker, guardian angel, and all-around do-gooder. But when she bumps into a handsome stranger, will she find the courage to become the star of her very own love story?",
+            "imdb": "https://www.imdb.com/title/tt0211915/",
+            "letterboxd": "https://boxd.it/2aUc",
+            "justwatch_gb": "amelie",
+            "justwatch_jp": "ameri"
+        },
+
+        {
+            "poster": "https://a.ltrbxd.com/resized/film-poster/6/6/9/7/4/4/669744-petite-maman-0-2000-0-3000-crop.jpg?v=c7cbed5a06",
+            "title": "Petite Maman",
+            "year": "2021",
+            "director": "Céline Sciamma",
+            "tagline": "Experience a fairytale of wonder and innocence.",
+            "description": "After the death of her beloved grandmother, eight-year-old Nelly meets a strangely familiar girl her own age in the woods. Instantly forming a connection with this mysterious new friend, Nelly embarks on a fantastical journey of discovery which helps her come to terms with this newfound loss.",
+            "imdb": "https://www.imdb.com/title/tt13204490/",
+            "letterboxd": "https://boxd.it/s6je",
+            "justwatch_gb": "petite-maman",
+            "justwatch_jp": "petite-maman"
+        },
+
+        {
+            "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/7/8/7/51787-breathless-0-2000-0-3000-crop.jpg?v=53a2f150d5",
+            "title": "Breathless",
+            "year": "1960",
+            "director": "Jean-Luc Godard",
+            "tagline": "Wild! Violent! Outspoken and Honest!",
+            "description": "A small-time thief steals a car and impulsively murders a motorcycle policeman. Wanted by the authorities, he attempts to persuade a girl to run away to Italy with him.",
+            "imdb": "https://www.imdb.com/title/tt0053472/",
+            "letterboxd": "https://boxd.it/2aIK",
+            "justwatch_gb": "breathless",
+            "justwatch_jp": "sheng-shou-nishiyagare"
+        },
+
+        {
+            "poster": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/kQs6keheMwCxJxrzV83VUwFtHkB.jpg",
+            "title": "Anatomy of a Fall",
+            "year": "2023",
+            "director": "Justine Triet",
+            "tagline": "Did she do it?",
+            "description": "A woman is suspected of her husband's murder, and their blind son faces a moral dilemma as the sole witness.",
+            "imdb": "https://www.imdb.com/title/tt17009710/",
+            "letterboxd": "https://boxd.it/yuDE",
+            "justwatch_gb": "anatomy-of-a-fall",
+            "justwatch_jp": "anatomie-dune-chute"
         }
     ]
 }

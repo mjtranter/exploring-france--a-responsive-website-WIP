@@ -16,7 +16,60 @@
             "description": "Trois copains d'une banlieue ordinaire traînent leur ennui et leur jeunesse qui se perd. Ils vont vivre la journée la plus importante de leur vie après une nuit d'émeutes provoquée par le passage à tabac d'Abdel Ichah par un inspecteur de police lors d'un interrogatoire.",
             "imdb": "https://www.imdb.com/title/tt0113247/",
             "letterboxd": "https://boxd.it/2as8",
-            "justwatch": "la-haine"
+            "justwatch_gb": "la-haine",
+            "justwatch_jp": "la-haine"
+        },
+
+        {
+            "poster": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/tdXtLG6L1QMwrv0MNdW6B9IwC8B.jpg",
+            "title": "Le fabuleux destin d'Amélie Poulain",
+            "year": "2001",
+            "director": "Jean-Pierre Jeunet",
+            "tagline": "Une personne peut changer votre vie pour toujours.",
+            "description": "Amélie, une jeune serveuse dans un bar de Montmartre, passe son temps à observer les gens et à laisser son imagination divaguer. Elle s'est fixé un but : faire le bien de ceux qui l'entourent. Elle invente alors des stratagèmes pour intervenir incognito dans leur existence.",
+            "imdb": "https://www.imdb.com/title/tt0211915/",
+            "letterboxd": "https://boxd.it/2aUc",
+            "justwatch_gb": "amelie",
+            "justwatch_jp": "ameri"
+        },
+
+        {
+            "poster": "https://a.ltrbxd.com/resized/film-poster/6/6/9/7/4/4/669744-petite-maman-0-2000-0-3000-crop.jpg?v=c7cbed5a06",
+            "title": "Petite Maman",
+            "year": "2021",
+            "director": "Céline Sciamma",
+            "tagline": "Que se passerait-il si vous rencontriez votre mère quand elle était plus jeune ?",
+            "description": "Nelly a huit ans et vient de perdre sa grand-mère. Elle part avec ses parents vider la maison d’enfance de sa mère, Marion. Nelly est heureuse d’explorer cette maison et les bois qui l’entourent où sa mère construisait une cabane. Un matin la tristesse pousse sa mère à partir. C’est là que Nelly rencontre une petite fille dans les bois. Elle construit une cabane, elle a son âge et elle s’appelle Marion. C’est sa petite maman.",
+            "imdb": "https://www.imdb.com/title/tt13204490/",
+            "letterboxd": "https://boxd.it/s6je",
+            "justwatch_gb": "petite-maman",
+            "justwatch_jp": "petite-maman"
+        },
+
+        {
+            "poster": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/vhQ86KUlAp8yj34Fcb7yt0T7P64.jpg",
+            "title": "À bout de souffle",
+            "year": "1960",
+            "director": "Jean-Luc Godard",
+            "tagline": "Sauvage ! Violent ! Franc et honnête !",
+            "description": "À Marseille, Michel Poiccard, un jeune voyou, vole une voiture et tue le motard qui le poursuivait. À Paris, il retrouve, sur les Champs-Élysées, Patricia, une jeune américaine qui vend le « New York Herald Tribune ». Il propose à Patricia de le suivre en Italie…",
+            "imdb": "https://www.imdb.com/title/tt0053472/",
+            "letterboxd": "https://boxd.it/2aIK",
+            "justwatch_gb": "breathless",
+            "justwatch_jp": "sheng-shou-nishiyagare"
+        },
+
+        {
+            "poster": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/nSwQKCsDdj2S56mG7Yz2YGfrLT6.jpg",
+            "title": "Anatomy d'une chute",
+            "year": "2023",
+            "director": "Justine Triet",
+            "tagline": "L'a-t-elle fait ?",
+            "description": "Alors qu'une femme est suspectée du meurtre de son mari, son fils aveugle est placé face à un dilemme moral en tant qu'unique témoin.",
+            "imdb": "https://www.imdb.com/title/tt17009710/",
+            "letterboxd": "https://boxd.it/yuDE",
+            "justwatch_gb": "anatomy-of-a-fall",
+            "justwatch_jp": "anatomie-dune-chute"
         }
     ]
 }
