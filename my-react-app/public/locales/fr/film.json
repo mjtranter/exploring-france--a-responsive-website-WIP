@@ -21,6 +21,19 @@
         },
 
         {
+            "poster": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/n0P1piQkLhisab1hzKXWNm0ZyMN.jpg",
+            "title": "Les Demoiselles de Rochefort",
+            "year": "1967",
+            "director": "Jacques Demy",
+            "tagline": "Elles sont belles... Elles sont les...",
+            "description": "Delphine et Solange sont deux jumelles de 25 ans, ravissantes et spirituelles. Delphine, la blonde, donne des leçons de danse et Solange, la rousse, des cours de solfège. Elle vivent dans la musique comme d’autres vivent dans la lune et rêvent de rencontrer le grand amour au coin de la rue. Justement des forains arrivent en ville et fréquentent le bar que tient la mère des jumelles. Une grande foire se prépare et un marin rêveur cherche son idéal féminin…",
+            "imdb": "https://www.imdb.com/title/tt0062873/",
+            "letterboxd": "https://boxd.it/26K8",
+            "justwatch_gb": "the-young-girls-of-rochefort",
+            "justwatch_jp": "roshiyuhuorunolian-ren-tachi"
+        },
+
+        {
             "poster": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/tdXtLG6L1QMwrv0MNdW6B9IwC8B.jpg",
             "title": "Le fabuleux destin d'Amélie Poulain",
             "year": "2001",
@@ -70,6 +83,19 @@
             "letterboxd": "https://boxd.it/yuDE",
             "justwatch_gb": "anatomy-of-a-fall",
             "justwatch_jp": "anatomie-dune-chute"
+        },
+
+        {
+            "poster": "https://a.ltrbxd.com/resized/sm/upload/up/bb/3o/eu/aQBoH09Nq3AwXV7eyYtazsCiByG-0-2000-0-3000-crop.jpg",
+            "title": "Au hasard Balthazar",
+            "year": "1966",
+            "director": "Robert Bresson",
+            "tagline": "",
+            "description": "Balthazar est un âne qui change de maître au fil des jours. Il s'agit d'abord de la caressante Marie, encore enfant. Il passe ensuite dans les mains violentes de Gérard, un livreur de pain, puis dans celles d'Arnold, alcoolique, qui le soigne. Tantôt bête de foire, tantôt bête de somme, tantôt compagnon, le mystérieux Balthazar traverse la vie en silence, sans résistance, spectateur de sa vie et de celle des autres, dont il révèle la bonté ou la laideur.",
+            "imdb": "https://www.imdb.com/title/tt0060138/",
+            "letterboxd": "https://boxd.it/1E3g",
+            "justwatch_gb": "au-hasard-balthazar",
+            "justwatch_jp": "barutazarudokohexing-ku"
         }
     ]
 }

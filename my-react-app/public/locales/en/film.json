@@ -8,7 +8,7 @@
 
     "films": [
         {
-            "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/6/8/4/51684-la-haine-0-2000-0-3000-crop.jpg?v=b6677cc136",
+            "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/6/8/4/51684-la-haine-0-2000-0-3000-crop.jpg",
             "title": "La Haine",
             "year": "1995",
             "director": "Mathieu Kassovitz",
@@ -18,6 +18,19 @@
             "letterboxd": "https://boxd.it/2as8",
             "justwatch_gb": "la-haine",
             "justwatch_jp": "la-haine"
+        },
+
+        {
+            "poster": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/jtxhyGaYhurH6KsjvP1jV3dDypz.jpg",
+            "title": "The Young Girls of Rochefort",
+            "year": "1967",
+            "director": "Jacques Demy",
+            "tagline": "…They're singing and dancing in the streets.",
+            "description": "Delphine and Solange are two sisters living in Rochefort. Delphine is a dancing teacher and Solange composes and teaches the piano. Maxence is a poet and a painter. He is doing his military service. Simon owns a music shop, he left Paris one month ago to come back where he fell in love 10 years ago. They are looking for love, looking for each other, without being aware that their ideal partner is very close...",
+            "imdb": "https://www.imdb.com/title/tt0062873/",
+            "letterboxd": "https://boxd.it/26K8",
+            "justwatch_gb": "the-young-girls-of-rochefort",
+            "justwatch_jp": "roshiyuhuorunolian-ren-tachi"
         },
 
         {
@@ -34,7 +47,7 @@
         },
 
         {
-            "poster": "https://a.ltrbxd.com/resized/film-poster/6/6/9/7/4/4/669744-petite-maman-0-2000-0-3000-crop.jpg?v=c7cbed5a06",
+            "poster": "https://a.ltrbxd.com/resized/film-poster/6/6/9/7/4/4/669744-petite-maman-0-2000-0-3000-crop.jpg",
             "title": "Petite Maman",
             "year": "2021",
             "director": "Céline Sciamma",
@@ -47,7 +60,7 @@
         },
 
         {
-            "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/7/8/7/51787-breathless-0-2000-0-3000-crop.jpg?v=53a2f150d5",
+            "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/7/8/7/51787-breathless-0-2000-0-3000-crop.jpg",
             "title": "Breathless",
             "year": "1960",
             "director": "Jean-Luc Godard",
@@ -70,6 +83,19 @@
             "letterboxd": "https://boxd.it/yuDE",
             "justwatch_gb": "anatomy-of-a-fall",
             "justwatch_jp": "anatomie-dune-chute"
+        },
+        
+        {
+            "poster": "https://a.ltrbxd.com/resized/sm/upload/up/bb/3o/eu/aQBoH09Nq3AwXV7eyYtazsCiByG-0-2000-0-3000-crop.jpg",
+            "title": "Au Hasard Balthazar",
+            "year": "1966",
+            "director": "Robert Bresson",
+            "tagline": "",
+            "description": "The story of a donkey Balthazar as he is passed from owner to owner, some kind and some cruel but all with motivations beyond his understanding. Balthazar, whose life parallels that of his first keeper, Marie, is truly a beast of burden, suffering the sins of humankind. But despite his powerlessness, he accepts his fate nobly.",
+            "imdb": "https://www.imdb.com/title/tt0060138/",
+            "letterboxd": "https://boxd.it/1E3g",
+            "justwatch_gb": "au-hasard-balthazar",
+            "justwatch_jp": "barutazarudokohexing-ku"
         }
     ]
 }

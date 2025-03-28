@@ -21,6 +21,19 @@
         },
 
         {
+            "poster": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/cJxUSImfahhDkIcjr75qu7AR0gE.jpg",
+            "title": "ロシュフォールの恋人たち",
+            "year": "1967",
+            "director": "ジャック・ドゥミ",
+            "tagline": "...彼らは通りで歌い、踊っている。",
+            "description": "お祭りを2日後に控えたフランス西南部の海辺の街ロシュフォールに、作曲家の卵のソランジュ（フランソワーズ・ドルレアック）とダンサー志望の妹デルフィーヌ（カトリーヌ・ドヌーヴ）という双子姉妹が暮らしていた。お祭の当日、旅芸人のエチエンヌ（ジョージ・チャキリス）たちに頼まれ、彼女たちは歌と踊りを披露する。",
+            "imdb": "https://www.imdb.com/title/tt0062873/",
+            "letterboxd": "https://boxd.it/26K8",
+            "justwatch_gb": "the-young-girls-of-rochefort",
+            "justwatch_jp": "roshiyuhuorunolian-ren-tachi"
+        },
+
+        {
             "poster": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/xntKaehZnwqta2ghyLQPdnxwfMC.jpg",
             "title": "アメリ",
             "year": "2001",
@@ -70,6 +83,19 @@
             "letterboxd": "https://boxd.it/yuDE",
             "justwatch_gb": "anatomy-of-a-fall",
             "justwatch_jp": "anatomie-dune-chute"
+        },
+
+        {
+            "poster": "https://cdn.posteritati.com/posters/000/000/062/192/au-hasard-balthazar-md-web.jpg",
+            "title": "バルタザールどこへ行く",
+            "year": "1966",
+            "director": "ロベール・ブレッソン",
+            "tagline": "",
+            "description": "ピレネーの小村。教師の娘マリーは農園主の息子ジャックと共に、生まれたばかりのロバに“バルタザール”と名前をつけ可愛がる。ある日ジャックが引っ越すことになり、バルタザールもどこかへ行ってしまう。10年後、バルタザールが再び現れ、マリーが喜んであちこち“彼”に馬車を引かせ出かけるのを見て、彼女に思慕を寄せる不良のジェラールは嫉妬し、バルタザールを痛めつけ、実家のパン屋の仕事にこき使う・・・。",
+            "imdb": "https://www.imdb.com/title/tt0060138/",
+            "letterboxd": "https://boxd.it/1E3g",
+            "justwatch_gb": "au-hasard-balthazar",
+            "justwatch_jp": "barutazarudokohexing-ku"
         }
     ]
 }
