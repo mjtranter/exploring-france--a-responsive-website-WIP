@@ -110,5 +110,12 @@
             "justwatch_gb": "le-trou",
             "justwatch_jp": "xue"
         }
+    ],
+
+    "timeline": [
+        {
+            "title": "Birth of Cinema",
+            "date": "1895"   
+        }
     ]
 }

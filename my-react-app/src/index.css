@@ -67,3 +67,26 @@ body {
 .popup-container.visible {
   opacity: 1;
 }
+
+.description-image-container {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: -4px;
+}
+
+.description-image-container.left {
+  float: left;
+  margin-right: 18px;
+}
+
+.description-image-container.right {
+  float: right;
+  margin-left: 18px;
+}
+
+.description-image {
+  width: 100%;
+}

@@ -110,5 +110,77 @@
             "justwatch_gb": "le-trou",
             "justwatch_jp": "xue"
         }
+    ],
+
+    "timeline": [
+        {
+            "title": "Birth of Cinema",
+            "date": "1895",
+            "content": "<p>In Paris, on 28 December 1895, Auguste and Louis Lumière held the first-ever public screening of motion pictures at the Salon Indien du Grand Café. Using their invention, the Cinématographe, they projected a series of short films to a paying audience, marking the birth of modern cinema. The Cinématographe was a revolutionary device that combined a camera, printer, and projector in one. Their first screening featured ten short films, including <em>Workers Leaving the Lumière Factory</em> and <em>L'Arroseur Arrosé</em>.</p><div class='text-row'><div class='iframe-text iframe lumieres'><iframe src='https://commons.wikimedia.org/wiki/File:La_Sortie_de_l%27Usine_Lumi%C3%A8re_%C3%A0_Lyon_I_1895.webm?embedplayer=yes' frameborder='0' loading='lazy' allow='autoplay; picture-in-picture' allowfullscreen></iframe><p><b>Workers Leaving the Lumière Factory (1895)</b></p></div><div class='iframe-text iframe lumieres'><iframe src='https://commons.wikimedia.org/wiki/File:Le_Jardinier_(l%27Arroseur_arros%C3%A9)_(1895).webm?embedplayer=yes' frameborder='0' loading='lazy' allow='autoplay; picture-in-picture' allowfullscreen></iframe><p><b>L'Arroseur Arrosé (1895)</b></p></div></div>",
+            "type": "information"
+        },
+
+        {
+            "title": "The Arrival of a Train at La Ciotat",
+            "date": "1896",
+            "content": "<div class='description-image-container right iframe'><div class='iframe-text iframe'><iframe class='description-image' src='https://commons.wikimedia.org/wiki/File:L%27Arriv%C3%A9e_d%27un_train_en_gare_de_La_Ciotat,_Complete.webm?embedplayer=yes' frameborder='0' loading='lazy' allow='autoplay; picture-in-picture' allowfullscreen></iframe><p><b>The Arrival of a Train at La Ciotat (1896)</b></p></div></div><p>On 25 January 1896, in Lyon, the Lumière brothers held the première of arguably the most famous short silent film- <em>The Arrival of a Train at La Ciotat</em>. There are accounts that the dynamic perspective of the film, with the train approaching the camera, caused some of the audience to panic and flee the venue, fearing that a real train was about to crash into them. This is, however, likely a myth. There is no evidence supporting the claims, and the grainy picture and lack of sound meant it could never be mistaken for reality.</p>",
+            "type": "film"
+        },
+
+        {
+            "title": "Alice Guy-Blaché",
+            "date": "1896",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://upload.wikimedia.org/wikipedia/commons/d/d4/Alice_Guy.jpg' alt='Alice Guy-Blaché' /><p><b>Alice Guy-Blaché</b></p></div></div><p>Alice Guy-Blaché was a pioneering French filmmaker and one of the first to direct a narrative film. Starting her career at the production company Gaumont in 1896, she directed over 1,000 films, including short comedies, dramas, and early science fiction. She was instrumental in developing the use of synchronized sound in The Cabbage Fairy (1896) and pioneered the use of multi-reel films, which would later become standard in the industry. As the first female filmmaker in history, her work laid the foundation for modern cinema, though her contributions were largely overshadowed for decades.</p>",
+            "type": "person"
+        },
+
+        {
+            "title": "Georges Méliès",
+            "date": "1896 - 1900",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/M%C3%A9li%C3%A8s_portrait_%28cropped%29.png/330px-M%C3%A9li%C3%A8s_portrait_%28cropped%29.png' alt='Georges Méliès' /><p><b>Georges Méliès</b></p></div></div><p>Between 1896 and 1900, Georges Méliès, a former stage magician, revolutionised filmmaking by developing some of the earliest special effects. He discovered stop-motion substitution— where objects or people appeared to vanish or change by stopping the camera, altering the scene, and resuming filming— by accident when his camera jammed. He also pioneered superimposing images, scene transitions and hand-painted color in films like The Haunted Castle (1896) and Cinderella (1899), blending magic and storytelling in ways never seen before.</p>",
+            "type": "person"
+        },
+
+        {
+            "title": "A Trip to the Moon",
+            "date": "1902",
+            "content": "<div class='description-image-container right iframe'><div class='iframe-text iframe'><iframe class='description-image' src='https://commons.wikimedia.org/wiki/File:Le_Voyage_dans_la_lune_(black_and_white,_1902).webm?embedplayer=yes' frameborder'0' loading='lazy' allow='autoplay; picture-in-picture' allowfullscreen></iframe><p><b>A Trip to the Moon (1902)</b></p></div></div><p><em>A Trip to the Moon</em> is Georges Méliès' most famous film and one of the first science fiction movies. Inspired by Jules Verne, it follows a group of astronomers who build a giant cannon to launch themselves to the Moon, where they encounter fantastical landscapes and hostile Moon creatures. Méliès used groundbreaking special effects, including painted backdrops, jump cuts and superimpositions, to create its dreamlike visuals.</p>",
+            "type": "film"
+        },
+
+        {
+            "title": "The Impressionist Movement",
+            "date": "1918 - 1929",
+            "content": "<p>The Impressionist Movement happened.</p>",
+            "type": "information"
+        },
+
+        {
+            "title": "Zoom the White Dolphin",
+            "date": "1971",
+            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w780/mYgEOJepGjZhJDbXf18YFkxdLkj.jpg' alt='Zoom the White Dolphin' /><p><b>Zoom the White Dolphin (1971)</b></p></div></div><p>The first co-production between France and Japan was the anime series <em>Zoom the White Dolphin</em>. French director René Borg collaborated with Japanese studio Eiken to create the 13-episode series. The series presents Zoom, a white dolphin, and his friends, two children who live with their sailor uncle. Lots of other animals feature, such as a bird who can understand the dolphin language and a koala.</p>",
+            "type": "connection jp"
+        },
+
+        {
+            "title": "Once Upon a Time... Man",
+            "date": "1978 - 1979",
+            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://m.media-amazon.com/images/S/pv-target-images/367c175203ecd541016f7ed72692c2ea8b6cda6fd880c224c28d8473514bb073.jpg' alt='Once Upon a Time... Man' /><p><b>Once Upon a Time... Man (1978 - 1979)</b></p></div></div><p>René Borg later collaborated with Albert Barillé to create the first series in the <em>Once Upon a Time...</em> franchise, which was animated by Tatsunoko Pro. The franchise explains history in a format adapted for children and was well received upon release.</p>",
+            "type": "connection jp"
+        },
+
+        {
+            "title": "The Inquisitor",
+            "date": "1981",
+            "content": "<div class='description-image-container left person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/vL7Xw04nFMHwnvXRFCmYYAzMUvY.jpg' alt='Rashomon' /><p><b>Rashomon (1950)</b></p></div></div><div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/lKB8bOpJhTTxfiK5OWjilZeZ0Kc.jpg' alt='The Inquisitor' /><p><b>The Inquisitor (1981)</b></p></div></div><p>Japanese director Akira Kurosawa’s <em>Rashomon</em> introduced a groundbreaking narrative technique in which multiple characters recount the same event from conflicting perspectives, leaving the audience to piece together the truth. French film <em>The Inquisitor</em> appears to be influenced by this approach, following a tense police interrogation in which a lawyer, accused of murder, gives conflicting accounts of events. As new revelations emerge, the audience is forced to question the reliability of each account, mirroring how <em>Rashomon</em> challenges the notion of objective truth through its evolving and contradictory narratives.</p>",
+            "type": "connection jp"
+        },
+
+        {
+            "title": "Ulysses 31",
+            "date": "1981 - 1982",
+            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://images4.alphacoders.com/134/thumb-1920-1348421.png' alt='Ulysses 31' /><p><b>Ulysses 31 (1981 - 1982)</b></p></div></div><p>René Borg and French producer and screenwriter Jean Chalopin went to Japan to work with Tokyo Movie Shinsha on <em>Ulysses 31</em>, an anime series depicting the story of Greek hero Odysseus in a hypothetical 31st century. It was a massive success.</p>",
+            "type": "connection jp"
+        }
     ]
 }

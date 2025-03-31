@@ -1,0 +1,75 @@
+@import '../../../assets/colours/colours.css';
+
+.film-item .vertical-timeline-element-content {
+    border-top: 4px solid var(--teal-theme);
+}
+
+.person-item .vertical-timeline-element-content {
+    border-top: 4px solid var(--purple-theme);
+}
+
+.connection-item .vertical-timeline-element-content {
+    border-top: 4px solid var(--french-red);
+}
+
+.information-item .vertical-timeline-element-content {
+    border-top: 4px solid var(--orange-theme);
+}
+
+.vertical-timeline-element {
+    margin-top: 30px;
+    margin-bottom: 0 !important;
+}
+
+.vertical-timeline-date {
+    margin-top: 0 !important;
+    opacity: 0.7;
+}
+
+.timeline-content {
+    margin-bottom: -20px;
+}
+
+.timeline-content p {
+    font-size: 0.9em;
+}
+
+.timeline-content iframe {
+    border-radius: 12px;
+    width: 100%;
+    height: 188px;
+    margin-bottom: -8px;
+}
+
+.iframe-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.iframe-text.iframe p {
+    margin-top: 12px;
+}
+
+.iframe-text.image p {
+    margin-top: 4px;
+}
+
+.description-image-container.person {
+    width: 130px;
+    margin-top: 4px;
+}
+
+.description-image-container.image {
+    width: 230px;
+}
+
+.description-image-container.iframe {
+    width: auto;
+}
+
+.iframe-text.lumieres {
+    width: 48%;
+}

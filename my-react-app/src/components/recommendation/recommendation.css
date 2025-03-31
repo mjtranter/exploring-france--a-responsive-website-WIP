@@ -20,6 +20,7 @@
 .text-row {
     display: flex;
     justify-content: space-between;
+    gap: 4px;
     width: 100%;
 }
 
