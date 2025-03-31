@@ -4,6 +4,12 @@ import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 import Logo from '../../assets/images/france-outline.png';
 
+const getFullPath = (path) => {
+    const countrySim = new URLSearchParams(window.location.search).get("countrySim");
+    if (countrySim) return `${path}?category=overview&countrySim=${countrySim}`;
+    return path;
+}
+
 export default function Navbar() {
     const { t } = useTranslation();
 
@@ -37,18 +43,18 @@ export default function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto">
-                        <li className="nav-item"><Link className="nav-link" to="/">{t('home')}</Link></li>
+                        <li className="nav-item"><Link className="nav-link" to={"/"}>{t('home')}</Link></li>
                         <li className="nav-item dropdown"><Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{t('media.media')}</Link>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <Link className="dropdown-item" to="/film">{t('media.film')}</Link>
-                                <Link className="dropdown-item" to="/music">{t('media.music')}</Link>
+                                <Link className="dropdown-item" to={getFullPath("/film")}>{t('media.film')}</Link>
+                                <Link className="dropdown-item" to={getFullPath("/music")}>{t('media.music')}</Link>
                             </div>
                         </li>
                         <li className="nav-item dropdown"><Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{t('visit.visit')}</Link>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <Link className="dropdown-item" to="/events">{t('visit.events')}</Link>
-                                <Link className="dropdown-item" to="/attractions">{t('visit.attractions')}</Link>
-                                <Link className="dropdown-item" to="/itineraries">{t('visit.itineraries')}</Link>
+                                <Link className="dropdown-item" to={getFullPath("/events")}>{t('visit.events')}</Link>
+                                <Link className="dropdown-item" to={getFullPath("/attractions")}>{t('visit.attractions')}</Link>
+                                <Link className="dropdown-item" to={getFullPath("/itineraries")}>{t('visit.itineraries')}</Link>
                             </div>
                         </li>
                     </ul> 

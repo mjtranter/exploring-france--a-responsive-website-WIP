@@ -22,7 +22,7 @@ export default function Overview() {
             </div>
             <p className="category-description">{t('overview-description-2')}</p>
             
-            <h6 className="category-heading"><b>{t('overview-global')}</b></h6>
+            <h6 className="category-heading margin"><b>{t('overview-global')}</b></h6>
             <div className="category-description" dangerouslySetInnerHTML={{__html: t('overview-description-3')}} />
             <iframe className="music-iframe" width="100%" height="370" src="https://www.youtube.com/embed/-XyLecY2JyE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>

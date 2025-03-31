@@ -40,6 +40,10 @@ body {
   padding-top: 16px;
 }
 
+.category-heading.margin {
+  margin-top: 20px;
+}
+
 .category-description {
   line-height: 1.3;
   margin-bottom: 16px;
