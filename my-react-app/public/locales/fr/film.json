@@ -114,8 +114,200 @@
 
     "timeline": [
         {
-            "title": "Naissance du Cinéma",
-            "date": "1895"   
+            "title": "Naissance du cinéma",
+            "date": "1895",
+            "content": "<p>À Paris, le 28 décembre 1895, Auguste et Louis Lumière organisent la première projection publique de films cinématographiques au Salon Indien du Grand Café. Grâce à leur invention, le Cinématographe, ils ont projeté une série de courts métrages à un public payant, marquant ainsi la naissance du cinéma moderne. Le Cinématographe était un appareil révolutionnaire qui combinait une caméra, une imprimante et un projecteur en un seul appareil. Leur première projection comprenait dix courts métrages, dont <em>La Sortie de l'usine Lumière à Lyon</em> et <em>L'Arroseur Arrosé</em>.</p><div class='text-row'><div class='iframe-text iframe lumieres'><iframe src='https://commons.wikimedia.org/wiki/File:La_Sortie_de_l%27Usine_Lumi%C3%A8re_%C3%A0_Lyon_I_1895.webm?embedplayer=yes' frameborder='0' loading='lazy' allow='autoplay; picture-in-picture' allowfullscreen></iframe><p><b>La Sortie de l'usine Lumière à Lyon (1895)</b></p></div><div class='iframe-text iframe lumieres'><iframe src='https://commons.wikimedia.org/wiki/File:Le_Jardinier_(l%27Arroseur_arros%C3%A9)_(1895).webm?embedplayer=yes' frameborder='0' loading='lazy' allow='autoplay; picture-in-picture' allowfullscreen></iframe><p><b>L'Arroseur Arrosé (1895)</b></p></div></div>",
+            "type": "information"
+        },
+
+        {
+            "title": "L'arrivée d'un train à La Ciotat",
+            "date": "1896",
+            "content": "<div class='description-image-container right iframe'><div class='iframe-text iframe'><iframe class='description-image' src='https://commons.wikimedia.org/wiki/File:L%27Arriv%C3%A9e_d%27un_train_en_gare_de_La_Ciotat,_Complete.webm?embedplayer=yes' frameborder='0' loading='lazy' allow='autoplay; picture-in-picture' allowfullscreen></iframe><p><b>L'arrivée d'un train à La Ciotat (1896)</b></p></div></div><p>Le 25 janvier 1896, à Lyon, les frères Lumière ont organisé la première de ce qui est sans doute le plus célèbre court métrage muet : <em>L'arrivée d'un train à La Ciotat</em>. Selon certains témoignages, la perspective dynamique du film, avec le train s'approchant de la caméra, a provoqué la panique d'une partie du public qui a fui la salle, craignant qu'un vrai train ne soit sur le point de s'écraser sur eux. Toutefois, il s'agit probablement d'un mythe. Aucune preuve ne vient étayer ces affirmations, et l'image granuleuse et l'absence de son font que le film ne pourra jamais être confondu avec la réalité.</p>",
+            "type": "film"
+        },
+
+        {
+            "title": "Alice Guy-Blaché",
+            "date": "1896",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://upload.wikimedia.org/wikipedia/commons/d/d4/Alice_Guy.jpg' alt='Alice Guy-Blaché' /><p><b>Alice Guy-Blaché</b></p></div></div><p>Alice Guy-Blaché est une pionnière du cinéma français et l'une des premières à avoir réalisé un film narratif. Ayant commencé sa carrière à la société de production Gaumont en 1896, elle a réalisé plus de 1 000 films, dont des comédies courtes, des drames et les premiers films de science-fiction. Elle a contribué à développer l'utilisation du son synchronisé dans <em>La fée aux choux</em> (1896) et a été la première à utiliser des films à bobines multiples, qui allaient devenir la norme dans l'industrie. Première femme cinéaste de l'histoire, son travail a jeté les bases du cinéma moderne, même si ses contributions ont été largement occultées pendant des décennies.</p>",
+            "type": "person"
+        },
+
+        {
+            "title": "Georges Méliès",
+            "date": "1896 - 1900",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/M%C3%A9li%C3%A8s_portrait_%28cropped%29.png/330px-M%C3%A9li%C3%A8s_portrait_%28cropped%29.png' alt='Georges Méliès' /><p><b>Georges Méliès</b></p></div></div><p>Entre 1896 et 1900, Georges Méliès, ancien magicien de théâtre, a révolutionné le cinéma en mettant au point certains des premiers effets spéciaux. Il a découvert la substitution en stop-motion - où des objets ou des personnes semblent disparaître ou changer en arrêtant la caméra, en modifiant la scène et en reprenant le tournage - par accident, lorsque sa caméra s'est enrayée. Il est également à l'origine de la superposition d'images, des transitions de scènes et des couleurs peintes à la main dans des films tels que Le château hanté (1897) et Cendrillon (1899), mêlant magie et narration d'une manière inédite.</p>",
+            "type": "person"
+        },
+
+        {
+            "title": "Le Voyage dans la Lune",
+            "date": "1902",
+            "content": "<div class='description-image-container right iframe'><div class='iframe-text iframe'><iframe class='description-image' src='https://commons.wikimedia.org/wiki/File:Le_Voyage_dans_la_lune_(black_and_white,_1902).webm?embedplayer=yes' frameborder'0' loading='lazy' allow='autoplay; picture-in-picture' allowfullscreen></iframe><p><b>Le Voyage dans la Lune (1902)</b></p></div></div><p><em>Le Voyage dans la Lune</em> est le film le plus célèbre de Georges Méliès et l'un des premiers films de science-fiction. Inspiré par Jules Verne, il suit un groupe d'astronomes qui construisent un canon géant pour se lancer sur la Lune, où ils rencontrent des paysages fantastiques et des créatures lunaires hostiles. Méliès a utilisé des effets spéciaux révolutionnaires, notamment des toiles de fond peintes, des sauts de caméra et des superpositions, pour créer des images oniriques.</p>",
+            "type": "film"
+        },
+
+        {
+            "title": "Le mouvement impressioniste",
+            "date": "1918 - 1929",
+            "content": "<p>Le mouvement impressionniste français a cherché à repousser les limites du cinéma en mettant l'accent sur l'émotion et la subjectivité par le biais de l'expérimentation visuelle. Des cinéastes comme Abel Gance, Jean Epstein et Germaine Dulac ont utilisé des techniques telles que la flou artistique, le montage rapide, la superposition et le point de vue pour immerger le public dans les expériences intérieures des personnages. Influencé par la peinture impressionniste, le mouvement rejette la narration conventionnelle au profit d'une imagerie onirique et poétique, faisant ainsi évoluer le langage cinématographique.</p>",
+            "type": "information"
+        },
+
+        {
+            "title": "Réalisme poétique",
+            "date": "1930s - 1940s",
+            "content": "<p>Le réalisme poétique est un mouvement cinématographique français qui associe des images stylisées à des récits mélancoliques et sociaux. Jean Renoir et Marcel Carné ont été les chefs de file de ce mouvement, dépeignant des personnages de la classe ouvrière pris au piège du destin, souvent dans des histoires d'amour vouées à l'échec ou dans des circonstances tragiques. Ces films, tels que <em>La Grande Illusion</em> (1937) et <em>Le jour se lève</em> (1939), utilisent des éclairages sombres, des décors détaillés et un ton lyrique pour créer un sentiment de réalisme accru. Ce mouvement a fortement influencé les films noirs ultérieurs et le néoréalisme italien.</p>",
+            "type": "information"
+        },
+
+        {
+            "title": "Festival de Cannes",
+            "date": "1946",
+            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://www.cannes-france.com/app/uploads/cannes-tourisme/2022/06/thumbs/palais-vue-sur-la-montee-des-marchespalaisdesfestival-1920x960.jpg' alt='Festival de Cannes' /><p><b>Festival de Cannes</b></p></div></div><p>Le Festival de Cannes a été créé en 1946 comme une vitrine du cinéma mondial, visant à promouvoir l'excellence artistique et la collaboration internationale. Organisé chaque année sur la Côte d'Azur, il est rapidement devenu l'un des festivals de cinéma les plus prestigieux, célébrant la narration innovante et les nouveaux mouvements cinématographiques. Sa Palme d'Or reste l'une des plus hautes distinctions cinématographiques.</p>",
+            "type": "information"
+        },
+
+
+        {
+            "title": "Jacques Tati",
+            "date": "1949 - 1970s",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://image.tmdb.org/t/p/w342/sVmzg2Eo7I4nrxH732onsxEaj9H.jpg' alt='Jacques Tati' /><p><b>Jacques Tati</b></p></div></div><p>Jacques Tati était un cinéaste et acteur français connu pour ses comédies méticuleusement élaborées qui satirisent la vie moderne. De <em>Jour de fête</em> (1949) à <em>Trafic</em> (1971), il a développé un style unique de comédie visuelle et physique, mettant souvent en scène son personnage maladroit, Monsieur Hulot. Ses films, tels que <em>Mon oncle</em> (1958) et <em>PlayTime</em> (1967), utilisent des décors élaborés et des dialogues minimaux pour souligner les absurdités de l'urbanisation et de la technologie. L'influence de Tati s'est étendue au-delà de son époque, façonnant des cinéastes qui ont adopté la narration visuelle et la subtilité comique.</p>",
+            "type": "person"
+        },
+
+        {
+            "title": "La Nouvelle Vague",
+            "date": "1950s - 1970s",
+            "content": "<p>La Nouvelle Vague est un mouvement cinématographique révolutionnaire qui a vu le jour à la fin des années 1950 et s'est prolongé jusqu'au début des années 1970. Menée par des réalisateurs comme Jean-Luc Godard, François Truffaut, Agnès Varda, Claude Chabrol et Éric Rohmer, elle a rejeté les structures rigides des films de studio traditionnels au profit d'une approche plus libre et plus expérimentale. Ce mouvement se caractérisait par des prises de vue à la main, des éclairages naturels, des sauts de caméra et des dialogues improvisés, mêlant souvent fiction et réalité. S'inspirant du néoréalisme italien et du cinéma américain, les cinéastes de la Nouvelle Vague ont embrassé les thèmes de la jeunesse, de la rébellion et de l'existentialisme, remodelant le cinéma mondial grâce à leurs techniques de narration audacieuses.</p>",
+            "type": "information"
+        },
+
+        {
+            "title": "Les quatre cents coups",
+            "date": "1959",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/nHZQrKd96pCytnuTCsFibhrRyIR.jpg' alt='Les quatre cents coups' /><p><b>Les quatre cents coups (1959)</b></p></div></div><p><em>Les quatre cents coups</em>, réalisé par François Truffaut, est considéré comme l'une des œuvres les plus emblématiques de la Nouvelle Vague française. Le film raconte l'histoire d'Antoine Doinel, un jeune garçon qui grandit à Paris, aux prises avec une vie familiale oppressante et un système scolaire rigide. Alors qu'il commence à se rebeller, le film capture de manière poignante son sentiment d'aliénation et les défis de l'adolescence. <em>Les quatre cents coups</em> est célébré pour ses performances naturalistes, sa cinématographie innovante et son utilisation révolutionnaire des prises de vue en extérieur, marquant une rupture avec le cinéma stylisé et formel de l'époque. Son portrait brut et honnête de la jeunesse a trouvé un écho profond auprès du public et de la critique, faisant de ce film une pierre angulaire du mouvement de la Nouvelle Vague.</p>",
+            "type": "film"
+        },
+
+        {
+            "title": "Jean-Luc Godard",
+            "date": "1960s",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://image.tmdb.org/t/p/w342/zP5EDY5MstfkdBmPXNCj8Y6v5KR.jpg' alt='Jean-Luc Godard' /><p><b>Jean-Luc Godard</b></p></div></div><p>Jean-Luc Godard est une figure emblématique de la Nouvelle Vague française, qui a révolutionné le cinéma par son style audacieux et expérimental. Il a percé avec <em>À bout de souffle</em> (1960), un drame policier stylisé et non conventionnel. <em>Vivre sa vie</em> (1962), structuré en douze chapitres distincts, présente la vie d'une Parisienne qui dérive vers le commerce du sexe. <em>Pierrot le Fou</em> (1965) mêle crime, romance et esthétique pop art, en suivant un homme désabusé dans un road trip chaotique. Au cours de la décennie, les films de Godard deviennent de plus en plus politiques, avec en point d'orgue <em>Week-end</em> (1967), une critique satirique et sombre du consumérisme et de la lutte des classes.</p>",
+            "type": "person"
+        },
+
+        {
+            "title": "Jacques Demy",
+            "date": "1960s",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://image.tmdb.org/t/p/w342/qfCV7ckQ2XjsAgDRzvJ2PCRAzAE.jpg' alt='Jacques Demy' /><p><b>Jacques Demy</b></p></div></div><p>Jacques Demy est une figure emblématique du cinéma français, célèbre pour son mélange de comédie musicale, de romance et de fantaisie. Son premier film, <em>Lola</em> (1961), a donné le ton de sa carrière avec son exploration poignante de l'amour et de la perte. Demy a acquis une reconnaissance internationale avec <em>Les parapluies de Cherbourg</em> (1964), une comédie musicale qui raconte l'histoire d'un amour déchiré par la guerre, entièrement en chansons. Il a continué à explorer des thèmes similaires dans <em>Les jeunes filles de Rochefort</em> (1967), une comédie musicale colorée et enjouée sur des sœurs jumelles en quête d'amour et d'aventure dans une petite ville française. Demy a ensuite adapté le conte de fées classique dans <em>Peau d'âne</em> (1970). Mettant souvent en scène des protagonistes féminins complexes et richement développés, ses films combinent le réalisme et le fantastique, créant un univers cinématographique unique et visuellement distinct.</p>",
+            "type": "person"
+        },
+
+        {
+            "title": "Oum le dauphin blanc",
+            "date": "1971",
+            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w780/mYgEOJepGjZhJDbXf18YFkxdLkj.jpg' alt='Oum le dauphin blanc' /><p><b>Oum le dauphin blanc (1971)</b></p></div></div><p>La première coproduction entre la France et le Japon a été la série animée <em>Oum le dauphin blanc</em>. Le réalisateur français René Borg a collaboré avec le studio japonais Eiken pour créer cette série de 13 épisodes. La série présente Oum, un dauphin blanc, et ses amis, deux enfants qui vivent avec leur oncle marin. De nombreux autres animaux sont présents, comme un oiseau qui comprend le langage des dauphins et un koala.</p>",
+            "type": "connection jp"
+        },
+
+        {
+            "title": "Il était une fois… l'Homme",
+            "date": "1978 - 1979",
+            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://m.media-amazon.com/images/S/pv-target-images/367c175203ecd541016f7ed72692c2ea8b6cda6fd880c224c28d8473514bb073.jpg' alt='Il était une fois… l'Homme' /><p><b>Il était une fois… l'Homme (1978 - 1979)</b></p></div></div><p>René Borg a ensuite collaboré avec Albert Barillé pour créer la première série de la franchise <em>Il était une fois…</em>, animée par Tatsunoko Pro. La franchise explique l'histoire dans un format adapté aux enfants et a été bien accueillie à sa sortie.</p>",
+            "type": "connection jp"
+        },
+
+        {
+            "title": "Cinéma du Look",
+            "date": "1980s - 1990s",
+            "content": "<p>Apparu dans les années 80, le Cinéma du Look était un mouvement visuellement frappant qui privilégiait le style, l'atmosphère et l'émotion par rapport aux structures narratives traditionnelles. Des réalisateurs comme Luc Besson (<em>Subway</em>), Leos Carax (<em>Mauvais Sang</em>) et Jean-Jacques Beineix (<em>Diva</em>) ont créé des films à la cinématographie audacieuse, à l'éclairage au néon et aux personnages jeunes et marginaux. Bien que parfois critiqué pour avoir privilégié le spectacle au détriment de la substance, le mouvement a su capter l'énergie et l'aliénation de la France contemporaine.</p>",
+            "type": "information"
+        },
+
+        {
+            "title": "Garde à vue",
+            "date": "1981",
+            "content": "<div class='description-image-container left person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/vL7Xw04nFMHwnvXRFCmYYAzMUvY.jpg' alt='Rashomon' /><p><b>Rashomon (1950)</b></p></div></div><div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/n8UkrGsdv0hYwLJH0qqR9IMcjsm.jpg' alt='Garde à vue' /><p><b>Garde à vue (1981)</b></p></div></div><p>Le film <em>Rashomon</em> du réalisateur japonais Akira Kurosawa a introduit une technique narrative révolutionnaire dans laquelle plusieurs personnages racontent le même événement selon des perspectives contradictoires, laissant au public le soin de reconstituer la vérité. Le film français <em>Garde à vue</em> semble être influencé par cette approche. Il suit un interrogatoire de police tendu au cours duquel un avocat, accusé de meurtre, donne des récits contradictoires des événements. Au fur et à mesure que de nouvelles révélations apparaissent, le public est contraint de remettre en question la fiabilité de chaque récit, reflétant la manière dont <em>Rashomon</em> remet en question la notion de vérité objective à travers ses récits évolutifs et contradictoires.</p>",
+            "type": "connection jp"
+        },
+
+        {
+            "title": "Ulysse 31",
+            "date": "1981 - 1982",
+            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://images4.alphacoders.com/134/thumb-1920-1348421.png' alt='Ulysse 31' /><p><b>Ulysse 31 (1981 - 1982)</b></p></div></div><p>René Borg et le producteur et scénariste français Jean Chalopin se sont rendus au Japon pour travailler avec Tokyo Movie Shinsha sur <em>Ulysse 31</em>, une série animée décrivant l'histoire du héros grec Ulysse dans un hypothétique 31e siècle. Cette série a connu un énorme succès dans de nombreux pays, dont la France et le Japon.</p>",
+            "type": "connection jp"
+        },
+
+        {
+            "title": "Dinard Festival du Film Britannique",
+            "date": "1989",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://www.dinardemeraudetourisme.com/app/uploads/2024/04/affiche-festival-du-film-2023-690x1024.jpg' alt='Dinard Festival du Film Britannique' /><p><b>Dinard Festival du Film Britannique</b></p></div></div><p>Le Festival du film britannique de Dinard, qui se tient chaque année dans la ville côtière de Dinard, en Bretagne, est un événement majeur pour la présentation du cinéma britannique (et irlandais) en France depuis sa création en 1989. Le festival célèbre le meilleur du cinéma britannique, en mettant l'accent sur les films qui reflètent l'esprit et la culture britanniques. Le festival offre une plateforme aux cinéastes britanniques pour présenter leur travail au public français et aux professionnels de l'industrie, tout en servant également de lieu clé pour promouvoir la collaboration cinématographique franco-britannique. Les prix décernés par le festival, tels que le Hitchcock d'or (nommé en l'honneur d'Alfred Hitchcock), soulignent les contributions britanniques au cinéma, renforçant ainsi son importance en tant qu'échange culturel entre la France et la Grande-Bretagne.</p>",
+            "type": "connection gb"
+        },
+
+        {
+            "title": "Cinéma français contemporain",
+            "date": "1990s - Présent",
+            "content": "<p>Le cinéma français contemporain se définit par sa diversité, mêlant récit d'auteur et succès commercial. Des cinéastes comme Claire Denis, Céline Sciamma et Jacques Audiard ont créé des œuvres acclamées qui explorent l'identité, la société et les relations humaines, tandis que des réalisateurs comme Gaspar Noé et Julia Ducournau ont repoussé les limites avec des récits audacieux et une cinématographie créative.</p>",
+            "type": "information"
+        },
+
+        {
+            "title": "La Haine",
+            "date": "1995",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/iH8saz6s0Z8SPPrKaMI2KrRzTED.jpg' alt='La Haine' /><p><b>La Haine (1995)</b></p></div></div><p><em>La Haine</em>, réalisé par Mathieu Kassovitz, est un drame social puissant qui explore les troubles urbains en France. En suivant trois jeunes hommes d'origines différentes pendant 24 heures dans une banlieue parisienne, le film examine les brutalités policières, les inégalités et les tensions raciales. Tourné en noir et blanc, <em>La Haine</em> capture la frustration et l'aliénation des communautés marginalisées, en résonance avec les problèmes sociaux contemporains. Son énergie brute et ses thèmes urgents lui ont valu d'être considéré comme l'un des films français les plus importants des années 1990.</p>",
+            "type": "film"
+        },
+
+        {
+            "title": "Le Fabuleux Destin d'Amélie Poulain",
+            "date": "2001",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/tdXtLG6L1QMwrv0MNdW6B9IwC8B.jpg' alt='Le Fabuleux Destin d'Amélie Poulain' /><p><b>Le Fabuleux Destin d'Amélie Poulain (2001)</b></p></div></div><p><em>Amélie</em>, directed by Jean-Pierre Jeunet, is a whimsical and visually striking film that became an international sensation. It follows Amélie Poulain, a shy but imaginative young woman in Paris who sets out to improve the lives of those around her while navigating her own path to love and happiness. With its vibrant color palette, playful cinematography and charming storytelling, Amélie captures a romanticised vision of Paris. The film was a major critical and commercial success, becoming one of the most beloved French films worldwide.</p>",
+            "type": "film"
+        },
+
+        {
+            "title": "The Barbarian Invasions",
+            "date": "2003",
+            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://assets.mubicdn.net/images/artworks/514705/images-original.png?1674130189' alt='The Barbarian Invasions' /><p><b>The Barbarian Invasions (2003)</b></p></div></div><p><em>The Barbarian Invasions</em> was a Canada-France co-production, directed by Quebecois filmmaker Denys Arcand and featuring French cinematographer Guy Dufaux. The film’s production brought together Quebecois and French talent, with editor Isabelle Dedieu and composer Pierre Aviat contributing from France. This collaboration strengthened ties between the two film industries and helped the film achieve international acclaim, winning the Best Foreign Language Film Oscar.</p>",
+            "type": "connection ca"
+        },
+
+        {
+            "title": "The Magic Roundabout",
+            "date": "2005",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/qUUxGu8Oxtzk2VasR99Jqy74ogK.jpg' alt='The Magic Roundabout' /><p><b>The Magic Roundabout (2005)</b></p></div></div><p><emThe Magic Roundabout</em> was a French-British animated co-production, directed by French filmmaker Jean Duval and British directors Frank Passingham and Dave Borthwick. Based on the beloved French stop-motion series Le Manège Enchanté, the film combined British and French creative forces. The English-language version featured voice actors such as Robbie Williams, Ian McKellen and Tom Baker, while the French version starred Vanessa Paradis. This collaboration updated a classic piece of French television for an international audience.</p>",
+            "type": "connection gb"
+        },
+
+        {
+            "title": "La Vie en Rose",
+            "date": "2007",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/3b9DAONAsFRhJKu25R33PE3VwDh.jpg' alt='La Vie en Rose' /><p><b>La Vie en Rose (2007)</b></p></div></div><p><em>La Vie en Rose</em> is a biographical film about French singer Édith Piaf, directed by Olivier Dahan. The film was a French-British co-production, with British involvement including co-producer Timothy Burrill, composer Christopher Gunning and costume designer Marit Allen. It became an international success, with Marion Cotillard winning an Academy Award for her portrayal of Piaf.</p>",
+            "type": "connection gb"
+        },
+
+        {
+            "title": "MyFrenchFilmFestival",
+            "date": "2010",
+            "content": "<p>Launched in 2010, MyFrenchFilmFestival is an online film festival dedicated to showcasing French-language films from both France and Quebec. The festival aims to promote the diversity and richness of French-language cinema to a global audience, offering films from French and Quebecois filmmakers alike. It creates an important bridge between the two cinematic communities by providing a platform for both emerging and established filmmakers from both regions. The festival’s focus on digital accessibility allows films to be viewed by international audiences, contributing to the global presence of French and Quebec cinema and fostering collaboration between the two.</p>",
+            "type": "connection ca"
+        },
+
+        {
+            "title": "The Intouchables",
+            "date": "2011",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w440_and_h660_face/1QU7HKgsQbGpzsJbJK4pAVQV9F5.jpg' alt='The Intouchables' /><p><b>The Intouchables (2011)</b></p></div></div><p><em>The Intouchables</em>, directed by Olivier Nakache and Éric Toledano, is a heartwarming and humourous drama based on a true story. It follows the unlikely friendship between Philippe, a wealthy quadriplegic, and Driss, a charismatic young man from the Parisian suburbs who becomes his caregiver. The film blends comedy and emotion, exploring themes of friendship, social class and resilience. A massive box office success in France and internationally, <em>The Intouchables</em> became one of the highest-grossing French films of all time and inspired multiple international remakes.</p>",
+            "type": "film"
+        },
+
+        {
+            "title": "It's Only the End of the World",
+            "date": "2016",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/riWa3WZrO3n8lLWuaEVMgaqAZGn.jpg' alt='It&#39;s Only the End of the World' /><p><b>It's Only the End of the World (2016)</b></p></div></div><p><em>It's Only the End of the World</em> was a significant France-Quebec co-production, directed by Quebecois filmmaker Xavier Dolan and featuring an all-French cast, including Marion Cotillard and Vincent Cassel. While the film was primarily shot in France, it was produced with the involvement of both Quebecois and French production teams, including Dolan’s longtime Quebec collaborator André Turpin as cinematographer. The collaboration merged Dolan’s emotionally intense storytelling, influenced by Quebec’s cinéma d’auteur, with France’s tradition of theatrical, dialogue-driven drama, creating a film that resonated in both regions.</p>",
+            "type": "connection ca"
         }
     ]
 }
