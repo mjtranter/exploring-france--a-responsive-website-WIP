@@ -151,8 +151,58 @@
         {
             "title": "The Impressionist Movement",
             "date": "1918 - 1929",
-            "content": "<p>The Impressionist Movement happened.</p>",
+            "content": "<p>The French Impressionist movement sought to push the boundaries of cinema by emphasising emotion and subjectivity through visual experimentation. Filmmakers like Abel Gance, Jean Epstein and Germaine Dulac used techniques such as soft focus, rapid editing, superimposition and point-of-view shots to immerse audiences in characters’ inner experiences. Influenced by Impressionist painting, the movement rejected conventional storytelling in favor of dreamlike, poetic imagery, further evolving cinematic language.</p>",
             "type": "information"
+        },
+
+        {
+            "title": "Poetic Realism",
+            "date": "1930s - 1940s",
+            "content": "<p>Poetic Realism was a French film movement that blended stylised visuals with melancholic, socially aware storytelling. Jean Renoir and Marcel Carné led the movement, depicting working-class characters trapped by fate, often in doomed romances or tragic circumstances. These films, such as <em>Grand Illusion</em> (1937) and <em>Daybreak</em> (1939), used moody lighting, detailed set design and a lyrical tone to create a heightened sense of realism. The movement heavily influenced later film noir and Italian neorealism.</p>",
+            "type": "information"
+        },
+
+        {
+            "title": "Cannes Film Festival",
+            "date": "1946",
+            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://www.cannes-france.com/app/uploads/cannes-tourisme/2022/06/thumbs/palais-vue-sur-la-montee-des-marchespalaisdesfestival-1920x960.jpg' alt='Cannes Film Festival' /><p><b>Cannes Film Festival</b></p></div></div><p>The Cannes Film Festival was established in 1946 as a showcase for global cinema, aiming to promote artistic excellence and international collaboration. Held annually in the French Riviera, it quickly became one of the most prestigious film festivals, celebrating innovative storytelling and new cinematic movements. Its Palme d’Or award remains one of the highest honours in filmmaking.</p>",
+            "type": "information"
+        },
+
+
+        {
+            "title": "Jacques Tati",
+            "date": "1949 - 1970s",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://image.tmdb.org/t/p/w342/sVmzg2Eo7I4nrxH732onsxEaj9H.jpg' alt='Jacques Tati' /><p><b>Jacques Tati</b></p></div></div><p>Jacques Tati was a French filmmaker and actor known for his meticulously crafted comedies that satirised modern life. From <em>The Big Day</em> (1949) to <em>Trafic</em> (1971), he developed a unique visual and physical comedy style, often featuring his bumbling character Monsieur Hulot. His films, such as <em>Mon Oncle</em> (1958) and <em>PlayTime</em> (1967), used elaborate set design and minimal dialogue to highlight the absurdities of urbanisation and technology. Tati’s influence extended beyond his era, shaping filmmakers who embraced visual storytelling and comedic subtlety.</p>",
+            "type": "person"
+        },
+
+        {
+            "title": "French New Wave",
+            "date": "1950s - 1970s",
+            "content": "<p>The French New Wave was a revolutionary film movement that emerged in the late 1950s and extended into the early 1970s. Led by directors like Jean-Luc Godard, François Truffaut, Agnès Varda, Claude Chabrol and Éric Rohmer, it rejected the rigid structures of traditional studio filmmaking in favor of a freer, more experimental approach. The movement was characterised by handheld camerawork, natural lighting, jump cuts and improvised dialogue, often blending fiction and reality. Drawing inspiration from Italian Neorealism and American cinema, New Wave filmmakers embraced themes of youth, rebellion and existentialism, reshaping global cinema with their bold storytelling techniques.</p>",
+            "type": "information"
+        },
+
+        {
+            "title": "The 400 Blows",
+            "date": "1959",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/12PuU23kkDLvTd0nb8hMlE3oShB.jpg' alt='The 400 Blows' /><p><b>The 400 Blows (1959)</b></p></div></div><p>The 400 Blows, directed by François Truffaut, is considered one of the most iconic works of the French New Wave. The film tells the story of Antoine Doinel, a young boy growing up in Paris, struggling with an oppressive home life and a rigid school system. As he begins to rebel, the film poignantly captures his sense of alienation and the challenges of adolescence. The 400 Blows is celebrated for its naturalistic performances, innovative cinematography and groundbreaking use of location shooting, marking a departure from the stylised and formalised cinema of the time. Its raw, honest portrayal of youth resonated deeply with audiences and critics, cementing it as a cornerstone of the New Wave movement.</p>",
+            "type": "film"
+        },
+
+        {
+            "title": "Jean-Luc Godard",
+            "date": "1960s",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://image.tmdb.org/t/p/w342/zP5EDY5MstfkdBmPXNCj8Y6v5KR.jpg' alt='Jean-Luc Godard' /><p><b>Jean-Luc Godard</b></p></div></div><p>Jean-Luc Godard was a key figure of the French New Wave, revolutionising cinema with his bold, experimental style. His breakthrough came with <em>Breathless</em> (1960), a stylish and unconventional crime drama. <em>Vivre sa vie</em> (1962) presents the life of a Parisian woman who drifts into sex work, structured in twelve distinct chapters. <em>Pierrot le Fou</em> (1965) blended crime, romance, and pop art aesthetics, following a disillusioned man on a chaotic road trip. As the decade progressed, Godard’s films became increasingly political, culminating in <em>Weekend</em> (1967), a darkly satirical critique of consumerism and class struggle.</p>",
+            "type": "person"
+        },
+
+        {
+            "title": "Jacques Demy",
+            "date": "1960s",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://image.tmdb.org/t/p/w342/qfCV7ckQ2XjsAgDRzvJ2PCRAzAE.jpg' alt='Jacques Demy' /><p><b>Jacques Demy</b></p></div></div><p>Jacques Demy was a key figure in French cinema, celebrated for his blend of musical, romance, and fantasy. His early work, <em>Lola</em> (1961), set the tone for his career with its poignant exploration of love and loss. Demy achieved international recognition with <em>The Umbrellas of Cherbourg</em> (1964), a musical that tells the story of a love torn apart by war, entirely through song. He continued to explore similar themes in <em>The Young Girls of Rochefort</em> (1967), a colorful, upbeat musical about twin sisters seeking love and adventure in a small French town. Demy then adapted the classic fairy tale in <em>Donkey Skin</em> (1970). Often featuring female protagonists who were complex and richly developed, his films combined realism with the fantastical, creating a unique and visually distinct cinematic world.</p>",
+            "type": "person"
         },
 
         {
@@ -170,6 +220,13 @@
         },
 
         {
+            "title": "Cinéma du Look",
+            "date": "1980s - 1990s",
+            "content": "<p>Emerging in the 1980s, Cinéma du Look was a visually striking movement that prioritised style, atmosphere, and emotion over traditional narrative structures. Directors like Luc Besson (<em>Subway</em>), Leos Carax (<em>Mauvais Sang</em>) and Jean-Jacques Beineix (<em>Diva</em>) crafted films with bold cinematography, neon lighting and youthful, outsider characters. Though sometimes criticised for favoring spectacle over substance, the movement captured the energy and alienation of contemporary France.</p>",
+            "type": "information"
+        },
+
+        {
             "title": "The Inquisitor",
             "date": "1981",
             "content": "<div class='description-image-container left person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/vL7Xw04nFMHwnvXRFCmYYAzMUvY.jpg' alt='Rashomon' /><p><b>Rashomon (1950)</b></p></div></div><div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/lKB8bOpJhTTxfiK5OWjilZeZ0Kc.jpg' alt='The Inquisitor' /><p><b>The Inquisitor (1981)</b></p></div></div><p>Japanese director Akira Kurosawa’s <em>Rashomon</em> introduced a groundbreaking narrative technique in which multiple characters recount the same event from conflicting perspectives, leaving the audience to piece together the truth. French film <em>The Inquisitor</em> appears to be influenced by this approach, following a tense police interrogation in which a lawyer, accused of murder, gives conflicting accounts of events. As new revelations emerge, the audience is forced to question the reliability of each account, mirroring how <em>Rashomon</em> challenges the notion of objective truth through its evolving and contradictory narratives.</p>",
@@ -179,8 +236,78 @@
         {
             "title": "Ulysses 31",
             "date": "1981 - 1982",
-            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://images4.alphacoders.com/134/thumb-1920-1348421.png' alt='Ulysses 31' /><p><b>Ulysses 31 (1981 - 1982)</b></p></div></div><p>René Borg and French producer and screenwriter Jean Chalopin went to Japan to work with Tokyo Movie Shinsha on <em>Ulysses 31</em>, an anime series depicting the story of Greek hero Odysseus in a hypothetical 31st century. It was a massive success.</p>",
+            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://images4.alphacoders.com/134/thumb-1920-1348421.png' alt='Ulysses 31' /><p><b>Ulysses 31 (1981 - 1982)</b></p></div></div><p>René Borg and French producer and screenwriter Jean Chalopin went to Japan to work with Tokyo Movie Shinsha on <em>Ulysses 31</em>, an anime series depicting the story of Greek hero Odysseus in a hypothetical 31st century. It was a massive success across multiple countries, including France and Japan.</p>",
             "type": "connection jp"
+        },
+
+        {
+            "title": "Dinard Film Festival",
+            "date": "1989",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://www.dinardemeraudetourisme.com/app/uploads/2024/04/affiche-festival-du-film-2023-690x1024.jpg' alt='Dinard British Film Festival' /><p><b>Dinard British Film Festival</b></p></div></div><p>The Dinard British Film Festival, held annually in the coastal town of Dinard in Brittany, France, has been a key event for showcasing British (and Irish) cinema in France since its inception in 1989. The festival celebrates the best of British filmmaking, with a special focus on films that reflect the British spirit and culture. The festival offers a platform for British filmmakers to present their work to French audiences and industry professionals, while also serving as a key venue for promoting French-British cinematic collaboration. The festival’s awards, such as the Golden Hitchcock (named after Alfred Hitchcock), highlight British contributions to cinema, further cementing its importance as a cultural exchange between France and Britain.</p>",
+            "type": "connection gb"
+        },
+
+        {
+            "title": "Contemporary French Cinema",
+            "date": "1990s - Present",
+            "content": "<p>Contemporary French cinema is defined by its diversity, blending auteur-driven storytelling with commercial success. Filmmakers such as Claire Denis, Céline Sciamma and Jacques Audiard have crafted acclaimed works that explore identity, society and human relationships, whereas directors like Gaspar Noé and Julia Ducournau have pushed boundaries with bold narratives and creative cinematography.</p>",
+            "type": "information"
+        },
+
+        {
+            "title": "La Haine",
+            "date": "1995",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/iH8saz6s0Z8SPPrKaMI2KrRzTED.jpg' alt='La Haine' /><p><b>La Haine (1995)</b></p></div></div><p><em>La Haine</em>, directed by Mathieu Kassovitz and translating to 'Hatred', is a powerful social drama that explores urban unrest in France. Following three young men from different backgrounds over the course of 24 hours in a Parisian banlieue, the film examines police brutality, inequality and racial tensions. Shot in stark black and white, <em>La Haine</em> captures the frustration and alienation of marginalised communities, resonating strongly with contemporary social issues. Its raw energy and urgent themes have cemented its status as one of the most important French films of the 1990s.</p>",
+            "type": "film"
+        },
+
+        {
+            "title": "Amélie",
+            "date": "2001",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/oTKduWL2tpIKEmkAqF4mFEAWAsv.jpg' alt='Amélie' /><p><b>Amélie (2001)</b></p></div></div><p><em>Amélie</em>, directed by Jean-Pierre Jeunet, is a whimsical and visually striking film that became an international sensation. It follows Amélie Poulain, a shy but imaginative young woman in Paris who sets out to improve the lives of those around her while navigating her own path to love and happiness. With its vibrant color palette, playful cinematography and charming storytelling, Amélie captures a romanticised vision of Paris. The film was a major critical and commercial success, becoming one of the most beloved French films worldwide.</p>",
+            "type": "film"
+        },
+
+        {
+            "title": "The Barbarian Invasions",
+            "date": "2003",
+            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://assets.mubicdn.net/images/artworks/514705/images-original.png?1674130189' alt='The Barbarian Invasions' /><p><b>The Barbarian Invasions (2003)</b></p></div></div><p><em>The Barbarian Invasions</em> was a Canada-France co-production, directed by Quebecois filmmaker Denys Arcand and featuring French cinematographer Guy Dufaux. The film’s production brought together Quebecois and French talent, with editor Isabelle Dedieu and composer Pierre Aviat contributing from France. This collaboration strengthened ties between the two film industries and helped the film achieve international acclaim, winning the Best Foreign Language Film Oscar.</p>",
+            "type": "connection ca"
+        },
+
+        {
+            "title": "The Magic Roundabout",
+            "date": "2005",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/qUUxGu8Oxtzk2VasR99Jqy74ogK.jpg' alt='The Magic Roundabout' /><p><b>The Magic Roundabout (2005)</b></p></div></div><p><emThe Magic Roundabout</em> was a French-British animated co-production, directed by French filmmaker Jean Duval and British directors Frank Passingham and Dave Borthwick. Based on the beloved French stop-motion series Le Manège Enchanté, the film combined British and French creative forces. The English-language version featured voice actors such as Robbie Williams, Ian McKellen and Tom Baker, while the French version starred Vanessa Paradis. This collaboration updated a classic piece of French television for an international audience.</p>",
+            "type": "connection gb"
+        },
+
+        {
+            "title": "La Vie en Rose",
+            "date": "2007",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/3b9DAONAsFRhJKu25R33PE3VwDh.jpg' alt='La Vie en Rose' /><p><b>La Vie en Rose (2007)</b></p></div></div><p><em>La Vie en Rose</em> is a biographical film about French singer Édith Piaf, directed by Olivier Dahan. The film was a French-British co-production, with British involvement including co-producer Timothy Burrill, composer Christopher Gunning and costume designer Marit Allen. It became an international success, with Marion Cotillard winning an Academy Award for her portrayal of Piaf.</p>",
+            "type": "connection gb"
+        },
+
+        {
+            "title": "MyFrenchFilmFestival",
+            "date": "2010",
+            "content": "<p>Launched in 2010, MyFrenchFilmFestival is an online film festival dedicated to showcasing French-language films from both France and Quebec. The festival aims to promote the diversity and richness of French-language cinema to a global audience, offering films from French and Quebecois filmmakers alike. It creates an important bridge between the two cinematic communities by providing a platform for both emerging and established filmmakers from both regions. The festival’s focus on digital accessibility allows films to be viewed by international audiences, contributing to the global presence of French and Quebec cinema and fostering collaboration between the two.</p>",
+            "type": "connection ca"
+        },
+
+        {
+            "title": "The Intouchables",
+            "date": "2011",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w440_and_h660_face/1QU7HKgsQbGpzsJbJK4pAVQV9F5.jpg' alt='The Intouchables' /><p><b>The Intouchables (2011)</b></p></div></div><p><em>The Intouchables</em>, directed by Olivier Nakache and Éric Toledano, is a heartwarming and humourous drama based on a true story. It follows the unlikely friendship between Philippe, a wealthy quadriplegic, and Driss, a charismatic young man from the Parisian suburbs who becomes his caregiver. The film blends comedy and emotion, exploring themes of friendship, social class and resilience. A massive box office success in France and internationally, <em>The Intouchables</em> became one of the highest-grossing French films of all time and inspired multiple international remakes.</p>",
+            "type": "film"
+        },
+
+        {
+            "title": "It's Only the End of the World",
+            "date": "2016",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/riWa3WZrO3n8lLWuaEVMgaqAZGn.jpg' alt='It&#39;s Only the End of the World' /><p><b>It's Only the End of the World (2016)</b></p></div></div><p><em>It's Only the End of the World</em> was a significant France-Quebec co-production, directed by Quebecois filmmaker Xavier Dolan and featuring an all-French cast, including Marion Cotillard and Vincent Cassel. While the film was primarily shot in France, it was produced with the involvement of both Quebecois and French production teams, including Dolan’s longtime Quebec collaborator André Turpin as cinematographer. The collaboration merged Dolan’s emotionally intense storytelling, influenced by Quebec’s cinéma d’auteur, with France’s tradition of theatrical, dialogue-driven drama, creating a film that resonated in both regions.</p>",
+            "type": "connection ca"
         }
     ]
 }
