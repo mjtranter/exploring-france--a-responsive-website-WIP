@@ -43,10 +43,6 @@
         }
     },
 
-    "view-connection": "View Connection",
-    "connection-gb": "Connections to Britain",
-    "connection-ca": "Connections to Quebec, Canada",
-    "connection-jp": "Connections to Japan",
     "profile-connections": {
         "daft-punk": {
             "gb": "<ul><li>Before they were global stars, in 1994, Daft Punk released their first single <em>The New Wave</em> on Soma Records, an independent Scottish label based in Glasgow</li><li>In 1995, Daft Punk remixed <em>Life is Sweet</em> by The Chemical Brothers, one of the UK’s biggest electronic acts</li><li>The song <em>One More Time</em> reached #2 in the UK charts in 2000. In 2013, <em>Get Lucky</em> reached #1, as well as the album on which it features- <em>Random Access Memories</em></li></ul>",

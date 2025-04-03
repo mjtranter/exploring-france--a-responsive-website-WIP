@@ -43,10 +43,6 @@
         }
     },
 
-    "view-connection": "接続を見る",
-    "connection-gb": "イギリスとのつながり",
-    "connection-ca": "ケベック、カナダとのつながり",
-    "connection-jp": "日本とのつながり",
     "profile-connections": {
         "daft-punk": {
             "gb": "<ul><li>世界的なスターになる前の1994年、ダフト・パンクはグラスゴーを拠点とするスコットランドのインディーズレーベル、ソマ・レコードから最初のシングル「The New Wave」をリリースした</li><li>1995年、ダフト・パンク（Daft Punk）はイギリスの電子音楽シーンを代表するザ・ケミカル・ブラザーズ（The Chemical Brothers）の楽曲「Life is Sweet」をリミックスした</li><li>2000年、「One More Time」はイギリスのチャートで2位を獲得。2013年には「Get Lucky」が1位となり、同曲を収録したアルバム「Random Access Memories」もチャートのトップに輝いた</li></ul>",

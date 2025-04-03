@@ -50,7 +50,7 @@ import Button from '../../../components/button/button';
 
 export default function Foundations() {
     const ns = "music";
-    const { t } = useTranslation(ns);
+    const { t } = useTranslation([ns, 'common']);
 
     const countryCode = useContext(CountryCodeContext);
 
@@ -77,18 +77,18 @@ export default function Foundations() {
             <div className="profile-row">  
                 <div className="vertical-container">
                     <Profile ns={ns} image={DaftPunk} name="Daft Punk" />
-                    {countryCode === "gb" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-gb', 'profile-connections.daft-punk.gb')} />)}
-                    {countryCode === "ca" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-ca', 'profile-connections.daft-punk.ca')} />)}
-                    {countryCode === "jp" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-jp', 'profile-connections.daft-punk.jp')} />)}
+                    {countryCode === "gb" && (<Button type="connection" text={t('view-connection', { ns: "common" })} onClick={() => showPopup('connection-gb', 'profile-connections.daft-punk.gb')} />)}
+                    {countryCode === "ca" && (<Button type="connection" text={t('view-connection', { ns: "common" })} onClick={() => showPopup('connection-ca', 'profile-connections.daft-punk.ca')} />)}
+                    {countryCode === "jp" && (<Button type="connection" text={t('view-connection', { ns: "common" })} onClick={() => showPopup('connection-jp', 'profile-connections.daft-punk.jp')} />)}
                 </div>
                 <div className="vertical-container">
                     <Profile ns={ns} image={Justice} name="Justice" />
-                    {countryCode === "gb" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-gb', 'profile-connections.justice.gb')} />)}
+                    {countryCode === "gb" && (<Button type="connection" text={t('view-connection', { ns: "common" })} onClick={() => showPopup('connection-gb', 'profile-connections.justice.gb')} />)}
                 </div>
                 <div className="vertical-container">
                     <Profile ns={ns} image={Stromae} name="Stromae" />
-                    {countryCode === "gb" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-gb', 'profile-connections.stromae.gb')} />)}
-                    {countryCode === "ca" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-ca', 'profile-connections.stromae.ca')} />)}
+                    {countryCode === "gb" && (<Button type="connection" text={t('view-connection', { ns: "common" })} onClick={() => showPopup('connection-gb', 'profile-connections.stromae.gb')} />)}
+                    {countryCode === "ca" && (<Button type="connection" text={t('view-connection', { ns: "common" })} onClick={() => showPopup('connection-ca', 'profile-connections.stromae.ca')} />)}
                 </div>
             </div>
             
@@ -99,18 +99,18 @@ export default function Foundations() {
             <div className="profile-row">
                 <div className="vertical-container">
                     <Profile ns={ns} image={Air} name="Air" />
-                    {countryCode === "jp" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-jp', 'profile-connections.air.jp')} />)}
+                    {countryCode === "jp" && (<Button type="connection" text={t('view-connection', { ns: "common" })} onClick={() => showPopup('connection-jp', 'profile-connections.air.jp')} />)}
                 </div>
                 <div className="vertical-container">
                     <Profile ns={ns} image={M83} name="M83" />
-                    {countryCode === "gb" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-gb', 'profile-connections.m83.gb')} />)}
-                    {countryCode === "ca" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-ca', 'profile-connections.m83.ca')} />)}
+                    {countryCode === "gb" && (<Button type="connection" text={t('view-connection', { ns: "common" })} onClick={() => showPopup('connection-gb', 'profile-connections.m83.gb')} />)}
+                    {countryCode === "ca" && (<Button type="connection" text={t('view-connection', { ns: "common" })} onClick={() => showPopup('connection-ca', 'profile-connections.m83.ca')} />)}
                 </div>
                 <div className="vertical-container">
                     <Profile ns={ns} image={JeanMichelJarre} name="Jean-Michel Jarre" />
-                    {countryCode === "gb" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-gb', 'profile-connections.jean-michel-jarre.gb')} />)}
-                    {countryCode === "ca" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-ca', 'profile-connections.jean-michel-jarre.ca')} />)}
-                    {countryCode === "jp" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-jp', 'profile-connections.jean-michel-jarre.jp')} />)}
+                    {countryCode === "gb" && (<Button type="connection" text={t('view-connection', { ns: "common" })} onClick={() => showPopup('connection-gb', 'profile-connections.jean-michel-jarre.gb')} />)}
+                    {countryCode === "ca" && (<Button type="connection" text={t('view-connection', { ns: "common" })} onClick={() => showPopup('connection-ca', 'profile-connections.jean-michel-jarre.ca')} />)}
+                    {countryCode === "jp" && (<Button type="connection" text={t('view-connection', { ns: "common" })} onClick={() => showPopup('connection-jp', 'profile-connections.jean-michel-jarre.jp')} />)}
                 </div>
             </div>
 
@@ -121,7 +121,7 @@ export default function Foundations() {
             <div className="profile-row">
                 <div className="vertical-container">
                     <Profile ns={ns} image={Angele} name="Angèle" />
-                    {countryCode === "gb" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-gb', 'profile-connections.angele.gb')} />)}
+                    {countryCode === "gb" && (<Button type="connection" text={t('view-connection', { ns: "common" })} onClick={() => showPopup('connection-gb', 'profile-connections.angele.gb')} />)}
                 </div>
                 <Profile ns={ns} image={MyleneFarmer} name="Mylène Farmer" />
                 <Profile ns={ns} image={SergeGainsbourg} name="Serge Gainsbourg" />

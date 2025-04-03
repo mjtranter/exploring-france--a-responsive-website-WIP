@@ -114,8 +114,260 @@
 
     "timeline": [
         {
-            "title": "Birth of Cinema",
-            "date": "1895"   
+            "title": "映画の誕生",
+            "date": "1895",
+            "content": "<p>1895年12月28日、オーギュストとルイ・リュミエールは、パリで開催されたサロン・インディアン・デュ・グラン・カフェで、史上初の一般向け映画上映会を開催した。彼らの発明品であるシネマトグラフを使い、一連の短編映画を有料で観客に上映し、近代映画の誕生を告げた。シネマトグラフは、カメラ、プリンター、映写機を一体化した画期的な装置だった。最初の上映会では、『工場の出口』や『水をかけられた散水夫』を含む10本の短編映画が上映された。</p><div class='text-row'><div class='iframe-text iframe lumieres'><iframe src='https://commons.wikimedia.org/wiki/File:La_Sortie_de_l%27Usine_Lumi%C3%A8re_%C3%A0_Lyon_I_1895.webm?embedplayer=yes' frameborder='0' loading='lazy' allow='autoplay; picture-in-picture' allowfullscreen></iframe><p><b>工場の出口 (1895)</b></p></div><div class='iframe-text iframe lumieres'><iframe src='https://commons.wikimedia.org/wiki/File:Le_Jardinier_(l%27Arroseur_arros%C3%A9)_(1895).webm?embedplayer=yes' frameborder='0' loading='lazy' allow='autoplay; picture-in-picture' allowfullscreen></iframe><p><b>水をかけられた散水夫 (1895)</b></p></div></div>",
+            "type": "information"
+        },
+
+        {
+            "title": "ラ・シオタ駅への列車の到着",
+            "date": "1896",
+            "content": "<div class='description-image-container right iframe'><div class='iframe-text iframe'><iframe class='description-image' src='https://commons.wikimedia.org/wiki/File:L%27Arriv%C3%A9e_d%27un_train_en_gare_de_La_Ciotat,_Complete.webm?embedplayer=yes' frameborder='0' loading='lazy' allow='autoplay; picture-in-picture' allowfullscreen></iframe><p><b>ラ・シオタ駅への列車の到着 (1896)</b></p></div></div><p>1896年1月25日、リヨンでリュミエール兄弟は、間違いなく最も有名な短編無声映画『ラ・シオタ駅への列車の到着』の初演を行った。汽車がカメラに近づいてくるという映画のダイナミックな視点に、本物の汽車が突っ込んでくるのではないかとパニックになり、会場から逃げ出した観客がいたという証言がある。しかし、これは俗説である可能性が高い。その主張を裏付ける証拠はなく、映像が粗く、音声もないため、現実と見間違うことはありえない。</p>",
+            "type": "film"
+        },
+
+        {
+            "title": "アリス・ガイ・ブラシェ",
+            "date": "1896",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://upload.wikimedia.org/wikipedia/commons/d/d4/Alice_Guy.jpg' alt='アリス・ガイ・ブラシェ' /><p><b>アリス・ガイ・ブラシェ</b></p></div></div><p>アリス・ガイ・ブラシェはフランス映画の先駆者であり、初めて劇映画を監督した一人。1896年に製作会社ゴーモンでキャリアをスタートさせ、短編コメディ、ドラマ、初期のSFなど1,000本以上の作品を監督した。キャベツ畑の妖精』（1896年）ではシンクロナイズド・サウンドの開発に尽力し、後に業界の標準となるマルチリール映画の先駆者となった。史上初の女性映画監督として、彼女の作品は近代映画の礎を築いたが、その貢献は何十年もの間、ほとんど影を潜めていた。</p>",
+            "type": "person"
+        },
+
+        {
+            "title": "ジョルジュ・メリエス",
+            "date": "1896～1900",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/M%C3%A9li%C3%A8s_portrait_%28cropped%29.png/330px-M%C3%A9li%C3%A8s_portrait_%28cropped%29.png' alt='ジョルジュ・メリエス' /><p><b>ジョルジュ・メリエス</b></p></div></div><p>1896年から1900年にかけて、元舞台マジシャンのジョルジュ・メリエスは、初期の特殊効果のいくつかを開発し、映画製作に革命をもたらした。カメラを止め、シーンを変更し、撮影を再開することで、物や人が消えたり変化したりするストップモーション（コマ撮り）を発見したのは、カメラが故障したときの偶然の出来事だった。彼はまた、『お化けの城』（1897年）や『シンデレラ』（1899年）といった映画で、映像の重ね合わせ、シーンの転換、手描きの色彩を開拓し、魔法とストーリーテリングをこれまでにない方法で融合させた。</p>",
+            "type": "person"
+        },
+
+        {
+            "title": "月世界旅行",
+            "date": "1902",
+            "content": "<div class='description-image-container right iframe'><div class='iframe-text iframe'><iframe class='description-image' src='https://commons.wikimedia.org/wiki/File:Le_Voyage_dans_la_lune_(black_and_white,_1902).webm?embedplayer=yes' frameborder'0' loading='lazy' allow='autoplay; picture-in-picture' allowfullscreen></iframe><p><b>月世界旅行 (1902)</b></p></div></div><p>月世界旅行』はジョルジュ・メリエスの最も有名な映画であり、最初のSF映画のひとつである。ジュール・ヴェルヌにインスパイアされたこの映画は、巨大な大砲を造って月に向かう天文学者たちが、幻想的な風景や敵対的な月の生物に遭遇する。メリエスは、背景画、ジャンプカット、重ね合わせなど、画期的な特殊効果を駆使して夢のような映像を作り上げた。</p>",
+            "type": "film"
+        },
+
+        {
+            "title": "印象派運動",
+            "date": "1918～1929",
+            "content": "<p>フランス印象派運動は、視覚的実験を通して感情や主観を強調することで、映画の限界を押し広げようとした。アベル・ガンス、ジャン・エプシュタイン、ジェルメーヌ・デュラックなどの映画作家は、ソフトフォーカス、急速編集、重ね合わせ、視点ショットなどの技法を用い、観客を登場人物の内的体験に没入させた。印象派絵画の影響を受けたこのムーブメントは、従来のストーリーテリングを否定し、夢のような詩的なイメージを好み、映画的言語をさらに進化させた。</p>",
+            "type": "information"
+        },
+
+        {
+            "title": "詩的リアリズム",
+            "date": "1930年代～1940年代",
+            "content": "<p>詩的リアリズムは、様式化された映像とメランコリックで社会性を意識したストーリーテリングを融合させたフランス映画運動である。ジャン・ルノワールとマルセル・カルネがこのムーブメントをリードし、運命に囚われた労働者階級の登場人物を、しばしば運命的な恋愛や悲劇的な状況の中で描いた。『大いなる幻影』（1937年）や『ル・ジュール・ス・レーヴヴ』（1939年）といったこれらの映画は、ムーディーな照明、緻密なセットデザイン、叙情的なトーンを用いて、リアリズムの高まりを表現した。このムーブメントは、後のフィルム・ノワールやイタリアのネオリアリズムに大きな影響を与えた。</p>",
+            "type": "information"
+        },
+
+        {
+            "title": "カンヌ国際映画祭",
+            "date": "1946",
+            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://www.cannes-france.com/app/uploads/cannes-tourisme/2022/06/thumbs/palais-vue-sur-la-montee-des-marchespalaisdesfestival-1920x960.jpg' alt='カンヌ国際映画祭' /><p><b>カンヌ国際映画祭</b></p></div></div><p>カンヌ国際映画祭は1946年、芸術的な卓越性と国際的なコラボレーションを促進することを目的に、世界的な映画のショーケースとして設立された。フランスのリビエラで毎年開催されるこの映画祭は、革新的なストーリーテリングと新しい映画のムーブメントを称え、瞬く間に最も権威ある映画祭のひとつとなった。パルムドール賞は、現在でも映画界最高の栄誉のひとつである。</p>",
+            "type": "information"
+        },
+
+
+        {
+            "title": "ジャック・タチ",
+            "date": "1949～1970年代",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://image.tmdb.org/t/p/w342/sVmzg2Eo7I4nrxH732onsxEaj9H.jpg' alt='ジャック・タチ' /><p><b>ジャック・タチ</b></p></div></div><p>ジャック・タチは、現代生活を風刺する綿密なコメディーで知られるフランスの映画監督、俳優である。ジュール・ド・フェット』（1949年）から『トラフィック』（1971年）に至るまで、彼は独特の映像的・身体的コメディ・スタイルを確立し、しばしば不器用なキャラクター、ムッシュ・ユロを登場させた。ぼくの伯父さん』（1958年）や『プレイタイム』（1967年）などの作品は、凝ったセットと最小限のセリフで、都市化とテクノロジーの不条理を浮き彫りにした。タチの影響はその時代を超え、視覚的なストーリーテリングとコメディの繊細さを取り入れた映画作家たちを形成した。</p>",
+            "type": "person"
+        },
+
+        {
+            "title": "フレンチ・ニューウェーブ",
+            "date": "1950年代～1970年代",
+            "content": "<p>フランスのヌーヴェルヴァーグは、1950年代後半から1970年代初頭にかけて起こった革命的な映画運動である。ジャン＝リュック・ゴダール、フランソワ・トリュフォー、アニエス・ヴァルダ、クロード・シャブロル、エリック・ロメールといった監督たちが率いたこの運動は、伝統的なスタジオ映画製作の堅苦しい構造を否定し、より自由で実験的なアプローチを好んだ。このムーブメントの特徴は、手持ちカメラワーク、自然光、ジャンプカット、即興的な会話で、しばしばフィクションと現実が融合している。イタリアのネオリアリズムやアメリカ映画からインスピレーションを得たヌーヴェルヴァーグの映画作家たちは、青春、反抗、実存主義といったテーマを取り入れ、大胆なストーリーテリングの手法で世界の映画を再構築した。</p>",
+            "type": "information"
+        },
+
+        {
+            "title": "大人は判ってくれない",
+            "date": "1959",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/agJ3Ec8AQwg4NXJf3RKdIJpfgDS.jpg' alt='大人は判ってくれない' /><p><b>大人は判ってくれない (1959)</b></p></div></div><p>フランソワ・トリュフォー監督の『大人は判ってくれない』は、フランス・ヌーヴェルヴァーグを代表する作品のひとつである。この映画は、パリで育ち、抑圧的な家庭生活と厳格な学校制度に悩む少年アントワーヌ・ドワネルの物語である。反抗期を迎えた彼の疎外感と思春期の試練を痛切に捉えている。大人は判ってくれない』は、その自然体の演技、革新的な撮影、画期的なロケ撮影で称賛され、当時の様式化され形式化された映画とは一線を画している。その生々しく正直な青春描写は、観客や批評家の共感を呼び、ヌーヴェルヴァーグの礎となった。</p>",
+            "type": "film"
+        },
+
+        {
+            "title": "ジャン＝リュック・ゴダール",
+            "date": "1960年代",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://image.tmdb.org/t/p/w342/zP5EDY5MstfkdBmPXNCj8Y6v5KR.jpg' alt='ジャン＝リュック・ゴダール' /><p><b>ジャン＝リュック・ゴダール</b></p></div></div><p>ジャン＝リュック・ゴダールはフランス・ヌーヴェルヴァーグの中心人物で、大胆で実験的な作風で映画に革命をもたらした。彼のブレイクのきっかけは、スタイリッシュで型破りな犯罪ドラマ『勝手にしやがれ』（1960年）だった。女と男のいる舗道』（1962年）は、セックスワークに流れ込むパリ女性の人生を12の章で構成。気狂いピエロ』（1965年）は、犯罪、ロマンス、ポップ・アートの美学を融合させ、混乱した道中を旅する幻滅した男を描く。10年に入ると、ゴダールの映画はますます政治的になり、消費主義と階級闘争を暗く風刺した『ウイークエンド』（1967年）で頂点に達する。</p>",
+            "type": "person"
+        },
+
+        {
+            "title": "ジャック・ドゥミ",
+            "date": "1960年代",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://image.tmdb.org/t/p/w342/qfCV7ckQ2XjsAgDRzvJ2PCRAzAE.jpg' alt='ジャック・ドゥミ' /><p><b>ジャック・ドゥミ</b></p></div></div><p>ジャック・ドゥミは、ミュージカル、ロマンス、ファンタジーを融合させた作品で知られるフランス映画界の重要人物である。初期の作品『ローラ』（1961年）は、愛と喪失を痛切に描いた作品で、彼のキャリアの方向性を示した。戦争によって引き裂かれた愛の物語を、すべて歌で綴ったミュージカル『シェルブールの雨傘』（1964年）で、ドゥミは国際的な評価を得た。ロシュフォールの恋人たち』（1967年）でも同様のテーマを追求し、フランスの小さな町で愛と冒険を求める双子の姉妹を描いた、カラフルで明るいミュージカルである。その後、ドゥミは『ロバと王女』（1970年）で古典的なおとぎ話を映画化した。複雑で豊かな女性主人公をしばしば登場させる彼の映画は、リアリズムとファンタジーを融合させ、視覚的にも独特な映画世界を作り上げた。</p>",
+            "type": "person"
+        },
+
+        {
+            "title": "イルカと少年",
+            "date": "1971",
+            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w780/mYgEOJepGjZhJDbXf18YFkxdLkj.jpg' alt='イルカと少年' /><p><b>イルカと少年 (1971)</b></p></div></div><p>フランスと日本の最初の合作アニメは『イルカと少年』シリーズである。フランスのルネ・ボルグ監督が日本の映研と共同で13話のシリーズを制作した。白いイルカのズームと、船乗りのおじさんと暮らす2人の子どもたち。イルカの言葉を理解できる鳥やコアラなど、他にもたくさんの動物が登場する。</p>",
+            "type": "connection jp"
+        },
+
+        {
+            "title": "ワンス・アポン・ア・タイム 男",
+            "date": "1978～1979",
+            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://m.media-amazon.com/images/S/pv-target-images/367c175203ecd541016f7ed72692c2ea8b6cda6fd880c224c28d8473514bb073.jpg' alt='ワンス・アポン・ア・タイム 男' /><p><b>ワンス・アポン・ア・タイム 男 (1978年～1979年)</b></p></div></div><p>ルネ・ボルグはその後、アルベール・バリェと共同で、タツノコプロがアニメ化した『ウイニング・ダリア』シリーズの第1作を制作した。このフランチャイズは、子供向けにアレンジされたフォーマットで歴史を説明し、発売と同時に好評を博した。</p>",
+            "type": "connection jp"
+        },
+
+        {
+            "title": "シネマ・デュ・ルック",
+            "date": "1980年代～1990年代",
+            "content": "<p>1980年代に登場したシネマ・デュ・ルックは、伝統的な物語構成よりもスタイル、雰囲気、感情を優先した、視覚的に印象的なムーブメントだった。リュック・ベッソン（サブウェイ）、レオス・カラックス（汚れた血）、ジャン＝ジャック・バイネックス（ディーバ）といった監督たちは、大胆な撮影、ネオン照明、若々しくアウトサイダーなキャラクターで映画を作り上げた。実質よりもスペクタクルを好んだと批判されることもあったが、このムーブメントは現代フランスのエネルギーと疎外感を捉えた。</p>",
+            "type": "information"
+        },
+
+        {
+            "title": "警察の拘置所",
+            "date": "1981",
+            "content": "<div class='description-image-container left person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/gpYADlpkoFTChBLjIrZU7hxDKz1.jpg' alt='羅生門' /><p><b>羅生門 (1950)</b></p></div></div><div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/n8UkrGsdv0hYwLJH0qqR9IMcjsm.jpg' alt='警察の拘置所' /><p><b>警察の拘置所（1981）</b></p></div></div><p>日本の黒澤明監督の『羅生門』では、複数の登場人物が同じ出来事を相反する視点から語り、観客がその真相を推理するという画期的な物語手法が導入された。フランス映画『 警察の拘置所 』は、この手法の影響を受けているようで、殺人の嫌疑をかけられた弁護士が相反する証言をする緊迫した警察の取り調べを描く。新たな事実が明らかになるにつれ、観客はそれぞれの証言の信頼性に疑問を抱かざるを得なくなるが、これは『羅生門』が展開する矛盾した物語を通して、客観的真実という概念にいかに挑戦しているかを映し出している。</p>",
+            "type": "connection jp"
+        },
+
+        {
+            "title": "宇宙伝説ユリシーズ31",
+            "date": "1981～1982",
+            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://images4.alphacoders.com/134/thumb-1920-1348421.png' alt='宇宙伝説ユリシーズ31' /><p><b>宇宙伝説ユリシーズ31 (1981～1982)</b></p></div></div><p>ルネ・ボルグとフランス人プロデューサー兼脚本家のジャン・シャロパンが来日し、東京ムービー新社と共同で『宇宙伝説ユリシーズ31』を制作。この作品はフランスや日本を含む複数の国で大成功を収めた。</p>",
+            "type": "connection jp"
+        },
+
+        {
+            "title": "ディナール英国映画祭",
+            "date": "1989",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://www.dinardemeraudetourisme.com/app/uploads/2024/04/affiche-festival-du-film-2023-690x1024.jpg' alt='ディナール英国映画祭' /><p><b>ディナール英国映画祭</b></p></div></div><p>フランス、ブルターニュ地方の海岸沿いの町ディナールで毎年開催されるディナール英国映画祭は、1989年の初開催以来、フランスにおける英国映画（およびアイルランド映画）紹介の重要なイベントとなっている。この映画祭は、英国の精神と文化を反映した作品に特に焦点を当て、英国映画界の最高峰を称えるものである。この映画祭は、英国の映画製作者たちがフランスの観客や業界関係者に向けて作品を発表する場を提供すると同時に、フランスと英国の映画的コラボレーションを促進する重要な場としても機能している。ゴールデン・ヒッチコック賞（アルフレッド・ヒッチコックにちなんで名づけられた）など、映画祭が授与する賞は、英国の映画界への貢献に焦点を当て、フランスと英国の文化交流の場としての重要性をさらに高めている。</p>",
+            "type": "connection gb"
+        },
+
+        {
+            "title": "Contemporary French Cinema",
+            "date": "1990年代～現在",
+            "content": "<p>Contemporary French cinema is defined by its diversity, blending auteur-driven storytelling with commercial success. Filmmakers such as Claire Denis, Céline Sciamma and Jacques Audiard have crafted acclaimed works that explore identity, society and human relationships, whereas directors like Gaspar Noé and Julia Ducournau have pushed boundaries with bold narratives and creative cinematography.</p>",
+            "type": "information"
+        },
+
+        {
+            "title": "La Haine",
+            "date": "1995",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/iH8saz6s0Z8SPPrKaMI2KrRzTED.jpg' alt='La Haine' /><p><b>La Haine (1995)</b></p></div></div><p><em>La Haine</em>, directed by Mathieu Kassovitz and translating to 'Hatred', is a powerful social drama that explores urban unrest in France. Following three young men from different backgrounds over the course of 24 hours in a Parisian banlieue, the film examines police brutality, inequality and racial tensions. Shot in stark black and white, <em>La Haine</em> captures the frustration and alienation of marginalised communities, resonating strongly with contemporary social issues. Its raw energy and urgent themes have cemented its status as one of the most important French films of the 1990s.</p>",
+            "type": "film"
+        },
+
+        {
+            "title": "Amélie",
+            "date": "2001",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/oTKduWL2tpIKEmkAqF4mFEAWAsv.jpg' alt='Amélie' /><p><b>Amélie (2001)</b></p></div></div><p><em>Amélie</em>, directed by Jean-Pierre Jeunet, is a whimsical and visually striking film that became an international sensation. It follows Amélie Poulain, a shy but imaginative young woman in Paris who sets out to improve the lives of those around her while navigating her own path to love and happiness. With its vibrant color palette, playful cinematography and charming storytelling, <em>Amélie</em> captures a romanticised vision of Paris. The film was a major critical and commercial success, becoming one of the most beloved French films worldwide.</p>",
+            "type": "film"
+        },
+
+        {
+            "title": "The Barbarian Invasions",
+            "date": "2003",
+            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://assets.mubicdn.net/images/artworks/514705/images-original.png?1674130189' alt='The Barbarian Invasions' /><p><b>The Barbarian Invasions (2003)</b></p></div></div><p><em>The Barbarian Invasions</em> was a Canada-France co-production, directed by Quebecois filmmaker Denys Arcand and featuring French cinematographer Guy Dufaux. The film’s production brought together Quebecois and French talent, with editor Isabelle Dedieu and composer Pierre Aviat contributing from France. This collaboration strengthened ties between the two film industries and helped the film achieve international acclaim, winning the Best Foreign Language Film Oscar.</p>",
+            "type": "connection ca"
+        },
+
+        {
+            "title": "The Magic Roundabout",
+            "date": "2004",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/qUUxGu8Oxtzk2VasR99Jqy74ogK.jpg' alt='The Magic Roundabout' /><p><b>The Magic Roundabout (2004)</b></p></div></div><p><em>The Magic Roundabout</em> was a French-British animated co-production, directed by French filmmaker Jean Duval and British directors Frank Passingham and Dave Borthwick. Based on the beloved French stop-motion series Le Manège Enchanté, the film combined British and French creative forces. The English-language version featured voice actors such as Robbie Williams, Ian McKellen and Tom Baker, while the French version starred Vanessa Paradis. This collaboration updated a classic piece of French television for an international audience.</p>",
+            "type": "connection gb"
+        },
+
+        {
+            "title": "La Vie en Rose",
+            "date": "2007",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/3b9DAONAsFRhJKu25R33PE3VwDh.jpg' alt='La Vie en Rose' /><p><b>La Vie en Rose (2007)</b></p></div></div><p><em>La Vie en Rose</em> is a biographical film about French singer Édith Piaf, directed by Olivier Dahan. The film was a French-British co-production, with British involvement including co-producer Timothy Burrill, composer Christopher Gunning and costume designer Marit Allen. It became an international success, with Marion Cotillard winning an Academy Award for her portrayal of Piaf.</p>",
+            "type": "connection gb"
+        },
+
+        {
+            "title": "MyFrenchFilmFestival",
+            "date": "2010",
+            "content": "<p>Launched in 2010, MyFrenchFilmFestival is an online film festival dedicated to showcasing French-language films from both France and Quebec. The festival aims to promote the diversity and richness of French-language cinema to a global audience, offering films from French and Quebecois filmmakers alike. It creates an important bridge between the two cinematic communities by providing a platform for both emerging and established filmmakers from both regions. The festival’s focus on digital accessibility allows films to be viewed by international audiences, contributing to the global presence of French and Quebec cinema and fostering collaboration between the two.</p>",
+            "type": "connection ca"
+        },
+
+        {
+            "title": "The Intouchables",
+            "date": "2011",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w440_and_h660_face/1QU7HKgsQbGpzsJbJK4pAVQV9F5.jpg' alt='The Intouchables' /><p><b>The Intouchables (2011)</b></p></div></div><p><em>The Intouchables</em>, directed by Olivier Nakache and Éric Toledano, is a heartwarming and humourous drama based on a true story. It follows the unlikely friendship between Philippe, a wealthy quadriplegic, and Driss, a charismatic young man from the Parisian suburbs who becomes his caregiver. The film blends comedy and emotion, exploring themes of friendship, social class and resilience. A massive box office success in France and internationally, <em>The Intouchables</em> became one of the highest-grossing French films of all time and inspired multiple international remakes.</p>",
+            "type": "film"
+        },
+
+        {
+            "title": "It's Only the End of the World",
+            "date": "2016",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/riWa3WZrO3n8lLWuaEVMgaqAZGn.jpg' alt='It&#39;s Only the End of the World' /><p><b>It's Only the End of the World (2016)</b></p></div></div><p><em>It's Only the End of the World</em> was a significant France-Quebec co-production, directed by Quebecois filmmaker Xavier Dolan and featuring an all-French cast, including Marion Cotillard and Vincent Cassel. While the film was primarily shot in France, it was produced with the involvement of both Quebecois and French production teams, including Dolan’s longtime Quebec collaborator André Turpin as cinematographer. The collaboration merged Dolan’s emotionally intense storytelling, influenced by Quebec’s cinéma d’auteur, with France’s tradition of theatrical, dialogue-driven drama, creating a film that resonated in both regions.</p>",
+            "type": "connection ca"
+        }
+    ],
+
+    "whats-on": "開催中のイベント",
+    "view-full-calendar": "全カレンダーを見る",
+    "full-calendar": "今月のイベント",
+
+    "day-one": "日曜日",
+    "day-two": "月曜日",
+    "day-three": "火曜日",
+    "day-four": "水曜日",
+    "day-five": "木曜日",
+    "day-six": "金曜日",
+    "day-seven": "土曜日",
+
+    "short-day-one": "日",
+    "short-day-two": "月",
+    "short-day-three": "火",
+    "short-day-four": "水",
+    "short-day-five": "木",
+    "short-day-six": "金",
+    "short-day-seven": "土",
+
+    "featured-events": "注目のイベント",
+    "all": "すべて",
+    "local": "地域の",
+    "free": "無料",
+    "connections": "つながり",
+    "location": "場所",
+
+    "list-events": [
+        {
+            "id": 1,
+            "text": "",
+            "start": "2025-05-13",
+            "end": "2025-05-24",
+            "backColor": "#edc351",
+            "location": "",
+            "description": "",
+            "longDate": "5月13日 ～ 5月24日",
+            "local": "True",
+            "free": "False",
+            "connection": "None",
+            "connectionGb": "",
+            "connectionCa": "",
+            "connectionJp": ""
+        },
+
+        {
+            "id": 2,
+            "text": "",
+            "start": "2025-10-01",
+            "end": "2025-10-05",
+            "backColor": "#ff6459",
+            "location": "",
+            "description": "",
+            "longDate": "10月1日 ～ 10月5日",
+            "local": "True",
+            "free": "False",
+            "connection": "gb"
         }
     ]
 }

@@ -264,50 +264,110 @@
         {
             "title": "Le Fabuleux Destin d'Amélie Poulain",
             "date": "2001",
-            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/tdXtLG6L1QMwrv0MNdW6B9IwC8B.jpg' alt='Le Fabuleux Destin d'Amélie Poulain' /><p><b>Le Fabuleux Destin d'Amélie Poulain (2001)</b></p></div></div><p><em>Amélie</em>, directed by Jean-Pierre Jeunet, is a whimsical and visually striking film that became an international sensation. It follows Amélie Poulain, a shy but imaginative young woman in Paris who sets out to improve the lives of those around her while navigating her own path to love and happiness. With its vibrant color palette, playful cinematography and charming storytelling, Amélie captures a romanticised vision of Paris. The film was a major critical and commercial success, becoming one of the most beloved French films worldwide.</p>",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/tdXtLG6L1QMwrv0MNdW6B9IwC8B.jpg' alt='Le Fabuleux Destin d'Amélie Poulain' /><p><b>Le Fabuleux Destin d'Amélie Poulain (2001)</b></p></div></div><p><em>Le Fabuleux Destin d'Amélie Poulain</em>, réalisé par Jean-Pierre Jeunet, est un film fantaisiste et visuellement saisissant qui est devenu une sensation internationale. Il suit Amélie Poulain, une jeune femme timide mais imaginative qui, à Paris, s'efforce d'améliorer la vie de ceux qui l'entourent tout en naviguant sur son propre chemin vers l'amour et le bonheur. Avec sa palette de couleurs vibrantes, sa cinématographie ludique et son histoire charmante, <em>Le Fabuleux Destin d'Amélie Poulain</em> capture une vision romantique de Paris. Le film a connu un grand succès critique et commercial, devenant l'un des films français les plus appréciés dans le monde.</p>",
             "type": "film"
         },
 
         {
-            "title": "The Barbarian Invasions",
+            "title": "Les Invasions barbares",
             "date": "2003",
-            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://assets.mubicdn.net/images/artworks/514705/images-original.png?1674130189' alt='The Barbarian Invasions' /><p><b>The Barbarian Invasions (2003)</b></p></div></div><p><em>The Barbarian Invasions</em> was a Canada-France co-production, directed by Quebecois filmmaker Denys Arcand and featuring French cinematographer Guy Dufaux. The film’s production brought together Quebecois and French talent, with editor Isabelle Dedieu and composer Pierre Aviat contributing from France. This collaboration strengthened ties between the two film industries and helped the film achieve international acclaim, winning the Best Foreign Language Film Oscar.</p>",
+            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://assets.mubicdn.net/images/artworks/514705/images-original.png?1674130189' alt='Les Invasions barbares' /><p><b>Les Invasions barbares (2003)</b></p></div></div><p><em>Les Invasions barbares</em> est une coproduction Canada-France, réalisée par le cinéaste québécois Denys Arcand et mettant en vedette le directeur de la photographie français Guy Dufaux. La production du film a réuni des talents québécois et français, avec la participation de la monteuse Isabelle Dedieu et du compositeur Pierre Aviat, venus de France. Cette collaboration a renforcé les liens entre les deux industries cinématographiques et a permis au film d'obtenir une reconnaissance internationale, en remportant l'Oscar du meilleur film en langue étrangère.</p>",
             "type": "connection ca"
         },
 
         {
-            "title": "The Magic Roundabout",
-            "date": "2005",
-            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/qUUxGu8Oxtzk2VasR99Jqy74ogK.jpg' alt='The Magic Roundabout' /><p><b>The Magic Roundabout (2005)</b></p></div></div><p><emThe Magic Roundabout</em> was a French-British animated co-production, directed by French filmmaker Jean Duval and British directors Frank Passingham and Dave Borthwick. Based on the beloved French stop-motion series Le Manège Enchanté, the film combined British and French creative forces. The English-language version featured voice actors such as Robbie Williams, Ian McKellen and Tom Baker, while the French version starred Vanessa Paradis. This collaboration updated a classic piece of French television for an international audience.</p>",
+            "title": "Pollux, le manège enchanté",
+            "date": "2004",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/d0XVWnWvnZ3WoXEKjj6FFw6SRZ1.jpg' alt='Pollux, le manège enchanté' /><p><b>Pollux, le manège enchanté (2004)</b></p></div></div><p><em>Le Manège Enchanté</em> est une coproduction d'animation franco-britannique, réalisée par le cinéaste français Jean Duval et les réalisateurs britanniques Frank Passingham et Dave Borthwick. Basé sur la série française bien-aimée, le film a combiné les forces créatives britanniques et françaises. La version anglaise met en scène des acteurs tels que Robbie Williams, Ian McKellen et Tom Baker, tandis que la version française est interprétée par Vanessa Paradis. Cette collaboration a permis de remettre au goût du jour un classique de la télévision française pour un public international.</p>",
             "type": "connection gb"
         },
 
         {
-            "title": "La Vie en Rose",
+            "title": "La Môme",
             "date": "2007",
-            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/3b9DAONAsFRhJKu25R33PE3VwDh.jpg' alt='La Vie en Rose' /><p><b>La Vie en Rose (2007)</b></p></div></div><p><em>La Vie en Rose</em> is a biographical film about French singer Édith Piaf, directed by Olivier Dahan. The film was a French-British co-production, with British involvement including co-producer Timothy Burrill, composer Christopher Gunning and costume designer Marit Allen. It became an international success, with Marion Cotillard winning an Academy Award for her portrayal of Piaf.</p>",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w440_and_h660_face/thD71NvrSQwo45iFjnfPziJPVnj.jpg' alt='La Môme' /><p><b>La Môme (2007)</b></p></div></div><p><em>La Môme</em> est un film biographique sur la chanteuse française Édith Piaf, réalisé par Olivier Dahan. Le film est une coproduction franco-britannique, avec une participation britannique comprenant le coproducteur Timothy Burrill, le compositeur Christopher Gunning et la costumière Marit Allen. Le film a connu un succès international et Marion Cotillard a remporté un Oscar pour son interprétation de Piaf.</p>",
             "type": "connection gb"
         },
 
         {
             "title": "MyFrenchFilmFestival",
             "date": "2010",
-            "content": "<p>Launched in 2010, MyFrenchFilmFestival is an online film festival dedicated to showcasing French-language films from both France and Quebec. The festival aims to promote the diversity and richness of French-language cinema to a global audience, offering films from French and Quebecois filmmakers alike. It creates an important bridge between the two cinematic communities by providing a platform for both emerging and established filmmakers from both regions. The festival’s focus on digital accessibility allows films to be viewed by international audiences, contributing to the global presence of French and Quebec cinema and fostering collaboration between the two.</p>",
+            "content": "<p>Lancé en 2010, MyFrenchFilmFestival est un festival de cinéma en ligne consacré à la présentation de films francophones de France et du Québec. Le festival vise à promouvoir la diversité et la richesse du cinéma francophone auprès d'un public international, en proposant des films de cinéastes français et québécois. Il crée un pont important entre les deux communautés cinématographiques en offrant une plateforme aux cinéastes émergents et confirmés des deux régions. L'accent mis par le festival sur l'accessibilité numérique permet aux films d'être vus par des publics internationaux, contribuant ainsi à la présence mondiale du cinéma français et québécois et favorisant la collaboration entre les deux.</p>",
             "type": "connection ca"
         },
 
         {
-            "title": "The Intouchables",
+            "title": "Intouchables",
             "date": "2011",
-            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w440_and_h660_face/1QU7HKgsQbGpzsJbJK4pAVQV9F5.jpg' alt='The Intouchables' /><p><b>The Intouchables (2011)</b></p></div></div><p><em>The Intouchables</em>, directed by Olivier Nakache and Éric Toledano, is a heartwarming and humourous drama based on a true story. It follows the unlikely friendship between Philippe, a wealthy quadriplegic, and Driss, a charismatic young man from the Parisian suburbs who becomes his caregiver. The film blends comedy and emotion, exploring themes of friendship, social class and resilience. A massive box office success in France and internationally, <em>The Intouchables</em> became one of the highest-grossing French films of all time and inspired multiple international remakes.</p>",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/gdUJ6ECIHNE5M2HImGaBOfb8jR2.jpg' alt='Intouchables' /><p><b>Intouchables (2011)</b></p></div></div><p><em>Intouchables</em>, réalisé par Olivier Nakache et Éric Toledano, est un drame chaleureux et humoristique basé sur une histoire vraie. Il suit l'amitié improbable entre Philippe, un riche tétraplégique, et Driss, un jeune homme charismatique de la banlieue parisienne qui devient son aide-soignant. Le film mêle comédie et émotion, explorant les thèmes de l'amitié, de la classe sociale et de la résilience. Succès massif au box-office français et international, <em>Intouchables</em> est devenu l'un des films français les plus rentables de tous les temps et a inspiré de nombreux remakes internationaux.</p>",
             "type": "film"
         },
 
         {
-            "title": "It's Only the End of the World",
+            "title": "Juste la fin du monde",
             "date": "2016",
-            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/riWa3WZrO3n8lLWuaEVMgaqAZGn.jpg' alt='It&#39;s Only the End of the World' /><p><b>It's Only the End of the World (2016)</b></p></div></div><p><em>It's Only the End of the World</em> was a significant France-Quebec co-production, directed by Quebecois filmmaker Xavier Dolan and featuring an all-French cast, including Marion Cotillard and Vincent Cassel. While the film was primarily shot in France, it was produced with the involvement of both Quebecois and French production teams, including Dolan’s longtime Quebec collaborator André Turpin as cinematographer. The collaboration merged Dolan’s emotionally intense storytelling, influenced by Quebec’s cinéma d’auteur, with France’s tradition of theatrical, dialogue-driven drama, creating a film that resonated in both regions.</p>",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/oJ5YXOkECwoLKGlxUjR77yEEWEH.jpg' alt='Juste la fin du monde' /><p><b>Juste la fin du monde (2016)</b></p></div></div><p><em>Juste la fin du monde</em> est une importante coproduction franco-québécoise, réalisée par le cinéaste québécois Xavier Dolan et mettant en vedette une distribution entièrement française, dont Marion Cotillard et Vincent Cassel. Bien que le film ait été principalement tourné en France, il a été produit avec la participation d'équipes de production québécoise et française, dont André Turpin, collaborateur québécois de longue date de Dolan, en tant que directeur de la photographie. Cette collaboration a permis de fusionner la narration émotionnellement intense de Dolan, influencée par le cinéma d'auteur québécois, avec la tradition française du drame théâtral et dialogué, créant ainsi un film qui a trouvé un écho dans les deux régions.</p>",
             "type": "connection ca"
+        }
+    ],
+
+    "whats-on": "À l’Affiche",
+    "view-full-calendar": "Voir Calendrier Complet",
+    "full-calendar": "Évenements du Mois",
+
+    "day-one": "lundi",
+    "day-two": "mardi",
+    "day-three": "mercredi",
+    "day-four": "jeudi",
+    "day-five": "vendredi",
+    "day-six": "samedi",
+    "day-seven": "dimanche",
+
+    "short-day-one": "lun",
+    "short-day-two": "mar",
+    "short-day-three": "mer",
+    "short-day-four": "jeu",
+    "short-day-five": "ven",
+    "short-day-six": "sam",
+    "short-day-seven": "dim",
+
+    "featured-events": "Évenements en Vedette",
+    "all": "Tous",
+    "local": "Locaux",
+    "free": "Gratuits",
+    "connections": "Connexions",
+    "location": "Lieu",
+
+    "list-events": [
+        {
+            "id": 1,
+            "text": "Festival de Cannes",
+            "start": "2025-05-13",
+            "end": "2025-05-24",
+            "backColor": "#edc351",
+            "location": "Cannes, Provence-Alpes-Côte-d'Azur",
+            "description": "",
+            "longDate": "13 mai - 24 mai",
+            "local": "True",
+            "free": "False",
+            "connection": "None",
+            "connectionGb": "La Grande-Bretagne",
+            "connectionCa": "Le Canada",
+            "connectionJp": "Le Japon"
+        },
+
+        {
+            "id": 2,
+            "text": "Dinard Festival du Film Brittanique et Irlandais",
+            "start": "2025-10-01",
+            "end": "2025-10-05",
+            "backColor": "#ff6459",
+            "location": "Dinard, Brittanie",
+            "description": "",
+            "longDate": "1 Octobre - 5 Octobre",
+            "local": "True",
+            "free": "False",
+            "connection": "gb"
         }
     ]
 }

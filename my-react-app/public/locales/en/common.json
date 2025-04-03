@@ -13,5 +13,10 @@
     },
     "language": "English",
 
-    "happening-now": "Happening Now"
+    "happening-now": "Happening Now",
+
+    "view-connection": "View Connection",
+    "connection-gb": "Connections to Britain",
+    "connection-ca": "Connections to Quebec, Canada",
+    "connection-jp": "Connections to Japan"
 }

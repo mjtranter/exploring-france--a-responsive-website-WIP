@@ -59,7 +59,7 @@ export default function Listen() {
             <p className="category-description">{t('radio-description-2')}</p>
             <p className="category-description">{t('radio-description-3')}</p>
 
-            <h6 className="category-heading"><b className="heading-text">L'exception Française</b>{countryCode === "ca" && (<Button type="connection" text={t('view-connection')} onClick={() => showPopup('connection-ca', 'radio-connection-ca')} />)}</h6>
+            <h6 className="category-heading"><b className="heading-text">L'exception Française</b>{countryCode === "ca" && (<Button type="connection" text={t('view-connection', { ns: "common" })} onClick={() => showPopup('connection-ca', 'radio-connection-ca')} />)}</h6>
             <p className="category-description">{t('radio-description-4')}</p>  
             <p className="category-description">{t('radio-description-5')}</p>
             
