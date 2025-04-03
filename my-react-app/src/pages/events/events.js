@@ -6,18 +6,12 @@ import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 
 export default function Events() {
-    const { t } = useTranslation(['common', 'events']);
-
-    const categories = [{id: "1", t: ""}, {id: "2", t: ""}, {id: "3", t: ""}];
-    
-    const [selectedCategory, setSelectedCategory] = useState(categories[0]);
 
     return (
         <div className="content"> 
             <title>Events | L'Hexagone</title>
             <div className="left">
-                <LeftColumn ns={"events"} categories={categories} title={"visit.events"} selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
-                <CentralColumn ns={"events"} selectedCategory={selectedCategory} />
+                <h2><b>Page Under Maintenance!!</b></h2>
             </div>
             <RightColumn />
         </div>

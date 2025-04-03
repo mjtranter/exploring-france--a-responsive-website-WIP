@@ -6,18 +6,12 @@ import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 
 export default function Itineraries() {
-    const { t } = useTranslation(['common', 'itineraries']);
-
-    const categories = [{id: "1", t: ""}, {id: "2", t: ""}, {id: "3", t: ""}];
-    
-    const [selectedCategory, setSelectedCategory] = useState(categories[0]);
 
     return (
         <div className="content"> 
             <title>Itineraries | L'Hexagone</title>
-           <div className="left">
-                <LeftColumn ns={"itineraries"} categories={categories} title={"visit.itineraries"} selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
-                <CentralColumn ns={"itineraries"} selectedCategory={selectedCategory} />
+            <div className="left">
+                <h2><b>Page Under Maintenance!!</b></h2>
             </div>
             <RightColumn />
         </div>

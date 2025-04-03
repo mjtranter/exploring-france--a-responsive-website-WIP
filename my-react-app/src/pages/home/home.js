@@ -31,8 +31,7 @@ export default function Home() {
         <div className="content"> 
             <title>Home | L'Hexagone</title>
             <div className="left">
-                <h2><b>Bienvenue!</b></h2>
-                <img id="winding-road" src={Image} alt="Winding Countryside Road with Village" />
+                <h2><b>Page Under Maintenance!!</b></h2>
             </div>
             <RightColumn>
                 {filmEvents.filter(event => {
