@@ -9,6 +9,14 @@ import Overview from './overview/overview';
 import History from './history/history';
 import Events from './events/events';
 import Recommendation from '../../components/recommendation/recommendation';
+import MyFrenchFilmFestival from '../../assets/images/my-french-film-festival.jpg';
+import CesarAwards from '../../assets/images/cesar-awards.jpg';
+import AnnecyInternational from '../../assets/images/annecy-international.jpg';
+import CannesFilmFestival from '../../assets/images/cannes-film-festival.jpg';
+import DinardFilmFestival from '../../assets/images/dinard-film-festival.jpg';
+import HanabiSeasons from '../../assets/images/hanabi-seasons.jpg';
+
+const images = [MyFrenchFilmFestival, CesarAwards, AnnecyInternational, CannesFilmFestival, DinardFilmFestival, HanabiSeasons];
 
 export default function Film() {
     const { t } = useTranslation(['common', 'film']);
@@ -30,6 +38,11 @@ export default function Film() {
 
     const components = [Overview, History, Events];
 
+    const date = new Date();
+    const frenchDate = date.toLocaleDateString("sv", {timeZone: "Europe/Paris"});
+
+    const events = t('list-events', { ns: "film", returnObjects: true });
+
     return (
         <div className="content"> 
             <title>Film | L'Hexagone</title>
@@ -39,6 +52,19 @@ export default function Film() {
             </div>
             <RightColumn>
                 <Recommendation ns={"film"} type={"film"} />
+
+                {events.filter(event => {
+                    if (event.start <= frenchDate && event.end > frenchDate) return true;
+
+                    return false;
+                })
+                .map(event => (
+                    <div key={event.id} className="right-column-event-frame">
+                        <img className="right-column-event-icon" src={images[event.id - 1]} alt={event.text} />
+                        <h6 className="right-column-event-title"><b>{event.text}</b></h6>
+                        <p><i>{event.longDate}</i></p>
+                    </div>
+                ))}
             </RightColumn>
         </div>
     )
