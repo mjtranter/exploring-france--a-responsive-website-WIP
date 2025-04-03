@@ -6,6 +6,15 @@
     "film-of-the-week": "Film of the Week",
     "directed": "Dir.",
 
+    "overview-description-1": "French cinema has long been celebrated as a pillar of world cinema, renowned for its artistic contributions and innovative storytelling. From the Lumière brothers' pioneering work in the late 19th century to the revolutionary New Wave movement in the 1950s, French filmmakers have constantly pushed the boundaries of cinema. The distinct style of French filmmaking is characterised by its emphasis on character-driven stories, artistic visuals, and an ability to blend various genres and cultural influences. Over the decades, French cinema has produced iconic filmmakers like François Truffaut, Jean-Luc Godard, Agnès Varda and Jacques Demy, whose works continue to inspire generations of filmmakers around the globe.",
+    "overview-heading-1": "Celebrating Film in France",
+    "overview-description-2": "France is home to some of the most prestigious film festivals in the world, including the Cannes Film Festival, which attracts filmmakers, actors and industry professionals from all corners of the globe. In addition to Cannes, events such as the César Awards, the Annecy International Animation Film Festival and the Clermont-Ferrand International Short Film Festival are integral to the French film landscape, celebrating diverse filmmaking styles and offering a platform for new talent. These festivals not only highlight French productions but also serve as a space for international cinema to meet with French audiences. French film festivals often blend screenings with masterclasses, industry panels and celebrations of cinematic heritage, making them essential events in the global film calendar.",
+    "overview-heading-2": "Influence on Global Cinema",
+    "overview-description-3": "French cinema continues to play a significant role on the global stage, influencing filmmakers worldwide while maintaining a unique identity. Through co-productions, collaborations and the international success of films like <em>La Haine</em>, <em>Amélie</em> and <em>The Intouchables</em>, French films continue to resonate with audiences across different cultures. Additionally, the rise of streaming platforms has made French films more accessible than ever before, allowing international audiences to experience both classic masterpieces and contemporary works. France's ability to blend its rich cinematic history with modern storytelling ensures that French cinema will remain an influential force in the global film industry for years to come.",
+
+    "lumiere-brothers": "<em>Lumière Brothers</em>",
+    "cesar-award": "<em>César Award</em>",
+    
     "films": [
         {
             "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/6/8/4/51684-la-haine-0-2000-0-3000-crop.jpg",
