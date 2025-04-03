@@ -341,33 +341,89 @@
     "list-events": [
         {
             "id": 1,
-            "text": "Festival de Cannes",
-            "start": "2025-05-13",
-            "end": "2025-05-24",
+            "text": "MyFrenchFilmFestival",
+            "start": "2025-01-17",
+            "end": "2025-02-18",
             "backColor": "#edc351",
-            "location": "Cannes, Provence-Alpes-Côte-d'Azur",
+            "location": "En Ligne",
             "description": "",
-            "longDate": "13 mai - 24 mai",
-            "local": "True",
-            "free": "False",
-            "connection": "None",
-            "connectionGb": "La Grande-Bretagne",
-            "connectionCa": "Le Canada",
-            "connectionJp": "Le Japon"
+            "longDate": "17 janvier - 17 février",
+            "local": "False",
+            "free": "True",
+            "connection": "ca"
         },
 
         {
             "id": 2,
+            "text": "Les César",
+            "start": "2025-02-28",
+            "end": "2025-03-01",
+            "backColor": "#ff6459",
+            "location": "Paris",
+            "description": "",
+            "longDate": "28 février",
+            "local": "False",
+            "free": "False",
+            "connection": "None"
+        },
+
+        {
+            "id": 3,
+            "text": "Festival International du Film d'Animation d'Annecy",
+            "start": "2025-06-08",
+            "end": "2025-06-15",
+            "backColor": "#95e364",
+            "location": "Annecy, Auvergne-Rhône-Alpes",
+            "description": "",
+            "longDate": "8 juin - 14 juin",
+            "local": "False",
+            "free": "True",
+            "connection": "None"
+        },
+
+        {
+            "id": 4,
+            "text": "Festival de Cannes",
+            "start": "2025-05-13",
+            "end": "2025-05-25",
+            "backColor": "#ad72e0",
+            "location": "Cannes, Provence-Alpes-Côte-d'Azur",
+            "description": "",
+            "longDate": "13 mai - 24 mai",
+            "local": "False",
+            "free": "False",
+            "connection": "None",
+            "connectionGb": "<ul><li>Brève rencontre (1945)</li><li>Le Troisième Homme (1949)</li><li>Le Knack... et comment l'avoir (1965)</li><li>Blow-Up (1966)</li><li>if.... (1968)</li><li>Le Messager (1971)</li><li>La Méprise (1973)</li><li>Paris, Texas (1984)</li><li>La Mission (1986)</li><li>Barton Fink (1991)</li><li>Les Meilleures Intentions (1992)</li><li>Secrets et mensonges (1996)</li><li>Le Pianiste (2002)</li><li>Le vent se lève (2006)</li><li>Oncle Boonmee (celui qui se souvient de ses vies antérieures) (2010)</li><li>Moi, Daniel Blake (2016)</li><li>Sans filtre (2022)</li></ul>",
+            "connectionCa": "<ul><li>Juste la fin du monde (2016)</li><li>Jésus de Montréal (1989)</li><li>Mommy (2014)</li><li>Les ordres (1974)</li></ul>",
+            "connectionJp": "<ul><li>La Porte de l'enfer (1953)</li><li>Kagemusha, l'ombre du guerrier (1980)</li><li>La Ballade de Narayama (1983)</li><li>L'Anguille (1997)</li><li>Une Affaire de famille (2018)</li></ul>"
+        },
+
+        {
+            "id": 5,
             "text": "Dinard Festival du Film Brittanique et Irlandais",
             "start": "2025-10-01",
-            "end": "2025-10-05",
-            "backColor": "#ff6459",
+            "end": "2025-10-06",
+            "backColor": "#5aa8cc",
             "location": "Dinard, Brittanie",
             "description": "",
-            "longDate": "1 Octobre - 5 Octobre",
+            "longDate": "1 octobre - 5 octobre",
             "local": "True",
             "free": "False",
             "connection": "gb"
+        },
+
+        {
+            "id": 6,
+            "text": "Les Saisons Hanabi",
+            "start": "2025-12-01",
+            "end": "2025-11-30",
+            "backColor": "#f59de3",
+            "location": "France",
+            "description": "",
+            "longDate": "novembre / decembre",
+            "local": "False",
+            "free": "False",
+            "connection": "jp"
         }
     ]
 }

@@ -4,11 +4,15 @@ import { useState, useContext } from "react";
 import { CountryCodeContext } from "../../../App";
 import Popup from "../../../components/popup/popup";
 import Button from "../../../components/button/button";
+import MyFrenchFilmFestival from '../../../assets/images/my-french-film-festival.jpg';
+import CesarAwards from '../../../assets/images/cesar-awards.jpg';
+import AnnecyInternational from '../../../assets/images/annecy-international.jpg';
 import CannesFilmFestival from '../../../assets/images/cannes-film-festival.jpg';
 import DinardFilmFestival from '../../../assets/images/dinard-film-festival.jpg';
+import HanabiSeasons from '../../../assets/images/hanabi-seasons.jpg';
 import '../../music/events/events.css';
 
-const images = [CannesFilmFestival, DinardFilmFestival];
+const images = [MyFrenchFilmFestival, CesarAwards, AnnecyInternational, CannesFilmFestival, DinardFilmFestival, HanabiSeasons];
 
 export default function Events() {
     const ns = "film";

@@ -341,14 +341,56 @@
     "list-events": [
         {
             "id": 1,
+            "text": "MyFrenchFilmFestival",
+            "start": "2025-01-17",
+            "end": "2025-02-18",
+            "backColor": "#edc351",
+            "location": "Online",
+            "description": "MyFrenchFilmFestival is an online film festival dedicated to showcasing contemporary French-language cinema to audiences worldwide. Launched in 2011, the festival offers a curated selection of feature films and short films, highlighting emerging talents and diverse storytelling. Viewers can stream the films through the festival’s official website and partner platforms, with short films available for free. The event aims to promote French-language cinema beyond France’s borders, making it accessible to international audiences with subtitles in multiple languages.",
+            "longDate": "17 January - 17 February",
+            "local": "False",
+            "free": "True",
+            "connection": "ca"
+        },
+
+        {
+            "id": 2,
+            "text": "César Awards",
+            "start": "2025-02-28",
+            "end": "2025-03-01",
+            "backColor": "#ff6459",
+            "location": "Paris",
+            "description": "The César Awards are France’s most prestigious film awards, celebrating excellence in French cinema. Established in 1976 and organized by the Académie des Arts et Techniques du Cinéma, the awards are often considered the French equivalent of the Oscars. Held annually in Paris, the ceremony honors achievements in directing, acting, writing, and technical categories, with Best Film being the most coveted prize. Named after sculptor César Baldaccini, who designed the trophy, the event serves as a key highlight of the French film calendar, recognizing both established and emerging talents.",
+            "longDate": "28 February",
+            "local": "False",
+            "free": "False",
+            "connection": "None"
+        },
+
+        {
+            "id": 3,
+            "text": "Annecy International Animation Film Festival",
+            "start": "2025-06-08",
+            "end": "2025-06-15",
+            "backColor": "#95e364",
+            "location": "Annecy, Auvergne-Rhône-Alpes",
+            "description": "The Annecy International Animation Film Festival is the world’s leading celebration of animated cinema, held annually in the picturesque town of Annecy, France. It showcases a diverse selection of animated films, from shorts to feature-length productions, representing studios and independent creators from around the globe. While industry professionals gather for premieres, workshops and networking events, the festival also offers free open-air screenings, allowing the general public to enjoy animation under the stars by Lake Annecy.",
+            "longDate": "8 June - 14 June",
+            "local": "False",
+            "free": "True",
+            "connection": "None"
+        },
+
+        {
+            "id": 4,
             "text": "Cannes Film Festival",
             "start": "2025-05-13",
-            "end": "2025-05-24",
-            "backColor": "#edc351",
+            "end": "2025-05-25",
+            "backColor": "#ad72e0",
             "location": "Cannes, Provence-Alpes-Côte-d'Azur",
             "description": "The Cannes Film Festival, established in 1946, is one of the most prestigious and influential events in world cinema. Held annually on the French Riviera, it attracts filmmakers, critics and stars from around the globe. With its iconic red carpet, exclusive premieres and fierce competition, Cannes has launched the careers of legendary directors and shaped the trajectory of international film. The festival’s highest honour, the Palme d’Or, remains one of the most coveted awards in the industry.",
             "longDate": "13 May - 24 May",
-            "local": "True",
+            "local": "False",
             "free": "False",
             "connection": "None",
             "connectionGb": "British film and co-production Palme d'Or winners: <ul><li>Brief Encounter (1945)</li><li>The Third Man (1949)</li><li>The Knack... and How to Get It (1965)</li><li>Blow-Up (1966)</li><li>If... (1968)</li><li>The Go-Between (1971)</li><li>The Hireling (1973)</li><li>Paris, Texas (1984)</li><li>The Mission (1986)</li><li>Barton Fink (1991)</li><li>The Best Intentions (1992)</li><li>Secrets & Lies (1996)</li><li>The Pianist</li><li>The Wind That Shakes the Barley (2006)</li><li>Uncle Boonmee Who Can Recall His Past Lives (2010)</li><li>I, Daniel Blake (2016)</li><li>Triangle of Sadness (2022)</li></ul>",
@@ -357,17 +399,31 @@
         },
 
         {
-            "id": 2,
+            "id": 5,
             "text": "Dinard British and Irish Film Festival",
             "start": "2025-10-01",
-            "end": "2025-10-05",
-            "backColor": "#ff6459",
+            "end": "2025-10-06",
+            "backColor": "#5aa8cc",
             "location": "Dinard, Brittany",
             "description": "The Dinard British Film Festival is an annual celebration of British cinema held in the seaside town of Dinard, Brittany. Since 1989, it has provided a platform for British filmmakers to showcase their work to French audiences, featuring a diverse selection of films from major productions to independent gems. Screenings are open to both industry professionals and the general public, with tickets available for individual films as well as festival passes for those looking to experience multiple screenings. The festival also hosts special events such as open-air screenings, discussions with filmmakers and award ceremonies.",
             "longDate": "1 October - 5 October",
             "local": "True",
             "free": "False",
             "connection": "gb"
+        },
+
+        {
+            "id": 6,
+            "text": "Hanabi Seasons",
+            "start": "2025-12-01",
+            "end": "2025-11-30",
+            "backColor": "#f59de3",
+            "location": "France",
+            "description": "Hanabi Seasons is an annual Japanese film festival held across France, usually taking place in November and December. The festival showcases a selection of contemporary Japanese films, offering French audiences the opportunity to explore Japan's diverse cinematic landscape. While it is primarily hosted in Paris, screenings also take place in various cities throughout France. The festival is designed to introduce Japanese cinema to a broader audience, and films are often accompanied by special events and discussions.",
+            "longDate": "November / December",
+            "local": "False",
+            "free": "False",
+            "connection": "jp"
         }
     ]
 }
