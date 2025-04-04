@@ -6,6 +6,15 @@
     "film-of-the-week": "今週の映画",
     "directed": "監督：",
 
+    "overview-description-1": "フランス映画は、その芸術的貢献と革新的なストーリーテリングで有名な世界映画の柱として、長い間称えられてきた。19世紀末のリュミエール兄弟の先駆的な作品から、1950年代の革命的なヌーヴェル・ヴァーグ運動まで、フランスの映画人たちは常に映画の境界線を押し広げてきた。フランス映画の独特なスタイルは、キャラクター重視のストーリー、芸術的なビジュアル、さまざまなジャンルや文化的影響を融合させる能力に特徴がある。数十年にわたり、フランス映画はフランソワ・トリュフォー、ジャン＝リュック・ゴダール、アニエス・ヴァルダ、ジャック・ドゥミといった象徴的な映画作家を輩出し、彼らの作品は世界中の世代にインスピレーションを与え続けている。",
+    "overview-heading-1": "フランスで映画を祝う",
+    "overview-description-2": "カンヌ国際映画祭をはじめ、フランスは世界で最も権威ある映画祭の本拠地であり、世界中から映画製作者、俳優、業界関係者が集まる。カンヌ映画祭に加え、セザール賞、アヌシー国際アニメーション映画祭、クレルモンフェラン国際短編映画祭などのイベントは、多様な映画製作のスタイルを称え、新たな才能にプラットフォームを提供するフランス映画界にとって不可欠なものである。これらの映画祭は、フランスの作品にスポットを当てるだけでなく、国際的な映画とフランスの観客が出会う場としても機能している。フランス映画祭は、マスタークラス、業界パネル、映画遺産のセレブレーションと上映を融合させることが多く、世界の映画カレンダーに欠かせないイベントとなっている。",
+    "overview-heading-2": "グローバルシネマへの影響",
+    "overview-description-3": "フランス映画は、独自のアイデンティティを保ちながら、世界中の映画製作者に影響を与え、グローバルな舞台で重要な役割を果たし続けている。共同製作、コラボレーション、そして『憎しみ』、『アメリ』、『最強のふたり』のような映画の国際的な成功を通して、フランス映画は異文化の観客と共鳴し続けている。さらに、ストリーミング・プラットフォームの台頭により、フランス映画はかつてないほどアクセスしやすくなり、世界中の観客が古典的名作と現代作品の両方を体験できるようになった。フランスの豊かな映画史と現代的なストーリーテリングを融合させる能力により、フランス映画は今後も世界の映画産業に影響力を持ち続けるだろう。",
+
+    "lumiere-brothers": "リュミエール兄弟",
+    "cesar-award": "ア・セザール",
+
     "films": [
         {
             "poster": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/gZITAx2f68kmwxk4ucKGL83RcoZ.jpg",
@@ -248,72 +257,69 @@
         },
 
         {
-            "title": "Contemporary French Cinema",
+            "title": "現代フランス映画",
             "date": "1990年代～現在",
-            "content": "<p>Contemporary French cinema is defined by its diversity, blending auteur-driven storytelling with commercial success. Filmmakers such as Claire Denis, Céline Sciamma and Jacques Audiard have crafted acclaimed works that explore identity, society and human relationships, whereas directors like Gaspar Noé and Julia Ducournau have pushed boundaries with bold narratives and creative cinematography.</p>",
+            "content": "<p>現代のフランス映画は、作家主導のストーリーテリングと商業的成功を融合させた多様性によって定義されている。クレール・ドゥニ、セリーヌ・スキャンマ、ジャック・オーディアールといった映画作家は、アイデンティティ、社会、人間関係を探求する作品を作り上げ、高い評価を得ている。一方、ギャスパー・ノエやジュリア・デュクルノーといった監督たちは、大胆な物語と独創的なカメラワークで限界を押し広げている。</p>",
             "type": "information"
         },
 
         {
-            "title": "La Haine",
+            "title": "憎しみ",
             "date": "1995",
-            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/iH8saz6s0Z8SPPrKaMI2KrRzTED.jpg' alt='La Haine' /><p><b>La Haine (1995)</b></p></div></div><p><em>La Haine</em>, directed by Mathieu Kassovitz and translating to 'Hatred', is a powerful social drama that explores urban unrest in France. Following three young men from different backgrounds over the course of 24 hours in a Parisian banlieue, the film examines police brutality, inequality and racial tensions. Shot in stark black and white, <em>La Haine</em> captures the frustration and alienation of marginalised communities, resonating strongly with contemporary social issues. Its raw energy and urgent themes have cemented its status as one of the most important French films of the 1990s.</p>",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/iH8saz6s0Z8SPPrKaMI2KrRzTED.jpg' alt='憎しみ' /><p><b>憎しみ (1995)</b></p></div></div><p>憎しみ』と訳されるマチュー・カソヴィッツ監督の『憎しみ』は、フランスの都市不安を描いた力強い社会派ドラマである。パリのバンリューで24時間、異なる背景を持つ3人の若者を追い、警察の横暴、不平等、人種間の緊張を検証する。モノクロで撮影された本作は、社会から疎外された人々のフラストレーションと疎外感をとらえ、現代の社会問題と強く共鳴している。その生々しいエネルギーと切迫したテーマは、1990年代を代表するフランス映画としての地位を確固たるものにした。</p>",
             "type": "film"
         },
 
         {
-            "title": "Amélie",
+            "title": "アメリ",
             "date": "2001",
-            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/oTKduWL2tpIKEmkAqF4mFEAWAsv.jpg' alt='Amélie' /><p><b>Amélie (2001)</b></p></div></div><p><em>Amélie</em>, directed by Jean-Pierre Jeunet, is a whimsical and visually striking film that became an international sensation. It follows Amélie Poulain, a shy but imaginative young woman in Paris who sets out to improve the lives of those around her while navigating her own path to love and happiness. With its vibrant color palette, playful cinematography and charming storytelling, <em>Amélie</em> captures a romanticised vision of Paris. The film was a major critical and commercial success, becoming one of the most beloved French films worldwide.</p>",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/oTKduWL2tpIKEmkAqF4mFEAWAsv.jpg' alt='アメリ' /><p><b>アメリ (2001)</b></p></div></div><p>ジャン＝ピエール・ジュネ監督の『アメリ』は、気まぐれで視覚的に印象的な映画であり、世界的なセンセーションを巻き起こした。内気だが想像力豊かなパリの少女アメリー・プーランが、周囲の人々の生活を改善しながら、愛と幸福への道を歩んでいく。鮮やかな色彩、遊び心にあふれた撮影、魅力的なストーリーテリングで、アメリはパリのロマンチックなイメージを表現している。批評的にも商業的にも大成功を収め、世界中で最も愛されているフランス映画のひとつとなった。</p>",
             "type": "film"
         },
 
         {
-            "title": "The Barbarian Invasions",
+            "title": "みなさん、さようなら",
             "date": "2003",
-            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://assets.mubicdn.net/images/artworks/514705/images-original.png?1674130189' alt='The Barbarian Invasions' /><p><b>The Barbarian Invasions (2003)</b></p></div></div><p><em>The Barbarian Invasions</em> was a Canada-France co-production, directed by Quebecois filmmaker Denys Arcand and featuring French cinematographer Guy Dufaux. The film’s production brought together Quebecois and French talent, with editor Isabelle Dedieu and composer Pierre Aviat contributing from France. This collaboration strengthened ties between the two film industries and helped the film achieve international acclaim, winning the Best Foreign Language Film Oscar.</p>",
+            "content": "<div class='description-image-container right image'><div class='iframe-text image'><img class='description-image' src='https://assets.mubicdn.net/images/artworks/514705/images-original.png?1674130189' alt='みなさん、さようなら' /><p><b>みなさん、さようなら (2003)</b></p></div></div><p>みなさん、さようならなら』はカナダとフランスの合作映画で、ケベック出身の映画監督ドゥニー・アルカンが監督し、フランス人撮影監督ギィ・デュフォーを起用した。この映画の制作にはケベックとフランスの才能が結集し、編集者のイザベル・デデューと作曲家のピエール・アヴィアットがフランスから参加した。このコラボレーションは、両国の映画産業の結びつきを強め、アカデミー賞外国語映画賞を受賞するなど、国際的な評価を得ることに貢献した。</p>",
             "type": "connection ca"
         },
 
         {
-            "title": "The Magic Roundabout",
+            "title": "マジック・ラウンドアバウト",
             "date": "2004",
-            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/qUUxGu8Oxtzk2VasR99Jqy74ogK.jpg' alt='The Magic Roundabout' /><p><b>The Magic Roundabout (2004)</b></p></div></div><p><em>The Magic Roundabout</em> was a French-British animated co-production, directed by French filmmaker Jean Duval and British directors Frank Passingham and Dave Borthwick. Based on the beloved French stop-motion series Le Manège Enchanté, the film combined British and French creative forces. The English-language version featured voice actors such as Robbie Williams, Ian McKellen and Tom Baker, while the French version starred Vanessa Paradis. This collaboration updated a classic piece of French television for an international audience.</p>",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/qUUxGu8Oxtzk2VasR99Jqy74ogK.jpg' alt='マジック・ラウンドアバウト' /><p><b>マジック・ラウンドアバウト (2004)</b></p></div></div><p>マジック・ラウンド・アバウト』は、フランス人監督ジャン・デュヴァルとイギリス人監督フランク・パッシンガムとデイヴ・ボースウィックが共同で製作したフランス・イギリス合作アニメーションである。フランスの人気ストップモーションシリーズ『マジック・ラウンド・アバウト』をベースに、イギリスとフランスのクリエイティブな力を結集した。英語版にはロビー・ウィリアムズ、イアン・マッケレン、トム・ベイカーといった声優が起用され、フランス語版にはヴァネッサ・パラディが出演した。このコラボレーションは、フランスのテレビの名作を世界中の視聴者向けにアップデートした。</p>",
             "type": "connection gb"
         },
 
         {
-            "title": "La Vie en Rose",
+            "title": "エディット・ピアフ～愛の讃歌～",
             "date": "2007",
-            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/3b9DAONAsFRhJKu25R33PE3VwDh.jpg' alt='La Vie en Rose' /><p><b>La Vie en Rose (2007)</b></p></div></div><p><em>La Vie en Rose</em> is a biographical film about French singer Édith Piaf, directed by Olivier Dahan. The film was a French-British co-production, with British involvement including co-producer Timothy Burrill, composer Christopher Gunning and costume designer Marit Allen. It became an international success, with Marion Cotillard winning an Academy Award for her portrayal of Piaf.</p>",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/3b9DAONAsFRhJKu25R33PE3VwDh.jpg' alt='エディット・ピアフ～愛の讃歌～' /><p><b>エディット・ピアフ～愛の讃歌～ (2007)</b></p></div></div><p>エディット・ピアフ～愛の讃歌～』は、オリヴィエ・ダハン監督によるフランスの歌手エディット・ピアフの伝記映画。この映画はフランスとイギリスの合作で、共同プロデューサーのティモシー・バリル、作曲家のクリストファー・ガニング、衣装デザイナーのマリット・アレンらがイギリス側として参加した。この映画は国際的な成功を収め、マリオン・コティヤールはピアフを演じてアカデミー賞を受賞した。</p>",
             "type": "connection gb"
         },
 
         {
-            "title": "MyFrenchFilmFestival",
+            "title": "マイ・フランス映画祭",
             "date": "2010",
-            "content": "<p>Launched in 2010, MyFrenchFilmFestival is an online film festival dedicated to showcasing French-language films from both France and Quebec. The festival aims to promote the diversity and richness of French-language cinema to a global audience, offering films from French and Quebecois filmmakers alike. It creates an important bridge between the two cinematic communities by providing a platform for both emerging and established filmmakers from both regions. The festival’s focus on digital accessibility allows films to be viewed by international audiences, contributing to the global presence of French and Quebec cinema and fostering collaboration between the two.</p>",
+            "content": "<p>2010年にスタートしたマイ・フランス映画祭は、フランスとケベック両国のフランス語映画を紹介するオンライン映画祭です。この映画祭は、世界中の観客にフランス語映画の多様性と豊かさを広めることを目的とし、フランス人とケベック人の映画制作者の作品を提供している。この映画祭は、両地域の新進およびベテランの映画製作者にプラットフォームを提供することで、両映画界の重要な架け橋となっている。デジタル・アクセシビリティを重視するこの映画祭は、世界中の観客に作品を鑑賞してもらうことで、フランス映画とケベック映画の世界的な存在感を高め、両映画界のコラボレーションを促進します。</p>",
             "type": "connection ca"
         },
 
         {
-            "title": "The Intouchables",
+            "title": "最強のふたり",
             "date": "2011",
-            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w440_and_h660_face/1QU7HKgsQbGpzsJbJK4pAVQV9F5.jpg' alt='The Intouchables' /><p><b>The Intouchables (2011)</b></p></div></div><p><em>The Intouchables</em>, directed by Olivier Nakache and Éric Toledano, is a heartwarming and humourous drama based on a true story. It follows the unlikely friendship between Philippe, a wealthy quadriplegic, and Driss, a charismatic young man from the Parisian suburbs who becomes his caregiver. The film blends comedy and emotion, exploring themes of friendship, social class and resilience. A massive box office success in France and internationally, <em>The Intouchables</em> became one of the highest-grossing French films of all time and inspired multiple international remakes.</p>",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w440_and_h660_face/1QU7HKgsQbGpzsJbJK4pAVQV9F5.jpg' alt='最強のふたり' /><p><b>最強のふたり (2011)</b></p></div></div><p>オリヴィエ・ナカシュとエリック・トレダノ監督による『最強のふたり』は、実話に基づいた心温まるユーモラスなドラマである。裕福な四肢麻痺患者フィリップと、彼の介護人となるパリ郊外のカリスマ的青年ドリスの、ありそうでなかった友情を描く。コメディと感動が融合し、友情、社会階級、回復力といったテーマを探求している。フランス国内だけでなく、世界中で興行的に大成功を収め、フランス映画史上最高の興行収入を記録。</p>",
             "type": "film"
         },
 
         {
-            "title": "It's Only the End of the World",
+            "title": "たかが世界の終わり",
             "date": "2016",
-            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/riWa3WZrO3n8lLWuaEVMgaqAZGn.jpg' alt='It&#39;s Only the End of the World' /><p><b>It's Only the End of the World (2016)</b></p></div></div><p><em>It's Only the End of the World</em> was a significant France-Quebec co-production, directed by Quebecois filmmaker Xavier Dolan and featuring an all-French cast, including Marion Cotillard and Vincent Cassel. While the film was primarily shot in France, it was produced with the involvement of both Quebecois and French production teams, including Dolan’s longtime Quebec collaborator André Turpin as cinematographer. The collaboration merged Dolan’s emotionally intense storytelling, influenced by Quebec’s cinéma d’auteur, with France’s tradition of theatrical, dialogue-driven drama, creating a film that resonated in both regions.</p>",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/riWa3WZrO3n8lLWuaEVMgaqAZGn.jpg' alt='たかが世界の終わり' /><p><b>たかが世界の終わり (2016)</b></p></div></div><p>たかが世界の終わり』は、ケベック出身の映画監督グザヴィエ・ドランが監督し、マリオン・コティヤールとヴァンサン・カッセルを含むフランス人キャストのみで製作された、フランスとケベックの重要な合作映画である。この映画は主にフランスで撮影されたが、ドランの長年のケベックでの共同制作者であるアンドレ・トゥルパンを撮影監督に迎えるなど、ケベックとフランスの制作チームが参加して制作された。このコラボレーションは、ケベックのシネマ・ドートゥールの影響を受けたドランのエモーショナルで強烈なストーリーテリングと、フランスの演劇的でセリフ主体のドラマの伝統を融合させ、両地域で共鳴される映画を作り上げた。</p>",
             "type": "connection ca"
         }
     ],
 
-    "whats-on": "開催中のイベント",
-    "view-full-calendar": "全カレンダーを見る",
-    "full-calendar": "今月のイベント",
 
     "day-one": "日曜日",
     "day-two": "月曜日",
@@ -341,12 +347,12 @@
     "list-events": [
         {
             "id": 1,
-            "text": "",
+            "text": "マイ・フレンチ・フィルム・フェスティバル",
             "start": "2025-01-17",
             "end": "2025-02-18",
             "backColor": "#edc351",
-            "location": "",
-            "description": "",
+            "location": "オンライン",
+            "description": "マイ・フレンチ・フィルム・フェスティバルは、現代フランス映画を世界中の観客に紹介するオンライン映画祭です。2011年にスタートしたこの映画祭では、新進気鋭の才能と多様なストーリーテリングに焦点を当て、厳選された長編映画と短編映画を提供している。視聴者は、映画祭の公式ウェブサイトやパートナー・プラットフォームを通じて作品をストリーミングすることができ、ショートフィルムは無料で視聴できる。本映画祭は、国境を越えてフランス語の映画を普及させることを目的としており、多言語の字幕を付けて、世界中の観客がアクセスできるようにしている。",
             "longDate": "1月17日～2月17日",
             "local": "False",
             "free": "True",
@@ -355,12 +361,12 @@
 
         {
             "id": 2,
-            "text": "",
+            "text": "セザール賞",
             "start": "2025-02-28",
             "end": "2025-03-01",
             "backColor": "#ff6459",
             "location": "パリ",
-            "description": "",
+            "description": "セザール賞はフランスで最も権威のある映画賞であり、フランス映画の卓越性を讃えるものである。1976年に創設され、映画芸術技術アカデミーが主催するこの賞は、しばしばフランスのアカデミー賞に相当すると考えられている。毎年パリで開催される授賞式では、監督、演技、脚本、技術部門の功績が称えられ、中でも最優秀作品賞は最も注目される賞である。トロフィーをデザインした彫刻家セザール・バルダッチーニにちなんで命名されたこのイベントは、フランス映画カレンダーの重要なハイライトとして、確立された才能と新進の才能の両方を表彰している。",
             "longDate": "2月28日",
             "local": "False",
             "free": "False",
@@ -369,12 +375,12 @@
 
         {
             "id": 3,
-            "text": "",
+            "text": "アヌシー国際アニメーション映画祭",
             "start": "2025-06-08",
             "end": "2025-06-15",
             "backColor": "#95e364",
-            "location": "",
-            "description": "",
+            "location": "アヌシー, オーヴェルニュ＝ローヌ＝アルプ地域圏",
+            "description": "アヌシー国際アニメーション映画祭は、毎年フランスのアヌシーで開催される世界有数のアニメーション映画の祭典である。短編から長編まで、世界中のスタジオやインディペンデントのクリエイターを代表する多様なアニメーション映画が紹介される。業界関係者が集まり、プレミア上映やワークショップ、ネットワーキングイベントが開催される一方、一般の観客もアヌシー湖畔の星空の下でアニメーションを楽しむことができる無料の野外上映も行われる。",
             "longDate": "6月8日～6月14日",
             "local": "False",
             "free": "True",
@@ -383,29 +389,29 @@
 
         {
             "id": 4,
-            "text": "",
+            "text": "カンヌ国際映画祭",
             "start": "2025-05-13",
             "end": "2025-05-25",
             "backColor": "#ad72e0",
-            "location": "",
-            "description": "",
+            "location": "カンヌ, プロヴァンス＝アルプ＝コート・ダジュール地域圏",
+            "description": "1946年に創設されたカンヌ国際映画祭は、世界の映画界で最も権威と影響力のあるイベントのひとつである。フランスのリビエラで毎年開催され、世界中から映画人、批評家、スターが集まる。象徴的なレッドカーペット、特別なプレミア上映、そして熾烈なコンペティションにより、カンヌは伝説的な監督たちのキャリアをスタートさせ、国際映画の軌跡を形作ってきた。映画祭最高の栄誉であるパルムドールは、映画界で最も切望される賞のひとつである。",
             "longDate": "5月13日～5月24日",
             "local": "False",
             "free": "False",
             "connection": "None",
-            "connectionGb": "<ul><li>逢びき (1945)</li><li>第三の男 (1949)</li><li>ナック (1965)</li><li>欲望 (1966)</li><li>もしも‥‥ (1968)</li><li>恋 (1971)</li><li>雇い人 (1973)</li><li>パリ、テキサス (1984)</li><li>ミッション (1986)</li><li>バートン・フィンク (1991)</li><li>愛の風景 (1992)</li><li>秘密と嘘 (1996)</li><li>戦場のピアニスト (2002)</li><li>麦の穂をゆらす風 (2006)</li><li>ブンミおじさんの森 (2010)</li><li>わたしは、ダニエル・ブレイク (2016)</li><li>逆転のトライアングル (2022)</li></ul>",
-            "connectionCa": "<ul><li>たかが世界の終わり (2016)</li><li>モントリオールのジーザス (1989)</li><li>Mommy／マミー (2014)</li><li>Orders (1974)</li></ul>",
-            "connectionJp": "<ul><li>地獄門 (1953)</li><li>影武者 (1980)</li><li>楢山節考 (1983)</li><li>うなぎ (1997)</li><li>万引き家族 (2018)</li></ul>"
+            "connectionGb": "英国映画と共同製作のパルムドール受賞者：<ul><li>逢びき (1945)</li><li>第三の男 (1949)</li><li>ナック (1965)</li><li>欲望 (1966)</li><li>もしも‥‥ (1968)</li><li>恋 (1971)</li><li>雇い人 (1973)</li><li>パリ、テキサス (1984)</li><li>ミッション (1986)</li><li>バートン・フィンク (1991)</li><li>愛の風景 (1992)</li><li>秘密と嘘 (1996)</li><li>戦場のピアニスト (2002)</li><li>麦の穂をゆらす風 (2006)</li><li>ブンミおじさんの森 (2010)</li><li>わたしは、ダニエル・ブレイク (2016)</li><li>逆転のトライアングル (2022)</li></ul>",
+            "connectionCa": "カンヌ国際映画祭でパルムドールを受賞したケベックやカナダの作品はない。しかし、ケベック作品はいくつかの賞を受賞している： <ul><li>たかが世界の終わり (2016) がグランプリを受賞</li><li>モントリオールのジーザス (1989) とMommy／マミー (2014) は審査員賞を受賞した</li><li>ケベック出身のミシェル・ブロー監督が『レ・オーダー』（1974）で監督賞を受賞</li></ul>",
+            "connectionJp": "カンヌ国際映画祭でパルムドールを受賞した日本映画：<ul><li>地獄門 (1953)</li><li>影武者 (1980)</li><li>楢山節考 (1983)</li><li>うなぎ (1997)</li><li>万引き家族 (2018)</li></ul>"
         },
 
         {
             "id": 5,
-            "text": "",
+            "text": "ディナール英国・アイルランド映画祭",
             "start": "2025-10-01",
             "end": "2025-10-06",
             "backColor": "#5aa8cc",
-            "location": "",
-            "description": "",
+            "location": "ブルターニュ、ディナール",
+            "description": "ディナール英国映画祭は、ブルターニュの海辺の町ディナールで毎年開催される英国映画の祭典である。1989年以来、英国の映画製作者たちがフランスの観客に作品を紹介する場を提供し、メジャー作品からインディペンデント作品まで、多様なセレクションを上映している。上映は、業界関係者だけでなく一般の観客にも開放されており、個々の作品のチケットのほか、複数の上映を体験したい人のための映画祭パスも用意されている。また、野外上映、映画人とのディスカッション、授賞式などの特別イベントも開催される。",
             "longDate": "10月1日～10月5日",
             "local": "True",
             "free": "False",
@@ -414,13 +420,13 @@
 
         {
             "id": 6,
-            "text": "",
+            "text": "花火の季節",
             "start": "2025-12-01",
             "end": "2025-11-30",
             "backColor": "#f59de3",
-            "location": "",
-            "description": "",
-            "longDate": "novembre / decembre",
+            "location": "フランス",
+            "description": "花火の季節は、毎年11月と12月にフランス全土で開催される日本映画祭である。この映画祭では、現代日本映画のセレクションが上映され、フランスの観客に日本の多様な映画世界を探求する機会を提供している。主にパリで開催されるが、フランス国内の様々な都市でも上映が行われる。この映画祭は、より多くの観客に日本映画を紹介することを目的としており、しばしば特別イベントやディスカッションが開催される。",
+            "longDate": "11月／12月",
             "local": "False",
             "free": "False",
             "connection": "jp"

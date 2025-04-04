@@ -6,6 +6,15 @@
     "film-of-the-week": "Film de la Semaine",
     "directed": "Dir.",
 
+    "overview-description-1": "Le cinéma français est depuis longtemps considéré comme un pilier du cinéma mondial, réputé pour ses contributions artistiques et ses récits novateurs. Depuis le travail de pionnier des frères Lumière à la fin du XIXe siècle jusqu'au mouvement révolutionnaire de la Nouvelle Vague dans les années 1950, les cinéastes français ont constamment repoussé les limites du cinéma. Le style distinct du cinéma français se caractérise par l'importance qu'il accorde aux histoires axées sur les personnages, aux visuels artistiques et à la capacité de mélanger différents genres et influences culturelles. Au fil des décennies, le cinéma français a produit des cinéastes emblématiques tels que François Truffaut, Jean-Luc Godard, Agnès Varda et Jacques Demy, dont les œuvres continuent d'inspirer des générations de cinéastes dans le monde entier.",
+    "overview-heading-1": "Célébration du cinéma en France",
+    "overview-description-2": "La France accueille certains des festivals de cinéma les plus prestigieux au monde, notamment le Festival de Cannes, qui attire des cinéastes, des acteurs et des professionnels de l'industrie du monde entier. Outre Cannes, des événements tels que les César, le Festival international du film d'animation d'Annecy et le Festival international du court métrage de Clermont-Ferrand font partie intégrante du paysage cinématographique français, célébrant la diversité des styles cinématographiques et offrant une plateforme aux nouveaux talents. Ces festivals ne se contentent pas de mettre en valeur les productions françaises, ils servent aussi d'espace de rencontre entre le cinéma international et le public français. Les festivals de films français associent souvent des projections à des masterclasses, des panels de l'industrie et des célébrations du patrimoine cinématographique, ce qui en fait des événements essentiels dans le calendrier cinématographique mondial.",
+    "overview-heading-2": "Influence sur le cinéma mondial",
+    "overview-description-3": "Le cinéma français continue de jouer un rôle important sur la scène internationale, influençant les cinéastes du monde entier tout en conservant une identité unique. Grâce aux coproductions, aux collaborations et au succès international de films comme <em>La Haine</em>, <em>Le Fabuleux Destin d'Amélie Poulain</em> et <em>Intouchables</em>, les films français continuent de trouver un écho auprès des publics de différentes cultures. En outre, l'essor des plateformes de streaming a rendu les films français plus accessibles que jamais, permettant au public international de découvrir à la fois des chefs-d'œuvre classiques et des œuvres contemporaines. La capacité de la France à combiner sa riche histoire cinématographique avec une narration moderne garantit que le cinéma français restera une force influente dans l'industrie cinématographique mondiale pour les années à venir.",
+
+    "lumiere-brothers": "<em>Frères Lumière</em>",
+    "cesar-award": "<em>Un César</em>",
+
     "films": [
         {
             "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/6/8/4/51684-la-haine-0-2000-0-3000-crop.jpg?v=b6677cc136",
@@ -311,9 +320,6 @@
         }
     ],
 
-    "whats-on": "À l’Affiche",
-    "view-full-calendar": "Voir Calendrier Complet",
-    "full-calendar": "Évenements du Mois",
 
     "day-one": "lundi",
     "day-two": "mardi",
@@ -345,8 +351,8 @@
             "start": "2025-01-17",
             "end": "2025-02-18",
             "backColor": "#edc351",
-            "location": "En Ligne",
-            "description": "",
+            "location": "En ligne",
+            "description": "MyFrenchFilmFestival est un festival de cinéma en ligne destiné à présenter le cinéma francophone contemporain au public du monde entier. Lancé en 2011, le festival propose une sélection de longs et courts métrages, mettant en avant les talents émergents et la diversité des histoires. Les spectateurs peuvent visionner les films en streaming sur le site officiel du festival et sur les plateformes partenaires, les courts métrages étant disponibles gratuitement. L'événement vise à promouvoir le cinéma francophone au-delà des frontières de la France, en le rendant accessible au public international grâce à des sous-titres en plusieurs langues.",
             "longDate": "17 janvier - 17 février",
             "local": "False",
             "free": "True",
@@ -360,7 +366,7 @@
             "end": "2025-03-01",
             "backColor": "#ff6459",
             "location": "Paris",
-            "description": "",
+            "description": "Les César sont les récompenses cinématographiques les plus prestigieuses de France, célébrant l'excellence du cinéma français. Créés en 1976 et organisés par l'Académie des Arts et Techniques du Cinéma, ils sont souvent considérés comme l'équivalent français des Oscars. Organisée chaque année à Paris, la cérémonie récompense les réalisations dans les domaines de la réalisation, de l'interprétation, de l'écriture et de la technique, le prix le plus convoité étant celui du meilleur film. Nommé d'après le sculpteur César Baldaccini, qui a conçu le trophée, l'événement constitue un moment fort du calendrier cinématographique français, récompensant à la fois des talents confirmés et émergents.",
             "longDate": "28 février",
             "local": "False",
             "free": "False",
@@ -374,7 +380,7 @@
             "end": "2025-06-15",
             "backColor": "#95e364",
             "location": "Annecy, Auvergne-Rhône-Alpes",
-            "description": "",
+            "description": "Le Festival international du film d'animation d'Annecy est la plus grande célébration mondiale du cinéma d'animation. Il se tient chaque année dans la ville pittoresque d'Annecy, en France. Il présente une sélection variée de films d'animation, des courts aux longs métrages, représentant des studios et des créateurs indépendants du monde entier. Tandis que les professionnels de l'industrie se réunissent pour des avant-premières, des ateliers et des événements de réseautage, le festival propose également des projections gratuites en plein air, permettant au grand public de profiter de l'animation sous les étoiles au bord du lac d'Annecy.",
             "longDate": "8 juin - 14 juin",
             "local": "False",
             "free": "True",
@@ -388,14 +394,14 @@
             "end": "2025-05-25",
             "backColor": "#ad72e0",
             "location": "Cannes, Provence-Alpes-Côte-d'Azur",
-            "description": "",
+            "description": "Le Festival de Cannes, créé en 1946, est l'un des événements les plus prestigieux et les plus influents du cinéma mondial. Organisé chaque année sur la Côte d'Azur, il attire des cinéastes, des critiques et des stars du monde entier. Avec son tapis rouge emblématique, ses premières exclusives et sa compétition féroce, Cannes a lancé la carrière de réalisateurs légendaires et façonné la trajectoire du cinéma international. La plus haute distinction du festival, la Palme d'or, reste l'une des récompenses les plus convoitées de l'industrie.",
             "longDate": "13 mai - 24 mai",
             "local": "False",
             "free": "False",
             "connection": "None",
-            "connectionGb": "<ul><li>Brève rencontre (1945)</li><li>Le Troisième Homme (1949)</li><li>Le Knack... et comment l'avoir (1965)</li><li>Blow-Up (1966)</li><li>if.... (1968)</li><li>Le Messager (1971)</li><li>La Méprise (1973)</li><li>Paris, Texas (1984)</li><li>La Mission (1986)</li><li>Barton Fink (1991)</li><li>Les Meilleures Intentions (1992)</li><li>Secrets et mensonges (1996)</li><li>Le Pianiste (2002)</li><li>Le vent se lève (2006)</li><li>Oncle Boonmee (celui qui se souvient de ses vies antérieures) (2010)</li><li>Moi, Daniel Blake (2016)</li><li>Sans filtre (2022)</li></ul>",
-            "connectionCa": "<ul><li>Juste la fin du monde (2016)</li><li>Jésus de Montréal (1989)</li><li>Mommy (2014)</li><li>Les ordres (1974)</li></ul>",
-            "connectionJp": "<ul><li>La Porte de l'enfer (1953)</li><li>Kagemusha, l'ombre du guerrier (1980)</li><li>La Ballade de Narayama (1983)</li><li>L'Anguille (1997)</li><li>Une Affaire de famille (2018)</li></ul>"
+            "connectionGb": "Palme d'or des films britanniques et des coproductions : <ul><li>Brève rencontre (1945)</li><li>Le Troisième Homme (1949)</li><li>Le Knack... et comment l'avoir (1965)</li><li>Blow-Up (1966)</li><li>if.... (1968)</li><li>Le Messager (1971)</li><li>La Méprise (1973)</li><li>Paris, Texas (1984)</li><li>La Mission (1986)</li><li>Barton Fink (1991)</li><li>Les Meilleures Intentions (1992)</li><li>Secrets et mensonges (1996)</li><li>Le Pianiste (2002)</li><li>Le vent se lève (2006)</li><li>Oncle Boonmee (celui qui se souvient de ses vies antérieures) (2010)</li><li>Moi, Daniel Blake (2016)</li><li>Sans filtre (2022)</li></ul>",
+            "connectionCa": "Aucun film québécois ou même canadien n'a remporté la Palme d'Or à Cannes. Toutefois, des productions québécoises ont été récompensées : <ul><li><em>Juste la fin du monde</em> (2016) a remporté le Grand Prix</li><li><em>Jésus de Montréal</em> (1989) et <em>Mommy</em> (2014) a remporté le Prix du Jury</li><li>Le réalisateur québécois Michel Brault a remporté le prix du meilleur réalisateur pour <em>Les ordres</em> (1974)</li></ul>",
+            "connectionJp": "Films japonais ayant obtenu la Palme d'Or à Cannes : <ul><li>La Porte de l'enfer (1953)</li><li>Kagemusha, l'ombre du guerrier (1980)</li><li>La Ballade de Narayama (1983)</li><li>L'Anguille (1997)</li><li>Une Affaire de famille (2018)</li></ul>"
         },
 
         {
@@ -405,7 +411,7 @@
             "end": "2025-10-06",
             "backColor": "#5aa8cc",
             "location": "Dinard, Brittanie",
-            "description": "",
+            "description": "Le Festival du film britannique de Dinard est une célébration annuelle du cinéma britannique qui se tient dans la ville balnéaire de Dinard, en Bretagne. Depuis 1989, il permet aux cinéastes britanniques de présenter leur travail au public français, en proposant une sélection variée de films, allant des grandes productions aux joyaux indépendants. Les projections sont ouvertes à la fois aux professionnels de l'industrie et au grand public. Des billets sont disponibles pour les films individuels ainsi que des laissez-passer pour ceux qui souhaitent assister à plusieurs projections. Le festival organise également des événements spéciaux tels que des projections en plein air, des discussions avec les cinéastes et des cérémonies de remise de prix.",
             "longDate": "1 octobre - 5 octobre",
             "local": "True",
             "free": "False",
@@ -419,7 +425,7 @@
             "end": "2025-11-30",
             "backColor": "#f59de3",
             "location": "France",
-            "description": "",
+            "description": "Les Saisons Hanabi est un festival annuel de cinéma japonais qui se tient dans toute la France, généralement en novembre et décembre. Le festival présente une sélection de films japonais contemporains, offrant au public français l'opportunité d'explorer la diversité du paysage cinématographique japonais. Bien qu'il se déroule principalement à Paris, des projections ont également lieu dans plusieurs villes de France. Le festival est conçu pour présenter le cinéma japonais à un public plus large et les films sont souvent accompagnés d'événements spéciaux et de discussions.",
             "longDate": "novembre / decembre",
             "local": "False",
             "free": "False",

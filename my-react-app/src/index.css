@@ -94,3 +94,8 @@ body {
 .description-image {
   width: 100%;
 }
+
+.overview-container {
+  padding-bottom: 12px;
+  overflow: auto;
+}

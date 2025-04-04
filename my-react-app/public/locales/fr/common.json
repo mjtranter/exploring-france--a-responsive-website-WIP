@@ -18,5 +18,9 @@
     "view-connection": "Voir Connexion",
     "connection-gb": "Connexions avec Grande-Bretagne",
     "connection-ca": "Connexions avec Québec, Canada",
-    "connection-jp": "Connexions avec Japon"
+    "connection-jp": "Connexions avec Japon",
+
+    "whats-on": "À l’Affiche",
+    "view-full-calendar": "Voir Calendrier Complet",
+    "full-calendar": "Évenements du Mois"
 }

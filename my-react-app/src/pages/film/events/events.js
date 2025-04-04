@@ -46,8 +46,8 @@ export default function Events() {
             </div>
             <div className="whats-on">
                 <div className="whats-on-header-row">
-                    <h5><b>{t('whats-on')}</b></h5>
-                    <Button type="default" text={t('view-full-calendar')} onClick={() => showPopup("default", 'full-calendar', "calendar" )} />
+                    <h5><b>{t('whats-on', { ns: 'common' })}</b></h5>
+                    <Button type="default" text={t('view-full-calendar', { ns: 'common' })} onClick={() => showPopup("default", 'full-calendar', "calendar" )} />
                 </div>
 
                 <EventCalendar ns={ns} type="short" />

@@ -287,7 +287,7 @@
         {
             "title": "The Magic Roundabout",
             "date": "2004",
-            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/qUUxGu8Oxtzk2VasR99Jqy74ogK.jpg' alt='The Magic Roundabout' /><p><b>The Magic Roundabout (2004)</b></p></div></div><p><em>The Magic Roundabout</em> was a French-British animated co-production, directed by French filmmaker Jean Duval and British directors Frank Passingham and Dave Borthwick. Based on the beloved French stop-motion series Le Manège Enchanté, the film combined British and French creative forces. The English-language version featured voice actors such as Robbie Williams, Ian McKellen and Tom Baker, while the French version starred Vanessa Paradis. This collaboration updated a classic piece of French television for an international audience.</p>",
+            "content": "<div class='description-image-container right person'><div class='iframe-text image'><img class='description-image' src='https://media.themoviedb.org/t/p/w600_and_h900_bestv2/qUUxGu8Oxtzk2VasR99Jqy74ogK.jpg' alt='The Magic Roundabout' /><p><b>The Magic Roundabout (2004)</b></p></div></div><p><em>The Magic Roundabout</em> was a French-British animated co-production, directed by French filmmaker Jean Duval and British directors Frank Passingham and Dave Borthwick. Based on the beloved French stop-motion series <em>Le Manège Enchanté</em>, the film combined British and French creative forces. The English-language version featured voice actors such as Robbie Williams, Ian McKellen and Tom Baker, while the French version starred Vanessa Paradis. This collaboration updated a classic piece of French television for an international audience.</p>",
             "type": "connection gb"
         },
 
@@ -320,9 +320,6 @@
         }
     ],
 
-    "whats-on": "What's On",
-    "view-full-calendar": "View Full Calendar",
-    "full-calendar": "Events This Month",
 
     "day-one": "Monday",
     "day-two": "Tuesday",
@@ -428,7 +425,7 @@
             "end": "2025-11-30",
             "backColor": "#f59de3",
             "location": "France",
-            "description": "Hanabi Seasons is an annual Japanese film festival held across France, usually taking place in November and December. The festival showcases a selection of contemporary Japanese films, offering French audiences the opportunity to explore Japan's diverse cinematic landscape. While it is primarily hosted in Paris, screenings also take place in various cities throughout France. The festival is designed to introduce Japanese cinema to a broader audience, and films are often accompanied by special events and discussions.",
+            "description": "Hanabi Seasons is an annual Japanese film festival held across France, usually taking place in November and December. The festival showcases a selection of contemporary Japanese films, offering French audiences the opportunity to explore Japan's diverse cinematic landscape. While it is primarily hosted in Paris, screenings also take place in various cities throughout France. The festival is designed to introduce Japanese cinema to a broader audience and films are often accompanied by special events and discussions.",
             "longDate": "November / December",
             "local": "False",
             "free": "False",

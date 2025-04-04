@@ -18,5 +18,9 @@
     "view-connection": "接続を見る",
     "connection-gb": "イギリスとのつながり",
     "connection-ca": "ケベック、カナダとのつながり",
-    "connection-jp": "日本とのつながり"
+    "connection-jp": "日本とのつながり",
+
+    "whats-on": "開催中のイベント",
+    "view-full-calendar": "全カレンダーを見る",
+    "full-calendar": "今月のイベント"
 }
