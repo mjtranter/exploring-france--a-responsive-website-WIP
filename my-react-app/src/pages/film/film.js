@@ -8,6 +8,7 @@ import { useSearchParams } from 'react-router-dom';
 import Overview from './overview/overview';
 import History from './history/history';
 import Events from './events/events';
+import Locations from './locations/locations';
 import Recommendation from '../../components/recommendation/recommendation';
 import MyFrenchFilmFestival from '../../assets/images/my-french-film-festival.jpg';
 import CesarAwards from '../../assets/images/cesar-awards.jpg';
@@ -24,7 +25,7 @@ export default function Film() {
     const [searchParams, setSearchParams] = useSearchParams();
     const categoryParam = searchParams.get('category') || 'overview';
 
-    const categories = [{id: "Overview", t: "overview"}, {id: "History", t: "history"}, {id: "Events", t: "events"}];
+    const categories = [{id: "Overview", t: "overview"}, {id: "History", t: "history"}, {id: "Events", t: "events"}, {id: "Locations", t: "locations"}];
     const [selectedCategory, setSelectedCategory] = useState(categories.find(category => category.t === categoryParam) || categories[0]);
 
     useEffect(() => {
@@ -36,7 +37,7 @@ export default function Film() {
         window.scrollTo(0,0);
     }, [selectedCategory, setSearchParams]);
 
-    const components = [Overview, History, Events];
+    const components = [Overview, History, Events, Locations];
 
     const date = new Date();
     const frenchDate = date.toLocaleDateString("sv", {timeZone: "Europe/Paris"});

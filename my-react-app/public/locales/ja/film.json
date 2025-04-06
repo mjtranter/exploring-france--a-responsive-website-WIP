@@ -2,6 +2,7 @@
     "overview": "概要",
     "history": "歴史",
     "events": "イベント",
+    "locations": "所在地",
 
     "film-of-the-week": "今週の映画",
     "directed": "監督：",
@@ -430,6 +431,47 @@
             "local": "False",
             "free": "False",
             "connection": "jp"
+        }
+    ],
+
+    "locations-description": "パリのロマンチックな通りからリビエラの海岸沿いの魅力まで、フランスは長い間、映画の舞台として愛されてきた。このセクションでは、象徴的なロケ地とそれを生んだ映画を紹介します。",
+    "paris": "パリ",
+    "riviera": "リビエラ",
+    "countryside": "カントリーサイド",
+    "normandy-brittany": "ノルマンディー＆ブルターニュ",
+    "other-cities": "その他の都市",
+
+    "filming-locations-heading": "撮影場所",
+
+    "filming-locations": [
+        {
+            "id": 1,
+            "name": "ビフォア・サンセット (2004)",
+            "location": "Paris",
+            "image": "https://almostginger.com/wp-content/uploads/2018/01/Before-Sunset-5.jpg",
+            "description": "<p>ビフォア・サンライズ』（1995）に続く、リチャード・リンクレイター監督の『ビフォア』3部作の第2部にあたる恋愛ドラマ。9年間離れていたジェシー（イーサン・ホーク）とセリーヌ（ジュリー・デルピー）の再会を描く。ほぼ全編がパリの街を舞台にした『ビフォア・サンセット』は、街を歩きながら語り合うふたりの再会のつかの間の瞬間をとらえている。二人の親密な関係が、美しいパリの背景とともに描かれ、登場人物と街そのものとの時を超えたつながりを見せている。</p>",
+            "locations": "<ul><li><i><a href='https://maps.app.goo.gl/6Dmt9MR1XcoKUtPS9' target='_blank' rel='noreferrer'>シェイクスピア・アンド・カンパニー、パリ5区</a></i></li><li><i><a href='https://maps.app.goo.gl/jeQoQ8VV4VDaC4sb7' target='_blank' rel='noreferrer'>ル・ピュア・カフェ、パリ11区</a></i></li><li><i><a href='https://maps.app.goo.gl/2HhjA2bRf6b7VFUb6' target='_blank' rel='noreferrer'>クーレ・ヴェルテ・ルネ・デュモン、パリ12区</a></i></li><li><i><a href='https://maps.app.goo.gl/VkFZoz9YmHYYfCJ3A' target='_blank' rel='noreferrer'>ケ・ド・ラ・トゥルネル、パリ5区</a></i></li><li><i><a href='https://maps.app.goo.gl/S8LcBrkKWo9Mr6yU7' target='_blank' rel='noreferrer'>アンリ4世通り、パリ4区</a></i></li></ul>",
+            "streetview": "https://www.google.com/maps/embed?pb=!4v1743862582251!6m8!1m7!1sQ5m3aqp1uuwdWFS8Qr0kMg!2m2!1d48.85329175141133!2d2.383129277074587!3f86.07!4f-0.2600000000000051!5f1.7663383948750866"
+        },
+
+        {
+            "id": 2,
+            "name": "燃ゆる女の肖像 (2019)",
+            "location": "Normandy & Brittany",
+            "image": "https://film-grab.com/wp-content/uploads/photo-gallery/Portrait_of_a_Lady_on_Fire_006.jpg",
+            "description": "<p>18世紀ブルターニュの孤立した海岸沿いの風景を舞台にしたセリーヌ・スキャンマの『燃ゆる女の肖像』は、初対面の男性と結婚間近の若い女性エロイーズの結婚式の肖像画を密かに描くために雇われた画家マリアンヌの姿を描いている。エロイーズはポーズをとることを拒むので、マリアンヌは毎日の散歩の間、同伴者のふりをして彼女を観察する。静かな観察から始まったこの作品は、やがて2人の女性の間に力強いつながりをもたらすようになる。人里離れた、風の吹きすさぶ風景が、彼女たちの親密さを増す静かな背景となっている。この映画は、愛と選択、そして永遠の痕跡を残す束の間の瞬間について、控えめながら感情を揺さぶる物語である。</p>",
+            "locations": "<ul><li><i><a href='https://maps.app.goo.gl/ohUoMiymQuhkCQMe8' target='_blank' rel='noreferrer'>シャトー・ド・ラ・シャペル・ゴーティエ, ラ・シャペル・ゴーティエ</a></i></li><li><i><a href='https://maps.app.goo.gl/daUpc61r3kAWzKjV8' target='_blank' rel='noreferrer'>アルシュ・デ・ポルト・ブラン・ロッシュ・ペルセ、サン＝ピエール＝キブロン</a></i></li></ul>",
+            "streetview": "https://www.google.com/maps/embed?pb=!4v1743885701939!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ0VuNTJ5X3dF!2m2!1d47.52205533106518!2d-3.153542289231473!3f176.14683601663668!4f-3.1507760161942144!5f0.7820865974627469"
+        },
+
+        {
+            "id": 3,
+            "name": "フレンチ・ディスパッチ ザ・リバティ、カンザス・イヴニング・サン別冊 (2021)",
+            "location": "Other Cities",
+            "image": "https://film-grab.com/wp-content/uploads/photo-gallery/The_French_Dispatch_001.jpg",
+            "description": "<p>架空の都市アンニュイ＝シュル＝ブラッセを舞台にした『フレンチ・ディスパッチ ザ・リバティ、カンザス・イヴニング・サン別冊』は、ウェス・アンダーソン監督によるコメディドラマで、フランスを拠点とするアメリカの雑誌の最終号のさまざまな記事を描いている。アンニュイ・シュル・ブラゼは架空の街だが、フランス南西部にあるアングレームの実在の街並みを通して命を吹き込まれ、その古い石造りの建物と曲がりくねった丘は、アンダーソンの様式化されたビジョンに完璧にマッチしている。街の個性は、実用的なミニチュアと微妙なデジタル効果によって強調され、現実と構築されたものがひとつのまとまりのあるオフビートな世界に融合している。犯罪、芸術、政治、日常生活のほろ苦い魅力といったストーリーの背景として、ロケ地が入念に吟味されている。</p>",
+            "locations": "<ul><li><i><a href='https://maps.app.goo.gl/S3ZzMjhCUa85koX56' target='_blank' rel='noreferrer'>アングレーム、サン・ピエール広場</a></i></li><!--<li><i><a href='https://maps.app.goo.gl/daUpc61r3kAWzKjV8' target='_blank' rel='noreferrer'>Arche De Port Blanc Roche Percée, Saint-Pierre-Quiberon</a></i></li>--></ul>",
+            "streetview": "https://www.google.com/maps/embed?pb=!4v1743897044951!6m8!1m7!1sGizEvX5vEa8K4s_hh9gMXA!2m2!1d45.64895348191416!2d0.1509755038800033!3f347.1586480667311!4f1.781484530964363!5f1.2693753021943097"
         }
     ]
 }

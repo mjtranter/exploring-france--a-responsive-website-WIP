@@ -2,6 +2,7 @@
     "overview": "Overview",
     "history": "History",
     "events": "Events",
+    "locations": "Locations",
 
     "film-of-the-week": "Film of the Week",
     "directed": "Dir.",
@@ -430,6 +431,47 @@
             "local": "False",
             "free": "False",
             "connection": "jp"
+        }
+    ],
+
+    "locations-description": "France has long been a favourite backdrop for cinema, from the romantic streets of Paris to the coastal charm of the Riviera. This section highlights iconic filming locations and the films that brought them to life.",
+    "paris": "Paris",
+    "riviera": "Riviera",
+    "countryside": "Countryside",
+    "normandy-brittany": "Normandy & Brittany",
+    "other-cities": "Other Cities",
+
+    "filming-locations-heading": "Filming Locations:",
+
+    "filming-locations": [
+        {
+            "id": 1,
+            "name": "Before Sunset (2004)",
+            "location": "Paris",
+            "image": "https://almostginger.com/wp-content/uploads/2018/01/Before-Sunset-5.jpg",
+            "description": "<p>This romantic drama is the second part of Richard Linklater's Before Trilogy, following <em>Before Sunrise</em> (1995). It explores the reconnection of Jesse (Ethan Hawke) and Céline (Julie Delpy) after nine years apart. Set almost entirely in the streets of Paris, <em>Before Sunset</em> captures the fleeting moments of their reunion as they walk and talk through the city. The film’s intimate portrayal of their relationship, alongside the stunning Parisian backdrop, showcases the timeless connection between the characters and the city itself.</p>",
+            "locations": "<ul><li><i><a href='https://maps.app.goo.gl/6Dmt9MR1XcoKUtPS9' target='_blank' rel='noreferrer'>Shakespeare and Company, Paris 5e</a></i></li><li><i><a href='https://maps.app.goo.gl/jeQoQ8VV4VDaC4sb7' target='_blank' rel='noreferrer'>Le Pure Café, Paris 11e</a></i></li><li><i><a href='https://maps.app.goo.gl/2HhjA2bRf6b7VFUb6' target='_blank' rel='noreferrer'>Coulée Verte René-Dumont, Paris 12e</a></i></li><li><i><a href='https://maps.app.goo.gl/VkFZoz9YmHYYfCJ3A' target='_blank' rel='noreferrer'>Quai de la Tournelle, Paris 5e</a></i></li><li><i><a href='https://maps.app.goo.gl/S8LcBrkKWo9Mr6yU7' target='_blank' rel='noreferrer'>Quai Henri IV, Paris 4e</a></i></li></ul>",
+            "streetview": "https://www.google.com/maps/embed?pb=!4v1743862582251!6m8!1m7!1sQ5m3aqp1uuwdWFS8Qr0kMg!2m2!1d48.85329175141133!2d2.383129277074587!3f86.07!4f-0.2600000000000051!5f1.7663383948750866"
+        },
+
+        {
+            "id": 2,
+            "name": "Portrait of a Lady on Fire (2019)",
+            "location": "Normandy & Brittany",
+            "image": "https://film-grab.com/wp-content/uploads/photo-gallery/Portrait_of_a_Lady_on_Fire_006.jpg",
+            "description": "<p>Set in the isolated coastal landscape of 18th-century Brittany, Céline Sciamma’s <em>Portrait of a Lady on Fire</em> follows Marianne, a painter hired to secretly paint a wedding portrait of Héloïse, a young woman soon to be married to a man she has never met. Héloïse refuses to pose, so Marianne observes her during daily walks, pretending to be a companion. What begins as quiet observation slowly becomes a powerful connection between the two women. The remote, windswept landscape serves as a quiet backdrop to their growing intimacy. The film is a restrained yet emotionally charged story about love, choice and the brief moments that leave a lasting mark.</p>",
+            "locations": "<ul><li><i><a href='https://maps.app.goo.gl/ohUoMiymQuhkCQMe8' target='_blank' rel='noreferrer'>Château de La Chapelle-Gauthier, La Chapelle-Gauthier</a></i></li><li><i><a href='https://maps.app.goo.gl/daUpc61r3kAWzKjV8' target='_blank' rel='noreferrer'>Arche De Port Blanc Roche Percée, Saint-Pierre-Quiberon</a></i></li></ul>",
+            "streetview": "https://www.google.com/maps/embed?pb=!4v1743885701939!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ0VuNTJ5X3dF!2m2!1d47.52205533106518!2d-3.153542289231473!3f176.14683601663668!4f-3.1507760161942144!5f0.7820865974627469"
+        },
+
+        {
+            "id": 3,
+            "name": "The French Dispatch (2021)",
+            "location": "Other Cities",
+            "image": "https://film-grab.com/wp-content/uploads/photo-gallery/The_French_Dispatch_001.jpg",
+            "description": "<p>Set in the fictional city of Ennui-sur-Blasé, <em>The French Dispatch</em> is a comedy drama directed by Wes Anderson, exploring various articles of the final issue of an American magazine based in France. Though fictional, Ennui-sur-Blasé is brought to life through the real streets of Angoulême in southwest France, whose old stone buildings and winding hills perfectly match Anderson’s stylised vision. The city’s character is enhanced with practical miniatures and subtle digital effects, blending the real and the constructed into one cohesive, offbeat world. It’s a film packed with detail and dry humour, where the location becomes a carefully curated backdrop to stories of crime, art, politics and the bittersweet charm of everyday life.</p>",
+            "locations": "<ul><li><i><a href='https://maps.app.goo.gl/S3ZzMjhCUa85koX56' target='_blank' rel='noreferrer'>Place Saint-Pierre, Angoulême</a></i></li><!--<li><i><a href='https://maps.app.goo.gl/daUpc61r3kAWzKjV8' target='_blank' rel='noreferrer'>Arche De Port Blanc Roche Percée, Saint-Pierre-Quiberon</a></i></li>--></ul>",
+            "streetview": "https://www.google.com/maps/embed?pb=!4v1743897044951!6m8!1m7!1sGizEvX5vEa8K4s_hh9gMXA!2m2!1d45.64895348191416!2d0.1509755038800033!3f347.1586480667311!4f1.781484530964363!5f1.2693753021943097"
         }
     ]
 }

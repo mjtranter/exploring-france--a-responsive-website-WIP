@@ -2,6 +2,7 @@
     "overview": "Aperçu",
     "history": "Histoire",
     "events": "Événements",
+    "locations": "Lieux",
 
     "film-of-the-week": "Film de la Semaine",
     "directed": "Dir.",
@@ -430,6 +431,47 @@
             "local": "False",
             "free": "False",
             "connection": "jp"
+        }
+    ],
+
+    "locations-description": "La France est depuis longtemps un décor de prédilection pour le cinéma, des rues romantiques de Paris au charme côtier de la Côte d'Azur. Cette section présente les lieux de tournage emblématiques et les films qui leur ont donné vie.",
+    "paris": "Paris",
+    "riviera": "Côte d'Azur",
+    "countryside": "Campagne",
+    "normandy-brittany": "Normandie et Bretagne",
+    "other-cities": "Autres villes",
+
+    "filming-locations-heading": "Lieux de tournage :",
+
+    "filming-locations": [
+        {
+            "id": 1,
+            "name": "Before Sunset (2004)",
+            "location": "Paris",
+            "image": "https://almostginger.com/wp-content/uploads/2018/01/Before-Sunset-5.jpg",
+            "description": "<p>Ce drame romantique est le deuxième volet de la trilogie Before de Richard Linklater, après <em>Before Sunrise</em> (1995). Il explore les retrouvailles de Jesse (Ethan Hawke) et Céline (Julie Delpy) après neuf ans de séparation. Se déroulant presque entièrement dans les rues de Paris, <em>Before Sunset</em> capture les moments fugaces de leurs retrouvailles alors qu'ils marchent et discutent dans la ville. Le portrait intime de leur relation, ainsi que l'époustouflante toile de fond parisienne, mettent en évidence le lien intemporel entre les personnages et la ville elle-même.</p>",
+            "locations": "<ul><li><i><a href='https://maps.app.goo.gl/6Dmt9MR1XcoKUtPS9' target='_blank' rel='noreferrer'>Shakespeare and Company, Paris 5e</a></i></li><li><i><a href='https://maps.app.goo.gl/jeQoQ8VV4VDaC4sb7' target='_blank' rel='noreferrer'>Le Pure Café, Paris 11e</a></i></li><li><i><a href='https://maps.app.goo.gl/2HhjA2bRf6b7VFUb6' target='_blank' rel='noreferrer'>Coulée Verte René-Dumont, Paris 12e</a></i></li><li><i><a href='https://maps.app.goo.gl/VkFZoz9YmHYYfCJ3A' target='_blank' rel='noreferrer'>Quai de la Tournelle, Paris 5e</a></i></li><li><i><a href='https://maps.app.goo.gl/S8LcBrkKWo9Mr6yU7' target='_blank' rel='noreferrer'>Quai Henri IV, Paris 4e</a></i></li></ul>",
+            "streetview": "https://www.google.com/maps/embed?pb=!4v1743862582251!6m8!1m7!1sQ5m3aqp1uuwdWFS8Qr0kMg!2m2!1d48.85329175141133!2d2.383129277074587!3f86.07!4f-0.2600000000000051!5f1.7663383948750866"
+        },
+
+        {
+            "id": 2,
+            "name": "Portrait de la jeune fille en feu (2019)",
+            "location": "Normandy & Brittany",
+            "image": "https://film-grab.com/wp-content/uploads/photo-gallery/Portrait_of_a_Lady_on_Fire_006.jpg",
+            "description": "<p>Situé dans le paysage côtier isolé de la Bretagne du XVIIIe siècle, <em>Portrait de la jeune fille en feu</em> de Céline Sciamma suit Marianne, une peintre engagée pour peindre secrètement le portrait de mariage d'Héloïse, une jeune femme bientôt mariée à un homme qu'elle n'a jamais rencontré. Héloïse refusant de poser, Marianne l'observe au cours de ses promenades quotidiennes, se faisant passer pour une compagne. Ce qui n'est au départ qu'une observation silencieuse se transforme peu à peu en un lien puissant entre les deux femmes. Le paysage isolé et balayé par les vents sert de toile de fond à leur intimité grandissante. Le film est une histoire sobre mais chargée d'émotion sur l'amour, le choix et les brefs moments qui laissent une marque durable.</p>",
+            "locations": "<ul><li><i><a href='https://maps.app.goo.gl/ohUoMiymQuhkCQMe8' target='_blank' rel='noreferrer'>Château de La Chapelle-Gauthier, La Chapelle-Gauthier</a></i></li><li><i><a href='https://maps.app.goo.gl/daUpc61r3kAWzKjV8' target='_blank' rel='noreferrer'>Arche De Port Blanc Roche Percée, Saint-Pierre-Quiberon</a></i></li></ul>",
+            "streetview": "https://www.google.com/maps/embed?pb=!4v1743885701939!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ0VuNTJ5X3dF!2m2!1d47.52205533106518!2d-3.153542289231473!3f176.14683601663668!4f-3.1507760161942144!5f0.7820865974627469"
+        },
+
+        {
+            "id": 3,
+            "name": "The French Dispatch (2021)",
+            "location": "Other Cities",
+            "image": "https://film-grab.com/wp-content/uploads/photo-gallery/The_French_Dispatch_001.jpg",
+            "description": "<p>Situé dans la ville fictive d'Ennui-sur-Blasé, <em>The French Dispatch</em> est une comédie dramatique réalisée par Wes Anderson, qui explore divers articles du dernier numéro d'un magazine américain basé en France. Bien que fictive, Ennui-sur-Blasé prend vie dans les rues réelles d'Angoulême, dans le sud-ouest de la France, dont les vieux bâtiments en pierre et les collines sinueuses correspondent parfaitement à la vision stylisée d'Anderson. Le caractère de la ville est rehaussé par des miniatures pratiques et des effets numériques subtils, mêlant le réel et le construit en un monde cohérent et décalé. C'est un film plein de détails et d'humour pince-sans-rire, où le lieu devient une toile de fond soigneusement choisie pour des histoires de crime, d'art, de politique et de charme doux-amer de la vie de tous les jours.</p>",
+            "locations": "<ul><li><i><a href='https://maps.app.goo.gl/S3ZzMjhCUa85koX56' target='_blank' rel='noreferrer'>Place Saint-Pierre, Angoulême</a></i></li><!--<li><i><a href='https://maps.app.goo.gl/daUpc61r3kAWzKjV8' target='_blank' rel='noreferrer'>Arche De Port Blanc Roche Percée, Saint-Pierre-Quiberon</a></i></li>--></ul>",
+            "streetview": "https://www.google.com/maps/embed?pb=!4v1743897044951!6m8!1m7!1sGizEvX5vEa8K4s_hh9gMXA!2m2!1d45.64895348191416!2d0.1509755038800033!3f347.1586480667311!4f1.781484530964363!5f1.2693753021943097"
         }
     ]
 }

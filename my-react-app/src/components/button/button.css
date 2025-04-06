@@ -1,12 +1,15 @@
 @import '../../assets/colours/colours.css';
 
 .button {
+    width: fit-content;
     border: none;
     border-radius: 1.5rem;
     background-color: var(--primary-theme);
     font-size: 14px;
     color: var(--secondary-theme);
-    padding: 8px;
+    padding: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .connection {
@@ -17,18 +20,12 @@
     background-color: transparent;
     border: 2px solid var(--primary-theme);
     color: var(--dark-theme);
-    padding: 6px;
-    padding-left: 16px;
-    padding-right: 16px;
 }
 
 .filter-connection {
     background-color: transparent;
     border: 2px solid var(--french-red);
     color: var(--dark-theme);
-    padding: 6px;
-    padding-left: 16px;
-    padding-right: 16px;
 }
 
 .filter.selected {

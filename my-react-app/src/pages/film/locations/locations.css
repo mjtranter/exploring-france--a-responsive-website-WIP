@@ -1,0 +1,17 @@
+.filming-location-container {
+    margin-top: 30px;
+}
+
+.filming-location-details {
+    margin-top: 12px;
+    padding-bottom: 12px;
+    overflow: auto;
+}
+
+.filming-location-description {
+    font-size: 0.9em;
+}
+
+.locations-list a {
+    text-decoration: none;
+}

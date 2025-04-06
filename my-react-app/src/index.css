@@ -77,6 +77,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
   margin-bottom: -4px;
 }
@@ -91,11 +92,53 @@ body {
   margin-left: 18px;
 }
 
+.description-image-container.fete {
+  width: 300px;
+}
+
+.description-image-container.location {
+  width: 400px;
+}
+
 .description-image {
   width: 100%;
+}
+
+.description-image.location {
+  margin-bottom: 12px;
 }
 
 .overview-container {
   padding-bottom: 12px;
   overflow: auto;
+}
+
+.modal-body ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1.2em;
+  text-indent: -1.6em;
+}
+
+.modal-body li {
+  padding-bottom: 4px;
+}
+
+.modal-body li::before {
+  content: "\1F950";
+  display: block;
+  float: left;
+  width: 1.6em;
+}
+
+.modal-body.flag {
+  padding-left: 6px;
+}
+
+.modal-body.flag li::before {
+  content: "\1F956";
+}
+
+.modal-body a {
+  text-decoration: none;
 }

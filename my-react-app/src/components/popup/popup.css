@@ -17,21 +17,3 @@
 .btn-close {
     opacity: 1 !important;
 }
-
-.modal-body ul {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 1.2em;
-    text-indent: -1.6em;
-}
-
-.modal-body li {
-    padding-bottom: 4px;
-}
-
-.modal-body li::before {
-    content: "\1F950";
-    display: block;
-    float: left;
-    width: 1.6em;
-}
