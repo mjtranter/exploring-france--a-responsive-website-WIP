@@ -376,20 +376,6 @@
 
         {
             "id": 3,
-            "text": "Festival International du Film d'Animation d'Annecy",
-            "start": "2025-06-08",
-            "end": "2025-06-15",
-            "backColor": "#95e364",
-            "location": "Annecy, Auvergne-Rhône-Alpes",
-            "description": "Le Festival international du film d'animation d'Annecy est la plus grande célébration mondiale du cinéma d'animation. Il se tient chaque année dans la ville pittoresque d'Annecy, en France. Il présente une sélection variée de films d'animation, des courts aux longs métrages, représentant des studios et des créateurs indépendants du monde entier. Tandis que les professionnels de l'industrie se réunissent pour des avant-premières, des ateliers et des événements de réseautage, le festival propose également des projections gratuites en plein air, permettant au grand public de profiter de l'animation sous les étoiles au bord du lac d'Annecy.",
-            "longDate": "8 juin - 14 juin",
-            "local": "False",
-            "free": "True",
-            "connection": "None"
-        },
-
-        {
-            "id": 4,
             "text": "Festival de Cannes",
             "start": "2025-05-13",
             "end": "2025-05-25",
@@ -403,6 +389,20 @@
             "connectionGb": "Palme d'or des films britanniques et des coproductions : <ul><li>Brève rencontre (1945)</li><li>Le Troisième Homme (1949)</li><li>Le Knack... et comment l'avoir (1965)</li><li>Blow-Up (1966)</li><li>if.... (1968)</li><li>Le Messager (1971)</li><li>La Méprise (1973)</li><li>Paris, Texas (1984)</li><li>La Mission (1986)</li><li>Barton Fink (1991)</li><li>Les Meilleures Intentions (1992)</li><li>Secrets et mensonges (1996)</li><li>Le Pianiste (2002)</li><li>Le vent se lève (2006)</li><li>Oncle Boonmee (celui qui se souvient de ses vies antérieures) (2010)</li><li>Moi, Daniel Blake (2016)</li><li>Sans filtre (2022)</li></ul>",
             "connectionCa": "Aucun film québécois ou même canadien n'a remporté la Palme d'Or à Cannes. Toutefois, des productions québécoises ont été récompensées : <ul><li><em>Juste la fin du monde</em> (2016) a remporté le Grand Prix</li><li><em>Jésus de Montréal</em> (1989) et <em>Mommy</em> (2014) a remporté le Prix du Jury</li><li>Le réalisateur québécois Michel Brault a remporté le prix du meilleur réalisateur pour <em>Les ordres</em> (1974)</li></ul>",
             "connectionJp": "Films japonais ayant obtenu la Palme d'Or à Cannes : <ul><li>La Porte de l'enfer (1953)</li><li>Kagemusha, l'ombre du guerrier (1980)</li><li>La Ballade de Narayama (1983)</li><li>L'Anguille (1997)</li><li>Une Affaire de famille (2018)</li></ul>"
+        },
+
+        {
+            "id": 4,
+            "text": "Festival International du Film d'Animation d'Annecy",
+            "start": "2025-06-08",
+            "end": "2025-06-15",
+            "backColor": "#95e364",
+            "location": "Annecy, Auvergne-Rhône-Alpes",
+            "description": "Le Festival international du film d'animation d'Annecy est la plus grande célébration mondiale du cinéma d'animation. Il se tient chaque année dans la ville pittoresque d'Annecy, en France. Il présente une sélection variée de films d'animation, des courts aux longs métrages, représentant des studios et des créateurs indépendants du monde entier. Tandis que les professionnels de l'industrie se réunissent pour des avant-premières, des ateliers et des événements de réseautage, le festival propose également des projections gratuites en plein air, permettant au grand public de profiter de l'animation sous les étoiles au bord du lac d'Annecy.",
+            "longDate": "8 juin - 14 juin",
+            "local": "False",
+            "free": "True",
+            "connection": "None"
         },
 
         {
@@ -434,6 +434,13 @@
         }
     ],
 
+    "view-tour": "Voir la visite",
+    "no-locations": "Ajoutez 2 lieux pour planifier votre visite !",
+    "one-location": "Ajoutez un autre lieu pour planifier votre visite !",
+    "two-locations": "Votre visite est terminée ! Vous pouvez faire glisser et déposer des éléments pour les réorganiser.",
+    "start": "Départ",
+    "end": "Arrivée",
+
     "locations-description": "La France est depuis longtemps un décor de prédilection pour le cinéma, des rues romantiques de Paris au charme côtier de la Côte d'Azur. Cette section présente les lieux de tournage emblématiques et les films qui leur ont donné vie.",
     "paris": "Paris",
     "riviera": "Côte d'Azur",
@@ -450,7 +457,47 @@
             "location": "Paris",
             "image": "https://almostginger.com/wp-content/uploads/2018/01/Before-Sunset-5.jpg",
             "description": "<p>Ce drame romantique est le deuxième volet de la trilogie Before de Richard Linklater, après <em>Before Sunrise</em> (1995). Il explore les retrouvailles de Jesse (Ethan Hawke) et Céline (Julie Delpy) après neuf ans de séparation. Se déroulant presque entièrement dans les rues de Paris, <em>Before Sunset</em> capture les moments fugaces de leurs retrouvailles alors qu'ils marchent et discutent dans la ville. Le portrait intime de leur relation, ainsi que l'époustouflante toile de fond parisienne, mettent en évidence le lien intemporel entre les personnages et la ville elle-même.</p>",
-            "locations": "<ul><li><i><a href='https://maps.app.goo.gl/6Dmt9MR1XcoKUtPS9' target='_blank' rel='noreferrer'>Shakespeare and Company, Paris 5e</a></i></li><li><i><a href='https://maps.app.goo.gl/jeQoQ8VV4VDaC4sb7' target='_blank' rel='noreferrer'>Le Pure Café, Paris 11e</a></i></li><li><i><a href='https://maps.app.goo.gl/2HhjA2bRf6b7VFUb6' target='_blank' rel='noreferrer'>Coulée Verte René-Dumont, Paris 12e</a></i></li><li><i><a href='https://maps.app.goo.gl/VkFZoz9YmHYYfCJ3A' target='_blank' rel='noreferrer'>Quai de la Tournelle, Paris 5e</a></i></li><li><i><a href='https://maps.app.goo.gl/S8LcBrkKWo9Mr6yU7' target='_blank' rel='noreferrer'>Quai Henri IV, Paris 4e</a></i></li></ul>",
+            "locations": [
+                {
+                    "id": 1,
+                    "link": "https://maps.app.goo.gl/6Dmt9MR1XcoKUtPS9",
+                    "linkText": "Shakespeare and Company, Paris 5e",
+                    "directionLink": "Shakespeare+and+Company,37+Rue+de+la+Bûcherie,75005+Paris,France",
+                    "city": "Paris"
+                },
+
+                {
+                    "id": 2,
+                    "link": "https://maps.app.goo.gl/VkFZoz9YmHYYfCJ3A",
+                    "linkText": "Quai de la Tournelle, Paris 5e",
+                    "directionLink": "Quai+de+la+Tournelle,75005+Paris,France",
+                    "city": "Paris"
+                },
+
+                {
+                    "id": 3,
+                    "link": "https://maps.app.goo.gl/S8LcBrkKWo9Mr6yU7",
+                    "linkText": "Quai Henri IV, Paris 4e",
+                    "directionLink": "Quai+Henri+IV,75004+Paris,France",
+                    "city": "Paris"
+                },
+
+                {
+                    "id": 4,
+                    "link": "https://maps.app.goo.gl/gvMtdz3v2mbSiurLA",
+                    "linkText": "Coulée Verte René-Dumont, Paris 12e",
+                    "directionLink": "Coulée+Verte+René-Dumont,1+Coulée+Verte+René-Dumont,75012+Paris,France",
+                    "city": "Paris"
+                },
+
+                {
+                    "id": 5,
+                    "link": "https://maps.app.goo.gl/jeQoQ8VV4VDaC4sb7",
+                    "linkText": "Le Pure Café, Paris 11e",
+                    "directionLink": "Le+Pure+Café,14+Rue+Jean-Macé,75011+Paris,France",
+                    "city": "Paris"
+                }                
+            ],
             "streetview": "https://www.google.com/maps/embed?pb=!4v1743862582251!6m8!1m7!1sQ5m3aqp1uuwdWFS8Qr0kMg!2m2!1d48.85329175141133!2d2.383129277074587!3f86.07!4f-0.2600000000000051!5f1.7663383948750866"
         },
 
@@ -460,7 +507,23 @@
             "location": "Normandy & Brittany",
             "image": "https://film-grab.com/wp-content/uploads/photo-gallery/Portrait_of_a_Lady_on_Fire_006.jpg",
             "description": "<p>Situé dans le paysage côtier isolé de la Bretagne du XVIIIe siècle, <em>Portrait de la jeune fille en feu</em> de Céline Sciamma suit Marianne, une peintre engagée pour peindre secrètement le portrait de mariage d'Héloïse, une jeune femme bientôt mariée à un homme qu'elle n'a jamais rencontré. Héloïse refusant de poser, Marianne l'observe au cours de ses promenades quotidiennes, se faisant passer pour une compagne. Ce qui n'est au départ qu'une observation silencieuse se transforme peu à peu en un lien puissant entre les deux femmes. Le paysage isolé et balayé par les vents sert de toile de fond à leur intimité grandissante. Le film est une histoire sobre mais chargée d'émotion sur l'amour, le choix et les brefs moments qui laissent une marque durable.</p>",
-            "locations": "<ul><li><i><a href='https://maps.app.goo.gl/ohUoMiymQuhkCQMe8' target='_blank' rel='noreferrer'>Château de La Chapelle-Gauthier, La Chapelle-Gauthier</a></i></li><li><i><a href='https://maps.app.goo.gl/daUpc61r3kAWzKjV8' target='_blank' rel='noreferrer'>Arche De Port Blanc Roche Percée, Saint-Pierre-Quiberon</a></i></li></ul>",
+            "locations": [
+                {
+                    "id": 6,
+                    "link": "https://maps.app.goo.gl/ohUoMiymQuhkCQMe8",
+                    "linkText": "Château de La Chapelle-Gauthier, La Chapelle-Gauthier",
+                    "directionLink": "Château+de+La+Chapelle-Gauthier,Le+Château,77720+La+Chapelle-Gauthier,France",
+                    "city": "La Chapelle-Gauthier"
+                },
+
+                {
+                    "id": 7,
+                    "link": "https://maps.app.goo.gl/daUpc61r3kAWzKjV8",
+                    "linkText": "Arche De Port Blanc Roche Percée, Saint-Pierre-Quiberon",
+                    "directionLink": "Arche+De+Port+Blanc+Roche+Percée,56510+Saint-Pierre-Quiberon,France",
+                    "city": "Saint-Pierre-Quiberon"
+                }
+            ],
             "streetview": "https://www.google.com/maps/embed?pb=!4v1743885701939!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ0VuNTJ5X3dF!2m2!1d47.52205533106518!2d-3.153542289231473!3f176.14683601663668!4f-3.1507760161942144!5f0.7820865974627469"
         },
 
@@ -470,7 +533,15 @@
             "location": "Other Cities",
             "image": "https://film-grab.com/wp-content/uploads/photo-gallery/The_French_Dispatch_001.jpg",
             "description": "<p>Situé dans la ville fictive d'Ennui-sur-Blasé, <em>The French Dispatch</em> est une comédie dramatique réalisée par Wes Anderson, qui explore divers articles du dernier numéro d'un magazine américain basé en France. Bien que fictive, Ennui-sur-Blasé prend vie dans les rues réelles d'Angoulême, dans le sud-ouest de la France, dont les vieux bâtiments en pierre et les collines sinueuses correspondent parfaitement à la vision stylisée d'Anderson. Le caractère de la ville est rehaussé par des miniatures pratiques et des effets numériques subtils, mêlant le réel et le construit en un monde cohérent et décalé. C'est un film plein de détails et d'humour pince-sans-rire, où le lieu devient une toile de fond soigneusement choisie pour des histoires de crime, d'art, de politique et de charme doux-amer de la vie de tous les jours.</p>",
-            "locations": "<ul><li><i><a href='https://maps.app.goo.gl/S3ZzMjhCUa85koX56' target='_blank' rel='noreferrer'>Place Saint-Pierre, Angoulême</a></i></li><!--<li><i><a href='https://maps.app.goo.gl/daUpc61r3kAWzKjV8' target='_blank' rel='noreferrer'>Arche De Port Blanc Roche Percée, Saint-Pierre-Quiberon</a></i></li>--></ul>",
+            "locations": [
+                {
+                    "id": 8,
+                    "link": "https://maps.app.goo.gl/S3ZzMjhCUa85koX56",
+                    "linkText": "Place Saint-Pierre, Angoulême",
+                    "directionLink": "Pl.+Saint-Pierre,16000+Angoulême,France",
+                    "city": "Angoulême"
+                }
+            ],
             "streetview": "https://www.google.com/maps/embed?pb=!4v1743897044951!6m8!1m7!1sGizEvX5vEa8K4s_hh9gMXA!2m2!1d45.64895348191416!2d0.1509755038800033!3f347.1586480667311!4f1.781484530964363!5f1.2693753021943097"
         }
     ]

@@ -1,3 +1,11 @@
+@import '../../../assets/colours/colours.css';
+
+.btn-view-tour-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -60px;
+}
+
 .filming-location-container {
     margin-top: 30px;
 }
@@ -12,6 +20,53 @@
     font-size: 0.9em;
 }
 
-.locations-list a {
+.location-links {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.location-links a {
     text-decoration: none;
+}
+
+.btn-add-tour {
+    background: none;
+    border: none;
+    padding: 0;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.material-symbols-outlined {
+    font-size: 24px !important;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.material-symbols-outlined.false {
+    color: inherit;
+    transform: scale(1);
+}
+
+.material-symbols-outlined.false:hover {
+    color: var(--green-theme);
+}
+
+.material-symbols-outlined.true {
+    color: var(--green-theme);
+    font-variation-settings: 'FILL' 1;
+}
+
+.material-symbols-outlined.true:hover {
+    color: var(--dark-green-theme);
+}
+
+@keyframes animate {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% {transform: scale(1); }
+}
+
+.animate {
+    animation: animate 0.3s ease;
 }

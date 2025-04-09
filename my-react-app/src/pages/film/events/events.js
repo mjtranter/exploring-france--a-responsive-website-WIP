@@ -12,7 +12,7 @@ import DinardFilmFestival from '../../../assets/images/dinard-film-festival.jpg'
 import HanabiSeasons from '../../../assets/images/hanabi-seasons.jpg';
 import '../../music/events/events.css';
 
-const images = [MyFrenchFilmFestival, CesarAwards, AnnecyInternational, CannesFilmFestival, DinardFilmFestival, HanabiSeasons];
+const images = [MyFrenchFilmFestival, CesarAwards, CannesFilmFestival, AnnecyInternational, DinardFilmFestival, HanabiSeasons];
 
 export default function Events() {
     const ns = "film";
@@ -42,7 +42,7 @@ export default function Events() {
         <div className="category-component">
             <div className={"overlay" + (popupData.visible ? " visible" : "")}></div>
             <div className={"popup-container" + (popupData.visible ? " visible": "")}>
-                <Popup {...popupData} hidePopup={hidePopup} />
+                <Popup {...popupData} hidePopup={hidePopup} tourLocations={[]} setTourLocations={""} />
             </div>
             <div className="whats-on">
                 <div className="whats-on-header-row">

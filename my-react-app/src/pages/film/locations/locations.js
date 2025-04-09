@@ -1,6 +1,7 @@
 import './locations.css';
 import Button from '../../../components/button/button';
-import { useState } from 'react';
+import Popup from '../../../components/popup/popup';
+import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 export default function Locations() {
@@ -15,8 +16,49 @@ export default function Locations() {
 
     const filmingLocations = t('filming-locations', { returnObjects: true });
 
+    const [tourLocations, setTourLocations] = useState([]);
+    
+    useEffect(() => {
+        const addedLocations = JSON.parse(localStorage.getItem("tourLocations")) || [];
+        setTourLocations(addedLocations);
+    }, []);
+
+    const handleLocationClick = (locationID) => {
+        let tempLocations;
+        if (tourLocations.includes(locationID)) {
+            tempLocations = tourLocations.filter(item => item !== locationID);
+        }
+        else {
+            tempLocations = [...tourLocations, locationID];
+        }
+
+        setTourLocations(tempLocations);
+        localStorage.setItem("tourLocations", JSON.stringify(tempLocations));
+    }
+
+    const [popupData, setPopupData] = useState({type: "", title: "", content: null, ns: ns, visible: false});
+    
+    const showPopup = (type, title, content) => {
+        setPopupData({type, title, content, ns: ns, visible: true});
+    }
+
+    const hidePopup = () => {
+        setPopupData({...popupData, visible: false});
+    }
+
     return (
         <div className="category-component">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0..1,0" />
+            <div className={"overlay" + (popupData.visible ? " visible" : "")}></div>
+            <div className={"popup-container" + (popupData.visible ? " visible": "")}>
+                <Popup {...popupData} hidePopup={hidePopup} tourLocations={tourLocations} setTourLocations={setTourLocations} />
+            </div>
+
+            <div className="btn-view-tour-container">
+                <Button type="default" text={t('view-tour')} onClick={() => showPopup("default", 'plan-your-tour', "tourLocations")} />
+            </div>
+            <br />
+
             <p>{t('locations-description')}</p>
 
             <div className="events-filter">
@@ -43,15 +85,21 @@ export default function Locations() {
                     <div className="filming-location-details">
                         <div className="description-image-container right location">
                             <img className="description-image location" src={filmingLocation.image} alt={filmingLocation.name} />
-                            <iframe src={filmingLocation.streetview} width={400} height={300} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                            <iframe title={filmingLocation.name} src={filmingLocation.streetview} width={400} height={300} allow="accelerometer; fullscreen; geolocation; gyroscope" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                         </div>
                         <div className="filming-location-description" dangerouslySetInnerHTML={{__html: filmingLocation.description}} /><br />
                         <p><b>{t('filming-locations-heading')}</b></p>
-                        <div className="modal-body flag" dangerouslySetInnerHTML={{__html: filmingLocation.locations}} />
+                        {filmingLocation.locations.map(location => (
+                            <div key={location.link} className="location-links">
+                                <button type="button" className="btn-add-tour" onClick={() => handleLocationClick(location.id)}>
+                                    <span key={location.id + "-" + tourLocations.includes(location.id)} className={"material-symbols-outlined " + tourLocations.includes(location.id) + " animate"}>{tourLocations.includes(location.id) ? "check_circle" : "add_circle"}</span>
+                                </button>
+                                <i><a href={location.link} target='_blank' rel='noreferrer'>{location.linkText}</a></i>
+                            </div>
+                        ))}
                     </div>
-                    {/*<iframe src={filmingLocation.map} width="480" height="360"></iframe>*/}
                 </div>
-            ))}          
+            ))}   
         </div>
     )
 }

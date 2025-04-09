@@ -68,7 +68,7 @@ export default function Foundations() {
         <div className="category-component">
             <div className={"overlay" + (popupData.visible ? " visible" : "")}></div>
             <div className={"popup-container" + (popupData.visible ? " visible": "")}>
-                <Popup {...popupData} hidePopup={hidePopup} />
+                <Popup {...popupData} hidePopup={hidePopup} tourLocations={[]} setTourLocations={""} />
             </div>
             {/*<AccordionComponent />*/}
             <h5 className="category-title"><b>{t('genres.titles.dance-house')}</b></h5>

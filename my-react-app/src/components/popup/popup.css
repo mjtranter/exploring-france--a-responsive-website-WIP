@@ -17,3 +17,11 @@
 .btn-close {
     opacity: 1 !important;
 }
+
+.map-embed {
+    margin-top: 12px;
+}
+
+.small-text {
+    font-size: 0.9em;
+}

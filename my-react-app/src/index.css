@@ -130,15 +130,3 @@ body {
   float: left;
   width: 1.6em;
 }
-
-.modal-body.flag {
-  padding-left: 6px;
-}
-
-.modal-body.flag li::before {
-  content: "\1F956";
-}
-
-.modal-body a {
-  text-decoration: none;
-}

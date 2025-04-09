@@ -376,20 +376,6 @@
 
         {
             "id": 3,
-            "text": "アヌシー国際アニメーション映画祭",
-            "start": "2025-06-08",
-            "end": "2025-06-15",
-            "backColor": "#95e364",
-            "location": "アヌシー, オーヴェルニュ＝ローヌ＝アルプ地域圏",
-            "description": "アヌシー国際アニメーション映画祭は、毎年フランスのアヌシーで開催される世界有数のアニメーション映画の祭典である。短編から長編まで、世界中のスタジオやインディペンデントのクリエイターを代表する多様なアニメーション映画が紹介される。業界関係者が集まり、プレミア上映やワークショップ、ネットワーキングイベントが開催される一方、一般の観客もアヌシー湖畔の星空の下でアニメーションを楽しむことができる無料の野外上映も行われる。",
-            "longDate": "6月8日～6月14日",
-            "local": "False",
-            "free": "True",
-            "connection": "None"
-        },
-
-        {
-            "id": 4,
             "text": "カンヌ国際映画祭",
             "start": "2025-05-13",
             "end": "2025-05-25",
@@ -403,6 +389,20 @@
             "connectionGb": "英国映画と共同製作のパルムドール受賞者：<ul><li>逢びき (1945)</li><li>第三の男 (1949)</li><li>ナック (1965)</li><li>欲望 (1966)</li><li>もしも‥‥ (1968)</li><li>恋 (1971)</li><li>雇い人 (1973)</li><li>パリ、テキサス (1984)</li><li>ミッション (1986)</li><li>バートン・フィンク (1991)</li><li>愛の風景 (1992)</li><li>秘密と嘘 (1996)</li><li>戦場のピアニスト (2002)</li><li>麦の穂をゆらす風 (2006)</li><li>ブンミおじさんの森 (2010)</li><li>わたしは、ダニエル・ブレイク (2016)</li><li>逆転のトライアングル (2022)</li></ul>",
             "connectionCa": "カンヌ国際映画祭でパルムドールを受賞したケベックやカナダの作品はない。しかし、ケベック作品はいくつかの賞を受賞している： <ul><li>たかが世界の終わり (2016) がグランプリを受賞</li><li>モントリオールのジーザス (1989) とMommy／マミー (2014) は審査員賞を受賞した</li><li>ケベック出身のミシェル・ブロー監督が『レ・オーダー』（1974）で監督賞を受賞</li></ul>",
             "connectionJp": "カンヌ国際映画祭でパルムドールを受賞した日本映画：<ul><li>地獄門 (1953)</li><li>影武者 (1980)</li><li>楢山節考 (1983)</li><li>うなぎ (1997)</li><li>万引き家族 (2018)</li></ul>"
+        },
+
+        {
+            "id": 4,
+            "text": "アヌシー国際アニメーション映画祭",
+            "start": "2025-06-08",
+            "end": "2025-06-15",
+            "backColor": "#95e364",
+            "location": "アヌシー, オーヴェルニュ＝ローヌ＝アルプ地域圏",
+            "description": "アヌシー国際アニメーション映画祭は、毎年フランスのアヌシーで開催される世界有数のアニメーション映画の祭典である。短編から長編まで、世界中のスタジオやインディペンデントのクリエイターを代表する多様なアニメーション映画が紹介される。業界関係者が集まり、プレミア上映やワークショップ、ネットワーキングイベントが開催される一方、一般の観客もアヌシー湖畔の星空の下でアニメーションを楽しむことができる無料の野外上映も行われる。",
+            "longDate": "6月8日～6月14日",
+            "local": "False",
+            "free": "True",
+            "connection": "None"
         },
 
         {
@@ -434,6 +434,13 @@
         }
     ],
 
+    "view-tour": "ツアーを見る",
+    "no-locations": "2カ所を追加してツアーを計画する！",
+    "one-location": "別の場所を追加してツアーを計画する！",
+    "two-locations": "ツアーは完了です！ドラッグ＆ドロップで商品を並び替えることができます。",
+    "start": "出発",
+    "end": "到着",
+
     "locations-description": "パリのロマンチックな通りからリビエラの海岸沿いの魅力まで、フランスは長い間、映画の舞台として愛されてきた。このセクションでは、象徴的なロケ地とそれを生んだ映画を紹介します。",
     "paris": "パリ",
     "riviera": "リビエラ",
@@ -450,7 +457,47 @@
             "location": "Paris",
             "image": "https://almostginger.com/wp-content/uploads/2018/01/Before-Sunset-5.jpg",
             "description": "<p>ビフォア・サンライズ』（1995）に続く、リチャード・リンクレイター監督の『ビフォア』3部作の第2部にあたる恋愛ドラマ。9年間離れていたジェシー（イーサン・ホーク）とセリーヌ（ジュリー・デルピー）の再会を描く。ほぼ全編がパリの街を舞台にした『ビフォア・サンセット』は、街を歩きながら語り合うふたりの再会のつかの間の瞬間をとらえている。二人の親密な関係が、美しいパリの背景とともに描かれ、登場人物と街そのものとの時を超えたつながりを見せている。</p>",
-            "locations": "<ul><li><i><a href='https://maps.app.goo.gl/6Dmt9MR1XcoKUtPS9' target='_blank' rel='noreferrer'>シェイクスピア・アンド・カンパニー、パリ5区</a></i></li><li><i><a href='https://maps.app.goo.gl/jeQoQ8VV4VDaC4sb7' target='_blank' rel='noreferrer'>ル・ピュア・カフェ、パリ11区</a></i></li><li><i><a href='https://maps.app.goo.gl/2HhjA2bRf6b7VFUb6' target='_blank' rel='noreferrer'>クーレ・ヴェルテ・ルネ・デュモン、パリ12区</a></i></li><li><i><a href='https://maps.app.goo.gl/VkFZoz9YmHYYfCJ3A' target='_blank' rel='noreferrer'>ケ・ド・ラ・トゥルネル、パリ5区</a></i></li><li><i><a href='https://maps.app.goo.gl/S8LcBrkKWo9Mr6yU7' target='_blank' rel='noreferrer'>アンリ4世通り、パリ4区</a></i></li></ul>",
+            "locations": [
+                {
+                    "id": 1,
+                    "link": "https://maps.app.goo.gl/6Dmt9MR1XcoKUtPS9",
+                    "linkText": "シェイクスピア・アンド・カンパニー、パリ5区",
+                    "directionLink": "Shakespeare+and+Company,37+Rue+de+la+Bûcherie,75005+Paris,France",
+                    "city": "パリ"
+                },
+
+                {
+                    "id": 2,
+                    "link": "https://maps.app.goo.gl/VkFZoz9YmHYYfCJ3A",
+                    "linkText": "ケ・ド・ラ・トゥルネル、パリ5区",
+                    "directionLink": "Quai+de+la+Tournelle,75005+Paris,France",
+                    "city": "パリ"
+                },
+
+                {
+                    "id": 3,
+                    "link": "https://maps.app.goo.gl/S8LcBrkKWo9Mr6yU7",
+                    "linkText": "アンリ4世通り、パリ4区",
+                    "directionLink": "Quai+Henri+IV,75004+Paris,France",
+                    "city": "パリ"
+                },
+
+                {
+                    "id": 4,
+                    "link": "https://maps.app.goo.gl/gvMtdz3v2mbSiurLA",
+                    "linkText": "クーレ・ヴェルテ・ルネ・デュモン、パリ12区",
+                    "directionLink": "Coulée+Verte+René-Dumont,1+Coulée+Verte+René-Dumont,75012+Paris,France",
+                    "city": "パリ"
+                },
+
+                {
+                    "id": 5,
+                    "link": "https://maps.app.goo.gl/jeQoQ8VV4VDaC4sb7",
+                    "linkText": "ル・ピュア・カフェ、パリ11区",
+                    "directionLink": "Le+Pure+Café,14+Rue+Jean-Macé,75011+Paris,France",
+                    "city": "パリ"
+                }                
+            ],
             "streetview": "https://www.google.com/maps/embed?pb=!4v1743862582251!6m8!1m7!1sQ5m3aqp1uuwdWFS8Qr0kMg!2m2!1d48.85329175141133!2d2.383129277074587!3f86.07!4f-0.2600000000000051!5f1.7663383948750866"
         },
 
@@ -460,7 +507,23 @@
             "location": "Normandy & Brittany",
             "image": "https://film-grab.com/wp-content/uploads/photo-gallery/Portrait_of_a_Lady_on_Fire_006.jpg",
             "description": "<p>18世紀ブルターニュの孤立した海岸沿いの風景を舞台にしたセリーヌ・スキャンマの『燃ゆる女の肖像』は、初対面の男性と結婚間近の若い女性エロイーズの結婚式の肖像画を密かに描くために雇われた画家マリアンヌの姿を描いている。エロイーズはポーズをとることを拒むので、マリアンヌは毎日の散歩の間、同伴者のふりをして彼女を観察する。静かな観察から始まったこの作品は、やがて2人の女性の間に力強いつながりをもたらすようになる。人里離れた、風の吹きすさぶ風景が、彼女たちの親密さを増す静かな背景となっている。この映画は、愛と選択、そして永遠の痕跡を残す束の間の瞬間について、控えめながら感情を揺さぶる物語である。</p>",
-            "locations": "<ul><li><i><a href='https://maps.app.goo.gl/ohUoMiymQuhkCQMe8' target='_blank' rel='noreferrer'>シャトー・ド・ラ・シャペル・ゴーティエ, ラ・シャペル・ゴーティエ</a></i></li><li><i><a href='https://maps.app.goo.gl/daUpc61r3kAWzKjV8' target='_blank' rel='noreferrer'>アルシュ・デ・ポルト・ブラン・ロッシュ・ペルセ、サン＝ピエール＝キブロン</a></i></li></ul>",
+            "locations": [
+                {
+                    "id": 6,
+                    "link": "https://maps.app.goo.gl/ohUoMiymQuhkCQMe8",
+                    "linkText": "シャトー・ド・ラ・シャペル＝ゴーティエ, ラ・シャペル＝ゴーティエ",
+                    "directionLink": "Château+de+La+Chapelle-Gauthier,Le+Château,77720+La+Chapelle-Gauthier,France",
+                    "city": "ラ・シャペル＝ゴーティエ"
+                },
+
+                {
+                    "id": 7,
+                    "link": "https://maps.app.goo.gl/daUpc61r3kAWzKjV8",
+                    "linkText": "アルシュ・デ・ポルト・ブラン・ロッシュ・ペルセ、サン＝ピエール＝キブロン",
+                    "directionLink": "Arche+De+Port+Blanc+Roche+Percée,56510+Saint-Pierre-Quiberon,France",
+                    "city": "サン＝ピエール＝キブロン"
+                }
+            ],
             "streetview": "https://www.google.com/maps/embed?pb=!4v1743885701939!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ0VuNTJ5X3dF!2m2!1d47.52205533106518!2d-3.153542289231473!3f176.14683601663668!4f-3.1507760161942144!5f0.7820865974627469"
         },
 
@@ -470,7 +533,15 @@
             "location": "Other Cities",
             "image": "https://film-grab.com/wp-content/uploads/photo-gallery/The_French_Dispatch_001.jpg",
             "description": "<p>架空の都市アンニュイ＝シュル＝ブラッセを舞台にした『フレンチ・ディスパッチ ザ・リバティ、カンザス・イヴニング・サン別冊』は、ウェス・アンダーソン監督によるコメディドラマで、フランスを拠点とするアメリカの雑誌の最終号のさまざまな記事を描いている。アンニュイ・シュル・ブラゼは架空の街だが、フランス南西部にあるアングレームの実在の街並みを通して命を吹き込まれ、その古い石造りの建物と曲がりくねった丘は、アンダーソンの様式化されたビジョンに完璧にマッチしている。街の個性は、実用的なミニチュアと微妙なデジタル効果によって強調され、現実と構築されたものがひとつのまとまりのあるオフビートな世界に融合している。犯罪、芸術、政治、日常生活のほろ苦い魅力といったストーリーの背景として、ロケ地が入念に吟味されている。</p>",
-            "locations": "<ul><li><i><a href='https://maps.app.goo.gl/S3ZzMjhCUa85koX56' target='_blank' rel='noreferrer'>アングレーム、サン・ピエール広場</a></i></li><!--<li><i><a href='https://maps.app.goo.gl/daUpc61r3kAWzKjV8' target='_blank' rel='noreferrer'>Arche De Port Blanc Roche Percée, Saint-Pierre-Quiberon</a></i></li>--></ul>",
+            "locations": [
+                {
+                    "id": 8,
+                    "link": "https://maps.app.goo.gl/S3ZzMjhCUa85koX56",
+                    "linkText": "アングレーム、サン・ピエール広場",
+                    "directionLink": "Pl.+Saint-Pierre,16000+Angoulême,France",
+                    "city": "アングレーム"
+                }
+            ],
             "streetview": "https://www.google.com/maps/embed?pb=!4v1743897044951!6m8!1m7!1sGizEvX5vEa8K4s_hh9gMXA!2m2!1d45.64895348191416!2d0.1509755038800033!3f347.1586480667311!4f1.781484530964363!5f1.2693753021943097"
         }
     ]

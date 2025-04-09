@@ -49,7 +49,7 @@
             "year": "2001",
             "director": "Jean-Pierre Jeunet",
             "tagline": "She’ll change your life.",
-            "description": "At a tiny Parisian café, the adorable yet painfully shy Amélie accidentally discovers a gift for helping others. Soon Amélie is spending her days as a matchmaker, guardian angel, and all-around do-gooder. But when she bumps into a handsome stranger, will she find the courage to become the star of her very own love story?",
+            "description": "At a tiny Parisian café, the adorable yet painfully shy Amélie accidentally discovers a gift for helping others. Soon Amélie is spending her days as a matchmaker, guardian angel and all-around do-gooder. But when she bumps into a handsome stranger, will she find the courage to become the star of her very own love story?",
             "imdb": "https://www.imdb.com/title/tt0211915/",
             "letterboxd": "https://boxd.it/2aUc",
             "justwatch_gb": "amelie",
@@ -376,20 +376,6 @@
 
         {
             "id": 3,
-            "text": "Annecy International Animation Film Festival",
-            "start": "2025-06-08",
-            "end": "2025-06-15",
-            "backColor": "#95e364",
-            "location": "Annecy, Auvergne-Rhône-Alpes",
-            "description": "The Annecy International Animation Film Festival is the world’s leading celebration of animated cinema, held annually in the picturesque town of Annecy, France. It showcases a diverse selection of animated films, from shorts to feature-length productions, representing studios and independent creators from around the globe. While industry professionals gather for premieres, workshops and networking events, the festival also offers free open-air screenings, allowing the general public to enjoy animation under the stars by Lake Annecy.",
-            "longDate": "8 June - 14 June",
-            "local": "False",
-            "free": "True",
-            "connection": "None"
-        },
-
-        {
-            "id": 4,
             "text": "Cannes Film Festival",
             "start": "2025-05-13",
             "end": "2025-05-25",
@@ -403,6 +389,20 @@
             "connectionGb": "British film and co-production Palme d'Or winners: <ul><li>Brief Encounter (1945)</li><li>The Third Man (1949)</li><li>The Knack... and How to Get It (1965)</li><li>Blow-Up (1966)</li><li>If... (1968)</li><li>The Go-Between (1971)</li><li>The Hireling (1973)</li><li>Paris, Texas (1984)</li><li>The Mission (1986)</li><li>Barton Fink (1991)</li><li>The Best Intentions (1992)</li><li>Secrets & Lies (1996)</li><li>The Pianist</li><li>The Wind That Shakes the Barley (2006)</li><li>Uncle Boonmee Who Can Recall His Past Lives (2010)</li><li>I, Daniel Blake (2016)</li><li>Triangle of Sadness (2022)</li></ul>",
             "connectionCa": "No films from Quebec or even Canada have won the Palme d'Or at Cannes. However, Quebecois productions have won some awards: <ul><li><em>It's Only the End of the World</em> (2016) won the Grand Prix</li><li><em>Jesus of Montreal</em> (1989) and <em>Mommy</em> (2014) won the Jury Prize</li><li>Quebecois director Michel Brault won Best Director for <em>Orders</em> (1974)</li></ul>",
             "connectionJp": "Japanese films which have won the Palme d'Or at Cannes: <ul><li>Gate of Hell (1953)</li><li>Kagemusha (1980)</li><li>The Ballad of Narayama (1983)</li><li>The Eel (1997)</li><li>Shoplifters (2018)</li></ul>"
+        },
+
+        {
+            "id": 4,
+            "text": "Annecy International Animation Film Festival",
+            "start": "2025-06-08",
+            "end": "2025-06-15",
+            "backColor": "#95e364",
+            "location": "Annecy, Auvergne-Rhône-Alpes",
+            "description": "The Annecy International Animation Film Festival is the world’s leading celebration of animated cinema, held annually in the picturesque town of Annecy, France. It showcases a diverse selection of animated films, from shorts to feature-length productions, representing studios and independent creators from around the globe. While industry professionals gather for premieres, workshops and networking events, the festival also offers free open-air screenings, allowing the general public to enjoy animation under the stars by Lake Annecy.",
+            "longDate": "8 June - 14 June",
+            "local": "False",
+            "free": "True",
+            "connection": "None"
         },
 
         {
@@ -434,6 +434,13 @@
         }
     ],
 
+    "view-tour": "View Tour",
+    "no-locations": "Add 2 locations to plan your tour!",
+    "one-location": "Add another location to plan your tour!",
+    "two-locations": "Your tour is complete! You can drag and drop items to reorder.",
+    "start": "Start",
+    "end": "End",
+
     "locations-description": "France has long been a favourite backdrop for cinema, from the romantic streets of Paris to the coastal charm of the Riviera. This section highlights iconic filming locations and the films that brought them to life.",
     "paris": "Paris",
     "riviera": "Riviera",
@@ -450,7 +457,47 @@
             "location": "Paris",
             "image": "https://almostginger.com/wp-content/uploads/2018/01/Before-Sunset-5.jpg",
             "description": "<p>This romantic drama is the second part of Richard Linklater's Before Trilogy, following <em>Before Sunrise</em> (1995). It explores the reconnection of Jesse (Ethan Hawke) and Céline (Julie Delpy) after nine years apart. Set almost entirely in the streets of Paris, <em>Before Sunset</em> captures the fleeting moments of their reunion as they walk and talk through the city. The film’s intimate portrayal of their relationship, alongside the stunning Parisian backdrop, showcases the timeless connection between the characters and the city itself.</p>",
-            "locations": "<ul><li><i><a href='https://maps.app.goo.gl/6Dmt9MR1XcoKUtPS9' target='_blank' rel='noreferrer'>Shakespeare and Company, Paris 5e</a></i></li><li><i><a href='https://maps.app.goo.gl/jeQoQ8VV4VDaC4sb7' target='_blank' rel='noreferrer'>Le Pure Café, Paris 11e</a></i></li><li><i><a href='https://maps.app.goo.gl/2HhjA2bRf6b7VFUb6' target='_blank' rel='noreferrer'>Coulée Verte René-Dumont, Paris 12e</a></i></li><li><i><a href='https://maps.app.goo.gl/VkFZoz9YmHYYfCJ3A' target='_blank' rel='noreferrer'>Quai de la Tournelle, Paris 5e</a></i></li><li><i><a href='https://maps.app.goo.gl/S8LcBrkKWo9Mr6yU7' target='_blank' rel='noreferrer'>Quai Henri IV, Paris 4e</a></i></li></ul>",
+            "locations": [
+                {
+                    "id": 1,
+                    "link": "https://maps.app.goo.gl/6Dmt9MR1XcoKUtPS9",
+                    "linkText": "Shakespeare and Company, Paris 5e",
+                    "directionLink": "Shakespeare+and+Company,37+Rue+de+la+Bûcherie,75005+Paris,France",
+                    "city": "Paris"
+                },
+
+                {
+                    "id": 2,
+                    "link": "https://maps.app.goo.gl/VkFZoz9YmHYYfCJ3A",
+                    "linkText": "Quai de la Tournelle, Paris 5e",
+                    "directionLink": "Quai+de+la+Tournelle,75005+Paris,France",
+                    "city": "Paris"
+                },
+
+                {
+                    "id": 3,
+                    "link": "https://maps.app.goo.gl/S8LcBrkKWo9Mr6yU7",
+                    "linkText": "Quai Henri IV, Paris 4e",
+                    "directionLink": "Quai+Henri+IV,75004+Paris,France",
+                    "city": "Paris"
+                },
+
+                {
+                    "id": 4,
+                    "link": "https://maps.app.goo.gl/gvMtdz3v2mbSiurLA",
+                    "linkText": "Coulée Verte René-Dumont, Paris 12e",
+                    "directionLink": "Coulée+Verte+René-Dumont,1+Coulée+Verte+René-Dumont,75012+Paris,France",
+                    "city": "Paris"
+                },
+
+                {
+                    "id": 5,
+                    "link": "https://maps.app.goo.gl/jeQoQ8VV4VDaC4sb7",
+                    "linkText": "Le Pure Café, Paris 11e",
+                    "directionLink": "Le+Pure+Café,14+Rue+Jean-Macé,75011+Paris,France",
+                    "city": "Paris"
+                }                
+            ],
             "streetview": "https://www.google.com/maps/embed?pb=!4v1743862582251!6m8!1m7!1sQ5m3aqp1uuwdWFS8Qr0kMg!2m2!1d48.85329175141133!2d2.383129277074587!3f86.07!4f-0.2600000000000051!5f1.7663383948750866"
         },
 
@@ -460,7 +507,23 @@
             "location": "Normandy & Brittany",
             "image": "https://film-grab.com/wp-content/uploads/photo-gallery/Portrait_of_a_Lady_on_Fire_006.jpg",
             "description": "<p>Set in the isolated coastal landscape of 18th-century Brittany, Céline Sciamma’s <em>Portrait of a Lady on Fire</em> follows Marianne, a painter hired to secretly paint a wedding portrait of Héloïse, a young woman soon to be married to a man she has never met. Héloïse refuses to pose, so Marianne observes her during daily walks, pretending to be a companion. What begins as quiet observation slowly becomes a powerful connection between the two women. The remote, windswept landscape serves as a quiet backdrop to their growing intimacy. The film is a restrained yet emotionally charged story about love, choice and the brief moments that leave a lasting mark.</p>",
-            "locations": "<ul><li><i><a href='https://maps.app.goo.gl/ohUoMiymQuhkCQMe8' target='_blank' rel='noreferrer'>Château de La Chapelle-Gauthier, La Chapelle-Gauthier</a></i></li><li><i><a href='https://maps.app.goo.gl/daUpc61r3kAWzKjV8' target='_blank' rel='noreferrer'>Arche De Port Blanc Roche Percée, Saint-Pierre-Quiberon</a></i></li></ul>",
+            "locations": [
+                {
+                    "id": 6,
+                    "link": "https://maps.app.goo.gl/ohUoMiymQuhkCQMe8",
+                    "linkText": "Château de La Chapelle-Gauthier, La Chapelle-Gauthier",
+                    "directionLink": "Château+de+La+Chapelle-Gauthier,Le+Château,77720+La+Chapelle-Gauthier,France",
+                    "city": "La Chapelle-Gauthier"
+                },
+
+                {
+                    "id": 7,
+                    "link": "https://maps.app.goo.gl/daUpc61r3kAWzKjV8",
+                    "linkText": "Arche De Port Blanc Roche Percée, Saint-Pierre-Quiberon",
+                    "directionLink": "Arche+De+Port+Blanc+Roche+Percée,56510+Saint-Pierre-Quiberon,France",
+                    "city": "Saint-Pierre-Quiberon"
+                }
+            ],
             "streetview": "https://www.google.com/maps/embed?pb=!4v1743885701939!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ0VuNTJ5X3dF!2m2!1d47.52205533106518!2d-3.153542289231473!3f176.14683601663668!4f-3.1507760161942144!5f0.7820865974627469"
         },
 
@@ -470,7 +533,15 @@
             "location": "Other Cities",
             "image": "https://film-grab.com/wp-content/uploads/photo-gallery/The_French_Dispatch_001.jpg",
             "description": "<p>Set in the fictional city of Ennui-sur-Blasé, <em>The French Dispatch</em> is a comedy drama directed by Wes Anderson, exploring various articles of the final issue of an American magazine based in France. Though fictional, Ennui-sur-Blasé is brought to life through the real streets of Angoulême in southwest France, whose old stone buildings and winding hills perfectly match Anderson’s stylised vision. The city’s character is enhanced with practical miniatures and subtle digital effects, blending the real and the constructed into one cohesive, offbeat world. It’s a film packed with detail and dry humour, where the location becomes a carefully curated backdrop to stories of crime, art, politics and the bittersweet charm of everyday life.</p>",
-            "locations": "<ul><li><i><a href='https://maps.app.goo.gl/S3ZzMjhCUa85koX56' target='_blank' rel='noreferrer'>Place Saint-Pierre, Angoulême</a></i></li><!--<li><i><a href='https://maps.app.goo.gl/daUpc61r3kAWzKjV8' target='_blank' rel='noreferrer'>Arche De Port Blanc Roche Percée, Saint-Pierre-Quiberon</a></i></li>--></ul>",
+            "locations": [
+                {
+                    "id": 8,
+                    "link": "https://maps.app.goo.gl/S3ZzMjhCUa85koX56",
+                    "linkText": "Place Saint-Pierre, Angoulême",
+                    "directionLink": "Pl.+Saint-Pierre,16000+Angoulême,France",
+                    "city": "Angoulême"
+                }
+            ],
             "streetview": "https://www.google.com/maps/embed?pb=!4v1743897044951!6m8!1m7!1sGizEvX5vEa8K4s_hh9gMXA!2m2!1d45.64895348191416!2d0.1509755038800033!3f347.1586480667311!4f1.781484530964363!5f1.2693753021943097"
         }
     ]

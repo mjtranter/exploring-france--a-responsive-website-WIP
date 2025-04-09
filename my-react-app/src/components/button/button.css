@@ -7,7 +7,7 @@
     background-color: var(--primary-theme);
     font-size: 14px;
     color: var(--secondary-theme);
-    padding: 6px;
+    padding: 8px;
     padding-left: 16px;
     padding-right: 16px;
 }
@@ -19,12 +19,16 @@
 .filter {
     background-color: transparent;
     border: 2px solid var(--primary-theme);
+    padding-top: 6px;
+    padding-bottom: 6px;
     color: var(--dark-theme);
 }
 
 .filter-connection {
     background-color: transparent;
     border: 2px solid var(--french-red);
+    padding-top: 6px;
+    padding-bottom: 6px;
     color: var(--dark-theme);
 }
 

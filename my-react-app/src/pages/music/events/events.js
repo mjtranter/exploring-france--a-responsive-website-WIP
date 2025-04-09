@@ -42,7 +42,7 @@ export default function Events() {
         <div className="category-component">
             <div className={"overlay" + (popupData.visible ? " visible" : "")}></div>
             <div className={"popup-container" + (popupData.visible ? " visible": "")}>
-                <Popup {...popupData} hidePopup={hidePopup} />
+                <Popup {...popupData} hidePopup={hidePopup} tourLocations={[]} setTourLocations={""} />
             </div>
             <div className="whats-on">
                 <div className="whats-on-header-row">

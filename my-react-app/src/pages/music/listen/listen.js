@@ -49,7 +49,7 @@ export default function Listen() {
         <div className="category-component">
             <div className={"overlay" + (popupData.visible ? " visible" : "")}></div>
             <div className={"popup-container" + (popupData.visible ? " visible": "")}>
-                <Popup {...popupData} hidePopup={hidePopup} />
+                <Popup {...popupData} hidePopup={hidePopup} tourLocations={[]} setTourLocations={""} />
             </div>
 
             <h5 className="category-heading"><b>{t('radio')}</b></h5>

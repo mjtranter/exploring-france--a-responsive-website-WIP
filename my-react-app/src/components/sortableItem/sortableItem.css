@@ -1,0 +1,74 @@
+@import '../../assets/colours/colours.css';
+
+.sortable-item {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid var(--grey-theme);
+    background-color: var(--french-white);
+    cursor: grab !important;
+    font-size: 0.9em;
+}
+
+.sortable-item:active {
+    background-color: var(--grey-theme);
+    cursor: grabbing !important;
+}
+
+.sortable-item-row {
+    display: flex;
+    align-items: center;
+}
+
+.sortable-item-row p {
+    margin: 0;
+}
+
+.sortable-item-position {
+    flex-shrink: 0;
+}
+
+.sortable-item-position.en {
+    width: 36.05px;
+}
+
+.sortable-item-position.fr {
+    width: 51.2px;
+}
+
+.sortable-item-position.ja {
+    width: 30.8px;
+}
+
+.sortable-item-text {
+    padding-left: 10px;
+    padding-right: 12px;
+}
+
+.btn-remove-item {
+    background: none;
+    border: none;
+    padding: 0;
+    height: 24px;
+    margin-left: auto;
+}
+
+.material-symbols-outlined.remove {
+    font-size: 24px !important;
+    transition: transform 0.2s ease;
+    color: var(--french-red);
+    font-variation-settings: 'FILL' 1;
+}
+
+.material-symbols-outlined.remove:hover {
+    color: var(--dark-red-theme);
+}
+
+@keyframes animate {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% {transform: scale(1); }
+}
+
+.animate {
+    animation: animate 0.3s ease;
+}
