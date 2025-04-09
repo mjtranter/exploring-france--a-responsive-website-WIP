@@ -36,7 +36,6 @@ export default function Popup({type, title, content, ns, visible, hidePopup, tou
             const mode = sameCity ? "walking" : "driving";
 
             embedURL += "&mode=" + mode;
-            console.log(embedURL);
 
             setIframeURL(embedURL);
         }
