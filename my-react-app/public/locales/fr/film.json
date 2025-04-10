@@ -543,6 +543,22 @@
                     "linkText": "Place Saint-Pierre, Angoulême",
                     "directionLink": "Pl.+Saint-Pierre,16000+Angoulême,France",
                     "city": "Angoulême"
+                },
+
+                {
+                    "id": 9,
+                    "link": "https://maps.app.goo.gl/gYfvvvWuEPozGjoc8",
+                    "linkText": "Rue du Père Deval, Angoulême",
+                    "directionLink": "34+Rue+du+Père+Deval,34+Rue+du+Père+Deval,16000+Angoulême,France",
+                    "city": "Angoulême"
+                },
+
+                {
+                    "id": 10,
+                    "link": "https://maps.app.goo.gl/q9xtFiAyDGgQXwRQ6",
+                    "linkText": "Rue du Sauvage, Angoulême",
+                    "directionLink": "27+Rue+du+Sauvage,27+Rue+du+Sauvage,16000+Angoulême,France",
+                    "city": "Angoulême"
                 }
             ],
             "streetview": "https://www.google.com/maps/embed?pb=!4v1743897044951!6m8!1m7!1sGizEvX5vEa8K4s_hh9gMXA!2m2!1d45.64895348191416!2d0.1509755038800033!3f347.1586480667311!4f1.781484530964363!5f1.2693753021943097"
