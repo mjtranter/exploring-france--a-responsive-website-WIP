@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import EventCalendar from '../eventCalendar/eventCalendar';
 import Tour from '../tour/tour';
 import './popup.css';
+import Button from '../button/button';
 
 export default function Popup({type, title, content, ns, visible, hidePopup, tourLocations, setTourLocations}) {
     const { t } = useTranslation([ns, 'common']);
@@ -10,6 +11,9 @@ export default function Popup({type, title, content, ns, visible, hidePopup, tou
     const [iframeURL, setIframeURL] = useState("");
 
     const filmingLocations = t('filming-locations', { returnObjects: true });
+
+    const [shareURL, setShareURL] = useState("");
+    const [shareVisible, setShareVisible] = useState(false);
 
     useEffect(() => {
         const tempTourLocations = tourLocations.map(tourLocation => {
@@ -19,8 +23,8 @@ export default function Popup({type, title, content, ns, visible, hidePopup, tou
             }
         });
 
-        if (tempTourLocations.length === 0) setIframeURL("");
-        if (tempTourLocations.length === 1) setIframeURL("https://www.google.com/maps/embed/v1/place?key=AIzaSyD54RmAGLKl8pEeB27PkxmtsZS6wTXewqY&q=" + tempTourLocations[0].directionLink);
+        if (tempTourLocations.length === 0) { setIframeURL(""); setShareVisible(false) };
+        if (tempTourLocations.length === 1) { setIframeURL("https://www.google.com/maps/embed/v1/place?key=AIzaSyD54RmAGLKl8pEeB27PkxmtsZS6wTXewqY&q=" + tempTourLocations[0].directionLink); setShareVisible(false) };
         if (tempTourLocations.length >= 2) {
             let embedURL = "https://www.google.com/maps/embed/v1/directions?key=AIzaSyD54RmAGLKl8pEeB27PkxmtsZS6wTXewqY&origin=" + tempTourLocations[0].directionLink + "&destination=" + tempTourLocations[tempTourLocations.length - 1].directionLink;
             if (tempTourLocations.length > 2) {
@@ -36,8 +40,13 @@ export default function Popup({type, title, content, ns, visible, hidePopup, tou
             const mode = sameCity ? "walking" : "driving";
 
             embedURL += "&mode=" + mode;
-
             setIframeURL(embedURL);
+
+            let tempURL = "https://www.google.com/maps/dir/?api=1" + embedURL.slice(91, embedURL.length);
+            tempURL = tempURL.split("&mode=");
+            tempURL = tempURL[0] + "&travelmode=" + shareURL[1];
+            setShareURL(tempURL);
+            setShareVisible(true);
         }
     }, [tourLocations]);
 
@@ -62,6 +71,20 @@ export default function Popup({type, title, content, ns, visible, hidePopup, tou
             {tourLocations.length === 1 && (<p>{t('one-location')}</p>)}
             {tourLocations.length >= 2 && (<p className="small-text">{t('two-locations')}</p>)}
             <Tour tourLocations={tourLocations} setTourLocations={setTourLocations} />
+            <Button type={"share " + shareVisible} text={t('share')} onClick={() => {
+                if (navigator.share) {
+                    navigator.share({
+                        title: t('share-title'),
+                        text: t('share-text'),
+                        url: shareURL
+                    })
+                    .catch(() => console.log("There was an error sharing the tour."));
+                }
+
+                else {
+                    window.open(shareURL, "_blank", "noreferrer");
+                }
+            }} />
             <iframe title="map" className="map-embed" src={iframeURL} width="466.4" height="350" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </>;
     }

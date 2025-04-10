@@ -440,6 +440,9 @@
     "two-locations": "Votre visite est terminée ! Vous pouvez faire glisser et déposer des éléments pour les réorganiser.",
     "start": "Départ",
     "end": "Arrivée",
+    "share": "Partager",
+    "share-title": "Ma visite des lieux de tournage",
+    "share-text": "Jetez un coup d'œil à ma visite des lieux de tournage en France !",
 
     "locations-description": "La France est depuis longtemps un décor de prédilection pour le cinéma, des rues romantiques de Paris au charme côtier de la Côte d'Azur. Cette section présente les lieux de tournage emblématiques et les films qui leur ont donné vie.",
     "paris": "Paris",

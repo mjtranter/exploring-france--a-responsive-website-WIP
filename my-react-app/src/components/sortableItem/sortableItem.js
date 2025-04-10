@@ -39,7 +39,7 @@ export function SortableItem(props) {
                 <p className={"sortable-item-position " + widthClass}><b>{index}</b></p>
                 <p className="sortable-item-text">{props.text}</p>
                 <button type="button" className="btn-remove-item" onPointerDown={(e) => e.stopPropagation()} onClick={() => removeItem(props.id)}>
-                    <span key={props.id + "-" + props.tourLocations.some(item => item.id === props.id)} className={"material-symbols-outlined remove animate"}>do_not_disturb_on</span>
+                    <span key={props.id + "-" + props.tourLocations.some(item => item.id === props.id)} className={"material-symbols-outlined remove"}>do_not_disturb_on</span>
                 </button>
             </div>
         </div>

@@ -16,6 +16,19 @@
     background-color: var(--french-red);
 }
 
+.share {
+    margin-top: 8px;
+    float: right;
+}
+
+.share.true {
+    display: block;
+}
+
+.share.false {
+    display: none;
+}
+
 .filter {
     background-color: transparent;
     border: 2px solid var(--primary-theme);
