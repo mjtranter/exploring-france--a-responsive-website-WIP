@@ -562,6 +562,32 @@
                 }
             ],
             "streetview": "https://www.google.com/maps/embed?pb=!4v1743897044951!6m8!1m7!1sGizEvX5vEa8K4s_hh9gMXA!2m2!1d45.64895348191416!2d0.1509755038800033!3f347.1586480667311!4f1.781484530964363!5f1.2693753021943097"
+        },
+
+        {
+            "id": 4,
+            "name": "秘密の森の、その向こう (2021)",
+            "location": "Countryside",
+            "image": "https://64.media.tumblr.com/09bf6a822f8ffd91984bf120f927a357/d76bfa1ec8492aec-22/s1280x1920/f274097b621ab2222fd05e02b8ce81f0e698569d.png",
+            "description": "<p>セリーヌ・スキャンマ監督の『秘密の森、その向こう』は、祖母を亡くした少女ネリーが、両親とともに母が育った家を訪れるまでを描く。その家と周囲の森で、ネリーは同い年の少女と出会い、二人はネリーが直面している悲しみと不安の感情を乗り越える助けとなるつながりを築く。森は平和で幻想的な背景を提供し、時間、人間関係、そして悲しみと理解の瞬間に現れる静かな美しさについてのこの映画の探求を高めている。</p>",
+            "locations": [
+                {
+                    "id": 11,
+                    "link": "https://maps.app.goo.gl/J8rL7HhYH1EcwzUPA",
+                    "linkText": "アックス・マジェールのピラミッド、セルジー",
+                    "directionLink": "Pyramide+de+l'Axe+Majeur,Rue+de+Vauréal,95000+Cergy,France",
+                    "city": "セルジー"
+                },
+
+                {
+                    "id": 12,
+                    "link": "https://maps.app.goo.gl/SfLnrqCtCMGqwGsn6",
+                    "linkText": "27 オール・デ・ヴォワ、セルジー",
+                    "directionLink": "27+All.+des+Voies,27+All.+des+Voies,95000+Cergy,France",
+                    "city": "セルジー"
+                }
+            ],
+            "streetview": "https://www.google.com/maps/embed?pb=!4v1744383919056!6m8!1m7!1sCAoSLEFGMVFpcE1rYW5PYWJqZWVZQlhoc25KemlrdjhWSGF5TGc2ZDFzd29tMkQy!2m2!1d49.03830461701698!2d2.046527015516021!3f164.7517322170341!4f-4.467525712764868!5f1.9587109090973311"
         }
     ]
 }

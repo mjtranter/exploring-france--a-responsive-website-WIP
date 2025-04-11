@@ -44,7 +44,7 @@ export default function Popup({type, title, content, ns, visible, hidePopup, tou
 
             let tempURL = "https://www.google.com/maps/dir/?api=1" + embedURL.slice(91, embedURL.length);
             tempURL = tempURL.split("&mode=");
-            tempURL = tempURL[0] + "&travelmode=" + shareURL[1];
+            tempURL = tempURL[0] + "&travelmode=" + tempURL[1];
             setShareURL(tempURL);
             setShareVisible(true);
         }
@@ -71,7 +71,7 @@ export default function Popup({type, title, content, ns, visible, hidePopup, tou
             {tourLocations.length === 1 && (<p>{t('one-location')}</p>)}
             {tourLocations.length >= 2 && (<p className="small-text">{t('two-locations')}</p>)}
             <Tour tourLocations={tourLocations} setTourLocations={setTourLocations} />
-            <iframe title="map" className="map-embed" src={iframeURL} width="466.4" height="350" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe title="map" className="map-embed" src={iframeURL} width="100%" height="auto" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             <Button type={"share " + shareVisible} text={t('share')} onClick={() => {
                 if (navigator.share) {
                     navigator.share({
