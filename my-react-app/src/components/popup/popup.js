@@ -71,7 +71,7 @@ export default function Popup({type, title, content, ns, visible, hidePopup, tou
             {tourLocations.length === 1 && (<p>{t('one-location')}</p>)}
             {tourLocations.length >= 2 && (<p className="small-text">{t('two-locations')}</p>)}
             <Tour tourLocations={tourLocations} setTourLocations={setTourLocations} />
-            <iframe title="map" className="map-embed" src={iframeURL} width="100%" height="auto" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe title="map" className="map-embed" src={iframeURL} width="100%" height="350" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             <Button type={"share " + shareVisible} text={t('share')} onClick={() => {
                 if (navigator.share) {
                     navigator.share({
