@@ -343,6 +343,7 @@
     "local": "Local",
     "free": "Free",
     "connections": "Connections",
+    "near-you": "Near You",
     "location": "Location",
 
     "list-events": [
@@ -357,7 +358,8 @@
             "longDate": "17 January - 17 February",
             "local": "False",
             "free": "True",
-            "connection": "ca"
+            "connection": "ca",
+            "country": "France, Online"
         },
 
         {
@@ -371,11 +373,27 @@
             "longDate": "28 February",
             "local": "False",
             "free": "False",
-            "connection": "None"
+            "connection": "None",
+            "country": "France"
         },
 
         {
             "id": 3,
+            "text": "French Film Festival - Yokohama",
+            "start": "2025-03-20",
+            "end": "2025-03-24",
+            "backColor": "#5aa8cc",
+            "location": "Yokohama, Japan",
+            "description": "The French Film Festival in Yokohama is a vibrant celebration of contemporary French cinema, held annually each March in the scenic harbour city. Hosted at venues such as Minato Mirai Hall, the festival brings a handpicked selection of recent French films to Japanese audiences — spanning emotional dramas, inventive comedies and striking debut features. Directors and actors frequently attend in person, offering insight into their work through Q&As, panel discussions and red carpet appearances. With its blend of cinematic discovery and cultural exchange, the festival highlights the diversity and creativity of modern French filmmaking in a uniquely international setting.",
+            "longDate": "20 March - 23 March",
+            "local": "False",
+            "free": "False",
+            "connection": "jp",
+            "country": "Japan"
+        },
+
+        {
+            "id": 4,
             "text": "Cannes Film Festival",
             "start": "2025-05-13",
             "end": "2025-05-25",
@@ -386,13 +404,14 @@
             "local": "False",
             "free": "False",
             "connection": "None",
-            "connectionGb": "British film and co-production Palme d'Or winners: <ul><li>Brief Encounter (1945)</li><li>The Third Man (1949)</li><li>The Knack... and How to Get It (1965)</li><li>Blow-Up (1966)</li><li>If... (1968)</li><li>The Go-Between (1971)</li><li>The Hireling (1973)</li><li>Paris, Texas (1984)</li><li>The Mission (1986)</li><li>Barton Fink (1991)</li><li>The Best Intentions (1992)</li><li>Secrets & Lies (1996)</li><li>The Pianist</li><li>The Wind That Shakes the Barley (2006)</li><li>Uncle Boonmee Who Can Recall His Past Lives (2010)</li><li>I, Daniel Blake (2016)</li><li>Triangle of Sadness (2022)</li></ul>",
+            "connectionGb": "British film and co-production Palme d'Or winners: <ul><li>Brief Encounter (1945)</li><li>The Third Man (1949)</li><li>The Knack... and How to Get It (1965)</li><li>Blow-Up (1966)</li><li>If... (1968)</li><li>The Go-Between (1971)</li><li>The Hireling (1973)</li><li>Paris, Texas (1984)</li><li>The Mission (1986)</li><li>Barton Fink (1991)</li><li>The Best Intentions (1992)</li><li>Secrets & Lies (1996)</li><li>The Pianist (2002)</li><li>The Wind That Shakes the Barley (2006)</li><li>Uncle Boonmee Who Can Recall His Past Lives (2010)</li><li>I, Daniel Blake (2016)</li><li>Triangle of Sadness (2022)</li></ul>",
             "connectionCa": "No films from Quebec or even Canada have won the Palme d'Or at Cannes. However, Quebecois productions have won some awards: <ul><li><em>It's Only the End of the World</em> (2016) won the Grand Prix</li><li><em>Jesus of Montreal</em> (1989) and <em>Mommy</em> (2014) won the Jury Prize</li><li>Quebecois director Michel Brault won Best Director for <em>Orders</em> (1974)</li></ul>",
-            "connectionJp": "Japanese films which have won the Palme d'Or at Cannes: <ul><li>Gate of Hell (1953)</li><li>Kagemusha (1980)</li><li>The Ballad of Narayama (1983)</li><li>The Eel (1997)</li><li>Shoplifters (2018)</li></ul>"
+            "connectionJp": "Japanese films which have won the Palme d'Or at Cannes: <ul><li>Gate of Hell (1953)</li><li>Kagemusha (1980)</li><li>The Ballad of Narayama (1983)</li><li>The Eel (1997)</li><li>Shoplifters (2018)</li></ul>",
+            "country": "France"
         },
 
         {
-            "id": 4,
+            "id": 5,
             "text": "Annecy International Animation Film Festival",
             "start": "2025-06-08",
             "end": "2025-06-15",
@@ -402,11 +421,12 @@
             "longDate": "8 June - 14 June",
             "local": "False",
             "free": "True",
-            "connection": "None"
+            "connection": "None",
+            "country": "France"
         },
 
         {
-            "id": 5,
+            "id": 6,
             "text": "Dinard British and Irish Film Festival",
             "start": "2025-10-01",
             "end": "2025-10-06",
@@ -416,11 +436,27 @@
             "longDate": "1 October - 5 October",
             "local": "True",
             "free": "False",
-            "connection": "gb"
+            "connection": "gb",
+            "country": "France"
         },
 
         {
-            "id": 6,
+            "id": 7,
+            "text": "CINEMANIA",
+            "start": "2025-11-05",
+            "end": "2025-11-17",
+            "backColor": "#ad72e0",
+            "location": "Montreal, Quebec, Canada",
+            "description": "CINEMANIA is North America's largest French-language film festival, held in Montreal every November. Founded in 1995, it showcases a curated selection of nearly 60 films and documentaries from across the Francophone world, all subtitled in English. The festival emphasises premieres, with many films making their North American or Canadian debut. Screenings are hosted in venues throughout downtown Montreal, such as the Cinéma Impérial and Cinémathèque québécoise, creating a vibrant cultural atmosphere. CINEMANIA also features masterclasses, conferences and special events.​",
+            "longDate": "5 November - 16 November",
+            "local": "False",
+            "free": "False",
+            "connection": "ca",
+            "country": "Canada"
+        },
+
+        {
+            "id": 8,
             "text": "Hanabi Seasons",
             "start": "2025-12-01",
             "end": "2025-11-30",
@@ -430,7 +466,23 @@
             "longDate": "November / December",
             "local": "False",
             "free": "False",
-            "connection": "jp"
+            "connection": "jp",
+            "country": "France"
+        },
+
+        {
+            "id": 9,
+            "text": "French Film Festival UK",
+            "start": "2025-12-01",
+            "end": "2025-11-30",
+            "backColor": "#ad72e0",
+            "location": "United Kingdom",
+            "description": "The French Film Festival UK is an annual celebration of French and Francophone cinema, taking place across various cities in the United Kingdom. Established in 1992, the festival has grown to become a significant cultural event, showcasing a diverse range of films from France and the broader Francophone world. Typically held from November to December, the festival features a curated selection of contemporary and classic films, including dramas, comedies, documentaries and animations. Screenings are hosted in numerous venues nationwide, such as the Ciné Lumière in London and the Institut français d'Écosse in Edinburgh, providing audiences with access to French-language cinema accompanied by English subtitles. The festival also often includes appearances by filmmakers and actors, offering attendees unique insights into the films and the creative processes behind them.",
+            "longDate": "November / December",
+            "local": "False",
+            "free": "False",
+            "connection": "gb",
+            "country": "UK"
         }
     ],
 

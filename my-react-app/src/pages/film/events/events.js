@@ -7,12 +7,15 @@ import Button from "../../../components/button/button";
 import MyFrenchFilmFestival from '../../../assets/images/my-french-film-festival.jpg';
 import CesarAwards from '../../../assets/images/cesar-awards.jpg';
 import AnnecyInternational from '../../../assets/images/annecy-international.jpg';
+import FrenchFilmFestivalYokohama from '../../../assets/images/french-film-festival-yokohama.jpg';
 import CannesFilmFestival from '../../../assets/images/cannes-film-festival.jpg';
 import DinardFilmFestival from '../../../assets/images/dinard-film-festival.jpg';
+import Cinemania from '../../../assets/images/cinemania.jpg';
 import HanabiSeasons from '../../../assets/images/hanabi-seasons.jpg';
+import FrenchFilmFestivalUK from '../../../assets/images/french-film-festival-uk.jpg';
 import '../../music/events/events.css';
 
-const images = [MyFrenchFilmFestival, CesarAwards, CannesFilmFestival, AnnecyInternational, DinardFilmFestival, HanabiSeasons];
+const images = [MyFrenchFilmFestival, CesarAwards, FrenchFilmFestivalYokohama, CannesFilmFestival, AnnecyInternational, DinardFilmFestival, Cinemania, HanabiSeasons, FrenchFilmFestivalUK];
 
 export default function Events() {
     const ns = "film";
@@ -60,16 +63,18 @@ export default function Events() {
                     <Button type={filterSelected === "Local" ? "filter selected" : "filter"} text={t('local')} onClick={() => changeFilter("Local")} />
                     <Button type={filterSelected === "Free" ? "filter selected" : "filter"} text={t('free')} onClick={() => changeFilter("Free")} />
                     {(countryCode === "gb" || countryCode === "ca" || countryCode === "jp") && (<Button type={filterSelected === "Connections" ? "filter-connection selected" : "filter-connection"} text={t('connections')} onClick={() => changeFilter("Connections")} />)}
+                    {(countryCode === "gb" || countryCode === "ca" || countryCode === "jp") && (<Button type={filterSelected === "Near You" ? "filter-near-you selected" : "filter-near-you"} text={t('near-you')} onClick={() => changeFilter("Near You")} />)}
                 </div>
             </div>
             
 
 
             {events.filter(event => {
-                if (filterSelected === "All") return true;
+                if (filterSelected === "All" && event.country.includes("France")) return true;
                 if (filterSelected === "Local" && event.local === "True") return true;
                 if (filterSelected === "Free" && event.free === "True") return true;
-                if (filterSelected === "Connections" && event.connection === countryCode) return true;
+                if (filterSelected === "Connections" && event.connection === countryCode && event.country.includes("France")) return true;
+                if (filterSelected === "Near You" && event.connection === countryCode && event.country !== "France") return true;
                 return false;
             })
             .map(event => (

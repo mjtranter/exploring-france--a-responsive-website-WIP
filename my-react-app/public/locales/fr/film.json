@@ -343,6 +343,7 @@
     "local": "Locaux",
     "free": "Gratuits",
     "connections": "Connexions",
+    "near-you": "Près de vous",
     "location": "Lieu",
 
     "list-events": [
@@ -357,7 +358,8 @@
             "longDate": "17 janvier - 17 février",
             "local": "False",
             "free": "True",
-            "connection": "ca"
+            "connection": "ca",
+            "country": "Online"
         },
 
         {
@@ -371,11 +373,27 @@
             "longDate": "28 février",
             "local": "False",
             "free": "False",
-            "connection": "None"
+            "connection": "None",
+            "country": "France"
         },
 
         {
             "id": 3,
+            "text": "Festival du Film Français - Yokohama",
+            "start": "2025-03-20",
+            "end": "2025-03-24",
+            "backColor": "#5aa8cc",
+            "location": "Yokohama, Japon",
+            "description": "Le Festival du film français de Yokohama est une célébration vibrante du cinéma français contemporain, qui se tient chaque année au mois de mars dans cette ville portuaire pittoresque. Accueilli dans des salles telles que le Minato Mirai Hall, le festival présente au public japonais une sélection triée sur le volet de films français récents, allant des drames émouvants aux comédies inventives, en passant par des premiers longs métrages saisissants. Les réalisateurs et les acteurs sont souvent présents en personne, offrant un aperçu de leur travail par le biais de questions-réponses, de tables rondes et d'apparitions sur le tapis rouge. Avec son mélange de découvertes cinématographiques et d'échanges culturels, le festival met en lumière la diversité et la créativité du cinéma français moderne dans un cadre international unique.",
+            "longDate": "20 mars - 23 mars",
+            "local": "False",
+            "free": "False",
+            "connection": "jp",
+            "country": "Japan"
+        },
+
+        {
+            "id": 4,
             "text": "Festival de Cannes",
             "start": "2025-05-13",
             "end": "2025-05-25",
@@ -388,11 +406,12 @@
             "connection": "None",
             "connectionGb": "Palme d'or des films britanniques et des coproductions : <ul><li>Brève rencontre (1945)</li><li>Le Troisième Homme (1949)</li><li>Le Knack... et comment l'avoir (1965)</li><li>Blow-Up (1966)</li><li>if.... (1968)</li><li>Le Messager (1971)</li><li>La Méprise (1973)</li><li>Paris, Texas (1984)</li><li>La Mission (1986)</li><li>Barton Fink (1991)</li><li>Les Meilleures Intentions (1992)</li><li>Secrets et mensonges (1996)</li><li>Le Pianiste (2002)</li><li>Le vent se lève (2006)</li><li>Oncle Boonmee (celui qui se souvient de ses vies antérieures) (2010)</li><li>Moi, Daniel Blake (2016)</li><li>Sans filtre (2022)</li></ul>",
             "connectionCa": "Aucun film québécois ou même canadien n'a remporté la Palme d'Or à Cannes. Toutefois, des productions québécoises ont été récompensées : <ul><li><em>Juste la fin du monde</em> (2016) a remporté le Grand Prix</li><li><em>Jésus de Montréal</em> (1989) et <em>Mommy</em> (2014) a remporté le Prix du Jury</li><li>Le réalisateur québécois Michel Brault a remporté le prix du meilleur réalisateur pour <em>Les ordres</em> (1974)</li></ul>",
-            "connectionJp": "Films japonais ayant obtenu la Palme d'Or à Cannes : <ul><li>La Porte de l'enfer (1953)</li><li>Kagemusha, l'ombre du guerrier (1980)</li><li>La Ballade de Narayama (1983)</li><li>L'Anguille (1997)</li><li>Une Affaire de famille (2018)</li></ul>"
+            "connectionJp": "Films japonais ayant obtenu la Palme d'Or à Cannes : <ul><li>La Porte de l'enfer (1953)</li><li>Kagemusha, l'ombre du guerrier (1980)</li><li>La Ballade de Narayama (1983)</li><li>L'Anguille (1997)</li><li>Une Affaire de famille (2018)</li></ul>",
+            "country": "France"
         },
 
         {
-            "id": 4,
+            "id": 5,
             "text": "Festival International du Film d'Animation d'Annecy",
             "start": "2025-06-08",
             "end": "2025-06-15",
@@ -402,11 +421,12 @@
             "longDate": "8 juin - 14 juin",
             "local": "False",
             "free": "True",
-            "connection": "None"
+            "connection": "None",
+            "country": "France"
         },
 
         {
-            "id": 5,
+            "id": 6,
             "text": "Dinard Festival du Film Brittanique et Irlandais",
             "start": "2025-10-01",
             "end": "2025-10-06",
@@ -416,11 +436,27 @@
             "longDate": "1 octobre - 5 octobre",
             "local": "True",
             "free": "False",
-            "connection": "gb"
+            "connection": "gb",
+            "country": "France"
         },
 
         {
-            "id": 6,
+            "id": 7,
+            "text": "CINEMANIA",
+            "start": "2025-11-05",
+            "end": "2025-11-17",
+            "backColor": "#ad72e0",
+            "location": "Montréal, Québec, Canada",
+            "description": "CINEMANIA est le plus grand festival de films francophones d'Amérique du Nord, qui se tient à Montréal chaque année en novembre. Fondé en 1995, il présente une sélection de près de 60 films et documentaires du monde francophone, tous sous-titrés en anglais. Le festival met l'accent sur les premières, de nombreux films faisant leurs débuts en Amérique du Nord ou au Canada. Les projections ont lieu dans des salles du centre-ville de Montréal, telles que le Cinéma Impérial et la Cinémathèque québécoise, créant ainsi une atmosphère culturelle vibrante. CINEMANIA propose également des masterclasses, des conférences et des événements spéciaux.​",
+            "longDate": "5 novembre - 16 novembre",
+            "local": "False",
+            "free": "False",
+            "connection": "ca",
+            "country": "Canada"
+        },
+
+        {
+            "id": 8,
             "text": "Les Saisons Hanabi",
             "start": "2025-12-01",
             "end": "2025-11-30",
@@ -430,7 +466,23 @@
             "longDate": "novembre / decembre",
             "local": "False",
             "free": "False",
-            "connection": "jp"
+            "connection": "jp",
+            "country": "France"
+        },
+
+        {
+            "id": 9,
+            "text": "La fête du cinéma - French Film Festival UK",
+            "start": "2025-12-01",
+            "end": "2025-11-30",
+            "backColor": "#ad72e0",
+            "location": "Royaume-Uni",
+            "description": "Le Festival du film français au Royaume-Uni est une célébration annuelle du cinéma français et francophone, qui se déroule dans plusieurs villes du Royaume-Uni. Créé en 1992, le festival s'est développé pour devenir un événement culturel important, présentant une gamme variée de films de France et du monde francophone au sens large. Le festival, qui se tient généralement de novembre à décembre, présente une sélection de films contemporains et classiques, dont des drames, des comédies, des documentaires et des films d'animation. Les projections ont lieu dans de nombreuses salles du pays, comme le Ciné Lumière à Londres et l'Institut français d'Écosse à Édimbourg, et permettent au public d'avoir accès à des films en langue française accompagnés de sous-titres en anglais. Le festival propose également souvent des interventions de cinéastes et d'acteurs, offrant aux spectateurs un aperçu unique des films et des processus créatifs qui les sous-tendent.",
+            "longDate": "novembre / decembre",
+            "local": "False",
+            "free": "False",
+            "connection": "gb",
+            "country": "UK"
         }
     ],
 
