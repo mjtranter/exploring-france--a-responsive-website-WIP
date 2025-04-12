@@ -94,6 +94,7 @@
     "local": "Local",
     "free": "Free",
     "connections": "Connections",
+    "near-you": "Near You",
     "location": "Location",
 
     "list-events": [
@@ -108,7 +109,8 @@
             "longDate": "24 February",
             "local": "False",
             "free": "False",
-            "connection": "jp"
+            "connection": "jp",
+            "country": "France"
         },
 
         {
@@ -122,7 +124,8 @@
             "longDate": "2 March - 27 April",
             "local": "False",
             "free": "False",
-            "connection": "None"
+            "connection": "None",
+            "country": "France"
         },
 
         {
@@ -136,11 +139,27 @@
             "longDate": "14 March - 11 April",
             "local": "False",
             "free": "False",
-            "connection": "None"
+            "connection": "None",
+            "country": "France"
         },
 
         {
             "id": 4,
+            "text": "Bonjour France- 10th Anniversary Opening Ceremony",
+            "start": "2025-04-04",
+            "end": "2025-04-05",
+            "backColor": "#f59de3",
+            "location": "Tokyo, Japan",
+            "description": "The 10th Anniversary Opening Ceremony of Bonjour France in Tokyo will showcase a rich selection of French music, featuring both classical and contemporary performances. The event will highlight the talents of Cocomi, a renowned Japanese flutist who has trained in France and regularly performs French repertoire. The concert will also feature Philippe Marchand, a French pianist and singer, who will perform a selection of classic French songs and instrumental pieces. Additionally, Yukiko Ninomiya, a Japanese pianist with a special focus on French composers, will perform works by prominent French musicians, including Debussy and Ravel, emphasising the influence of French music on global culture. This celebration of French music in the heart of Tokyo reflects the ongoing cultural exchange between France and Japan, offering audiences a chance to experience the timeless beauty of French musical heritage.",
+            "longDate": "4 April",
+            "local": "False",
+            "free": "False",
+            "connection": "jp",
+            "country": "Japan"
+        },
+
+        {
+            "id": 5,
             "text": "Revolution: The Music of the Beatles",
             "start": "2025-04-05",
             "end": "2025-04-06",
@@ -150,11 +169,42 @@
             "longDate": "5 April",
             "local": "False",
             "free": "False",
-            "connection": "gb"
+            "connection": "gb",
+            "country": "France"
+        },
+
+        {
+            "id": 6,
+            "text": "French Connections",
+            "start": "2025-05-17",
+            "end": "2025-05-18",
+            "backColor": "#edc351",
+            "location": "Liverpool, England",
+            "description": "This orchestral concert explores music by French composers from the late 19th and early 20th centuries. The programme includes works by Pierné, Bonis, Fauré and Bizet, performed by an ensemble conducted by Helen Thomas. Held in The Great Hall at Liverpool Hope University, the event offers a mix of well-known pieces and lesser-heard selections, highlighting the range and richness of the French classical tradition.",
+            "longDate": "17 May",
+            "local": "False",
+            "free": "False",
+            "connection": "gb",
+            "country": "England"
+        },
+
+        {
+            "id": 7,
+            "text": "Francos de Montreal",
+            "start": "2025-06-13",
+            "end": "2025-06-22",
+            "backColor": "#ff6459",
+            "location": "Montreal, Quebec, Canada",
+            "description": "Francos de Montreal is a major Francophone music festival held each June in the heart of Montreal. Spanning over a week, the festival features around 150 concerts, many of them free, with performances from both established and emerging French-speaking artists. Genres range from pop and rock to hip-hop, electronic and chanson, reflecting the diversity of the French-speaking world. Events take place in various venues across the Quartier des Spectacles, creating a lively, open-air atmosphere in the city centre. With its mix of international stars and local talent, Francos de Montreal celebrates the richness and evolution of Francophone music.",
+            "longDate": "13 June - 21 June",
+            "local": "False",
+            "free": "False",
+            "connection": "ca",
+            "country": "Canada"
         },
         
         {
-            "id": 5,
+            "id": 8,
             "text": "Paris Jazz Festival",
             "start": "2025-06-17",
             "end": "2025-09-07",
@@ -164,11 +214,27 @@
             "longDate": "June - September",
             "local": "False",
             "free": "True",
-            "connection": "None"
+            "connection": "None",
+            "country": "France"
         },
 
         {
-            "id": 6,
+            "id": 9,
+            "text": "Francophone Day Party",
+            "start": "2025-06-28",
+            "end": "2025-06-29",
+            "backColor": "#d1158c",
+            "location": "London, England",
+            "description": "Taking place in London, Francophone Day Party is a celebration of music, dance and culture from across the French-speaking world. The event brings together genres such as Afrobeats, Kompa, Zouk, Coupé-Décalé, French Bashment and more, creating a lively atmosphere that highlights the diversity of Francophone sounds. With a lineup of DJs, a spacious outdoor setting and a strong focus on community, the party offers food, drinks and dancing throughout the day.",
+            "longDate": "28 June",
+            "local": "False",
+            "free": "False",
+            "connection": "gb",
+            "country": "England"
+        },
+
+        {
+            "id": 10,
             "text": "Cognac Blues Passions",
             "start": "2025-07-02",
             "end": "2025-07-06",
@@ -178,7 +244,8 @@
             "longDate": "2 July - 5 July",
             "local": "True",
             "free": "True",
-            "connection": "None"
+            "connection": "None",
+            "country": "France"
         }
     ],
 

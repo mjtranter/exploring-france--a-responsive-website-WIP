@@ -56,3 +56,17 @@
     border: none;
     color: var(--secondary-theme);
 }
+
+.filter-near-you {
+    background-color: transparent;
+    border: 2px solid var(--french-red);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: var(--dark-theme);
+}
+
+.filter-near-you.selected {
+    background-color: var(--french-red);
+    border: none;
+    color: var(--secondary-theme);
+}

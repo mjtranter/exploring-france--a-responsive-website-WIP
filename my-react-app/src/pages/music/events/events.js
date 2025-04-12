@@ -10,9 +10,13 @@ import ParisJazz from '../../../assets/images/paris-jazz.jpg';
 import CognacBluesPassions from '../../../assets/images/cognac-blues-passions.jpg';
 import Beatles from '../../../assets/images/beatles.jpg';
 import JMusicFestival from '../../../assets/images/j-music-festival.jpg';
+import FrancophoneDayParty from '../../../assets/images/francophone-day-party.jpg';
+import FrenchConnections from '../../../assets/images/french-connections.jpg';
+import BonjourFrance from '../../../assets/images/bonjour-france.jpg';
+import FrancosDeMontreal from '../../../assets/images/francos-de-montreal.jpg';
 import './events.css';
 
-const images = [JMusicFestival, MonteCarloSpringArts, BanlieuesBleues, Beatles, ParisJazz, CognacBluesPassions];
+const images = [JMusicFestival, MonteCarloSpringArts, BanlieuesBleues, BonjourFrance, Beatles, FrenchConnections, FrancosDeMontreal, ParisJazz, FrancophoneDayParty, CognacBluesPassions];
 
 export default function Events() {
     const ns = "music";
@@ -60,16 +64,18 @@ export default function Events() {
                     <Button type={filterSelected === "Local" ? "filter selected" : "filter"} text={t('local')} onClick={() => changeFilter("Local")} />
                     <Button type={filterSelected === "Free" ? "filter selected" : "filter"} text={t('free')} onClick={() => changeFilter("Free")} />
                     {(countryCode === "gb" || countryCode === "ca" || countryCode === "jp") && (<Button type={filterSelected === "Connections" ? "filter-connection selected" : "filter-connection"} text={t('connections')} onClick={() => changeFilter("Connections")} />)}
+                    {(countryCode === "gb" || countryCode === "ca" || countryCode === "jp") && (<Button type={filterSelected === "Near You" ? "filter-near-you selected" : "filter-near-you"} text={t('near-you')} onClick={() => changeFilter("Near You")} />)}
                 </div>
             </div>
             
 
 
             {events.filter(event => {
-                if (filterSelected === "All") return true;
+                if (filterSelected === "All" && event.country === "France") return true;
                 if (filterSelected === "Local" && event.local === "True") return true;
                 if (filterSelected === "Free" && event.free === "True") return true;
-                if (filterSelected === "Connections" && event.connection === countryCode) return true;
+                if (filterSelected === "Connections" && event.connection === countryCode && event.country === "France") return true;
+                if (filterSelected === "Near You" && event.connection === countryCode && event.country !== "France") return true;
                 return false;
             })
             .map(event => (

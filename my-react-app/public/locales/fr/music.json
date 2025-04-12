@@ -4,7 +4,7 @@
     "events": "Événements",
     "listen": "Écouter",
 
-    "todays-song": "Chanson du Jour",
+    "todays-song": "Chanson du jour",
     "top-10": "Top 10",
 
 
@@ -18,7 +18,7 @@
     "fete-de-la-musique": "<em>Fête de la Musique, Paris</em>",
 
 
-    "top-artists": "Artistes Principaux",
+    "top-artists": "Principaux artistes",
     "genres": {
         "titles": {
             "dance-house": "Danse/House",
@@ -90,11 +90,12 @@
     "short-day-six": "sam",
     "short-day-seven": "dim",
 
-    "featured-events": "Évenements en Vedette",
+    "featured-events": "Évenements en vedette",
     "all": "Tous",
     "local": "Locaux",
     "free": "Gratuits",
     "connections": "Connexions",
+    "near-you": "Près de vous",
     "location": "Lieu",
 
     "list-events": [
@@ -109,7 +110,8 @@
             "longDate": "24 février",
             "local": "False",
             "free": "False",
-            "connection": "jp"
+            "connection": "jp",
+            "country": "France"
         },
 
         {
@@ -123,7 +125,8 @@
             "longDate": "2 mars - 27 avril",
             "local": "False",
             "free": "False",
-            "connection": "None"
+            "connection": "None",
+            "country": "France"
         },
 
         {
@@ -137,11 +140,27 @@
             "longDate": "14 mars - 11 avril",
             "local": "False",
             "free": "False",
-            "connection": "None"
+            "connection": "None",
+            "country": "France"
         },
 
         {
             "id": 4,
+            "text": "Bonjour France- Cérémonie d'ouverture du 10e anniversaire",
+            "start": "2025-04-04",
+            "end": "2025-04-05",
+            "backColor": "#f59de3",
+            "location": "Tokyo, Japon",
+            "description": "La cérémonie d'ouverture du 10e anniversaire de Bonjour France à Tokyo présentera une riche sélection de musique française, avec des interprétations classiques et contemporaines. L'événement mettra en lumière les talents de Cocomi, une flûtiste japonaise de renom qui s'est formée en France et qui interprète régulièrement le répertoire français. Le concert mettra également en vedette Philippe Marchand, pianiste et chanteur français, qui interprétera une sélection de chansons françaises classiques et de pièces instrumentales. En outre, Yukiko Ninomiya, pianiste japonaise spécialisée dans les compositeurs français, interprétera des œuvres de grands musiciens français, dont Debussy et Ravel, soulignant ainsi l'influence de la musique française sur la culture mondiale. Cette célébration de la musique française au cœur de Tokyo reflète les échanges culturels permanents entre la France et le Japon, offrant au public la possibilité de découvrir la beauté intemporelle du patrimoine musical français.",
+            "longDate": "4 avril",
+            "local": "False",
+            "free": "False",
+            "connection": "jp",
+            "country": "Japan"
+        },
+
+        {
+            "id": 5,
             "text": "Revolution: La Musique des Beatles",
             "start": "2025-04-05",
             "end": "2025-04-06",
@@ -151,11 +170,42 @@
             "longDate": "5 avril",
             "local": "False",
             "free": "False",
-            "connection": "gb"
+            "connection": "gb",
+            "country": "France"
         },
 
         {
-            "id": 5,
+            "id": 6,
+            "text": "French Connections",
+            "start": "2025-05-17",
+            "end": "2025-05-18",
+            "backColor": "#edc351",
+            "location": "Liverpool, Angleterre",
+            "description": "Ce concert orchestral explore la musique des compositeurs français de la fin du XIXe siècle et du début du XXe siècle. Le programme comprend des œuvres de Pierné, Bonis, Fauré et Bizet, interprétées par un ensemble dirigé par Helen Thomas. Organisé dans le grand hall de l'université Liverpool Hope, l'événement propose un mélange de pièces connues et de sélections moins connues, mettant en lumière l'étendue et la richesse de la tradition classique française.",
+            "longDate": "17 mai",
+            "local": "False",
+            "free": "False",
+            "connection": "gb",
+            "country": "England"
+        },
+
+        {
+            "id": 7,
+            "text": "Les Francos de Montréal",
+            "start": "2025-06-13",
+            "end": "2025-06-22",
+            "backColor": "#ff6459",
+            "location": "Montréal, Québec, Canada",
+            "description": "Les Francos de Montréal sont un important festival de musique francophone qui se tient chaque année en juin au cœur de Montréal. Pendant une semaine, le festival propose environ 150 concerts, souvent gratuits, avec des artistes francophones confirmés ou émergents. Les genres musicaux vont de la pop au rock en passant par le hip-hop, l'électronique et la chanson, reflétant ainsi la diversité de la francophonie. Les événements se déroulent dans divers lieux du Quartier des Spectacles, créant ainsi une atmosphère animée et en plein air dans le centre-ville. Avec son mélange de stars internationales et de talents locaux, les Francos de Montréal célèbrent la richesse et l'évolution de la musique francophone.",
+            "longDate": "13 juin - 21 juin",
+            "local": "False",
+            "free": "False",
+            "connection": "ca",
+            "country": "Canada"
+        },
+
+        {
+            "id": 8,
             "text": "Paris Jazz Festival",
             "start": "2025-06-17",
             "end": "2025-09-07",
@@ -165,11 +215,27 @@
             "longDate": "juin - septembre",
             "local": "False",
             "free": "True",
-            "connection": "None"
+            "connection": "None",
+            "country": "France"
         },
 
         {
-            "id": 6,
+            "id": 9,
+            "text": "Francophone Day Party",
+            "start": "2025-06-28",
+            "end": "2025-06-29",
+            "backColor": "#d1158c",
+            "location": "Londres, Angleterre",
+            "description": "Organisée à Londres, la Francophone Day Party est une célébration de la musique, de la danse et de la culture du monde francophone. L'événement rassemble des genres tels que l'afrobeats, le kompa, le zouk, le coupé-décalé, le bashment français et bien d'autres encore, créant une atmosphère animée qui met en lumière la diversité des sons francophones. Avec une sélection de DJ, un cadre extérieur spacieux et un accent mis sur la communauté, la fête propose de la nourriture, des boissons et de la danse tout au long de la journée.",
+            "longDate": "28 juin",
+            "local": "False",
+            "free": "False",
+            "connection": "gb",
+            "country": "England"
+        },
+
+        {
+            "id": 10,
             "text": "Cognac Blues Passions",
             "start": "2025-07-02",
             "end": "2025-07-06",
@@ -179,7 +245,8 @@
             "longDate": "2 juillet - 5 juillet",
             "local": "True",
             "free": "True",
-            "connection": "None"
+            "connection": "None",
+            "country": "France"
         }
     ],
 
@@ -201,6 +268,6 @@
     "cherie-fm": "Joue de la musique pop douce et romantique, destinée à un public adulte à la recherche d'airs relaxants.",
     "radio-suggestions": "Envie d'écouter la radio française ? Consultez les liens ci-dessous !",
 
-    "curated-playlists": "Playlists Sélectionnées",
+    "curated-playlists": "Playlists sélectionnées",
     "curated-playlists-description": "Cette section propose des playlists sélectionnées pour présenter une sélection de musique française de différents genres. Chaque playlist comprend 25 recommandations de chansons choisies par l'équipe de L'Hexagone. Les playlists sont disponibles sur plusieurs plateformes afin d'en faciliter l'accès."
 }
