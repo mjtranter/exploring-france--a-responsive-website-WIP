@@ -1,25 +1,35 @@
 import './home.css';
-import Image from '../../assets/images/home-road.jpg';
+import Popup from '../../components/popup/popup';
 import RightColumn from '../../components/rightColumn/rightColumn';
 import MyFrenchFilmFestival from '../../assets/images/my-french-film-festival.jpg';
 import CesarAwards from '../../assets/images/cesar-awards.jpg';
 import AnnecyInternational from '../../assets/images/annecy-international.jpg';
+import FrenchFilmFestivalYokohama from '../../assets/images/french-film-festival-yokohama.jpg';
 import CannesFilmFestival from '../../assets/images/cannes-film-festival.jpg';
 import DinardFilmFestival from '../../assets/images/dinard-film-festival.jpg';
+import Cinemania from '../../assets/images/cinemania.jpg';
 import HanabiSeasons from '../../assets/images/hanabi-seasons.jpg';
+import FrenchFilmFestivalUK from '../../assets/images/french-film-festival-uk.jpg';
 import MonteCarloSpringArts from "../../assets/images/monte-carlo-spring-arts.jpg";
 import BanlieuesBleues from '../../assets/images/banlieues-bleues.jpg';
 import ParisJazz from '../../assets/images/paris-jazz.jpg';
 import CognacBluesPassions from '../../assets/images/cognac-blues-passions.jpg';
 import Beatles from '../../assets/images/beatles.jpg';
 import JMusicFestival from '../../assets/images/j-music-festival.jpg';
+import FrancophoneDayParty from '../../assets/images/francophone-day-party.jpg';
+import FrenchConnections from '../../assets/images/french-connections.jpg';
+import BonjourFrance from '../../assets/images/bonjour-france.jpg';
+import FrancosDeMontreal from '../../assets/images/francos-de-montreal.jpg';
 import { useTranslation } from 'react-i18next';
+import { useState, useContext, useEffect } from "react";
+import { CountryCodeContext } from "../../App";
 
-const filmImages = [MyFrenchFilmFestival, CesarAwards, AnnecyInternational, CannesFilmFestival, DinardFilmFestival, HanabiSeasons];
-const musicImages = [JMusicFestival, MonteCarloSpringArts, BanlieuesBleues, Beatles, ParisJazz, CognacBluesPassions];
+const filmImages = [MyFrenchFilmFestival, CesarAwards, FrenchFilmFestivalYokohama, CannesFilmFestival, AnnecyInternational, DinardFilmFestival, Cinemania, HanabiSeasons, FrenchFilmFestivalUK];
+const musicImages =  [JMusicFestival, MonteCarloSpringArts, BanlieuesBleues, BonjourFrance, Beatles, FrenchConnections, FrancosDeMontreal, ParisJazz, FrancophoneDayParty, CognacBluesPassions];
 
 export default function Home() {
-    const { t } = useTranslation(['common', 'music']);
+    const ns = "common";
+    const { t } = useTranslation([ns, 'music']);
     
     const date = new Date();
     const frenchDate = date.toLocaleDateString("sv", {timeZone: "Europe/Paris"});
@@ -27,11 +37,53 @@ export default function Home() {
     const filmEvents = t('list-events', { ns: "film", returnObjects: true });
     const musicEvents = t('list-events', { ns: "music", returnObjects: true });
 
+    const countryCode = useContext(CountryCodeContext);
+    
+    const [popupData, setPopupData] = useState({type: "", title: "", content: null, ns: ns, visible: false});
+    
+    const showPopup = (type, title, content) => {
+        setPopupData({type, title, content, ns: ns, visible: true});
+    }
+
+    const hidePopup = () => {
+        setPopupData({...popupData, visible: false});
+    }
+
+    const [pageVisited, setPageVisited] = useState("");
+
+    const welcomeGB = "<div class='welcome-row'><div class='welcome-item'><p><b>Welcome!</b></p><span class='flag-icon flag-icon-gb welcome'></span></div><p class='arrows'>&#8644;</p><div class='welcome-item'><p><b>Bienvenue !</b></p><span class='flag-icon flag-icon-fr welcome'></span></div></div><p>Notice the space before the exclamation mark? That's how some punctuation is written in French. You put a space before using these punctuation marks:<br /><ul><li>semi-colon (;)</li><li>exclamation mark (!)</li><li>question mark (?)</li><li>colon (:)</li><li>quotation marks (<< and >> in French)</li><li>percentage sign (%)</li><li>currency symbols (eg. €)</li></ul></p>";
+    const welcomeCA = "<div class='welcome-row'><div class='welcome-item'><p><b>Bienvenue !</b></p><span class='flag-icon flag-icon-ca welcome'></span></div><p class='arrows'>&#8644;</p><div class='welcome-item'><p><b>Bienvenue !</b></p><span class='flag-icon flag-icon-fr welcome'></span></div></div>";
+    const welcomeJP = "<div class='welcome-row'><div class='welcome-item'><p><b>ようこそ！</b></p><span class='flag-icon flag-icon-jp welcome'></span></div><p class='arrows'>&#8644;</p><div class='welcome-item'><p><b>Bienvenue !</b></p><span class='flag-icon flag-icon-fr welcome'></span></div></div><p>感嘆符の前にスペースがあることにお気づきだろうか？これはフランス語の句読点の書き方です。<li>セミコロン(;)</li><li>感嘆符(!)</li><li>クエスチョンマーク(?)</li><li>コロン(:)</li><li>引用符(フランス語では<<と>>)</li><li>パーセント記号(%)</li><li>通貨記号(例：€)</li></ul></p>";
+
+    const welcomeContent = () => {
+        switch (countryCode) {
+            case 'jp':
+                return welcomeJP;
+            case 'ca':
+                return welcomeCA;
+            default:
+                return welcomeGB;
+        }
+    };
+    
+    useEffect(() => {
+        const visited = localStorage.getItem("visited");
+        setPageVisited(visited);
+        if (visited === "false") {
+            showPopup("connection", '', welcomeContent());
+            localStorage.setItem("visited", "true");
+        }
+    }, [countryCode]);
+
     return (
         <div className="content"> 
             <title>Home | L'Hexagone</title>
             <div className="left">
-                <h2><b>Page Under Maintenance!!</b></h2>
+                <div className={"overlay" + (popupData.visible ? " visible" : "")}></div>
+                <div className={"popup-container" + (popupData.visible ? " visible": "")}>
+                    <Popup {...popupData} hidePopup={hidePopup} tourLocations={[]} setTourLocations={""} />
+                </div>
+                <h2><b>{t('under-maintenance')}</b></h2>  
             </div>
             <RightColumn>
                 {filmEvents.filter(event => {

@@ -70,7 +70,7 @@ export default function Foundations() {
             <div className={"popup-container" + (popupData.visible ? " visible": "")}>
                 <Popup {...popupData} hidePopup={hidePopup} tourLocations={[]} setTourLocations={""} />
             </div>
-            {/*<AccordionComponent />*/}
+
             <h5 className="category-title"><b>{t('genres.titles.dance-house')}</b></h5>
             <p className="genre-description">{t('genres.descriptions.dance-house')}</p>
             <h6 className="top-artists"><b>{t('top-artists')}</b></h6>

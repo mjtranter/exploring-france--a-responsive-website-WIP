@@ -25,3 +25,27 @@
 .small-text {
     font-size: 0.9em;
 }
+
+.welcome-row {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    font-size: 1.2em;
+    align-items: center;
+}
+
+.welcome-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flag-icon.welcome {
+    margin-right: 0;
+    font-size: 3em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.arrows {
+    font-size: 1.6em;
+}

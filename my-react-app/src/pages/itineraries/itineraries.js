@@ -6,12 +6,14 @@ import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 
 export default function Itineraries() {
+    const ns = "itineraries";
+    const { t } = useTranslation([ns, "common"]);    
 
     return (
         <div className="content"> 
             <title>Itineraries | L'Hexagone</title>
             <div className="left">
-                <h2><b>Page Under Maintenance!!</b></h2>
+                <h2><b>{t('under-maintenance', { ns: 'common' })}</b></h2>
             </div>
             <RightColumn />
         </div>
