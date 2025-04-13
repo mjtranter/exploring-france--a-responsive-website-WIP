@@ -69,7 +69,7 @@ export default function Home() {
     useEffect(() => {
         const visited = localStorage.getItem("visited");
         setPageVisited(visited);
-        if (visited === "false") {
+        if (visited === "false" || !visited) {
             showPopup("connection", '', welcomeContent());
             localStorage.setItem("visited", "true");
         }
