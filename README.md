@@ -6,6 +6,8 @@ Website available to view here: https://exploring-france-a-responsive-website-wi
 
 Simulate experience in different countries by adding the query parameter 'countrySim=' + country code
 
+(Design for smaller screens is not complete as it is not necessary for the university submission)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
