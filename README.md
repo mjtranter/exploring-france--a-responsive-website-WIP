@@ -4,6 +4,8 @@ My final year university project- a responsive website exploring France and Fren
 
 Website available to view here: https://exploring-france-a-responsive-website-wip.vercel.app
 
+Simulate experience in different countries by adding the query parameter 'countrySim=' + country code
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
