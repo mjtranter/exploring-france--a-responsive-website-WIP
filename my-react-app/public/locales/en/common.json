@@ -26,5 +26,34 @@
     "whats-on": "What's On",
     "view-full-calendar": "View Full Calendar",
     "full-calendar": "Events This Month",
-    "plan-your-tour": "Plan Your Tour"
+    "plan-your-tour": "Plan Your Tour",
+
+    "view-more": "View More",
+
+    "spotlights": [
+        {
+            "id": 1,
+            "title": "Plan Your Filming Location Tour Now!"
+        },
+
+        {
+            "id": 2,
+            "title": "Eiffel Tower"
+        },
+
+        {
+            "id": 3,
+            "title": "The Old Mill of Vernon"
+        },
+
+        {
+            "id": 4,
+            "title": "Quai Napoleon III, Annecy"
+        }
+    ],
+
+    "home-heading-1": "L'Hexagone- the tourism website that connects you with France!",
+    "home-description-1": "Our name comes from the nickname that French locals give to Metropolitan France, as it resembles the shape of a hexagon. Our goal is to provide users with an enjoyable, interactive experience, providing connections between France and the user's own country, as well as opportunities to engage with French culture without difficulty.",
+    "home-heading-2": "France's Administrative Regions",
+    "home-description-2": "In 2016, France restructured its regional map, reducing the number of metropolitan regions from 22 to 13. This reform merged several existing regions to create larger administrative areas with more resources and stronger political influence. The aim was to simplify governance and promote regional development. While the names and borders changed for many parts of mainland France, Corsica remained unchanged, and the five overseas regions (Guadeloupe, Martinique, French Guiana, Réunion, Mayotte) kept their separate identities. Today, each region plays a key role in areas like education, transport and economic planning."
 }

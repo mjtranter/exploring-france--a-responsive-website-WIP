@@ -26,5 +26,34 @@
     "whats-on": "À l’affiche",
     "view-full-calendar": "Voir calendrier complet",
     "full-calendar": "Évenements du mois",
-    "plan-your-tour": "Planifiez votre voyage"
+    "plan-your-tour": "Planifiez votre voyage",
+
+    "view-more": "Voir plus",
+
+    "spotlights": [
+        {
+            "id": 1,
+            "title": "Planifiez votre visite des lieux de tournage !"
+        },
+
+        {
+            "id": 2,
+            "title": "La Tour Eiffel"
+        },
+
+        {
+            "id": 3,
+            "title": "Le Vieux Moulin de Vernon"
+        },
+
+        {
+            "id": 4,
+            "title": "Quai Napoléon III, Annecy"
+        }
+    ],
+
+    "home-heading-1": "L'Hexagone - le site touristique qui vous connecte à la France !",
+    "home-description-1": "Notre nom vient du surnom que les Français donnent à la France métropolitaine, car elle a la forme d'un hexagone. Notre objectif est d'offrir aux utilisateurs une expérience agréable et interactive, en établissant des liens entre la France et le pays de l'utilisateur, ainsi que des opportunités de s'engager dans la culture française sans difficulté.",
+    "home-heading-2": "Les régions administratives de France",
+    "home-description-2": "En 2016, la France a restructuré sa carte régionale, réduisant le nombre de régions métropolitaines de 22 à 13. Cette réforme a fusionné plusieurs régions existantes pour créer des régions administratives plus vastes, dotées de ressources plus importantes et d'une influence politique plus forte. L'objectif était de simplifier la gouvernance et de promouvoir le développement régional. Alors que les noms et les frontières ont changé pour de nombreuses parties de la France continentale, la Corse est restée inchangée et les cinq régions d'outre-mer (Guadeloupe, Martinique, Guyane, La Réunion, Mayotte) ont conservé leur identité distincte. Aujourd'hui, chaque région joue un rôle clé dans des domaines tels que l'éducation, les transports et la planification économique."
 }

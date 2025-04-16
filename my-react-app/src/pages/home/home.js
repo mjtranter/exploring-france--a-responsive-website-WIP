@@ -20,9 +20,14 @@ import FrancophoneDayParty from '../../assets/images/francophone-day-party.jpg';
 import FrenchConnections from '../../assets/images/french-connections.jpg';
 import BonjourFrance from '../../assets/images/bonjour-france.jpg';
 import FrancosDeMontreal from '../../assets/images/francos-de-montreal.jpg';
+import FranceMapEN from '../../assets/images/france-map-en.jpg';
+import FranceMapFR from '../../assets/images/france-map-fr.jpg';
+import FranceMapJA from '../../assets/images/france-map-ja.jpg';
 import { useTranslation } from 'react-i18next';
 import { useState, useContext, useEffect } from "react";
 import { CountryCodeContext } from "../../App";
+import i18n from '../../i18n';
+import SpotlightCarousel from '../../components/spotlightCarousel/spotlightCarousel';
 
 const filmImages = [MyFrenchFilmFestival, CesarAwards, FrenchFilmFestivalYokohama, CannesFilmFestival, AnnecyInternational, DinardFilmFestival, Cinemania, HanabiSeasons, FrenchFilmFestivalUK];
 const musicImages =  [JMusicFestival, MonteCarloSpringArts, BanlieuesBleues, BonjourFrance, Beatles, FrenchConnections, FrancosDeMontreal, ParisJazz, FrancophoneDayParty, CognacBluesPassions];
@@ -75,15 +80,30 @@ export default function Home() {
         }
     }, [countryCode]);
 
+    //map, carousel
+
     return (
         <div className="content"> 
             <title>Home | L'Hexagone</title>
             <div className="left">
-                <div className={"overlay" + (popupData.visible ? " visible" : "")}></div>
-                <div className={"popup-container" + (popupData.visible ? " visible": "")}>
-                    <Popup {...popupData} hidePopup={hidePopup} tourLocations={[]} setTourLocations={""} />
+                <div className="no-category-container">
+                    <div className={"overlay" + (popupData.visible ? " visible" : "")}></div>
+                    <div className={"popup-container" + (popupData.visible ? " visible": "")}>
+                        <Popup {...popupData} hidePopup={hidePopup} tourLocations={[]} setTourLocations={""} />
+                    </div>
+                    <SpotlightCarousel />
+
+                    <div className="home-intro">
+                        {i18n.resolvedLanguage === "en" && (<img className="region-map" src={FranceMapEN} alt="French Regions" />)}
+                        {i18n.resolvedLanguage === "fr" && (<img className="region-map" src={FranceMapFR} alt="French Regions" />)}
+                        {i18n.resolvedLanguage === "ja" && (<img className="region-map" src={FranceMapJA} alt="French Regions" />)}
+                        
+                        <h5 className="category-heading"><b>{t('home-heading-1')}</b></h5>
+                        <p>{t('home-description-1')}</p>
+                        <h6 className="category-heading"><b>{t('home-heading-2')}</b></h6>
+                        <p>{t('home-description-2')}</p>
+                    </div>
                 </div>
-                <h2><b>{t('under-maintenance')}</b></h2>  
             </div>
             <RightColumn>
                 {filmEvents.filter(event => {
