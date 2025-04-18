@@ -36,3 +36,9 @@
 .temperature {
     margin-top: -20px;
 }
+
+.flag-icon.weather {
+    margin-right: 0;
+    font-size: 3em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

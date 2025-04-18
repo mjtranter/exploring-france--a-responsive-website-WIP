@@ -149,17 +149,17 @@ export default function Home() {
 
                 <div className="weather">
                     <div className="weather-container">
-                        <h5><b>Paris</b></h5>
+                        <h5><b>{t('paris')}</b></h5>
                         <img className="weather-icon" src={"https://cdn.weatherapi.com/weather/128x128/" + parisWeatherResponse?.current?.condition?.icon.substring(35) ?? ""} alt="Weather Icon" />
                         <p className="temperature">{parisWeatherResponse?.current?.temp_c ?? "Loading"}°C</p>    
-                        <span className={"flag-icon " + getFlag()}></span>                
+                        <span className="flag-icon weather flag-icon-fr"></span>                
                     </div>
 
                     <div className="weather-container">
                         <h5><b>{t(getCapital())}</b></h5>
                         <img className="weather-icon" src={"https://cdn.weatherapi.com/weather/128x128/" + userWeatherResponse?.current?.condition?.icon.substring(35) ?? ""} alt="Weather Icon" />
                         <p className="temperature">{userWeatherResponse?.current?.temp_c ?? "Loading"}°C</p>  
-                        <span className={"flag-icon " + getFlag()}></span>                  
+                        <span className={"flag-icon weather" + getFlag()}></span>                  
                     </div>
                 </div>
 
