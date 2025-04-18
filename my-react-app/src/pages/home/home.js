@@ -88,6 +88,7 @@ export default function Home() {
         .then(response => response.json())
         .then(data => setWeatherResponse(data))
         .catch(error => console.log("There was an error fetching weather!"));
+        console.log(weatherResponse);
     }, []);
 
     return (
