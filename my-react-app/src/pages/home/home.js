@@ -99,6 +99,28 @@ export default function Home() {
         .catch(error => console.log("There was an error fetching weather!"));
     }, []);
 
+    const getCapital = () => {
+        switch (countryCode) {
+            case "jp":
+                return "tokyo";
+            case "ca":
+                return "quebec-city";
+            default:
+                return "london";
+        }
+    }
+
+    const getFlag = () => {
+        switch (countryCode) {
+            case "jp":
+                return "flag-icon-jp";
+            case "ca":
+                return "flag-icon-ca";
+            default:
+                return "flag-icon-gb";
+        }
+    }
+
     return (
         <div className="content"> 
             <title>Home | L'Hexagone</title>
@@ -129,13 +151,15 @@ export default function Home() {
                     <div className="weather-container">
                         <h5><b>Paris</b></h5>
                         <img className="weather-icon" src={"https://cdn.weatherapi.com/weather/128x128/" + parisWeatherResponse?.current?.condition?.icon.substring(35) ?? ""} alt="Weather Icon" />
-                        <p className="temperature">{parisWeatherResponse?.current?.temp_c ?? "Loading"}°C</p>                    
+                        <p className="temperature">{parisWeatherResponse?.current?.temp_c ?? "Loading"}°C</p>    
+                        <span className={"flag-icon " + getFlag()}></span>                
                     </div>
 
                     <div className="weather-container">
-                        <h5><b>Tokyo</b></h5>
+                        <h5><b>{t(getCapital())}</b></h5>
                         <img className="weather-icon" src={"https://cdn.weatherapi.com/weather/128x128/" + userWeatherResponse?.current?.condition?.icon.substring(35) ?? ""} alt="Weather Icon" />
-                        <p className="temperature">{userWeatherResponse?.current?.temp_c ?? "Loading"}°C</p>                    
+                        <p className="temperature">{userWeatherResponse?.current?.temp_c ?? "Loading"}°C</p>  
+                        <span className={"flag-icon " + getFlag()}></span>                  
                     </div>
                 </div>
 

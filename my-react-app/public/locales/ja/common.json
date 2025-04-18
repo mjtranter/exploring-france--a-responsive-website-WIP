@@ -52,6 +52,10 @@
         }
     ],
 
+    "london": "ロンドン",
+    "quebec-city": "ケベック・シティ",
+    "tokyo": "東京",
+
     "view-connection": "接続を見る",
     "connection-gb": "イギリスとのつながり",
     "connection-ca": "ケベック、カナダとのつながり",

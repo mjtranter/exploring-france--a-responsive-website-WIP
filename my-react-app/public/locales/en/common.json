@@ -52,6 +52,10 @@
         }
     ],
 
+    "london": "London",
+    "quebec-city": "Quebec City",
+    "tokyo": "Tokyo",
+
     "view-connection": "View Connection",
     "connection-gb": "Connections to Britain",
     "connection-ca": "Connections to Quebec, Canada",
