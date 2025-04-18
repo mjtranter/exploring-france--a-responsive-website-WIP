@@ -90,8 +90,6 @@ export default function Home() {
         .catch(error => console.log("There was an error fetching weather!"));
     }, []);
 
-    console.log(weatherResponse.current.cloud);
-
     return (
         <div className="content"> 
             <title>Home | L'Hexagone</title>
@@ -118,7 +116,7 @@ export default function Home() {
             <RightColumn>
                 <FlipCard />
 
-                
+                {weatherResponse.current.cloud}                
 
                 {filmEvents.filter(event => {
                     if (event.start <= frenchDate && event.end > frenchDate) return true;
