@@ -86,11 +86,12 @@ export default function Home() {
     .then(data => {
         const temperature = data.current.temp_c;
         const icon = data.current.condition.icon;
-        console.log(`Temperature: ${temperature}°C, Icon: ${icon}`);
     })
     .catch(error => {
-        console.log("There was an error fetching weather!", error);
+        console.log("There was an error fetching weather!");
     });
+
+    console.log(weatherResponse);
 
     return (
         <div className="content"> 
