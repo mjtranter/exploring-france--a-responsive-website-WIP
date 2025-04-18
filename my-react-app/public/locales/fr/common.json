@@ -17,6 +17,40 @@
     "language": "Français",
 
     "happening-now": "En ce moment",
+    "on-this-day": "Ce jour-là",
+    "reveal": "Révéler",
+
+    "on-this-day-events": [
+        {
+            "date": "18/04",
+            "text": "En ce jour de 1909, Jeanne d'Arc a été béatifiée par l'Église catholique. La béatification est le processus de reconnaissance d'une personne comme étant une personne bénie ou sainte, et c'est une étape pour devenir un saint. Jeanne d'Arc, une jeune femme française qui a dirigé des troupes pendant la guerre de Cent Ans, a été capturée et exécutée à l'âge de 19 ans. Sa bravoure et sa foi ont inspiré de nombreuses personnes et, après sa mort, elle est devenue une héroïne nationale. Sa béatification en 1909 l'a reconnue comme une figure sainte et une martyre pour sa foi, ouvrant la voie à sa canonisation en tant que sainte en 1920."
+        },
+
+        {
+            "date": "19/04",
+            "text": "En ce jour de 1906, Pierre Curie, physicien français pionnier et réputé pour ses travaux sur la radioactivité, meurt tragiquement dans un accident de la route à Paris. Il était l'époux de Marie Curie et, ensemble, ils ont reçu le prix Nobel de physique en 1903 pour leurs recherches révolutionnaires sur la radioactivité. Leurs découvertes ont jeté les bases d'avancées significatives dans les domaines de la science et de la médecine, notamment le traitement du cancer et l'énergie nucléaire."
+        },
+
+        {
+            "date": "20/04",
+            "text": "En ce jour de 1848, les premières élections à l'Assemblée nationale française ont eu lieu sous la toute nouvelle Deuxième République. Ces élections ont marqué un moment important dans l'histoire de la France, car c'était la première fois que tous les hommes adultes en France avaient le droit de vote, suite à l'abolition de la monarchie. Cet événement a constitué une étape clé dans le développement des principes démocratiques en France."
+        },
+
+        {
+            "date": "21/04",
+            "text": "En ce jour de 1792, la Première République française adopte officiellement le calendrier révolutionnaire, qui sera utilisé en France de 1793 à 1805. L'année commence à l'équinoxe d'automne et les mois sont renommés d'après des éléments naturels, tels que « Vendémiaire » (mois des moissons) et « Brumaire » (mois des brouillards). Ce calendrier symbolise la rupture avec la monarchie traditionnelle et la volonté de marquer l'ère nouvelle de la République. Il sera finalement abandonné en 1805."
+        },
+
+        {
+            "date": "22/04",
+            "text": "En ce jour de 1769, Madame du Barry devient la maîtresse officielle du roi de France Louis XV. Elle était auparavant une courtisane et son ascension a marqué un changement important dans la dynamique de la cour de France. Sa relation avec le roi est controversée, certains la considérant comme un symbole du déclin moral de la monarchie. Malgré cela, Madame du Barry est devenue un personnage influent, et son statut de maîtresse officielle du roi a fait d'elle l'une des femmes les plus puissantes de France à l'époque."
+        },
+
+        {
+            "date": "23/04",
+            "text": "En ce jour de 1792, l'hymne révolutionnaire « La Marseillaise » est joué pour la première fois à Paris. Composé par Claude Joseph Rouget de Lisle, le chant s'intitulait à l'origine « Chant de guerre pour l'Armée du Rhin ». Elle a rapidement gagné en popularité et est devenue un symbole de la Révolution française. « La Marseillaise » a été adoptée comme hymne national de la France en 1795."
+        }
+    ],
 
     "view-connection": "Voir connexion",
     "connection-gb": "Connexions avec Grande-Bretagne",

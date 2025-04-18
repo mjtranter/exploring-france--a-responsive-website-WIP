@@ -28,6 +28,7 @@ import { useState, useContext, useEffect } from "react";
 import { CountryCodeContext } from "../../App";
 import i18n from '../../i18n';
 import SpotlightCarousel from '../../components/spotlightCarousel/spotlightCarousel';
+import FlipCard from '../../components/flipCard/flipCard';
 
 const filmImages = [MyFrenchFilmFestival, CesarAwards, FrenchFilmFestivalYokohama, CannesFilmFestival, AnnecyInternational, DinardFilmFestival, Cinemania, HanabiSeasons, FrenchFilmFestivalUK];
 const musicImages =  [JMusicFestival, MonteCarloSpringArts, BanlieuesBleues, BonjourFrance, Beatles, FrenchConnections, FrancosDeMontreal, ParisJazz, FrancophoneDayParty, CognacBluesPassions];
@@ -56,7 +57,7 @@ export default function Home() {
 
     const [pageVisited, setPageVisited] = useState("");
 
-    const welcomeGB = "<div class='welcome-row'><div class='welcome-item'><p><b>Welcome!</b></p><span class='flag-icon flag-icon-gb welcome'></span></div><p class='arrows'>&#8644;</p><div class='welcome-item'><p><b>Bienvenue !</b></p><span class='flag-icon flag-icon-fr welcome'></span></div></div><p>Notice the space before the exclamation mark? That's how some punctuation is written in French. You put a space before using these punctuation marks:<br /><ul><li>semi-colon (;)</li><li>exclamation mark (!)</li><li>question mark (?)</li><li>colon (:)</li><li>quotation marks (<< and >> in French)</li><li>percentage sign (%)</li><li>currency symbols (eg. €)</li></ul></p>";
+    const welcomeGB = "<div class='welcome-row'><div class='welcome-item'><p><b>Welcome!</b></p><span class='flag-icon flag-icon-gb welcome'></span></div><p class='arrows'>&#8644;</p><div class='welcome-item'><p><b>Bienvenue !</b></p><span class='flag-icon flag-icon-fr welcome'></span></div></div><p>Notice the space before the exclamation mark? That's how some punctuation is written in French. You put a space before using these punctuation marks:<br /><ul><li>semi-colon (;)</li><li>exclamation mark (!)</li><li>question mark (?)</li><li>colon (:)</li><li>quotation marks (« and » in French)</li><li>percentage sign (%)</li><li>currency symbols (eg. €)</li></ul></p>";
     const welcomeCA = "<div class='welcome-row'><div class='welcome-item'><p><b>Bienvenue !</b></p><span class='flag-icon flag-icon-ca welcome'></span></div><p class='arrows'>&#8644;</p><div class='welcome-item'><p><b>Bienvenue !</b></p><span class='flag-icon flag-icon-fr welcome'></span></div></div>";
     const welcomeJP = "<div class='welcome-row'><div class='welcome-item'><p><b>ようこそ！</b></p><span class='flag-icon flag-icon-jp welcome'></span></div><p class='arrows'>&#8644;</p><div class='welcome-item'><p><b>Bienvenue !</b></p><span class='flag-icon flag-icon-fr welcome'></span></div></div><p>感嘆符の前にスペースがあることにお気づきだろうか？これはフランス語の句読点の書き方です。<li>セミコロン(;)</li><li>感嘆符(!)</li><li>クエスチョンマーク(?)</li><li>コロン(:)</li><li>引用符(フランス語では<<と>>)</li><li>パーセント記号(%)</li><li>通貨記号(例：€)</li></ul></p>";
     
@@ -79,8 +80,6 @@ export default function Home() {
             localStorage.setItem("visited", "true");
         }
     }, [countryCode]);
-
-    //map, carousel
 
     return (
         <div className="content"> 
@@ -106,6 +105,8 @@ export default function Home() {
                 </div>
             </div>
             <RightColumn>
+                <FlipCard />
+
                 {filmEvents.filter(event => {
                     if (event.start <= frenchDate && event.end > frenchDate) return true;
 

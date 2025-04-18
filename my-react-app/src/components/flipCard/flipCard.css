@@ -1,0 +1,25 @@
+@import '../../assets/colours/colours.css';
+
+.flip-card {
+    padding: 12px;
+    height: 260px !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(90deg, var(--french-blue) 33.33%, var(--french-white) 33.33%, var(--french-white) 66.66%, var(--french-red) 66.66%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 0.8em;
+}
+
+.flip-card:hover {
+    cursor: pointer;
+}
+
+.flip-card.back {
+    background-color: var(--secondary-theme) !important;
+    background-image: none;
+}

@@ -17,6 +17,40 @@
     "language": "English",
 
     "happening-now": "Happening Now",
+    "on-this-day": "On This Day",
+    "reveal": "Reveal",
+
+    "on-this-day-events": [
+        {
+            "date": "18/04",
+            "text": "On this day in 1909, Joan of Arc was beatified by the Catholic Church. Beatification is the process of recognising someone as a blessed or holy person, and it’s a step towards becoming a saint. Joan of Arc, a young French woman who led troops during the Hundred Years' War, was captured and executed at 19. Her bravery and faith inspired many, and after her death, she was remembered as a national hero. Her beatification in 1909 recognised her as a holy figure and a martyr for her faith, paving the way for her canonisation as a saint in 1920."
+        },
+
+        {
+            "date": "19/04",
+            "text": "On this day in 1906, Pierre Curie, a pioneering French physicist renowned for his work on radioactivity, tragically died in a street accident in Paris. He was the husband of Marie Curie, and together they were awarded the Nobel Prize in Physics in 1903 for their groundbreaking research on radioactivity. Their discoveries laid the foundation for significant advancements in science and medicine, including cancer treatment and nuclear energy.​"
+        },
+
+        {
+            "date": "20/04",
+            "text": "On this day in 1848, the first elections for the French National Assembly were held under the newly formed Second Republic. These elections marked an important moment in French history, as they were the first time that all adult men in France had the right to vote, following the abolition of the monarchy. This event was a key step in the development of democratic principles in France."
+        },
+
+        {
+            "date": "21/04",
+            "text": "On this day in 1792, the First French Republic officially adopted the Revolutionary Calendar, which was used in France from 1793 to 1805. The year began with the autumn equinox, and months were renamed after natural features, such as 'Vendémiaire' (harvest month) and 'Brumaire' (fog month). This calendar was used as a symbol of the break from traditional monarchy and the desire to mark the new era of the Republic. It was eventually abandoned in 1805."
+        },
+
+        {
+            "date": "22/04",
+            "text": "On this day in 1769, Madame du Barry became the official mistress of King Louis XV of France. She had previously been a courtesan, and her rise to prominence marked a significant shift in the French court's dynamics. Her relationship with the king was controversial, as she was seen by some as a symbol of the moral decline of the monarchy. Despite this, Madame du Barry became an influential figure, and her status as the king’s official mistress made her one of the most powerful women in France at the time."
+        },
+
+        {
+            "date": "23/04",
+            "text": "On this day in 1792, the revolutionary anthem \"La Marseillaise\" was first performed in Paris. Composed by Claude Joseph Rouget de Lisle, the song was originally titled \"Chant de guerre pour l'Armée du Rhin\" (\"War Song for the Army of the Rhine\"). It quickly gained popularity and became a symbol of the French Revolution. \"La Marseillaise\" was adopted as the national anthem of France in 1795."
+        }
+    ],
 
     "view-connection": "View Connection",
     "connection-gb": "Connections to Britain",
