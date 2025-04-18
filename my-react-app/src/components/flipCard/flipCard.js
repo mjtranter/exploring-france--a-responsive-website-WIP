@@ -25,8 +25,7 @@ export default function FlipCard() {
     };
     const shortDate = new Intl.DateTimeFormat("en-gb", shortOptions).format(date);
 
-    let onThisDayEvents = t('on-this-day-events', { returnObjects: true });
-    console.log(onThisDayEvents);
+    const onThisDayEvents = t('on-this-day-events', { returnObjects: true });
     const onThisDayEvent = onThisDayEvents.find(event => event.date === shortDate);
 
     const [isFlipped, setIsFlipped] = useState(false);
