@@ -84,14 +84,12 @@ export default function Home() {
     const [weatherResponse, setWeatherResponse] = useState([]);
         
     useEffect(() => {
-        let weather = [];
         fetch("/api/fetchWeather")
         .then(response => response.json())
         .then(data => {
-            weather = data;
+            console.log(data);
             setWeatherResponse(data)})
         .catch(error => console.log("There was an error fetching weather!"));
-        console.log(weather);
     }, []);
 
     return (
