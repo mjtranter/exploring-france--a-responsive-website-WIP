@@ -90,7 +90,7 @@ export default function Home() {
         .catch(error => console.log("There was an error fetching weather!"));
     }, []);
 
-    console.log(weatherResponse.current.temp_c);
+    console.log(weatherResponse.current);
 
     return (
         <div className="content"> 
@@ -118,7 +118,7 @@ export default function Home() {
             <RightColumn>
                 <FlipCard />
 
-                {weatherResponse.current.temp_c}
+                
 
                 {filmEvents.filter(event => {
                     if (event.start <= frenchDate && event.end > frenchDate) return true;
