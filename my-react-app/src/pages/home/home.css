@@ -18,6 +18,10 @@
     margin-left: 8px;
 }
 
+.weather {
+    display: flex;
+}
+
 .weather-container {
     display: flex;
     flex-direction: column;
