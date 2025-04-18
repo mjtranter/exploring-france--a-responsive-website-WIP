@@ -17,3 +17,8 @@
     float: right;
     margin-left: 8px;
 }
+
+.weather-container {
+    display: flex;
+    justify-content: center;
+}
