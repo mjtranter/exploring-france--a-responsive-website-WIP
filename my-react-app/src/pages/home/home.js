@@ -81,17 +81,14 @@ export default function Home() {
         }
     }, [countryCode]);
 
-    const weatherResponse = fetch("/api/fetchWeather")
-    .then(response => response.json())
-    .then(data => {
-        const temperature = data.current.temp_c;
-        const icon = data.current.condition.icon;
-    })
-    .catch(error => {
-        console.log("There was an error fetching weather!");
-    });
-
-    console.log(weatherResponse);
+    const [weatherResponse, setWeatherResponse] = useState([]);
+        
+    useEffect(() => {
+        fetch("/api/fetchWeather")
+        .then(response => response.json())
+        .then(data => setWeatherResponse(data))
+        .catch(error => console.log("There was an error fetching weather!"));
+    }, []);
 
     return (
         <div className="content"> 
@@ -117,7 +114,9 @@ export default function Home() {
                 </div>
             </div>
             <RightColumn>
-                <FlipCard /> 
+                <FlipCard />
+
+                {weatherResponse.length > 0 ? (<p>{weatherResponse.current.cloud}</p>) : (<p>Loading...</p>)} 
 
                 {filmEvents.filter(event => {
                     if (event.start <= frenchDate && event.end > frenchDate) return true;
