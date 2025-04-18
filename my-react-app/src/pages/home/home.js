@@ -120,8 +120,8 @@ export default function Home() {
 
                 <div className="weather">
                     <h5><b>Weather in Paris</b></h5>
-                    <p>{weatherResponse?.current?.temp_c ?? "Loading"}°C</p>
-                    <img src={weatherResponse?.current?.condition?.icon ?? ""} alt="Weather Icon" />
+                    <img src={"https://cdn.weatherapi.com/weather/128x128/" + weatherResponse?.current?.condition?.icon.substring(35) ?? ""} alt="Weather Icon" />
+                    <p>{weatherResponse?.current?.temp_c ?? "Loading"}°C</p>                    
                 </div>
 
                 {filmEvents.filter(event => {
