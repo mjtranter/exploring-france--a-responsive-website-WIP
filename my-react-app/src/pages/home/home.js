@@ -93,7 +93,7 @@ export default function Home() {
     const [userWeatherResponse, setUserWeatherResponse] = useState([]);
         
     useEffect(() => {
-        fetch("/api/fetchWeather")
+        fetch("/api/fetchWeather?q=" + getFetchCapital())
         .then(response => response.json())
         .then(data => setUserWeatherResponse(data))
         .catch(error => console.log("There was an error fetching weather!"));
@@ -107,6 +107,17 @@ export default function Home() {
                 return "quebec-city";
             default:
                 return "london";
+        }
+    }
+
+    const getFetchCapital = () => {
+        switch (countryCode) {
+            case "jp":
+                return "Tokyo";
+            case "ca":
+                return "Quebec City";
+            default:
+                return "London";
         }
     }
 
