@@ -119,7 +119,8 @@ export default function Home() {
                 <FlipCard />
 
                 <div className="weather">
-                    {weatherResponse?.current?.temp_c ?? "Loading"}
+                    <h5><b>Weather in Paris</b></h5>
+                    <p>{weatherResponse?.current?.temp_c ?? "Loading"}°C</p>
                 </div>
 
                 {filmEvents.filter(event => {
