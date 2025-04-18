@@ -118,7 +118,7 @@ export default function Home() {
             <RightColumn>
                 <FlipCard />
 
-                {weatherResponse !== null ? weatherResponse.current !== null ? (<p>{weatherResponse.current.cloud}</p>) : (<p>Loading</p>) : (<p>Loading...</p>)} 
+                {weatherResponse !== null ? (<p>{weatherResponse}</p>) : (<p>Loading...</p>)} 
 
                 {filmEvents.filter(event => {
                     if (event.start <= frenchDate && event.end > frenchDate) return true;
