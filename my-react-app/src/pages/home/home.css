@@ -20,5 +20,14 @@
 
 .weather-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-icon {
+    margin-top: -20px;
+}
+
+.temperature {
+    margin-top: -20px;
 }
