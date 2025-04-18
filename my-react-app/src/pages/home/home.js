@@ -90,7 +90,7 @@ export default function Home() {
         .catch(error => console.log("There was an error fetching weather!"));
     }, []);
 
-    console.log(weatherResponse.current);
+    console.log(weatherResponse.current.cloud);
 
     return (
         <div className="content"> 
