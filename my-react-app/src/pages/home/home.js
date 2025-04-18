@@ -93,14 +93,14 @@ export default function Home() {
     const [userWeatherResponse, setUserWeatherResponse] = useState([]);
         
     useEffect(() => {
-        fetch("/api/fetchWeather?q=" + getFetchCapital())
+        fetch("/api/fetchWeather?q=" + getFetchCapital(countryCode))
         .then(response => response.json())
         .then(data => setUserWeatherResponse(data))
         .catch(error => console.log("There was an error fetching weather!"));
-    }, []);
+    }, [countryCode]);
 
-    const getCapital = () => {
-        switch (countryCode) {
+    const getCapital = (code) => {
+        switch (code) {
             case "jp":
                 return "tokyo";
             case "ca":
