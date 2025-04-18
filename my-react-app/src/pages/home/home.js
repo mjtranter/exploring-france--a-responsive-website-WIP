@@ -81,6 +81,17 @@ export default function Home() {
         }
     }, [countryCode]);
 
+    const [weatherResponse, setWeatherResponse] = useState([]);
+        
+    useEffect(() => {
+        fetch("/api/fetchWeather")
+        .then(response => response.json())
+        .then(data => setWeatherResponse(data))
+        .catch(error => console.log("There was an error fetching weather!"));
+    }, []);
+
+    console.log(weatherResponse);
+
     return (
         <div className="content"> 
             <title>Home | L'Hexagone</title>
@@ -106,6 +117,8 @@ export default function Home() {
             </div>
             <RightColumn>
                 <FlipCard />
+
+                
 
                 {filmEvents.filter(event => {
                     if (event.start <= frenchDate && event.end > frenchDate) return true;
