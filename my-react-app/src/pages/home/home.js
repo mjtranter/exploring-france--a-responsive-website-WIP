@@ -81,14 +81,21 @@ export default function Home() {
         }
     }, [countryCode]);
 
-    const [weatherResponse, setWeatherResponse] = useState([]);
+    const [parisWeatherResponse, setParisWeatherResponse] = useState([]);
         
     useEffect(() => {
         fetch("/api/fetchWeather")
         .then(response => response.json())
-        .then(data => {
-            console.log(data);
-            setWeatherResponse(data)})
+        .then(data => setParisWeatherResponse(data))
+        .catch(error => console.log("There was an error fetching weather!"));
+    }, []);
+
+    const [userWeatherResponse, setUserWeatherResponse] = useState([]);
+        
+    useEffect(() => {
+        fetch("/api/fetchWeather")
+        .then(response => response.json())
+        .then(data => setUserWeatherResponse(data))
         .catch(error => console.log("There was an error fetching weather!"));
     }, []);
 
@@ -119,10 +126,16 @@ export default function Home() {
                 <FlipCard />
 
                 <div className="weather">
-                    <h5><b>Weather in Paris</b></h5>
                     <div className="weather-container">
-                        <img className="weather-icon" src={"https://cdn.weatherapi.com/weather/128x128/" + weatherResponse?.current?.condition?.icon.substring(35) ?? ""} alt="Weather Icon" />
-                        <p className="temperature">{weatherResponse?.current?.temp_c ?? "Loading"}°C</p>                    
+                        <h5><b>Paris</b></h5>
+                        <img className="weather-icon" src={"https://cdn.weatherapi.com/weather/128x128/" + parisWeatherResponse?.current?.condition?.icon.substring(35) ?? ""} alt="Weather Icon" />
+                        <p className="temperature">{parisWeatherResponse?.current?.temp_c ?? "Loading"}°C</p>                    
+                    </div>
+
+                    <div className="weather-container">
+                        <h5><b>Tokyo</b></h5>
+                        <img className="weather-icon" src={"https://cdn.weatherapi.com/weather/128x128/" + userWeatherResponse?.current?.condition?.icon.substring(35) ?? ""} alt="Weather Icon" />
+                        <p className="temperature">{userWeatherResponse?.current?.temp_c ?? "Loading"}°C</p>                    
                     </div>
                 </div>
 
