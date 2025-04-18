@@ -110,8 +110,8 @@ export default function Home() {
         }
     }
 
-    const getFetchCapital = () => {
-        switch (countryCode) {
+    const getFetchCapital = (code) => {
+        switch (code) {
             case "jp":
                 return "Tokyo";
             case "ca":
