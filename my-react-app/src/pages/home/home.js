@@ -152,6 +152,17 @@ export default function Home() {
         .catch(error => console.log("There was an error fetching conversion rates!"));
     }, [countryCode]);
 
+    const getSymbol = (code) => {
+        switch (code) {
+            case "jp":
+                return "¥";
+            case "ca":
+                return "$";
+            default:
+                return "£";
+        }
+    }
+
     return (
         <div className="content"> 
             <title>Home | L'Hexagone</title>
@@ -194,16 +205,17 @@ export default function Home() {
                     </div>
                 </div>
 
+
                 <div className="comparison">
                     <div className="comparison-container">
                         <h5><b>{t(getCurrency(countryCode))}</b></h5>
-                        <p className="comparison-text">1.00</p>  
+                        <p className="comparison-text">{getSymbol(countryCode)}1.00</p>  
                         <span className={"flag-icon comparison " + getFlag()}></span>                  
                     </div>
 
                     <div className="comparison-container">
                         <h5><b>{t('EUR')}</b></h5>
-                        <p className="comparison-text">{currencyConversion?.conversion_rate ?? "Loading"}</p>    
+                        <p className="comparison-text">€{currencyConversion?.conversion_rate ?? "Loading"}</p>    
                         <span className="flag-icon comparison flag-icon-fr"></span>                
                     </div>
                 </div>
