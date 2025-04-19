@@ -178,33 +178,33 @@ export default function Home() {
             <RightColumn>
                 <FlipCard />
 
-                <div className="weather">
-                    <div className="weather-container">
+                <div className="comparison">
+                    <div className="comparison-container">
                         <h5><b>{t(getCapital(countryCode))}</b></h5>
                         <img className="weather-icon" src={"https://cdn.weatherapi.com/weather/128x128/" + userWeatherResponse?.current?.condition?.icon.substring(35) ?? ""} alt="Weather Icon" />
-                        <p className="temperature">{userWeatherResponse?.current?.temp_c ?? "Loading"}°C</p>  
-                        <span className={"flag-icon weather " + getFlag()}></span>                  
+                        <p className="comparison-text">{userWeatherResponse?.current?.temp_c ?? "Loading"}°C</p>  
+                        <span className={"flag-icon comparison " + getFlag()}></span>                  
                     </div>
 
-                    <div className="weather-container">
+                    <div className="comparison-container">
                         <h5><b>{t('paris')}</b></h5>
                         <img className="weather-icon" src={"https://cdn.weatherapi.com/weather/128x128/" + parisWeatherResponse?.current?.condition?.icon.substring(35) ?? ""} alt="Weather Icon" />
-                        <p className="temperature">{parisWeatherResponse?.current?.temp_c ?? "Loading"}°C</p>    
-                        <span className="flag-icon weather flag-icon-fr"></span>                
+                        <p className="comparison-text">{parisWeatherResponse?.current?.temp_c ?? "Loading"}°C</p>    
+                        <span className="flag-icon comparison flag-icon-fr"></span>                
                     </div>
                 </div>
 
-                <div className="currency-conversion">
-                    <div className="weather-container">
+                <div className="comparison">
+                    <div className="comparison-container">
                         <h5><b>{t(getCurrency(countryCode))}</b></h5>
-                        <p className="temperature">1.00</p>  
-                        <span className={"flag-icon weather " + getFlag()}></span>                  
+                        <p className="comparison-text">1.00</p>  
+                        <span className={"flag-icon comparison " + getFlag()}></span>                  
                     </div>
 
-                    <div className="weather-container">
+                    <div className="comparison-container">
                         <h5><b>{t('EUR')}</b></h5>
-                        <p className="temperature">{currencyConversion?.conversion_rate ?? "Loading"}</p>    
-                        <span className="flag-icon weather flag-icon-fr"></span>                
+                        <p className="comparison-text">{currencyConversion?.conversion_rate ?? "Loading"}</p>    
+                        <span className="flag-icon comparison flag-icon-fr"></span>                
                     </div>
                 </div>
 

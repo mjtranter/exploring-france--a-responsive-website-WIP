@@ -18,12 +18,12 @@
     margin-left: 8px;
 }
 
-.weather {
+.comparison {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.weather-container {
+.comparison-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,11 +33,11 @@
     margin-top: -20px;
 }
 
-.temperature {
+.comparison-text {
     margin-top: -8px;
 }
 
-.flag-icon.weather {
+.flag-icon.comparison {
     margin-right: 0;
     font-size: 3em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
