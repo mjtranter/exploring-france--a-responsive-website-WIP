@@ -81,6 +81,17 @@ export default function Home() {
         }
     }, [countryCode]);
 
+    const getFetchCapital = (code) => {
+        switch (code) {
+            case "jp":
+                return "Tokyo";
+            case "ca":
+                return "Quebec City";
+            default:
+                return "London";
+        }
+    }
+
     const [parisWeatherResponse, setParisWeatherResponse] = useState([]);
         
     useEffect(() => {
@@ -110,17 +121,6 @@ export default function Home() {
         }
     }
 
-    const getFetchCapital = (code) => {
-        switch (code) {
-            case "jp":
-                return "Tokyo";
-            case "ca":
-                return "Quebec City";
-            default:
-                return "London";
-        }
-    }
-
     const getFlag = () => {
         switch (countryCode) {
             case "jp":
@@ -131,6 +131,18 @@ export default function Home() {
                 return "flag-icon-gb";
         }
     }
+
+    const [currencyConversion, setCurrencyConversion] = useState([]);
+        
+    useEffect(() => {
+        fetch("/api/fetchCurrency?code=" + getFetchCapital(countryCode))
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+            setCurrencyConversion(data);
+        })
+        .catch(error => console.log("There was an error fetching conversion rates!"));
+    }, [countryCode]);
 
     return (
         <div className="content"> 
@@ -160,17 +172,17 @@ export default function Home() {
 
                 <div className="weather">
                     <div className="weather-container">
-                        <h5><b>{t('paris')}</b></h5>
-                        <img className="weather-icon" src={"https://cdn.weatherapi.com/weather/128x128/" + parisWeatherResponse?.current?.condition?.icon.substring(35) ?? ""} alt="Weather Icon" />
-                        <p className="temperature">{parisWeatherResponse?.current?.temp_c ?? "Loading"}°C</p>    
-                        <span className="flag-icon weather flag-icon-fr"></span>                
-                    </div>
-
-                    <div className="weather-container">
                         <h5><b>{t(getCapital(countryCode))}</b></h5>
                         <img className="weather-icon" src={"https://cdn.weatherapi.com/weather/128x128/" + userWeatherResponse?.current?.condition?.icon.substring(35) ?? ""} alt="Weather Icon" />
                         <p className="temperature">{userWeatherResponse?.current?.temp_c ?? "Loading"}°C</p>  
                         <span className={"flag-icon weather " + getFlag()}></span>                  
+                    </div>
+
+                    <div className="weather-container">
+                        <h5><b>{t('paris')}</b></h5>
+                        <img className="weather-icon" src={"https://cdn.weatherapi.com/weather/128x128/" + parisWeatherResponse?.current?.condition?.icon.substring(35) ?? ""} alt="Weather Icon" />
+                        <p className="temperature">{parisWeatherResponse?.current?.temp_c ?? "Loading"}°C</p>    
+                        <span className="flag-icon weather flag-icon-fr"></span>                
                     </div>
                 </div>
 
