@@ -135,7 +135,7 @@ export default function Home() {
     const [currencyConversion, setCurrencyConversion] = useState([]);
         
     useEffect(() => {
-        fetch("/api/fetchCurrency?code=" + getFetchCapital(countryCode))
+        fetch("/api/fetchCurrency?code=" + countryCode)
         .then(response => response.json())
         .then(data => {
             console.log(data);
