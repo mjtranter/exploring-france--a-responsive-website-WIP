@@ -27,7 +27,7 @@ export default function SpotlightCarousel() {
     return (
         <Carousel>
             {spotlights.map(spotlight => (
-                <Carousel.Item>
+                <Carousel.Item key={spotlight.id}>
                     <img src={images[spotlight.id - 1]} alt={spotlight.title} />
                     <Carousel.Caption>
                         <h3 className="carousel-title"><b>{spotlight.title}</b></h3>
