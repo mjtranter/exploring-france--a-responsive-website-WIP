@@ -148,10 +148,7 @@ export default function Home() {
     useEffect(() => {
         fetch("/api/fetchCurrency?currency=" + getCurrency(countryCode))
         .then(response => response.json())
-        .then(data => {
-            console.log(data);
-            setCurrencyConversion(data);
-        })
+        .then(data => setCurrencyConversion(data))
         .catch(error => console.log("There was an error fetching conversion rates!"));
     }, [countryCode]);
 
@@ -193,6 +190,20 @@ export default function Home() {
                         <h5><b>{t('paris')}</b></h5>
                         <img className="weather-icon" src={"https://cdn.weatherapi.com/weather/128x128/" + parisWeatherResponse?.current?.condition?.icon.substring(35) ?? ""} alt="Weather Icon" />
                         <p className="temperature">{parisWeatherResponse?.current?.temp_c ?? "Loading"}°C</p>    
+                        <span className="flag-icon weather flag-icon-fr"></span>                
+                    </div>
+                </div>
+
+                <div className="currency-conversion">
+                    <div className="weather-container">
+                        <h5><b>{t(getCurrency(countryCode))}</b></h5>
+                        <p className="temperature">1.00</p>  
+                        <span className={"flag-icon weather " + getFlag()}></span>                  
+                    </div>
+
+                    <div className="weather-container">
+                        <h5><b>{t('EUR')}</b></h5>
+                        <p className="temperature">{currencyConversion?.conversion_rate ?? "Loading"}</p>    
                         <span className="flag-icon weather flag-icon-fr"></span>                
                     </div>
                 </div>
