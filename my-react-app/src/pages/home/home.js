@@ -132,10 +132,21 @@ export default function Home() {
         }
     }
 
+    const getCurrency = (code) => {
+        switch (code) {
+            case "jp":
+                return "JPY";
+            case "ca":
+                return "CAD";
+            default:
+                return "GBP";
+        }
+    }
+
     const [currencyConversion, setCurrencyConversion] = useState([]);
         
     useEffect(() => {
-        fetch("/api/fetchCurrency?code=" + countryCode)
+        fetch("/api/fetchCurrency?currency=" + getCurrency(countryCode))
         .then(response => response.json())
         .then(data => {
             console.log(data);

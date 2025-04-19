@@ -1,18 +1,7 @@
 export default async function handler(req, res) {
     try {
         const apiKey = process.env.CURRENCY_API_KEY;
-        const currency = () => {
-            switch (req.query.code) {
-                case "jp":
-                    return "JPY";
-                case "ca":
-                    return "CAD";
-                default:
-                    return "GBP";
-            }
-        };
-        console.log(apiKey);
-        const response = await fetch(`https://v6.exchangerate-api.com/v6/${apiKey}/pair/${currency}/EUR`);
+        const response = await fetch(`https://v6.exchangerate-api.com/v6/${apiKey}/pair/${req.query.currency}/EUR`);
         const data = await response.json();
         res.status(200).json(data);
     }
