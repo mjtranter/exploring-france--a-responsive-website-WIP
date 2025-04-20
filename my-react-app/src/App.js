@@ -6,6 +6,7 @@ import Music from './pages/music/music';
 import Events from './pages/events/events';
 import Attractions from './pages/attractions/attractions';
 import Itineraries from './pages/itineraries/itineraries';
+import ThingsToKnow from './pages/things-to-know/things-to-know';
 import { useState, useEffect, createContext } from 'react';
 
 const CountryCodeContext = createContext();
@@ -34,6 +35,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/film" element={<Film />} />
             <Route path="/music" element={<Music />} />
+            <Route path="/things-to-know" element={<ThingsToKnow />} />
             <Route path="/events" element={<Events />} />
             <Route path="/attractions" element={<Attractions />} />
             <Route path="/itineraries" element={<Itineraries />} />

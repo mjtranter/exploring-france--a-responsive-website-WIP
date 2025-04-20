@@ -1,0 +1,50 @@
+@import '../../assets/colours/colours.css';
+
+.accordion-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.accordion-item {
+    width: 330px;
+    padding: 2px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.accordion-item:not(:first-of-type) {
+    border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+}
+
+.accordion-header {
+    width: 100%;
+}
+
+.accordion-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.accordion-button {
+    padding: 8px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: inherit !important;
+    box-shadow: none !important;
+}
+
+.accordion-button.collapsed {
+    box-shadow: none !important;
+}
+
+.accordion-button h5 {
+    margin-bottom: 0;
+}
+
+.accordion-body {
+    font-size: 0.9em;
+}

@@ -50,6 +50,7 @@ export default function Navbar() {
                                 <Link className="dropdown-item" to={getFullPath("/music")}>{t('media.music')}</Link>
                             </div>
                         </li>
+                        <li className="nav-item"><Link className="nav-link" to={"/things-to-know"}>{t('things-to-know')}</Link></li>
                         <li className="nav-item dropdown"><Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{t('visit.visit')}</Link>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <Link className="dropdown-item" to={getFullPath("/events")}>{t('visit.events')}</Link>

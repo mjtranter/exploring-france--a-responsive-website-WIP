@@ -9,3 +9,8 @@
     padding: 20px;
     padding-top: 12px;
 }
+
+.central-column.full {
+    max-width: calc(75% + (25% * 0.25));
+    width: 100%;
+}

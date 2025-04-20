@@ -1,0 +1,43 @@
+{
+    "overview": "Aperçu",
+    "language": "Langue",
+    "travel": "Voyage",
+
+    "accordion-elements": [
+        {
+            "id": "1",
+            "title": "Le Quotidien",
+            "content": "<ul><li>Les magasins et les restaurants ferment souvent à midi (vers 12-14 heures)</li><li>De nombreux magasins et services sont fermés le dimanche</li><li>Les heures de repas sont plus tardives que dans certains pays - le dîner commence généralement après 19h30</li></ul>"
+        },
+
+        {
+            "id": "2",
+            "title": "Argent et achats",
+            "content": "<ul><li>La France utilise l'Euro (€)</li><li>Les cartes sans contact sont largement acceptées, mais certains endroits préfèrent encore l'argent liquide</li><li>Les soldes n'ont lieu que deux fois par an (hiver et été)</li><li>Apportez votre propre sac - les sacs en plastique coûtent souvent plus cher ou ne sont pas fournis</li><li>Il est normal de peser soi-même ses produits dans les supermarchés à l'aide d'une machine</li></ul>"
+        },
+
+        {
+            "id": "3",
+            "title": "Installations publiques",
+            "content": "<ul><li>Les toilettes publiques peuvent être payantes ou avoir des horaires d'ouverture inhabituels</li><li>Les centres d'information touristique sont utiles pour obtenir des conseils locaux, des cartes gratuites et des informations sur les événements</li><li>L'eau du robinet est potable - recherchez les fontaines d'eau gratuites dans les lieux publics</li><li>Les bibliothèques proposent souvent une connexion Wi-Fi gratuite et des espaces de détente</li></ul>"
+        },
+
+        {
+            "id": "4",
+            "title": "Santé et urgences",
+            "content": "<ul><li>Les pharmacies sont marquées d'une croix verte</li><li>Il y a toujours une pharmacie d'urgence ouverte dans chaque zone, même le dimanche</li><li>Vous pouvez appeler le 112 pour les urgences dans toute l'UE</li></ul>"
+        },
+
+        {
+            "id": "5",
+            "title": "Culture et normes sociales",
+            "content": "<ul><li>Il est d'usage de saluer les gens en leur disant « Bonjour » ou « Bonsoir » lorsqu'ils entrent dans un magasin ou un restaurant</li><li>Les pourboires dans les cafés et les restaurants sont appréciés mais ne sont pas obligatoires</li><li>La France est officiellement laïque - les symboles religieux sont interdits dans les écoles et les institutions publiques</li></ul>"
+        },
+
+        {
+            "id": "6",
+            "title": "L'étiquette au restaurant",
+            "content": "<ul><li>Il est d'usage de garder les mains visibles sur la table, en posant les poignets sur le bord de l'assiette</li><li>Ne commencez pas à manger tant que tout le monde à table n'a pas été servi</li><li>Beaucoup de Français prennent leur temps pour manger - c'est un événement social, pas seulement un repas</li><li>Il est courant de demander « l'addition » au moment de partir, car elle n'est pas automatiquement apportée à la table</li></ul>"
+        }
+    ]
+}

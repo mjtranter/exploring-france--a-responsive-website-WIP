@@ -1,0 +1,43 @@
+{
+    "overview": "Overview",
+    "language": "Language",
+    "travel": "Travel",
+
+    "accordion-elements": [
+        {
+            "id": "1",
+            "title": "Daily Schedule",
+            "content": "<ul><li>Shops and restaurants often close at midday (around 12–2pm)</li><li>Many shops and services are closed on Sundays</li><li>Mealtimes are later than in some countries — dinner typically starts after 7:30pm</li></ul>"
+        },
+
+        {
+            "id": "2",
+            "title": "Money and Shopping",
+            "content": "<ul><li>France uses the Euro (€)</li><li>Contactless cards are widely accepted, but some places still prefer cash</li><li>Sales only happen twice a year (winter and summer) — “Les Soldes”</li><li>Bring your own bag — plastic bags often cost extra or aren’t provided</li><li>It’s normal to weigh your own produce at supermarkets using a machine</li></ul>"
+        },
+
+        {
+            "id": "3",
+            "title": "Public Facilities",
+            "content": "<ul><li>Public toilets may require payment or have odd opening times</li><li>Tourist information centres are helpful for local advice, free maps and event details</li><li>Tap water is safe to drink — look for free water fountains in public spaces</li><li>Libraries often provide free Wi-Fi and quiet spaces to relax</li></ul>"
+        },
+
+        {
+            "id": "4",
+            "title": "Health and Emergencies",
+            "content": "<ul><li>Pharmacies are marked with a green cross</li><li>There is always an emergency pharmacy open in each area, even on Sundays</li><li>You can call 112 for emergencies across the EU</li></ul>"
+        },
+
+        {
+            "id": "5",
+            "title": "Culture and Social Norms",
+            "content": "<ul><li>It's customary to greet people with \"Bonjour\" (hello) or \"Bonsoir\" (good evening) when entering shops or restaurants</li><li>Tipping in cafés and restaurants is appreciated but not mandatory</li><li>France is officially secular — religious symbols are banned in public schools and institutions</li></ul>"
+        },
+
+        {
+            "id": "6",
+            "title": "Dining Etiquette",
+            "content": "<ul><li>It's customary to keep your hands visible on the table, resting your wrists on the edge of your plate</li><li>Don't start eating until everyone at the table has been served</li><li>Many French people take their time over meals — it's a social event, not just about eating</li><li>It’s common to ask for \"l'addition\" (the bill) when you're ready to leave, as it won't be automatically brought to the table</li></ul>"
+        }
+    ]
+}
