@@ -1,5 +1,11 @@
 @import '../../../assets/colours/colours.css';
 
+.webcams-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .webcam-container {
     display: flex;
     flex-direction: column;

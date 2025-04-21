@@ -16,7 +16,7 @@ export default function Webcams() {
     const webcams = t('list-webcams', { returnObjects: true });
 
     return (
-        <div className="grid-layout">
+        <div className="webcams-layout">
             {webcams.map(webcam => (
                 <div key={webcam.id} className="webcam-container">
                     <h5 className="webcam-title"><b>{webcam.title}</b></h5>
