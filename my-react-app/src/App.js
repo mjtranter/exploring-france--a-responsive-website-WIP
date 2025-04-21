@@ -7,6 +7,7 @@ import Events from './pages/events/events';
 import Attractions from './pages/attractions/attractions';
 import Itineraries from './pages/itineraries/itineraries';
 import ThingsToKnow from './pages/things-to-know/things-to-know';
+import Experience from './pages/experience/experience';
 import { useState, useEffect, createContext } from 'react';
 
 const CountryCodeContext = createContext();
@@ -39,6 +40,7 @@ export default function App() {
             <Route path="/events" element={<Events />} />
             <Route path="/attractions" element={<Attractions />} />
             <Route path="/itineraries" element={<Itineraries />} />
+            <Route path="/experience" element={<Experience />} />
           </Routes>
         </BrowserRouter>
       </CountryCodeContext.Provider>

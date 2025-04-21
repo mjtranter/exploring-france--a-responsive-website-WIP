@@ -9,11 +9,12 @@
         "music": "Musique"
     },
     "things-to-know": "À savoir",
-    "visit": {
-        "visit": "Visiter",
+    "explore": {
+        "explore": "Explorer",
         "events": "Événements",
         "attractions": "Attractions",
-        "itineraries": "Itinéraires"
+        "itineraries": "Itinéraires",
+        "experience": "Expérience"
     },
     "language": "Français",
 

@@ -131,3 +131,9 @@ body {
   float: left;
   width: 1.6em;
 }
+
+.grid-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

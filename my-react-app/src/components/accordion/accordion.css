@@ -1,11 +1,5 @@
 @import '../../assets/colours/colours.css';
 
-.accordion-layout {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
 .accordion-item {
     width: 330px;
     padding: 2px;

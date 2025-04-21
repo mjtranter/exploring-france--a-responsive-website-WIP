@@ -9,11 +9,12 @@
         "music": "音楽"
     },
     "things-to-know": "知っておくべきこと",
-    "visit": {
-        "visit": "観光",
+    "explore": {
+        "explore": "エクスペリエンス",
         "events": "イベント",
         "attractions": "見どころ",
-        "itineraries": "モデルコース"
+        "itineraries": "モデルコース",
+        "experience": "経験"
     },
     "language": "日本語",
 

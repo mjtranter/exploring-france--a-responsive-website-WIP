@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 export default function CentralColumn({ns, selectedCategory, Component}) {
     const { t } = useTranslation(['common', ns]);
 
-    const centralClass = ns === "things-to-know" ? "full" : "";
+    const centralClass = ns === "things-to-know" || ns === "experience" ? "full" : "";
 
     return (
         <div className={"central-column " + centralClass}>

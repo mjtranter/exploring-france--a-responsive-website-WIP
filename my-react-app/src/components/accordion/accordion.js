@@ -21,7 +21,7 @@ export default function AccordionComponent({ns, type}){
     const images = type === "overview" ? [Clock, Euro, Library, Pharmacy, Culture, Dining] : [Visa, Plane, Train, Wheelchair];
 
     return (
-        <div className="accordion-layout">
+        <div className="grid-layout">
             {accordionElements.map(accordionElement => (
                 <Accordion key={accordionElement.id}>
                     <Accordion.Item key={accordionElement.id} eventKey={accordionElement.id}>

@@ -1,0 +1,48 @@
+{
+    "challenges": "Challenges",
+    "webcams": "Webcams",
+
+    "list-webcams": [
+        {
+            "id": 1,
+            "title": "Port de la Santé, Villefranche-sur-Mer, Provence-Alpes-Côte d'Azur",
+            "description": "Port de la Santé is a small, scenic harbour in Villefranche-sur-Mer, in the region of Provence-Alpes-Côte d'Azur. Nestled along the Mediterranean coast, it’s known for colourful boats, cruise tenders and a picturesque waterfront, offering classic Riviera charm.",
+            "embed": "zkEdGueUrek"
+        },
+
+        {
+            "id": 2,
+            "title": "La Plagne-Tarentaise, Auvergne-Rhône-Alpes",
+            "description": "La Plagne-Tarentaise is a scenic alpine area in the French Alps, known for its snowy slopes, ski resorts and mountain views. It's part of the popular Paradiski region, attracting skiers and winter sports lovers from around the world.",
+            "embed": "emSM3Eh0YUw"
+        },
+
+        {
+            "id": 3,
+            "title": "Munster, Grand Est",
+            "description": "Munster is a charming town in the Grand Est region of France, nestled in the Vosges mountains. Known for its traditional Alsatian architecture and famous Munster cheese, it offers a peaceful setting surrounded by rolling hills and lush greenery.",
+            "embed": "9gpgv4CvAwc"
+        },
+
+        {
+            "id": 4,
+            "title": "Port des Sables d’Olonne, Pays de la Loire",
+            "description": "Port des Sables-d’Olonne is a vibrant harbour on the Atlantic coast, renowned for its fishing fleet and the marina — the starting point of the Vendée Globe yacht race. The port's entrance is marked by several lighthouses while the surrounding area offers a lively waterfront with cafés and promenades.",
+            "embed": "IzQTpP2veLU"
+        },
+
+        {
+            "id": 5,
+            "title": "Saint-Malo, Brittany",
+            "description": "Saint-Malo, located in Brittany, is a historic port city known for its stunning walled old town and picturesque harbour. The city has a rich maritime history, and its port is a hub for both commercial and leisure vessels. Saint-Malo is particularly popular for its beaches, seafood and striking coastline.",
+            "embed": "J3xg6-S2bFU"
+        },
+
+        {
+            "id": 6,
+            "title": "Font-Romeu-Odeillo-Via, Occitanie",
+            "description": "Font-Romeu-Odeillo-Via is a mountain town in the French Pyrenees, renowned for its ski resort, sunny climate and altitude training centre. It also hosts one of the world’s largest solar furnaces, the Four Solaire d’Odeillo.",
+            "embed": "v41wlakLZcc"
+        }
+    ]
+}

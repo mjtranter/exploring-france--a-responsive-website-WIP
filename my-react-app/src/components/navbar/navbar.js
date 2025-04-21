@@ -51,11 +51,12 @@ export default function Navbar() {
                             </div>
                         </li>
                         <li className="nav-item"><Link className="nav-link" to={"/things-to-know"}>{t('things-to-know')}</Link></li>
-                        <li className="nav-item dropdown"><Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{t('visit.visit')}</Link>
+                        <li className="nav-item dropdown"><Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{t('explore.explore')}</Link>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <Link className="dropdown-item" to={getFullPath("/events")}>{t('visit.events')}</Link>
-                                <Link className="dropdown-item" to={getFullPath("/attractions")}>{t('visit.attractions')}</Link>
-                                <Link className="dropdown-item" to={getFullPath("/itineraries")}>{t('visit.itineraries')}</Link>
+                                <Link className="dropdown-item" to={getFullPath("/events")}>{t('explore.events')}</Link>
+                                <Link className="dropdown-item" to={getFullPath("/attractions")}>{t('explore.attractions')}</Link>
+                                <Link className="dropdown-item" to={getFullPath("/itineraries")}>{t('explore.itineraries')}</Link>
+                                <Link className="dropdown-item" to={getFullPath("/experience")}>{t('explore.experience')}</Link>
                             </div>
                         </li>
                     </ul> 
