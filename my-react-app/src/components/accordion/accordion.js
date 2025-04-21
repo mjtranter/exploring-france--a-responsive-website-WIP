@@ -18,7 +18,7 @@ export default function AccordionComponent({ns}){
     return (
         <div className="accordion-layout">
             {accordionElements.map(accordionElement => (
-                <Accordion>
+                <Accordion key={accordionElement.id}>
                     <Accordion.Item key={accordionElement.id} eventKey={accordionElement.id}>
                         <img className="accordion-image" src={images[accordionElement.id - 1]} alt={accordionElement.title} />
                         <Accordion.Header>

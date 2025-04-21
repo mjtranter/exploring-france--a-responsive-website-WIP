@@ -39,5 +39,222 @@
             "title": "食事のマナー",
             "content": "<ul><li>両手をテーブルの上に出し、皿の縁に手首を置くのが通例である</li><li>テーブルの全員が食事を終えるまで、食事を始めないこと</li><li>多くのフランス人は食事に時間をかける</li><li>お会計は自動的にテーブルまで持ってきてくれないので、お店を出るときに頼むのが一般的です</li></ul>"
         }
+    ],
+
+    "common-signs": "一般的な兆候",
+    "french": "フランス語",
+    "current-language-capital": "日本語",
+    "learn": "学ぶ",
+    "practise": "練習",
+    "exit": "出口",
+    "entrance": "エントランス",
+    "checkout": "チェックアウト",
+    "toilets": "トイレ",
+    "forbidden": "禁止",
+    "open": "オープン",
+    "closed": "クローズド",
+    "push": "プッシュ",
+    "pull": "プル",
+    "no-smoking": "禁煙",
+    "no-entry": "立ち入り禁止",
+    "emergency-exit": "非常口",
+    "opening-hours": "営業時間",
+
+    "back": "バック",
+    "next": "次のページ",
+    "common-signs-terms": [
+        {
+            "id": 1,
+            "front": "Sortie",
+            "back": "出口"
+        },
+
+        {
+            "id": 2,
+            "front": "Entrée",
+            "back": "エントランス"
+        },
+
+        {
+            "id": 3,
+            "front": "Caisse",
+            "back": "チェックアウト"
+        },
+
+        {
+            "id": 4,
+            "front": "Toilettes",
+            "back": "トイレ"
+        },
+
+        {
+            "id": 5,
+            "front": "Interdit",
+            "back": "禁止"
+        },
+
+        {
+            "id": 6,
+            "front": "Ouvert",
+            "back": "オープン"
+        },
+
+        {
+            "id": 7,
+            "front": "Fermé",
+            "back": "クローズド"
+        },
+
+        {
+            "id": 8,
+            "front": "Poussez",
+            "back": "プッシュ"
+        },
+
+        {
+            "id": 9,
+            "front": "Tirez",
+            "back": "プル"
+        },
+
+        {
+            "id": 10,
+            "front": "Défense de fumer",
+            "back": "禁煙"
+        },
+
+        {
+            "id": 11,
+            "front": "Accès interdit",
+            "back": "立ち入り禁止"
+        },
+
+        {
+            "id": 12,
+            "front": "Issue de secours",
+            "back": "非常口"
+        },
+
+        {
+            "id": 13,
+            "front": "Horaires d'ouverture",
+            "back": "営業時間"
+        }
+    ],
+
+    "useful-phrases": "便利なフレーズ",
+    "hello": "こんにちは",
+    "good-evening": "こんばんは",
+    "hi": "やあ",
+    "goodbye": "さようなら",
+    "thank-you": "ありがとう",
+    "thank-you-very-much": "ありがとうございました",
+    "youre-welcome": "どういたしまして",
+    "please": "お願い",
+    "excuse-me": "失礼",
+    "sorry": "申し訳ない",
+    "i-would-like": "私は...",
+    "do-you-have": "あなたは...？",
+    "where-is": "どこだ...？",
+    "where-are-the-toilets": "トイレはどこですか？",
+    "help": "助けてくれ！",
+    "current-language": "japonais",
+    "do-you-speak": "日本語は話せますか？",
+    "useful-phrases-terms": [
+        {
+            "id": 1,
+            "front": "Bonjour",
+            "back": "こんにちは"
+        },
+
+        {
+            "id": 2,
+            "front": "Bonsoir",
+            "back": "こんばんは"
+        },
+
+        {
+            "id": 3,
+            "front": "Salut",
+            "back": "やあ"
+        },
+
+        {
+            "id": 4,
+            "front": "Au revoir",
+            "back": "さようなら"
+        },
+
+        {
+            "id": 5,
+            "front": "Merci",
+            "back": "ありがとう"
+        },
+
+        {
+            "id": 6,
+            "front": "Merci beaucoup",
+            "back": "ありがとうございました"
+        },
+
+        {
+            "id": 7,
+            "front": "De rien",
+            "back": "どういたしまして"
+        },
+
+        {
+            "id": 8,
+            "front": "S'il vous plaît",
+            "back": "お願い"
+        },
+
+        {
+            "id": 9,
+            "front": "Excusez-moi",
+            "back": "失礼"
+        },
+
+        {
+            "id": 10,
+            "front": "Je suis désolé(e)",
+            "back": "申し訳ない"
+        },
+
+        {
+            "id": 11,
+            "front": "Je voudrais...",
+            "back": "私は..."
+        },
+
+        {
+            "id": 12,
+            "front": "Avez-vous... ?",
+            "back": "あなたは...？"
+        },
+
+        {
+            "id": 13,
+            "front": "Où est... ?",
+            "back": "どこだ...？"
+        },
+
+        {
+            "id": 14,
+            "front": "Où sont les toilettes ?",
+            "back": "トイレはどこですか？"
+        },
+
+        {
+            "id": 15,
+            "front": "Au secours !",
+            "back": "助けてくれ！"
+        },
+
+        {
+            "id": 16,
+            "front": "Parlez-vous anglais ?",
+            "back": "日本語は話せますか？"
+        }
     ]
 }

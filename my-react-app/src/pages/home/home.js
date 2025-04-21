@@ -163,6 +163,26 @@ export default function Home() {
         }
     }
 
+    //make sure day number comes in front of month
+    const lang = i18n.resolvedLanguage === "en" ? "en-gb" : i18n.language;
+    const options = {
+        timeZone: "Europe/Paris",
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+    };
+    const formattedDate = new Intl.DateTimeFormat(lang, options).format(date);
+
+    const shortOptions = {
+        timeZone: "Europe/Paris",
+        month: 'numeric',
+        day: 'numeric'
+    };
+    const shortDate = new Intl.DateTimeFormat("en-gb", shortOptions).format(date);
+
+    const onThisDayEvents = t('on-this-day-events', { returnObjects: true });
+    const onThisDayEvent = onThisDayEvents.find(event => event.date === shortDate);
+
     return (
         <div className="content"> 
             <title>Home | L'Hexagone</title>
@@ -187,7 +207,13 @@ export default function Home() {
                 </div>
             </div>
             <RightColumn>
-                <FlipCard />
+                <div>
+                    <div className="text-row">
+                        <h5><b>{t('on-this-day')}</b></h5>
+                        <h5><b>{formattedDate}</b></h5>
+                    </div>
+                    <FlipCard type="on-this-day" front={t('reveal')} back={onThisDayEvent.text} />
+                </div>
 
                 <div className="comparison">
                     <div className="comparison-container">

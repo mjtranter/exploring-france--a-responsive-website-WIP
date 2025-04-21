@@ -12,7 +12,16 @@
     margin: 0px;
     border-radius: 8px !important;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.flip-card.on-this-day {
     font-size: 0.8em;
+}
+
+.flip-card.terms {
+    font-size: 1.2em;
+    color: var(--sky-blue-theme);
 }
 
 .flip-card:hover {
@@ -22,4 +31,5 @@
 .flip-card.back {
     background-color: var(--secondary-theme) !important;
     background-image: none;
+    color: var(--dark-theme);
 }

@@ -1,0 +1,69 @@
+@import '../../../assets/colours/colours.css';
+
+.language-component {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.common-signs {
+    width: 440px;
+}
+
+.useful-phrases {
+    width: 50%;
+}
+
+.flashcard-container {
+    width: 400px;
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+}
+
+.flashcard-slider {
+    display: flex;
+    transition: transform 0.4s ease;
+    width: 100%;
+}
+
+.flashcard-slider > * {
+    flex-shrink: 0;
+    width: 100%;
+  }
+
+.flashcard-arrows {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-flashcard-arrow {
+    background: none;
+    border: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.btn-flashcard-arrow p {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.back-text {
+    margin-left: 4px;
+}
+
+.next-text {
+    margin-right: 4px;
+}
+
+.phrase-sound {
+    display: flex;
+}
+
+.btn-song-preview.phrase {
+    margin-right: 6px;
+    height: 24px;
+}

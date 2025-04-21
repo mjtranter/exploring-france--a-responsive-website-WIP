@@ -39,5 +39,222 @@
             "title": "Dining Etiquette",
             "content": "<ul><li>It's customary to keep your hands visible on the table, resting your wrists on the edge of your plate</li><li>Don't start eating until everyone at the table has been served</li><li>Many French people take their time over meals — it's a social event, not just about eating</li><li>It’s common to ask for \"l'addition\" (the bill) when you're ready to leave, as it won't be automatically brought to the table</li></ul>"
         }
+    ],
+
+    "common-signs": "Common Signs",
+    "french": "French",
+    "current-language-capital": "English",
+    "learn": "Learn",
+    "practise": "Practise",
+    "exit": "Exit",
+    "entrance": "Entrance",
+    "checkout": "Checkout",
+    "toilets": "Toilets",
+    "forbidden": "Forbidden",
+    "open": "Open",
+    "closed": "Closed",
+    "push": "Push",
+    "pull": "Pull",
+    "no-smoking": "No Smoking",
+    "no-entry": "No Entry",
+    "emergency-exit": "Emergency Exit",
+    "opening-hours": "Opening Hours",
+
+    "back": "Back",
+    "next": "Next",
+    "common-signs-terms": [
+        {
+            "id": 1,
+            "front": "Sortie",
+            "back": "Exit"
+        },
+
+        {
+            "id": 2,
+            "front": "Entrée",
+            "back": "Entrance"
+        },
+
+        {
+            "id": 3,
+            "front": "Caisse",
+            "back": "Checkout"
+        },
+
+        {
+            "id": 4,
+            "front": "Toilettes",
+            "back": "Toilets"
+        },
+
+        {
+            "id": 5,
+            "front": "Interdit",
+            "back": "Forbidden"
+        },
+
+        {
+            "id": 6,
+            "front": "Ouvert",
+            "back": "Open"
+        },
+
+        {
+            "id": 7,
+            "front": "Fermé",
+            "back": "Closed"
+        },
+
+        {
+            "id": 8,
+            "front": "Poussez",
+            "back": "Push"
+        },
+
+        {
+            "id": 9,
+            "front": "Tirez",
+            "back": "Pull"
+        },
+
+        {
+            "id": 10,
+            "front": "Défense de fumer",
+            "back": "No Smoking"
+        },
+
+        {
+            "id": 11,
+            "front": "Accès interdit",
+            "back": "No Entry"
+        },
+
+        {
+            "id": 12,
+            "front": "Issue de secours",
+            "back": "Emergency Exit"
+        },
+
+        {
+            "id": 13,
+            "front": "Horaires d'ouverture",
+            "back": "Opening Hours"
+        }
+    ],
+
+    "useful-phrases": "Useful Phrases",
+    "hello": "Hello",
+    "good-evening": "Good evening",
+    "hi": "Hi",
+    "goodbye": "Goodbye",
+    "thank-you": "Thank you",
+    "thank-you-very-much": "Thank you very much",
+    "youre-welcome": "You're welcome",
+    "please": "Please",
+    "excuse-me": "Excuse me",
+    "sorry": "Sorry",
+    "i-would-like": "I would like...",
+    "do-you-have": "Do you have...?",
+    "where-is": "Where is...?",
+    "where-are-the-toilets": "Where are the toilets?",
+    "help": "Help!",
+    "current-language": "anglais",
+    "do-you-speak": "Do you speak English?",
+    "useful-phrases-terms": [
+        {
+            "id": 1,
+            "front": "Bonjour",
+            "back": "Hello"
+        },
+
+        {
+            "id": 2,
+            "front": "Bonsoir",
+            "back": "Good evening"
+        },
+
+        {
+            "id": 3,
+            "front": "Salut",
+            "back": "Hi"
+        },
+
+        {
+            "id": 4,
+            "front": "Au revoir",
+            "back": "Goodbye"
+        },
+
+        {
+            "id": 5,
+            "front": "Merci",
+            "back": "Thank you"
+        },
+
+        {
+            "id": 6,
+            "front": "Merci beaucoup",
+            "back": "Thank you very much"
+        },
+
+        {
+            "id": 7,
+            "front": "De rien",
+            "back": "You're welcome"
+        },
+
+        {
+            "id": 8,
+            "front": "S'il vous plaît",
+            "back": "Please"
+        },
+
+        {
+            "id": 9,
+            "front": "Excusez-moi",
+            "back": "Excuse me"
+        },
+
+        {
+            "id": 10,
+            "front": "Je suis désolé(e)",
+            "back": "Sorry"
+        },
+
+        {
+            "id": 11,
+            "front": "Je voudrais...",
+            "back": "I would like..."
+        },
+
+        {
+            "id": 12,
+            "front": "Avez-vous... ?",
+            "back": "Do you have...?"
+        },
+
+        {
+            "id": 13,
+            "front": "Où est... ?",
+            "back": "Where is...?"
+        },
+
+        {
+            "id": 14,
+            "front": "Où sont les toilettes ?",
+            "back": "Where are the toilets?"
+        },
+
+        {
+            "id": 15,
+            "front": "Au secours !",
+            "back": "Help!"
+        },
+
+        {
+            "id": 16,
+            "front": "Parlez-vous anglais ?",
+            "back": "Do you speak English?"
+        }
     ]
 }
