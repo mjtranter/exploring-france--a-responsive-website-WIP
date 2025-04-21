@@ -24,7 +24,7 @@ export default function Webcams() {
                         <p className="webcam-description">{webcam.description}</p>
                         <img className="webcam-map" src={images[webcam.id - 1]} alt={webcam.title} />
                     </div>
-                    <iframe className="webcam" width="100%" height="268" src={"https://www.youtube.com/embed/" + webcam.embed} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <iframe className="webcam" width="100%" height="278" src={"https://www.youtube.com/embed/" + webcam.embed} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
             ))}
         </div>

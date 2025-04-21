@@ -1,4 +1,48 @@
 {
     "challenges": "Défis",
-    "webcams": "Webcams"
+    "webcams": "Webcams",
+
+    "list-webcams": [
+        {
+            "id": 1,
+            "title": "Port de la Santé, Villefranche-sur-Mer, Provence-Alpes-Côte d'Azur",
+            "description": "Le Port de la Santé est un petit port pittoresque situé à Villefranche-sur-Mer, dans la région Provence-Alpes-Côte d'Azur. Niché le long de la côte méditerranéenne, il est connu pour ses bateaux colorés, ses bateaux de croisière et son front de mer pittoresque.",
+            "embed": "zkEdGueUrek"
+        },
+
+        {
+            "id": 2,
+            "title": "La Plagne-Tarentaise, Auvergne-Rhône-Alpes",
+            "description": "La Plagne-Tarentaise est une région alpine pittoresque des Alpes françaises, connue pour ses pentes enneigées, ses stations de ski et ses vues sur les montagnes. Elle fait partie de la célèbre région de Paradiski, qui attire les skieurs et les amateurs de sports d'hiver du monde entier.",
+            "embed": "emSM3Eh0YUw"
+        },
+
+        {
+            "id": 3,
+            "title": "Munster, Grand Est",
+            "description": "Munster est une charmante ville de la région Grand Est de la France, nichée dans les Vosges. Connue pour son architecture alsacienne traditionnelle et son célèbre fromage de Munster, elle offre un cadre paisible entouré de collines ondulantes et de verdure luxuriante.",
+            "embed": "9gpgv4CvAwc"
+        },
+
+        {
+            "id": 4,
+            "title": "Port des Sables d’Olonne, Pays de la Loire",
+            "description": "Le Port des Sables-d'Olonne est un port dynamique de la côte atlantique, réputé pour sa flotte de pêche et son port de plaisance, point de départ de la course du Vendée Globe. L'entrée du port est marquée par plusieurs phares, tandis que les environs offrent un front de mer animé avec des cafés et des promenades.",
+            "embed": "IzQTpP2veLU"
+        },
+
+        {
+            "id": 5,
+            "title": "Saint-Malo, Brittany",
+            "description": "Saint-Malo, située en Bretagne, est une ville portuaire historique connue pour son étonnante vieille ville fortifiée et son port pittoresque. La ville a une riche histoire maritime et son port est une plaque tournante pour les navires commerciaux et de plaisance. Saint-Malo est particulièrement appréciée pour ses plages, ses fruits de mer et son littoral remarquable.",
+            "embed": "J3xg6-S2bFU"
+        },
+
+        {
+            "id": 6,
+            "title": "Font-Romeu-Odeillo-Via, Occitanie",
+            "description": "Font-Romeu-Odeillo-Via est une ville de montagne des Pyrénées françaises, réputée pour sa station de ski, son climat ensoleillé et son centre d'entraînement en altitude. Elle abrite également l'un des plus grands fours solaires du monde, le Four Solaire d'Odeillo.",
+            "embed": "v41wlakLZcc"
+        }
+    ]
 }
