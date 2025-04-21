@@ -5,7 +5,7 @@ export default function Overview() {
 
     return (
         <div className="category-component">
-            <AccordionComponent ns={ns} />
+            <AccordionComponent ns={ns} type="overview" />
         </div>
     )
 }

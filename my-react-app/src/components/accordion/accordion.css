@@ -33,6 +33,7 @@
 }
 
 .accordion-button:not(.collapsed) {
+    color: var(--primary-theme) !important;
     background-color: inherit !important;
     box-shadow: none !important;
 }

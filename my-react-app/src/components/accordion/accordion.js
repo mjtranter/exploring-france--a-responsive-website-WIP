@@ -6,14 +6,19 @@ import Library from '../../assets/images/library.jpg';
 import Pharmacy from '../../assets/images/pharmacy.jpg';
 import Culture from '../../assets/images/culture.jpg';
 import Dining from '../../assets/images/dining.jpg';
+
+import Visa from '../../assets/images/visa.jpg';
+import Plane from '../../assets/images/plane.jpg';
+import Train from '../../assets/images/train.jpg';
+import Wheelchair from '../../assets/images/wheelchair.jpg';
 import './accordion.css';
 
-const images = [Clock, Euro, Library, Pharmacy, Culture, Dining];
-
-export default function AccordionComponent({ns}){
+export default function AccordionComponent({ns, type}){
     const { t } = useTranslation(ns);
 
-    const accordionElements = t('accordion-elements', { returnObjects: true });
+    const accordionElements = type === "overview" ? t('overview-elements', { returnObjects: true }) : t('travel-elements', { returnObjects: true });
+
+    const images = type === "overview" ? [Clock, Euro, Library, Pharmacy, Culture, Dining] : [Visa, Plane, Train, Wheelchair];
 
     return (
         <div className="accordion-layout">

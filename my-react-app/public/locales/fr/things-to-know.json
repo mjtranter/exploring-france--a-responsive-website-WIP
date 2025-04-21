@@ -3,7 +3,7 @@
     "language": "Langue",
     "travel": "Voyage",
 
-    "accordion-elements": [
+    "overview-elements": [
         {
             "id": "1",
             "title": "Le Quotidien",
@@ -93,5 +93,31 @@
         }
     ],
 
-    "useful-phrases": "Expressions utiles"
+    "useful-phrases": "Différences d'expressions utiles",
+
+    "travel-elements": [
+        {
+            "id": "1",
+            "title": "Douanes et visas",
+            "content": "<ul><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li></ul>"
+        },
+
+        {
+            "id": "2",
+            "title": "Vols",
+            "content": "<ul><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li></ul>"
+        },
+
+        {
+            "id": "3",
+            "title": "Trains",
+            "content": "<ul><li><a href='https://www.eurail.com/en/eurail-passes/one-country-pass/france' target='_blank' rel='noreferrer'>Obtenir un Pass Eurail</a></li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li></ul>"
+        },
+
+        {
+            "id": "4",
+            "title": "Voyage accessible",
+            "content": "<ul><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li></ul>"
+        }
+    ]
 }
