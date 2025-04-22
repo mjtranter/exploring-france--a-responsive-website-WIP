@@ -2,6 +2,21 @@
     "challenges": "Défis",
     "webcams": "Webcams",
 
+    "large-landmarks": "Grands monuments",
+    "large-landmarks-description": "Trouvez votre chemin de l'Arc de Triomphe à la Tour Eiffel, sans utiliser de carte !",
+    "large-landmarks-trivia-1": "Commandé par Napoléon en 1806 après sa victoire à Austerlitz, l'Arc de Triomphe rend hommage à ceux qui ont combattu et sont morts pour la France pendant les guerres révolutionnaires et napoléoniennes. Il a fallu 30 ans pour l'achever et il est aujourd'hui un symbole de fierté nationale, avec la Tombe du Soldat inconnu, qui a été ajoutée en 1921 pour commémorer les morts de la Première Guerre mondiale.",
+    "large-landmarks-trivia-2": "La tour Eiffel, achevée en 1889, a d'abord été critiquée pour sa conception, mais elle est devenue un symbole emblématique de Paris. Avec ses 330 mètres de haut, elle a été la plus haute structure artificielle du monde jusqu'à l'achèvement du Chrysler Building à New York en 1930. Conçue par l'ingénieur Gustave Eiffel, la tour devait à l'origine être temporaire, mais son utilité pour la recherche scientifique et les télécommunications lui a permis de devenir permanente. Aujourd'hui, c'est l'un des monuments les plus visités au monde, attirant des millions de touristes chaque année.",
+
+    "lets-meet": "Rencontrons-nous !",
+    "lets-meet-description": "Faites se rencontrer les Street Views en atteignant le même point avec la même orientation !",
+    "lets-meet-trivia-1": "Vous êtes en train de regarder le lac de Naussac, à la limite de Langogne, dans le département de la Lozère, en Occitanie. Le lac de Naussac est un réservoir tranquille entouré d'un paysage naturel magnifique. C'est une destination populaire pour les activités de plein air telles que la pêche, la randonnée et les sports nautiques.",
+    "lets-meet-trivia-2": "Vous êtes au centre de Langogne, une petite ville du département de la Lozère, en Occitanie, connue pour ses bâtiments historiques et sa place du marché centrale. La ville possède un riche patrimoine, ses origines remontant à la période médiévale. Elle sert de centre local pour les communautés rurales environnantes et offre une atmosphère paisible et traditionnelle.",
+
+    "its-an-emergency": "C'est une urgence !",
+    "its-an-emergency-description": "Vite ! Nous devons trouver une pharmacie pour acheter un médicament contre la toux ! Trouvez-en une le plus rapidement possible.",
+    "its-an-emergency-trivia-1": "Note : Les pharmacies sont marquées d'une croix verte.",
+    "its-an-emergency-trivia-2": "Bar-le-Duc est une ville historique située dans la région Grand Est, dans le nord-est de la France. Connue pour sa belle architecture Renaissance et sa situation pittoresque le long de la rivière Ornain, Bar-le-Duc est célèbre pour sa gelée traditionnelle, fabriquée à partir de fruits locaux, et offre un aperçu du passé de la France avec des monuments tels que le château de Bar-le-Duc et l'église Saint-Étienne.",
+
     "list-webcams": [
         {
             "id": 1,

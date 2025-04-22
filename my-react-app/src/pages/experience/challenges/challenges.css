@@ -1,0 +1,57 @@
+@import '../../../assets/colours/colours.css';
+
+.challenge-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 18px;
+    border-bottom: 2px solid var(--grey-theme);
+    margin-bottom: 18px;
+}
+
+.challenge-container.bottom {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.challenge-description {
+    flex: 1;
+    margin-right: 12px;
+    min-width: 200px;
+}
+
+.dual-challenge-description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.streetview-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dual-challenge-text {
+    font-size: 0.96em;
+}
+
+.challenge-text {
+    font-size: 0.96em;
+    margin-top: 28px;
+    margin-bottom: 24px;
+}
+
+.dual-challenge-small-text {
+    margin-top: 12px;
+    width: 500px;
+    font-size: 0.86em;
+}
+
+.challenge-small-text {
+    font-size: 0.86em;
+}
+
+.challenge-small-text.bottom {
+    margin-top: 30px;
+}

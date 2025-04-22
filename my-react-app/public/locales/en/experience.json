@@ -2,6 +2,21 @@
     "challenges": "Challenges",
     "webcams": "Webcams",
 
+    "large-landmarks": "Large Landmarks",
+    "large-landmarks-description": "Find your way from the Arc de Triomphe to the Eiffel Tower, without using a map!",
+    "large-landmarks-trivia-1": "Commissioned by Napoleon in 1806 after his victory at Austerlitz, the Arc de Triomphe honours those who fought and died for France during the Revolutionary and Napoleonic Wars. It took 30 years to complete and now stands as a symbol of national pride, with the Tomb of the Unknown Soldier beneath it, which was added in 1921 to commemorate those who died in the First World War.",
+    "large-landmarks-trivia-2": "The Eiffel Tower, completed in 1889, was initially criticised for its design but has since become an iconic symbol of Paris. Standing 330 metres tall, it was the world’s tallest man-made structure until the Chrysler Building was completed in New York in 1930. Designed by engineer Gustave Eiffel, the tower was originally intended to be temporary, but its usefulness for scientific research and telecommunications led to its permanent status. Today, it’s one of the most visited monuments in the world, attracting millions of tourists each year.",
+
+    "lets-meet": "Let's Meet!",
+    "lets-meet-description": "Make the Street Views meet by reaching the same point with the same orientation!",
+    "lets-meet-trivia-1": "You are looking at Lac de Naussac, on the edge of Langogne in the Lozère department of Occitanie. A tranquil reservoir surrounded by stunning natural scenery, Lac de Naussac is a popular destination for outdoor activities like fishing, hiking and water sports.",
+    "lets-meet-trivia-2": "You are in the centre of Langogne, a small town in the Lozère department of Occitanie, known for its historic buildings and central market square. The town has a rich heritage, with its origins dating back to the medieval period. It serves as a local hub for the surrounding rural communities and offers a quiet, traditional atmosphere.",
+    
+    "its-an-emergency": "It's An Emergency!",
+    "its-an-emergency-description": "Quick! We need to find a pharmacy to buy some cough medicine! Find one as quickly as possible.",
+    "its-an-emergency-trivia-1": "Note: Pharmacies are marked with a green cross.",
+    "its-an-emergency-trivia-2": "Bar-le-Duc is a historic town located in the Grand Est region of northeastern France. Known for its beautiful Renaissance architecture and scenic location along the Ornain River, Bar-le-Duc is famous for its traditional jelly, made from local fruits, and offers a glimpse into France's past with landmarks such as the Château de Bar-le-Duc and the Saint-Étienne Church.",
+
     "list-webcams": [
         {
             "id": 1,
