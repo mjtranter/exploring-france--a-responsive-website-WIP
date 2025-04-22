@@ -1,47 +1,47 @@
 import './home.css';
 import Popup from '../../components/popup/popup';
 import RightColumn from '../../components/rightColumn/rightColumn';
+import SpotlightCarousel from '../../components/spotlightCarousel/spotlightCarousel';
+import FlipCard from '../../components/flipCard/flipCard';
+
 import MyFrenchFilmFestival from '../../assets/images/my-french-film-festival.jpg';
+import JMusicFestival from '../../assets/images/j-music-festival.jpg';
 import CesarAwards from '../../assets/images/cesar-awards.jpg';
-import AnnecyInternational from '../../assets/images/annecy-international.jpg';
+import MonteCarloSpringArts from "../../assets/images/monte-carlo-spring-arts.jpg";
+import BanlieuesBleues from '../../assets/images/banlieues-bleues.jpg';
 import FrenchFilmFestivalYokohama from '../../assets/images/french-film-festival-yokohama.jpg';
+import BonjourFrance from '../../assets/images/bonjour-france.jpg';
+import Beatles from '../../assets/images/beatles.jpg';
 import CannesFilmFestival from '../../assets/images/cannes-film-festival.jpg';
+import FrenchConnections from '../../assets/images/french-connections.jpg';
+import AnnecyInternational from '../../assets/images/annecy-international.jpg';
+import FrancosDeMontreal from '../../assets/images/francos-de-montreal.jpg';
+import ParisJazz from '../../assets/images/paris-jazz.jpg';
+import FrancophoneDayParty from '../../assets/images/francophone-day-party.jpg';
+import CognacBluesPassions from '../../assets/images/cognac-blues-passions.jpg';
 import DinardFilmFestival from '../../assets/images/dinard-film-festival.jpg';
 import Cinemania from '../../assets/images/cinemania.jpg';
 import HanabiSeasons from '../../assets/images/hanabi-seasons.jpg';
 import FrenchFilmFestivalUK from '../../assets/images/french-film-festival-uk.jpg';
-import MonteCarloSpringArts from "../../assets/images/monte-carlo-spring-arts.jpg";
-import BanlieuesBleues from '../../assets/images/banlieues-bleues.jpg';
-import ParisJazz from '../../assets/images/paris-jazz.jpg';
-import CognacBluesPassions from '../../assets/images/cognac-blues-passions.jpg';
-import Beatles from '../../assets/images/beatles.jpg';
-import JMusicFestival from '../../assets/images/j-music-festival.jpg';
-import FrancophoneDayParty from '../../assets/images/francophone-day-party.jpg';
-import FrenchConnections from '../../assets/images/french-connections.jpg';
-import BonjourFrance from '../../assets/images/bonjour-france.jpg';
-import FrancosDeMontreal from '../../assets/images/francos-de-montreal.jpg';
+
 import FranceMapEN from '../../assets/images/france-map-en.jpg';
 import FranceMapFR from '../../assets/images/france-map-fr.jpg';
 import FranceMapJA from '../../assets/images/france-map-ja.jpg';
+
 import { useTranslation } from 'react-i18next';
 import { useState, useContext, useEffect } from "react";
 import { CountryCodeContext } from "../../App";
-import i18n from '../../i18n';
-import SpotlightCarousel from '../../components/spotlightCarousel/spotlightCarousel';
-import FlipCard from '../../components/flipCard/flipCard';
 
-const filmImages = [MyFrenchFilmFestival, CesarAwards, FrenchFilmFestivalYokohama, CannesFilmFestival, AnnecyInternational, DinardFilmFestival, Cinemania, HanabiSeasons, FrenchFilmFestivalUK];
-const musicImages =  [JMusicFestival, MonteCarloSpringArts, BanlieuesBleues, BonjourFrance, Beatles, FrenchConnections, FrancosDeMontreal, ParisJazz, FrancophoneDayParty, CognacBluesPassions];
+const images = [MyFrenchFilmFestival, JMusicFestival, CesarAwards, MonteCarloSpringArts, BanlieuesBleues, FrenchFilmFestivalYokohama, BonjourFrance, Beatles, CannesFilmFestival, FrenchConnections, AnnecyInternational, FrancosDeMontreal, ParisJazz, FrancophoneDayParty, CognacBluesPassions, DinardFilmFestival, Cinemania, HanabiSeasons, FrenchFilmFestivalUK];
 
 export default function Home() {
     const ns = "common";
-    const { t } = useTranslation([ns, 'music']);
+    const { t, i18n } = useTranslation([ns, 'music']);
     
     const date = new Date();
     const frenchDate = date.toLocaleDateString("sv", {timeZone: "Europe/Paris"});
 
-    const filmEvents = t('list-events', { ns: "film", returnObjects: true });
-    const musicEvents = t('list-events', { ns: "music", returnObjects: true });
+    const events = t('list-events', { ns: 'events', returnObjects: true });
 
     const countryCode = useContext(CountryCodeContext);
     
@@ -246,27 +246,14 @@ export default function Home() {
                     </div>
                 </div>
 
-                {filmEvents.filter(event => {
+                {events.filter(event => {
                     if (event.start <= frenchDate && event.end > frenchDate) return true;
 
                     return false;
                 })
                 .map(event => (
                     <div key={event.id} className="right-column-event-frame">
-                        <img className="right-column-event-icon" src={filmImages[event.id - 1]} alt={event.text} />
-                        <h6 className="right-column-event-title"><b>{event.text}</b></h6>
-                        <p><i>{event.longDate}</i></p>
-                    </div>
-                ))}
-
-                {musicEvents.filter(event => {
-                    if (event.start <= frenchDate && event.end > frenchDate) return true;
-
-                    return false;
-                })
-                .map(event => (
-                    <div key={event.id} className="right-column-event-frame">
-                        <img className="right-column-event-icon" src={musicImages[event.id - 1]} alt={event.text} />
+                        <img className="right-column-event-icon" src={images[event.id - 1]} alt={event.text} />
                         <h6 className="right-column-event-title"><b>{event.text}</b></h6>
                         <p><i>{event.longDate}</i></p>
                     </div>

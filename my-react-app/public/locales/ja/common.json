@@ -69,6 +69,30 @@
     "full-calendar": "今月のイベント",
     "plan-your-tour": "ツアーの計画",
 
+    "day-one": "日曜日",
+    "day-two": "月曜日",
+    "day-three": "火曜日",
+    "day-four": "水曜日",
+    "day-five": "木曜日",
+    "day-six": "金曜日",
+    "day-seven": "土曜日",
+
+    "short-day-one": "日",
+    "short-day-two": "月",
+    "short-day-three": "火",
+    "short-day-four": "水",
+    "short-day-five": "木",
+    "short-day-six": "金",
+    "short-day-seven": "土",
+
+    "featured-events": "注目のイベント",
+    "all": "すべて",
+    "local": "地域の",
+    "free": "無料",
+    "connections": "つながり",
+    "near-you": "近く",
+    "location": "場所",
+
     "view-more": "もっと見る",
 
     "spotlights": [

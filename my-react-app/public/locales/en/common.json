@@ -69,6 +69,30 @@
     "full-calendar": "Events This Month",
     "plan-your-tour": "Plan Your Tour",
 
+    "day-one": "Monday",
+    "day-two": "Tuesday",
+    "day-three": "Wednesday",
+    "day-four": "Thursday",
+    "day-five": "Friday",
+    "day-six": "Saturday",
+    "day-seven": "Sunday",
+
+    "short-day-one": "Mon",
+    "short-day-two": "Tue",
+    "short-day-three": "Wed",
+    "short-day-four": "Thu",
+    "short-day-five": "Fri",
+    "short-day-six": "Sat",
+    "short-day-seven": "Sun",
+
+    "featured-events": "Featured Events",
+    "all": "All",
+    "local": "Local",
+    "free": "Free",
+    "connections": "Connections",
+    "near-you": "Near You",
+    "location": "Location",
+
     "view-more": "View More",
 
     "spotlights": [

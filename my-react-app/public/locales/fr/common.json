@@ -69,6 +69,30 @@
     "full-calendar": "Évenements du mois",
     "plan-your-tour": "Planifiez votre voyage",
 
+    "day-one": "lundi",
+    "day-two": "mardi",
+    "day-three": "mercredi",
+    "day-four": "jeudi",
+    "day-five": "vendredi",
+    "day-six": "samedi",
+    "day-seven": "dimanche",
+
+    "short-day-one": "lun",
+    "short-day-two": "mar",
+    "short-day-three": "mer",
+    "short-day-four": "jeu",
+    "short-day-five": "ven",
+    "short-day-six": "sam",
+    "short-day-seven": "dim",
+
+    "featured-events": "Évenements en vedette",
+    "all": "Tous",
+    "local": "Locaux",
+    "free": "Gratuits",
+    "connections": "Connexions",
+    "near-you": "Près de vous",
+    "location": "Lieu",
+
     "view-more": "Voir plus",
 
     "spotlights": [

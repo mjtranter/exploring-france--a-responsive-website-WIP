@@ -8,7 +8,11 @@ export default function EventCalendar({ns, type}) {
 
     //calendar source: https://code.daypilot.org/26289/react-monthly-calendar-tutorial
     const startDate = DayPilot.Date.today();
-    const events = t('list-events', { returnObjects: true });
+    const listEvents = t('list-events', { ns: "events", returnObjects: true });
+    const events = listEvents.filter(event => {
+        if (ns === "events" || event.type.includes(ns)) return true;
+        return false;
+    });
 
     const locale = (() => {
         switch (i18n.resolvedLanguage) {
@@ -58,7 +62,7 @@ export default function EventCalendar({ns, type}) {
 
     const getDay = (value) => {
         const dayValue = (narrowView || type === "full") ? ("short-" + value) : value;
-        return t(dayValue);
+        return t(dayValue, { ns: 'common' });
     }
 
     return (

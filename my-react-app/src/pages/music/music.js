@@ -5,19 +5,34 @@ import RightColumn from '../../components/rightColumn/rightColumn';
 import Recommendation from '../../components/recommendation/recommendation';
 import { useTranslation } from 'react-i18next';
 import { useState, useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom';
+
 import Overview from './overview/overview';
 import Foundations from './foundations/foundations';
 import Events from './events/events';
 import Listen from './listen/listen';
-import { useSearchParams } from 'react-router-dom';
+
+import MyFrenchFilmFestival from '../../assets/images/my-french-film-festival.jpg';
+import JMusicFestival from '../../assets/images/j-music-festival.jpg';
+import CesarAwards from '../../assets/images/cesar-awards.jpg';
 import MonteCarloSpringArts from "../../assets/images/monte-carlo-spring-arts.jpg";
 import BanlieuesBleues from '../../assets/images/banlieues-bleues.jpg';
-import ParisJazz from '../../assets/images/paris-jazz.jpg';
-import CognacBluesPassions from '../../assets/images/cognac-blues-passions.jpg';
+import FrenchFilmFestivalYokohama from '../../assets/images/french-film-festival-yokohama.jpg';
+import BonjourFrance from '../../assets/images/bonjour-france.jpg';
 import Beatles from '../../assets/images/beatles.jpg';
-import JMusicFestival from '../../assets/images/j-music-festival.jpg';
+import CannesFilmFestival from '../../assets/images/cannes-film-festival.jpg';
+import FrenchConnections from '../../assets/images/french-connections.jpg';
+import AnnecyInternational from '../../assets/images/annecy-international.jpg';
+import FrancosDeMontreal from '../../assets/images/francos-de-montreal.jpg';
+import ParisJazz from '../../assets/images/paris-jazz.jpg';
+import FrancophoneDayParty from '../../assets/images/francophone-day-party.jpg';
+import CognacBluesPassions from '../../assets/images/cognac-blues-passions.jpg';
+import DinardFilmFestival from '../../assets/images/dinard-film-festival.jpg';
+import Cinemania from '../../assets/images/cinemania.jpg';
+import HanabiSeasons from '../../assets/images/hanabi-seasons.jpg';
+import FrenchFilmFestivalUK from '../../assets/images/french-film-festival-uk.jpg';
 
-const images = [JMusicFestival, MonteCarloSpringArts, BanlieuesBleues, Beatles, ParisJazz, CognacBluesPassions];
+const images = [MyFrenchFilmFestival, JMusicFestival, CesarAwards, MonteCarloSpringArts, BanlieuesBleues, FrenchFilmFestivalYokohama, BonjourFrance, Beatles, CannesFilmFestival, FrenchConnections, AnnecyInternational, FrancosDeMontreal, ParisJazz, FrancophoneDayParty, CognacBluesPassions, DinardFilmFestival, Cinemania, HanabiSeasons, FrenchFilmFestivalUK];
 
 export default function Music() {
     const { t } = useTranslation(['common', 'music']);
@@ -39,7 +54,7 @@ export default function Music() {
 
     const components = [Overview, Foundations, Events, Listen];
 
-    const events = t('list-events', { ns: "music", returnObjects: true });
+    const events = t('list-events', { ns: "events", returnObjects: true });
 
     const date = new Date();
     const frenchDate = date.toLocaleDateString("sv", {timeZone: "Europe/Paris"});
@@ -109,7 +124,7 @@ export default function Music() {
                 </div>
 
                 {events.filter(event => {
-                    if (event.start <= frenchDate && event.end > frenchDate) return true;
+                    if (event.start <= frenchDate && event.end > frenchDate && event.type.includes("music")) return true;
 
                     return false;
                 })
