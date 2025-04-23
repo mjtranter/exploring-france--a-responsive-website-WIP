@@ -32,4 +32,5 @@
     background-color: var(--secondary-theme) !important;
     background-image: none;
     color: var(--dark-theme);
+    overflow: auto;
 }
