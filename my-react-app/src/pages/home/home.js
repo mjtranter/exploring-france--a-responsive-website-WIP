@@ -179,8 +179,7 @@ export default function Home() {
         month: 'numeric',
         day: 'numeric'
     };
-    //const shortDate = new Intl.DateTimeFormat("en-gb", shortOptions).format(date);
-    const shortDate = "30/04";
+    const shortDate = new Intl.DateTimeFormat("en-gb", shortOptions).format(date);
 
     const onThisDayEvents = t('on-this-day-events', { returnObjects: true });
     const onThisDayEvent = onThisDayEvents.find(event => event.date === shortDate);
