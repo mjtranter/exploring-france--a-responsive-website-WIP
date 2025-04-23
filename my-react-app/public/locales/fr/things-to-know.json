@@ -67,6 +67,7 @@
         }
     ],
 
+    "useful-phrases": "Différences d'expressions utiles",
     "useful-phrases-terms": [
         {
             "id": 1,
@@ -93,8 +94,17 @@
         }
     ],
 
-    "useful-phrases": "Différences d'expressions utiles",
-
+    "punctuation": "Ponctuation",
+    "punctuation-text": "En français, on utilise parfois un espace étroit avant un signe de ponctuation. Souvent, les Français utilisent un espace normal et plein pour la conversation générale, et n'utilisent l'espace étroit que dans les documents formels ou les médias. Vous utiliseriez un espace étroit avant ces signes de ponctuation :",
+    "semi-colon": "point-virgule ( ;)",
+    "exclamation-mark": "point d'exclamation ( !)",
+    "question-mark": "point d'interrogation ( ?)",
+    "colon": "deux-points ( :)",
+    "quotation-marks": "guillemets ( « and »)",
+    "percentage-sign": "signe de pourcentage ( %)",
+    "currency-symbols": "les symboles monétaires (ex. €)",
+    
+    
     "travel-elements": [
         {
             "id": "1",

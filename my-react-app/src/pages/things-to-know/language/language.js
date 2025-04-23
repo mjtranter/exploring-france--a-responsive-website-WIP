@@ -561,6 +561,22 @@ export default function Language() {
                     </div>
                 )}
             </div>
+
+            <div className="punctuation">
+                <h5 className="category-heading"><b>{t('punctuation')}</b></h5>
+                <p className="punctuation-text">{t('punctuation-text')}</p>
+                <div className="modal-body">
+                    <ul>
+                        <li>{t('semi-colon')}</li>
+                        <li>{t('exclamation-mark')}</li>
+                        <li>{t('question-mark')}</li>
+                        <li>{t('colon')}</li>
+                        <li>{t('quotation-marks')}</li>
+                        <li>{t('percentage-sign')}</li>
+                        <li>{t('currency-symbols')}</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     )
 }

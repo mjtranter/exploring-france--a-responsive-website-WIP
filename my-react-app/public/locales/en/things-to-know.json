@@ -258,6 +258,17 @@
         }
     ],
 
+    "punctuation": "Punctuation",
+    "punctuation-text": "In French, punctuation works a little differently. Sometimes, a narrow space is used before a punctuation mark. Often French people use a normal, full space for general conversation, only using the narrow space in formal documents or media. You would use a narrow space before these punctuation marks:",
+    "semi-colon": "semi-colon ( ;)",
+    "exclamation-mark": "exclamation mark ( !)",
+    "question-mark": "question mark ( ?)",
+    "colon": "colon ( :)",
+    "quotation-marks": "quotation marks ( « and » in French)",
+    "percentage-sign": "percentage sign ( %)",
+    "currency-symbols": "currency symbols (eg. €)",
+
+    
     "travel-elements": [
         {
             "id": "1",

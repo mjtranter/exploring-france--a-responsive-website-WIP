@@ -24,6 +24,7 @@ import Cinemania from '../../assets/images/cinemania.jpg';
 import HanabiSeasons from '../../assets/images/hanabi-seasons.jpg';
 import FrenchFilmFestivalUK from '../../assets/images/french-film-festival-uk.jpg';
 
+import Welcome from '../../assets/images/welcome.png';
 import FranceMapEN from '../../assets/images/france-map-en.jpg';
 import FranceMapFR from '../../assets/images/france-map-fr.jpg';
 import FranceMapJA from '../../assets/images/france-map-ja.jpg';
@@ -57,16 +58,16 @@ export default function Home() {
 
     const [pageVisited, setPageVisited] = useState("");
 
-    const welcomeGB = "<div class='welcome-row'><div class='welcome-item'><p><b>Welcome!</b></p><span class='flag-icon flag-icon-gb welcome'></span></div><p class='arrows'>&#8644;</p><div class='welcome-item'><p><b>Bienvenue !</b></p><span class='flag-icon flag-icon-fr welcome'></span></div></div><p>Notice the space before the exclamation mark? That's how some punctuation is written in French. You put a space before using these punctuation marks:<br /><ul><li>semi-colon (;)</li><li>exclamation mark (!)</li><li>question mark (?)</li><li>colon (:)</li><li>quotation marks (« and » in French)</li><li>percentage sign (%)</li><li>currency symbols (eg. €)</li></ul></p>";
-    const welcomeCA = "<div class='welcome-row'><div class='welcome-item'><p><b>Bienvenue !</b></p><span class='flag-icon flag-icon-ca welcome'></span></div><p class='arrows'>&#8644;</p><div class='welcome-item'><p><b>Bienvenue !</b></p><span class='flag-icon flag-icon-fr welcome'></span></div></div>";
-    const welcomeJP = "<div class='welcome-row'><div class='welcome-item'><p><b>ようこそ！</b></p><span class='flag-icon flag-icon-jp welcome'></span></div><p class='arrows'>&#8644;</p><div class='welcome-item'><p><b>Bienvenue !</b></p><span class='flag-icon flag-icon-fr welcome'></span></div></div><p>感嘆符の前にスペースがあることにお気づきだろうか？これはフランス語の句読点の書き方です。<li>セミコロン(;)</li><li>感嘆符(!)</li><li>クエスチョンマーク(?)</li><li>コロン(:)</li><li>引用符(フランス語では<<と>>)</li><li>パーセント記号(%)</li><li>通貨記号(例：€)</li></ul></p>";
+    const welcomeGB = `<div class='welcome-row'><div class='welcome-item'><p><b>Welcome!</b></p><span class='flag-icon flag-icon-gb welcome'></span></div><p class='arrows'>&#8644;</p><div class='welcome-item'><p><b>Bienvenue !</b></p><span class='flag-icon flag-icon-fr welcome'></span></div></div><img src=${Welcome} alt='Welcome' width='100%' />`;
+    const welcomeCA = `<div class='welcome-row'><div class='welcome-item'><p><b>Bienvenue !</b></p><span class='flag-icon flag-icon-ca welcome'></span></div><p class='arrows'>&#8644;</p><div class='welcome-item'><p><b>Bienvenue !</b></p><span class='flag-icon flag-icon-fr welcome'></span></div></div><img src=${Welcome} alt='Welcome' width='100%' />`;
+    const welcomeJP = `<div class='welcome-row'><div class='welcome-item'><p><b>ようこそ！</b></p><span class='flag-icon flag-icon-jp welcome'></span></div><p class='arrows'>&#8644;</p><div class='welcome-item'><p><b>Bienvenue !</b></p><span class='flag-icon flag-icon-fr welcome'></span></div></div><img src=${Welcome} alt='Welcome' width='100%' />`;
     
     useEffect(() => {
         const welcomeContent = () => {
-            switch (countryCode) {
-                case 'jp':
+            switch (i18n.resolvedLanguage) {
+                case 'ja':
                     return welcomeJP;
-                case 'ca':
+                case 'fr':
                     return welcomeCA;
                 default:
                     return welcomeGB;
@@ -79,7 +80,7 @@ export default function Home() {
             showPopup("connection", '', welcomeContent());
             localStorage.setItem("visited", "true");
         }
-    }, [countryCode]);
+    }, [i18n.resolvedLanguage, welcomeCA, welcomeGB, welcomeJP]);
 
     const getFetchCapital = (code) => {
         switch (code) {

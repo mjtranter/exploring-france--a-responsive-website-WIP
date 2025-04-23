@@ -1,9 +1,11 @@
+import './popup.css';
 import { useTranslation } from 'react-i18next';
 import { useState, useEffect } from 'react';
+
 import EventCalendar from '../eventCalendar/eventCalendar';
 import Tour from '../tour/tour';
-import './popup.css';
 import Button from '../button/button';
+import Welcome from '../../assets/images/welcome.png';
 
 export default function Popup({type, title, content, ns, visible, hidePopup, tourLocations, setTourLocations}) {
     const { t } = useTranslation([ns, 'common']);
