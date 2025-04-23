@@ -62,7 +62,7 @@ export default function Locations() {
             <p>{t('locations-description')}</p>
 
             <div className="events-filter">
-                <Button type={filterSelected === "All" ? "filter selected" : "filter"} text={t('all')} onClick={() => changeFilter("All")} />
+                <Button type={filterSelected === "All" ? "filter selected" : "filter"} text={t('all', { ns: 'common' })} onClick={() => changeFilter("All")} />
                 <Button type={filterSelected === "Paris" ? "filter selected" : "filter"} text={t('paris')} onClick={() => changeFilter("Paris")} />
                 <Button type={filterSelected === "Riviera" ? "filter selected" : "filter"} text={t('riviera')} onClick={() => changeFilter("Riviera")} />
                 <Button type={filterSelected === "Countryside" ? "filter selected" : "filter"} text={t('countryside')} onClick={() => changeFilter("Countryside")} />
