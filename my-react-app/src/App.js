@@ -18,9 +18,11 @@ export default function App() {
     const [countryCode, setCountryCode] = useState("gb");
 
     useEffect(() => {
+      //set country code to query parameter if it exists
       const countryParam = new URLSearchParams(window.location.search).get("countrySim");
       if (countryParam) setCountryCode(countryParam.toLowerCase());
       else {
+        //call serverless function to get country code
         fetch("/api/fetchCountryCode")
           .then(response => response.json())
           .then(data => setCountryCode(data.countryCode.toLowerCase()))
@@ -31,7 +33,7 @@ export default function App() {
     return (
       <CountryCodeContext.Provider value={countryCode}>
         <BrowserRouter>
-          <Navbar/>
+          <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/film" element={<Film />} />

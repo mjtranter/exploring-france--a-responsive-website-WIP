@@ -10,13 +10,15 @@ i18n
     .init({
         fallbackLng: 'en',
         supportedLngs: ['en', 'fr', 'ja'],
-        ns: ['common', 'film', 'music', 'events', 'attractions', 'itineraries'],
+        ns: ['common', 'film', 'music', 'things-to-know', 'events', 'attractions', 'itineraries', 'experience'],
         backend: {
             loadPath: '/locales/{{lng}}/{{ns}}.json'
         },
         detection: {
-            order: ['sessionStorage', 'navigator']
+            //set to browser language preference
+            order: ['navigator']
         },
+        //ignore any regions in detected language eg. 'en-gb' counts as 'en'
         load: 'languageOnly'
     });
 
