@@ -5,7 +5,6 @@ import { useState, useEffect } from 'react';
 import EventCalendar from '../eventCalendar/eventCalendar';
 import Tour from '../tour/tour';
 import Button from '../button/button';
-import Welcome from '../../assets/images/welcome.png';
 
 export default function Popup({type, title, content, ns, visible, hidePopup, tourLocations, setTourLocations}) {
     const { t } = useTranslation([ns, 'common']);
@@ -23,6 +22,8 @@ export default function Popup({type, title, content, ns, visible, hidePopup, tou
                 const location = filmingLocation.locations.find(item => item.id === tourLocation);
                 if (location) return location;
             }
+
+            return null;
         });
 
         if (tempTourLocations.length === 0) { setIframeURL(""); setShareVisible(false) };
@@ -50,7 +51,7 @@ export default function Popup({type, title, content, ns, visible, hidePopup, tou
             setShareURL(tempURL);
             setShareVisible(true);
         }
-    }, [tourLocations]);
+    }, [tourLocations, filmingLocations]);
 
     if (!visible) {
         document.body.style.overflow = "auto";
