@@ -213,7 +213,7 @@ export default function Home() {
                         <h5><b>{t('on-this-day')}</b></h5>
                         <h5><b>{formattedDate}</b></h5>
                     </div>
-                    <FlipCard type="on-this-day" front={t('reveal')} back={onThisDayEvent.text} />
+                    <FlipCard type="on-this-day" front={t('reveal')} back={onThisDayEvent?.text} />
                 </div>
 
                 <div className="comparison">
