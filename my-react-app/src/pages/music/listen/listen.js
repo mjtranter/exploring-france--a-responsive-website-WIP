@@ -1,13 +1,16 @@
 import './listen.css';
-import { useTranslation } from 'react-i18next';
+
 import DanceHouse from '../../../assets/images/dance-house-cover.jpg';
 import Electronic from '../../../assets/images/electronic-cover.jpg';
 import Pop from '../../../assets/images/pop-cover.jpg';
 import Chanson from '../../../assets/images/chanson-cover.jpg';
-import LinkRow from '../../../components/linkRow/linkRow';
 import ORTF from '../../../assets/images/ORTF.svg';
+
+import LinkRow from '../../../components/linkRow/linkRow';
 import Button from '../../../components/button/button';
 import Popup from '../../../components/popup/popup';
+
+import { useTranslation } from 'react-i18next';
 import { useState, useContext } from 'react';
 import { CountryCodeContext } from '../../../App';
 
@@ -107,46 +110,6 @@ export default function Listen() {
                     <h5 className="playlist-title"><b>{t('genres.titles.chanson')}</b></h5>
                     <img className="playlist-cover" src={Chanson} alt="Chanson Playlist" />
                     <LinkRow type="playlist" data={chanson} />
-                </div>
-            </div>
-
-            <div className="playlist-row">
-                <div className="vertical-container">
-                    <h5 className="playlist-title"><b>{t('genres.titles.dance-house')}</b></h5>
-                    <img className="playlist-cover" src={DanceHouse} alt="Dance/House Playlist" />
-                    <LinkRow type="playlist" data={dance_house} />
-                </div>
-                
-                <div className="vertical-container">
-                    <h5 className="playlist-title"><b>{t('genres.titles.electronic')}</b></h5>
-                    <img className="playlist-cover" src={Electronic} alt="Electronic Playlist" />
-                    <LinkRow type="playlist" data={electronic} />
-                </div>
-                
-                <div className="vertical-container">
-                    <h5 className="playlist-title"><b>{t('genres.titles.pop')}</b></h5>
-                    <img className="playlist-cover" src={Pop} alt="Pop Playlist" />
-                    <LinkRow type="playlist" data={pop} />
-                </div>
-                
-                <div className="vertical-container">
-                    <h5 className="playlist-title"><b>{t('genres.titles.chanson')}</b></h5>
-                    <img className="playlist-cover" src={Chanson} alt="Chanson Playlist" />
-                    <LinkRow type="playlist" data={chanson} />
-                </div>
-            </div>
-
-            <div className="playlist-row">
-                <div className="vertical-container">
-                    <h5 className="playlist-title"><b>{t('genres.titles.dance-house')}</b></h5>
-                    <img className="playlist-cover" src={DanceHouse} alt="Dance/House Playlist" />
-                    <LinkRow type="playlist" data={dance_house} />
-                </div>
-                
-                <div className="vertical-container">
-                    <h5 className="playlist-title"><b>{t('genres.titles.electronic')}</b></h5>
-                    <img className="playlist-cover" src={Electronic} alt="Electronic Playlist" />
-                    <LinkRow type="playlist" data={electronic} />
                 </div>
             </div>
         </div>
