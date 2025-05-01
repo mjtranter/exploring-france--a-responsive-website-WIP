@@ -1,4 +1,4 @@
-import AccordionComponent from "../../../components/accordion/accordion"
+import AccordionComponent from "../../../components/accordion/accordion";
 
 export default function Travel() {
     const ns = "things-to-know";
