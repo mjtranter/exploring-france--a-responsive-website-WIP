@@ -1,9 +1,6 @@
 export default async function handler(req, res) {
     try {
-        //const ip = req.headers["x-forwarded-for"]?.split(",")[0] || req.socket.remoteAddress;
         const countryCode = req.headers["x-vercel-ip-country"];
-        //const response = await fetch(`http://ip-api.com/json/${ip}?fields=countryCode`);
-        //const data = await response.json();
         res.status(200).json(countryCode);
     }
     catch (error) {
