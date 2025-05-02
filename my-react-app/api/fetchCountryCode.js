@@ -4,7 +4,7 @@ export default async function handler(req, res) {
         const countryCode = req.headers["x-vercel-ip-country"];
         //const response = await fetch(`http://ip-api.com/json/${ip}?fields=countryCode`);
         //const data = await response.json();
-        res.status(200).json({ countryCode });
+        res.status(200).json(countryCode);
     }
     catch (error) {
         res.status(500).json({ error: "Failed to fetch country code" });
