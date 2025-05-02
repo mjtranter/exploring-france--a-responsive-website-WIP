@@ -25,9 +25,7 @@ export default function App() {
         //call serverless function to get country code
         fetch("/api/fetchCountryCode")
           .then(response => response.json())
-          .then(data => {
-            console.log(data.toLowerCase());
-            setCountryCode(data.toLowerCase())})
+          .then(data => setCountryCode(data.toLowerCase()))
           .catch(error => console.log("There was an error fetching country code!"));
       }
     }, []);
