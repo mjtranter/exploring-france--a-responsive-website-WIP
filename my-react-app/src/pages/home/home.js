@@ -40,6 +40,7 @@ export default function Home() {
     const { t, i18n } = useTranslation([ns, 'music']);
     
     const date = new Date();
+    //get date in YYYY-MM-DD format
     const frenchDate = date.toLocaleDateString("sv", {timeZone: "Europe/Paris"});
 
     const events = t('list-events', { ns: 'events', returnObjects: true });
@@ -74,6 +75,7 @@ export default function Home() {
             }
         };
 
+        //show welcome popup if new user
         const visited = localStorage.getItem("visited");
         setPageVisited(visited);
         if (!visited || visited === "false") {
@@ -105,6 +107,7 @@ export default function Home() {
     const [userWeatherResponse, setUserWeatherResponse] = useState([]);
         
     useEffect(() => {
+        //pass location to API handler
         fetch("/api/fetchWeather?q=" + getFetchCapital(countryCode))
         .then(response => response.json())
         .then(data => setUserWeatherResponse(data))
@@ -147,6 +150,7 @@ export default function Home() {
     const [currencyConversion, setCurrencyConversion] = useState([]);
         
     useEffect(() => {
+        //pass country code to API handler
         fetch("/api/fetchCurrency?currency=" + getCurrency(countryCode))
         .then(response => response.json())
         .then(data => setCurrencyConversion(data))
@@ -174,6 +178,7 @@ export default function Home() {
     };
     const formattedDate = new Intl.DateTimeFormat(lang, options).format(date);
 
+    //get date in format DD/MM
     const shortOptions = {
         timeZone: "Europe/Paris",
         month: 'numeric',
@@ -182,6 +187,7 @@ export default function Home() {
     const shortDate = new Intl.DateTimeFormat("en-gb", shortOptions).format(date);
 
     const onThisDayEvents = t('on-this-day-events', { returnObjects: true });
+    //load event where event date is the current date
     const onThisDayEvent = onThisDayEvents.find(event => event.date === shortDate);
 
     return (

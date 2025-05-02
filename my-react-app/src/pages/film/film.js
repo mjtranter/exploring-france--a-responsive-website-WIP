@@ -40,9 +40,11 @@ export default function Film() {
     const [searchParams, setSearchParams] = useSearchParams();
     const categoryParam = searchParams.get('category') || 'overview';
 
+    //define categories
     const categories = [{id: "Overview", t: "overview"}, {id: "History", t: "history"}, {id: "Events", t: "events"}, {id: "Locations", t: "locations"}];
     const [selectedCategory, setSelectedCategory] = useState(categories.find(category => category.t === categoryParam) || categories[0]);
 
+    //update URL when selected category is changed
     useEffect(() => {
         setSearchParams(oldParams => {
             const newParams = new URLSearchParams(oldParams);
