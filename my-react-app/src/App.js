@@ -26,7 +26,7 @@ export default function App() {
         fetch("/api/fetchCountryCode")
           .then(response => response.json())
           .then(data => {
-            console.log(data);
+            console.log(data.countryCode);
             setCountryCode(data.countryCode.toLowerCase())
           })
           .catch(error => console.log("There was an error fetching country code!"));
