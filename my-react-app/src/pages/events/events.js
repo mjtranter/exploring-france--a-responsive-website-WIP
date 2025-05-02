@@ -122,7 +122,7 @@ export default function Events() {
             </div>
             <RightColumn>
                 {events.filter(event => {
-                    if (event.start <= frenchDate && event.end > frenchDate) return true;
+                    if (event.start <= frenchDate && event.end > frenchDate && (event.country.includes("France") || (event.connection === countryCode && event.country !== "France"))) return true;
 
                     return false;
                 })
