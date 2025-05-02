@@ -82,7 +82,7 @@ export default function Events() {
 
             {events.filter(event => {
                 if (!event.type.includes("music")) return false;
-                if (filterSelected === "All" && event.country === "France") return true;
+                if (filterSelected === "All" && (event.country.includes("France") || (event.connection === countryCode && event.country !== "France"))) return true;
                 if (filterSelected === "Local" && event.local === "True") return true;
                 if (filterSelected === "Free" && event.free === "True") return true;
                 if (filterSelected === "Connections" && event.connection === countryCode && event.country === "France") return true;

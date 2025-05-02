@@ -1,16 +1,19 @@
 import { useTranslation } from 'react-i18next';
 import { DayPilot, DayPilotMonth } from '@daypilot/daypilot-lite-react';
 import './eventCalendar.css';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useContext } from 'react';
+import { CountryCodeContext } from '../../App';
 
 export default function EventCalendar({ns, type}) {
     const { t, i18n } = useTranslation(ns);
+
+    const countryCode = useContext(CountryCodeContext);
 
     //calendar source: https://code.daypilot.org/26289/react-monthly-calendar-tutorial
     const startDate = DayPilot.Date.today();
     const listEvents = t('list-events', { ns: "events", returnObjects: true });
     const events = listEvents.filter(event => {
-        if (ns === "events" || event.type.includes(ns)) return true;
+        if ((ns === "events" || event.type.includes(ns)) && (event.country.includes("France") || (event.connection === countryCode && event.country !== "France"))) return true;
         return false;
     });
 

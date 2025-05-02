@@ -95,15 +95,6 @@ export default function Home() {
         }
     }
 
-    const [parisWeatherResponse, setParisWeatherResponse] = useState([]);
-        
-    useEffect(() => {
-        fetch("/api/fetchWeather")
-        .then(response => response.json())
-        .then(data => setParisWeatherResponse(data))
-        .catch(error => console.log("There was an error fetching weather!"));
-    }, []);
-
     const [userWeatherResponse, setUserWeatherResponse] = useState([]);
         
     useEffect(() => {
@@ -113,6 +104,15 @@ export default function Home() {
         .then(data => setUserWeatherResponse(data))
         .catch(error => console.log("There was an error fetching weather!"));
     }, [countryCode]);
+
+    const [parisWeatherResponse, setParisWeatherResponse] = useState([]);
+        
+    useEffect(() => {
+        fetch("/api/fetchWeather")
+        .then(response => response.json())
+        .then(data => setParisWeatherResponse(data))
+        .catch(error => console.log("There was an error fetching weather!"));
+    }, []);
 
     const getCapital = (code) => {
         switch (code) {
@@ -222,6 +222,7 @@ export default function Home() {
                     <FlipCard type="on-this-day" front={t('reveal')} back={onThisDayEvent?.text} />
                 </div>
 
+                {/* weather comparison */}
                 <div className="comparison">
                     <div className="comparison-container">
                         <h5><b>{t(getCapital(countryCode))}</b></h5>
@@ -238,7 +239,7 @@ export default function Home() {
                     </div>
                 </div>
 
-
+                {/* currency comparison */}
                 <div className="comparison">
                     <div className="comparison-container">
                         <h5><b>{t(getCurrency(countryCode))}</b></h5>
@@ -254,7 +255,7 @@ export default function Home() {
                 </div>
 
                 {events.filter(event => {
-                    if (event.start <= frenchDate && event.end > frenchDate) return true;
+                    if (event.start <= frenchDate && event.end > frenchDate && (event.country.includes("France") || (event.connection === countryCode && event.country !== "France"))) return true;
 
                     return false;
                 })
