@@ -68,15 +68,17 @@ export default function Music() {
         .catch(error => console.log("There was an error fetching top 10!"));
     }, []);
 
-    const [currentlyPlaying, setCurrentlyPlaying] = useState(0);
+    const [currentlyPlaying, setCurrentlyPlaying] = useState(-1);
     const [audio, setAudio] = useState(null);
 
     const handleCurrentlyPlaying = (song) => {
         if (currentlyPlaying === song.id) {
+            //if the song playing is the one whose play/stop button was clicked then stop playing
             audio.pause();
             setCurrentlyPlaying(0);
         }
         else {
+            //pause song currently playing before starting new one
             if (audio) audio.pause();
 
             const preview = new Audio(song.preview);
@@ -84,6 +86,7 @@ export default function Music() {
             setAudio(preview);
             setCurrentlyPlaying(song.id);
 
+            //reset once preview is over
             preview.onended = () => setCurrentlyPlaying(0);
         }
     }

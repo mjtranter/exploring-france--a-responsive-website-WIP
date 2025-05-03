@@ -17,7 +17,8 @@ export default function Recommendation({ns, type}) {
     //use Swedish date as it is YYYY-MM-DD and using French would swap day and month
     const frenchDate = new Date(date.toLocaleString("sv", {timeZone: "Europe/Paris"}));
 
-    // source: https://stackoverflow.com/a/55717984
+    //source: https://stackoverflow.com/a/55717984
+    //calculate number of days between current day and start day
     const startDate = new Date("2025-01-27");
     const timeDifference = frenchDate.getTime() - startDate.getTime();
     const dayDifference = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
