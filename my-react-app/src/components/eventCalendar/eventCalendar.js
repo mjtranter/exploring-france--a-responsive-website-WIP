@@ -38,19 +38,22 @@ export default function EventCalendar({ns, type}) {
         eventHeight: 24
     }
 
+    //adapt calendar view to accommodate for Japanese weeks starting on Sundays
     let firstDay = startDate.firstDayOfMonth().dayOfWeek();
     if (i18n.resolvedLanguage === "ja") {
         firstDay += 1;
         if (firstDay === 8) firstDay = 0;
     }
 
+    //calculate transformation to show current week in short view
     const rowsAbove = Math.floor(startDate.getDay() / 7);
     const totalRowsAbove = (firstDay + (startDate.getDay() % 7)) > 8 ? rowsAbove + 1 : rowsAbove;
     const heightTranslation = 30 + (100 * totalRowsAbove);
+    
     const calendarContainer = "calendar-container" + (type === "full" ? " full" : "");
 
     const [narrowView, setNarrowView] = useState(false);
-
+    //check for narrow view to use short names eg. Mon, Tue
     useEffect(() => {
         const checkWidth = () => {
             setNarrowView(window.innerWidth < 1272);

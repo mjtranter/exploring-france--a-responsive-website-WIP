@@ -18,6 +18,7 @@
 .month_default_event_inner {
     padding-left: 28px !important;
     border-radius: 12px !important;
+    white-space: nowrap;
 }
 
 .month_default_event_bar {
