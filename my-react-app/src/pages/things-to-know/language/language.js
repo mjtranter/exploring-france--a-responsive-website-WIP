@@ -48,7 +48,7 @@ export default function Language() {
     const ns = "things-to-know";
     const { t, i18n } = useTranslation(ns);
 
-    // source: https://stackoverflow.com/a/2450976
+    //source: https://stackoverflow.com/a/2450976
     const shuffle = (array) => {
         let currentIndex = array.length;
 
@@ -105,7 +105,7 @@ export default function Language() {
         setActivePhrasesIndex(prevActivePhrasesIndex => (prevActivePhrasesIndex + 1) % usefulPhrasesTerms.length);
     }    
     
-    const [currentlyPlaying, setCurrentlyPlaying] = useState(0);
+    const [currentlyPlaying, setCurrentlyPlaying] = useState(-1);
     const [audio, setAudio] = useState(null);
 
     const handleCurrentlyPlaying = (phrase) => {

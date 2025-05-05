@@ -17,6 +17,7 @@ export default function Popup({type, title, content, ns, visible, hidePopup, tou
     const [shareVisible, setShareVisible] = useState(false);
 
     useEffect(() => {
+        //get location details of locations in tour
         const tempTourLocations = tourLocations.map(tourLocation => {
             for (const filmingLocation of filmingLocations) {
                 const location = filmingLocation.locations.find(item => item.id === tourLocation);
@@ -29,22 +30,27 @@ export default function Popup({type, title, content, ns, visible, hidePopup, tou
         if (tempTourLocations.length === 0) { setIframeURL(""); setShareVisible(false) };
         if (tempTourLocations.length === 1) { setIframeURL("https://www.google.com/maps/embed/v1/place?key=AIzaSyD54RmAGLKl8pEeB27PkxmtsZS6wTXewqY&q=" + tempTourLocations[0].directionLink); setShareVisible(false) };
         if (tempTourLocations.length >= 2) {
+            //set start and end points of route
             let embedURL = "https://www.google.com/maps/embed/v1/directions?key=AIzaSyD54RmAGLKl8pEeB27PkxmtsZS6wTXewqY&origin=" + tempTourLocations[0].directionLink + "&destination=" + tempTourLocations[tempTourLocations.length - 1].directionLink;
             if (tempTourLocations.length > 2) {
                 embedURL += "&waypoints=";
+                //for each waypoint add link to URL
                 tempTourLocations.slice(1, tempTourLocations.length - 1).map(tempTourLocation => (
                     embedURL += tempTourLocation.directionLink + "|"
                 ));
 
+                //remove final pipe
                 embedURL = embedURL.slice(0, -1);
             }
 
+            //set mode to walking if all locations are within one city
             const sameCity = tempTourLocations.every(tempTourLocation => tempTourLocation.city === tempTourLocations[0].city);
             const mode = sameCity ? "walking" : "driving";
 
             embedURL += "&mode=" + mode;
             setIframeURL(embedURL);
 
+            //adapt embedURL to normal route link
             let tempURL = "https://www.google.com/maps/dir/?api=1" + embedURL.slice(91, embedURL.length);
             tempURL = tempURL.split("&mode=");
             tempURL = tempURL[0] + "&travelmode=" + tempURL[1];

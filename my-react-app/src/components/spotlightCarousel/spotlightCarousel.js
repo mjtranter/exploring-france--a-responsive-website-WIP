@@ -20,7 +20,7 @@ const getFullPath = (path) => {
 export default function SpotlightCarousel() {
     const { t } = useTranslation("common");
     const navigate = useNavigate();
-
+    
     const spotlights = t('spotlights', { returnObjects: true });
 
 

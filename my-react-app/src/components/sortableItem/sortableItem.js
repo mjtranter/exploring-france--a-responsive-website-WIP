@@ -13,7 +13,7 @@ export function SortableItem(props) {
 
     const index = props.index === 1 ? t('start') : props.index === props.tourLocations.length ? t('end') : props.index - 1;
 
-    const getWidth = (text) => {
+    const getWidthClass = (text) => {
         switch (text) {
             case "出発":
                 return "ja";
@@ -24,7 +24,7 @@ export function SortableItem(props) {
         }
     }
 
-    const widthClass = getWidth(t('start'));
+    const widthClass = getWidthClass(t('start'));
 
     const removeItem = (itemID) => {
         const tempLocations = props.tourLocations.filter(item => item.id !== itemID).map(item => item.id);
