@@ -29,8 +29,8 @@ export default function SpotlightCarousel() {
             {spotlights.map(spotlight => (
                 <Carousel.Item key={spotlight.id}>
                     <img src={images[spotlight.id - 1]} alt={spotlight.title} />
+                    <div className="carousel-overlay"><h3><b>{spotlight.title}</b></h3></div>
                     <Carousel.Caption>
-                        <h3 className="carousel-title"><b>{spotlight.title}</b></h3>
                         <div className="btn-view-more">
                             <Button type="default" text={t('view-more')} onClick={() => navigate(getFullPath(links[spotlight.id - 1]))} />
                         </div>
