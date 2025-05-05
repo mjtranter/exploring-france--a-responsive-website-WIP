@@ -16,6 +16,7 @@
     transform: translate(-50%, -50%);
     text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.5);
     color: var(--french-white);
+    text-align: center;
 }
 
 .carousel-overlay h3 {
