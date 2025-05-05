@@ -85,7 +85,7 @@ export default function Popup({type, title, content, ns, visible, hidePopup, tou
                 if (navigator.share) {
                     navigator.share({
                         title: t('share-title'),
-                        text: t('share-text'),
+                        text: `${t('share-text')}\n\n${shareURL} `,
                         url: shareURL
                     })
                     .catch(() => console.log("There was an error sharing the tour."));
