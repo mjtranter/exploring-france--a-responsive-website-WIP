@@ -49,10 +49,6 @@
     color: var(--secondary-theme);
 }
 
-.language-select .dropdown-menu {
-    background-color: var(--secondary-theme);
-}
-
 .flag-icon {
     margin-right: 10px;
 }
@@ -62,6 +58,14 @@
     display: flex;
     align-items: center;
     padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0;
+    margin-bottom: auto;
+}
+
+.navbar-toggler {
+    margin-top: 20px;
+    margin-bottom: auto;
 }
 
 .logo-container img {
@@ -78,7 +82,7 @@
     color: var(--secondary-theme);
 }
 
-@media (max-width: 992px) {
+@media (max-width: 994px) {
     .navbar-nav {
         margin-top: -9px;
     }
@@ -89,6 +93,19 @@
 
     .navbar-collapse.collapse.show {
         margin-bottom: 9px;
-        z-index: 1040;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo-text {
+        display: none;
+    }
+
+    .language-text {
+        font-size: 0.8em;
+    }
+
+    .flag-icon {
+        margin-left: auto;
     }
 }

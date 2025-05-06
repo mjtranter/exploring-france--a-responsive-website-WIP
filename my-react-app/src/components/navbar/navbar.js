@@ -63,11 +63,11 @@ export default function Navbar() {
                 </div>    
                 <ul className="navbar-nav ms-auto">
                     <li className="nav-item dropdown language-select">
-                        <Link className="nav-link dropdown-toggle language-dropdown" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span className={getFlag()}></span>{t('language')}</Link>
+                        <Link className="nav-link dropdown-toggle language-dropdown" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span className={getFlag()}></span><span className="language-text">{t('language')}</span></Link>
                         <div className="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
-                            <button className="dropdown-item" onClick={() => changeLanguage("en")}><span className="flag-icon flag-icon-gb"></span>English</button>
-                            <button className="dropdown-item" onClick={() => changeLanguage("fr")}><span className="flag-icon flag-icon-fr"></span>Français</button>
-                            <button className="dropdown-item" onClick={() => changeLanguage("ja")}><span className="flag-icon flag-icon-jp"></span>日本語</button>
+                            <button className="dropdown-item" onClick={() => changeLanguage("en")}><span className="flag-icon flag-icon-gb"></span><span className="language-text">English</span></button>
+                            <button className="dropdown-item" onClick={() => changeLanguage("fr")}><span className="flag-icon flag-icon-fr"></span><span className="language-text">Français</span></button>
+                            <button className="dropdown-item" onClick={() => changeLanguage("ja")}><span className="flag-icon flag-icon-jp"></span><span className="language-text">日本語</span></button>
                         </div>
                     </li>
                 </ul>   
