@@ -8,6 +8,16 @@
     max-width: 74vw;
 }
 
+@media (max-width: 768px) {
+    .carousel,
+    .carousel-inner,
+    .carousel-item,
+    .carousel-item img {
+        width: 100%;
+        max-width: 100vw;
+    }
+}
+
 .carousel-overlay {
     /* display in centre of image */
     position: absolute;

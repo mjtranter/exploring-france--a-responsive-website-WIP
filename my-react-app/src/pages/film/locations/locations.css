@@ -16,8 +16,17 @@
     overflow: auto;
 }
 
+.filming-location-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+
 .filming-location-description {
     font-size: 0.9em;
+    min-width: 200px;
+    width: calc(100% - 420px);
 }
 
 .location-links {
@@ -69,4 +78,16 @@
 
 .animate {
     animation: animate 0.3s ease;
+}
+
+@media (min-width: 768px) and (max-width: 1170px) {
+    .filming-location-description {
+        width: 100%;
+    }
+}
+
+@media (max-width: 686px) {
+    .filming-location-description {
+        width: 100%;
+    }
 }

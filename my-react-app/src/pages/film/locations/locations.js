@@ -83,11 +83,14 @@ export default function Locations() {
                 <div key={filmingLocation.id} className="filming-location-container">
                     <h5><b>{filmingLocation.name}</b></h5>
                     <div className="filming-location-details">
-                        <div className="description-image-container right location">
-                            <img className="description-image location" src={filmingLocation.image} alt={filmingLocation.name} />
-                            <iframe title={filmingLocation.name} src={filmingLocation.streetview} width={400} height={300} allow="accelerometer; fullscreen; geolocation; gyroscope" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                        <div className="filming-location-main">
+                            <div className="filming-location-description" dangerouslySetInnerHTML={{__html: filmingLocation.description}} />
+                            <div className="description-image-container right location">
+                                <img className="description-image location" src={filmingLocation.image} alt={filmingLocation.name} />
+                                <iframe title={filmingLocation.name} src={filmingLocation.streetview} width={400} height={300} allow="accelerometer; fullscreen; geolocation; gyroscope" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                            </div>
+                            <br />
                         </div>
-                        <div className="filming-location-description" dangerouslySetInnerHTML={{__html: filmingLocation.description}} /><br />
                         <p><b>{t('filming-locations-heading')}</b></p>
                         {filmingLocation.locations.map(location => (
                             <div key={location.link} className="location-links">
@@ -97,6 +100,7 @@ export default function Locations() {
                                 <i><a href={location.link} target='_blank' rel='noreferrer'>{location.linkText}</a></i>
                             </div>
                         ))}
+                        
                     </div>
                 </div>
             ))}   

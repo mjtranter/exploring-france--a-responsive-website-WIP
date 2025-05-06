@@ -14,3 +14,11 @@
     padding-top: 12px;
     border-top: 4px solid var(--dark-theme);
 }
+
+@media (max-width: 768px) {
+    .right-column {
+        width: 100vw;
+        min-height: fit-content;
+    }
+
+}

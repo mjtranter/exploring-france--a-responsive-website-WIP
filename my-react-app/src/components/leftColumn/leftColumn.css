@@ -1,7 +1,6 @@
 @import '../../assets/colours/colours.css';
 
 .left-column {
-    /*float: left;*/
     background-color: var(--tertiary-theme);
     width: calc(25% * 0.75);
     height: calc(100vh - 90px);
@@ -44,4 +43,37 @@
 
 .selected:hover {
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .left-column {
+        width: 100vw;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0;
+        z-index: 1030;
+    }
+
+    .categories {
+        display: flex;
+        margin-right: 16px;
+        height: 100%;
+        align-items: center;
+    }
+
+    .category-item {
+        padding: 0;
+        padding-right: 16px;
+        padding-left: 16px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .category-item:not(.selected):hover {
+        border-right: 0;
+        border-bottom: 4px solid var(--primary-theme);
+    }
 }

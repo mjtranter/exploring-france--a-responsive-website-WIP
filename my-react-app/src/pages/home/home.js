@@ -206,7 +206,7 @@ export default function Home() {
                         {i18n.resolvedLanguage === "fr" && (<img className="region-map" src={FranceMapFR} alt="French Regions" />)}
                         {i18n.resolvedLanguage === "ja" && (<img className="region-map" src={FranceMapJA} alt="French Regions" />)}
                         
-                        <h5 className="category-heading"><b>{t('home-heading-1')}</b></h5>
+                        <h5 className="category-heading top"><b>{t('home-heading-1')}</b></h5>
                         <p>{t('home-description-1')}</p>
                         <h6 className="category-heading"><b>{t('home-heading-2')}</b></h6>
                         <p>{t('home-description-2')}</p>

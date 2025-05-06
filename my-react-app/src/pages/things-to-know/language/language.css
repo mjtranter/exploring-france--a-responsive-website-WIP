@@ -79,3 +79,9 @@
     margin-right: 6px;
     height: 24px;
 }
+
+@media (max-width: 1170px) {
+    .useful-phrases {
+        width: 440px;
+    }
+}

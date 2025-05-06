@@ -14,3 +14,16 @@
     max-width: calc(75% + (25% * 0.25));
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .central-column {
+        max-width: 96vw;
+        width: 100vw;
+        margin-top: 60px;
+    }
+
+    .central-column.full {
+        max-width: 96vw;
+        width: 100vw;
+    }
+}
