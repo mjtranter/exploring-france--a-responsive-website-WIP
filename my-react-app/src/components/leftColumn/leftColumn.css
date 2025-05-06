@@ -56,6 +56,10 @@
         z-index: 1030;
     }
 
+    .nav-title {
+        font-size: 1.2em;
+    }
+
     .categories {
         display: flex;
         margin-right: 16px;
@@ -65,11 +69,12 @@
 
     .category-item {
         padding: 0;
-        padding-right: 16px;
-        padding-left: 16px;
+        padding-right: 6px;
+        padding-left: 6px;
         height: 100%;
         display: flex;
         align-items: center;
+        font-size: 0.9em;
     }
 
     .category-item:not(.selected):hover {
