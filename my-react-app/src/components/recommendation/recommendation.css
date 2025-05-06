@@ -26,14 +26,15 @@
 
 .film-container {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 16px;
-    
 }
 
 .film-content {
     display: flex;
     flex-direction: column;
-    width: calc(100% - 160px);
+    min-width: 150px;
+    width: calc(100% - 168px);
     box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: auto;
@@ -83,4 +84,15 @@ hr {
     font-size: 0.8em;
     margin-top: -10px;
     overflow: visible;
+}
+
+@media (min-width: 769px) and (max-width: 1370px) {
+    .film-images {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .film-content {
+        width: 100%;
+    }
 }
