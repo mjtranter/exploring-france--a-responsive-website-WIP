@@ -60,7 +60,6 @@
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 0;
-    margin-bottom: auto;
 }
 
 .navbar-toggler {
@@ -89,6 +88,7 @@
 
     .logo-container {
         margin-top: -6px;
+        margin-bottom: auto;
     }
 
     .navbar-collapse.collapse.show {
