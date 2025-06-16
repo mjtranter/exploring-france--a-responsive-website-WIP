@@ -3,7 +3,8 @@ import LeftColumn from '../../components/leftColumn/leftColumn';
 import CentralColumn from '../../components/centralColumn/centralColumn';
 import RightColumn from '../../components/rightColumn/rightColumn';
 import { useTranslation } from 'react-i18next';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useContext } from 'react';
+import { CountryCodeContext } from '../../App';
 import { useSearchParams } from 'react-router-dom';
 
 import Overview from './overview/overview';
@@ -36,6 +37,8 @@ const images = [MyFrenchFilmFestival, JMusicFestival, CesarAwards, MonteCarloSpr
 
 export default function Film() {
     const { t } = useTranslation(['common', 'film']);
+
+    const countryCode = useContext(CountryCodeContext);
 
     const [searchParams, setSearchParams] = useSearchParams();
     const categoryParam = searchParams.get('category') || 'overview';
@@ -72,8 +75,8 @@ export default function Film() {
                 <Recommendation ns={"film"} type={"film"} />
 
                 {events.filter(event => {
-                    if (event.start <= frenchDate && event.end > frenchDate && event.type.includes("film")) return true;
-
+                    if (!event.type.includes("film") || event.start > frenchDate || event.end <= frenchDate) return false;
+                    if (event.country.includes("France") || (event.connection === countryCode && event.country !== "France")) return true;
                     return false;
                 })
                 .map(event => (

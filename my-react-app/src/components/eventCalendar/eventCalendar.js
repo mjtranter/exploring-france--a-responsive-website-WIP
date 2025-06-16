@@ -38,8 +38,11 @@ export default function EventCalendar({ns, type}) {
         eventHeight: 24
     }
 
-    //adapt calendar view to accommodate for Japanese weeks starting on Sundays
+    
     let firstDay = startDate.firstDayOfMonth().dayOfWeek();
+    if (firstDay == 0) firstDay = 7;
+    
+    //adapt calendar view to accommodate for Japanese weeks starting on Sundays
     if (i18n.resolvedLanguage === "ja") {
         firstDay += 1;
         if (firstDay === 8) firstDay = 0;
