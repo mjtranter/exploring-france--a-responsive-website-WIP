@@ -48,6 +48,10 @@ export default function Language() {
     const ns = "things-to-know";
     const { t, i18n } = useTranslation(ns);
 
+    useEffect(() => {
+        document.title = t('language-title');
+    });
+
     //source: https://stackoverflow.com/a/2450976
     const shuffle = (array) => {
         let currentIndex = array.length;

@@ -30,7 +30,7 @@ import FranceMapFR from '../../assets/images/france-map-fr.jpg';
 import FranceMapJA from '../../assets/images/france-map-ja.jpg';
 
 import { useTranslation } from 'react-i18next';
-import { useState, useContext, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import { CountryCodeContext } from "../../App";
 
 const images = [MyFrenchFilmFestival, JMusicFestival, CesarAwards, MonteCarloSpringArts, BanlieuesBleues, FrenchFilmFestivalYokohama, BonjourFrance, Beatles, CannesFilmFestival, FrenchConnections, AnnecyInternational, FrancosDeMontreal, ParisJazz, FrancophoneDayParty, CognacBluesPassions, DinardFilmFestival, Cinemania, HanabiSeasons, FrenchFilmFestivalUK];
@@ -38,6 +38,10 @@ const images = [MyFrenchFilmFestival, JMusicFestival, CesarAwards, MonteCarloSpr
 export default function Home() {
     const ns = "common";
     const { t, i18n } = useTranslation([ns, 'music']);
+
+    useEffect(() => {
+        document.title = t('title');
+    });
     
     const date = new Date();
     //get date in YYYY-MM-DD format

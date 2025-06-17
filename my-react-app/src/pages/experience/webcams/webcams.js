@@ -5,13 +5,19 @@ import Munster from '../../../assets/images/munster.jpg';
 import LesSablesDolonne from '../../../assets/images/les-sables-dolonne.jpg';
 import SaintMalo from '../../../assets/images/saint-malo.jpg';
 import FontRomeu from '../../../assets/images/font-romeu.jpg';
+
 import { useTranslation } from 'react-i18next';
+import { useEffect } from 'react';
 
 const images = [PortDeLaSante, LaPlagneTarentaise, Munster, LesSablesDolonne, SaintMalo, FontRomeu];
 
 export default function Webcams() {
     const ns = "experience";
     const { t } = useTranslation(ns);
+
+    useEffect(() => {
+        document.title = t('webcams-title');
+    });
 
     const webcams = t('list-webcams', { returnObjects: true });
 

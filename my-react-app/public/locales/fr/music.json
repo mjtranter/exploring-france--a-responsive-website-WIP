@@ -1,8 +1,12 @@
 {   
     "overview": "Aperçu",
+    "overview-title": "Aperçu de la musique | L'Hexagone",
     "foundations": "Fondations",
+    "foundations-title": "Fondations de la musique | L'Hexagone",
     "events": "Événements",
+    "events-title": "Événements de la musique | L'Hexagone",
     "listen": "Écouter",
+    "listen-title": "Écouter | L'Hexagone",
 
     "todays-song": "Chanson du jour",
     "top-10": "Top 10",

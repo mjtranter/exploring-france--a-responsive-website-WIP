@@ -1,8 +1,12 @@
 {
     "overview": "Aperçu",
+    "overview-title": "Aperçu du film | L'Hexagone",
     "history": "Histoire",
+    "history-title": "Histoire du film | L'Hexagone",
     "events": "Événements",
+    "events-title": "Événements du film | L'Hexagone",
     "locations": "Lieux",
+    "locations-title": "Lieux du film | L'Hexagone",
 
     "film-of-the-week": "Film de la Semaine",
     "directed": "Dir.",

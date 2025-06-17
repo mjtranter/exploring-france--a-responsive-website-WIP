@@ -1,8 +1,12 @@
 {
     "overview": "概要",
+    "overview-title": "映画概要｜L'Hexagone",
     "history": "歴史",
+    "history-title": "映画史｜L'Hexagone",
     "events": "イベント",
+    "events-title": "映画イベント｜L'Hexagone",
     "locations": "所在地",
+    "locations-title": "映画所在地｜L'Hexagone",
 
     "film-of-the-week": "今週の映画",
     "directed": "監督：",

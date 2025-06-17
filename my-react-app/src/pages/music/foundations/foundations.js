@@ -43,7 +43,7 @@ import Bizet from '../../../assets/images/bizet-icon.jpg';
 import Satie from '../../../assets/images/satie-icon.jpg';
 
 import { useTranslation } from 'react-i18next';
-import { useState, useContext } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import { CountryCodeContext } from '../../../App';
 import Popup from '../../../components/popup/popup';
 import Button from '../../../components/button/button';
@@ -51,6 +51,10 @@ import Button from '../../../components/button/button';
 export default function Foundations() {
     const ns = "music";
     const { t } = useTranslation([ns, 'common']);
+
+    useEffect(() => {
+        document.title = t('foundations-title');
+    });
 
     const countryCode = useContext(CountryCodeContext);
 

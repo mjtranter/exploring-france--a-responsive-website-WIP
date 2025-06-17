@@ -8,13 +8,17 @@ import { GoPerson }  from 'react-icons/go';
 import UKIcon from '../../../assets/images/uk-icon.png';
 import QuebecIcon from '../../../assets/images/quebec-icon.png';
 import JapanIcon from '../../../assets/images/japan-icon.png';
-import { useContext } from 'react';
+import { useEffect, useContext } from 'react';
 import { useTranslation } from 'react-i18next';
 import { CountryCodeContext } from '../../../App';
 
 export default function History() {
     const ns = "film";
     const { t } = useTranslation(ns);
+
+    useEffect(() => {
+        document.title = t('history-title');
+    });
 
     let countryCode = useContext(CountryCodeContext);
     const countryParam = new URLSearchParams(window.location.search).get("countrySim");

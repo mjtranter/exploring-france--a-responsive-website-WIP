@@ -1,8 +1,12 @@
 {
     "overview": "概要",
+    "overview-title": "音楽概要｜L'Hexagone",
     "foundations": "ファウンデーション",
+    "foundations-title": "音楽ファウンデーション｜L'Hexagone",
     "events": "イベント",
-    "listen": "聞いてみる",
+    "events-title": "音楽イベント｜L'Hexagone",
+    "listen": "聞く",
+    "listen-title": "聞く｜L'Hexagone",
 
     "todays-song": "今日の曲",
     "top-10": "トップ10",

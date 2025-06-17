@@ -1,11 +1,16 @@
 import './overview.css';
 import Lumieres from '../../../assets/images/lumieres.jpg';
 import CesarAward from '../../../assets/images/cesar-award.jpg';
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 export default function Overview() {
     const ns = "film";
     const { t } = useTranslation(ns);
+
+    useEffect(() => {
+        document.title = t('overview-title');
+    });
 
     return (
         <div className="category-component">

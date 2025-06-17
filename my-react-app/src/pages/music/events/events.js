@@ -1,8 +1,8 @@
 import './events.css';
 import { useTranslation } from "react-i18next";
-import EventCalendar from "../../../components/eventCalendar/eventCalendar";
-import { useState, useContext } from "react";
+import { useState, useEffect, useContext } from "react";
 import { CountryCodeContext } from "../../../App";
+import EventCalendar from "../../../components/eventCalendar/eventCalendar";
 import Popup from "../../../components/popup/popup";
 import Button from "../../../components/button/button";
 
@@ -31,6 +31,10 @@ const images = [MyFrenchFilmFestival, JMusicFestival, CesarAwards, MonteCarloSpr
 export default function Events() {
     const ns = "music";
     const { t } = useTranslation(ns);
+
+    useEffect(() => {
+        document.title = t('events-title');
+    });
 
     const countryCode = useContext(CountryCodeContext);
 

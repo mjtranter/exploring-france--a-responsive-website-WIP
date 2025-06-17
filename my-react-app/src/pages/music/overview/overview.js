@@ -2,10 +2,15 @@ import './overview.css';
 import ChristineAndTheQueens from '../../../assets/images/christine-and-the-queens.jpg';
 import FeteDeLaMusique from '../../../assets/images/fete-de-la-musique.jpg';
 import { useTranslation } from 'react-i18next';
+import { useEffect } from 'react';
 
 export default function Overview() {
     const ns = "music";
     const { t } = useTranslation(ns);
+    
+    useEffect(() => {
+        document.title = t('overview-title');
+    });
 
     return (
         <div className="category-component">

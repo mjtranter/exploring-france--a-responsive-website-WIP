@@ -11,12 +11,16 @@ import Button from '../../../components/button/button';
 import Popup from '../../../components/popup/popup';
 
 import { useTranslation } from 'react-i18next';
-import { useState, useContext } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import { CountryCodeContext } from '../../../App';
 
 export default function Listen() {
     const ns = "music";
     const { t } = useTranslation(ns);
+
+    useEffect(() => {
+        document.title = t('listen-title');
+    });
 
     const countryCode = useContext(CountryCodeContext);
 

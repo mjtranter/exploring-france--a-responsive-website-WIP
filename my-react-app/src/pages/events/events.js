@@ -25,7 +25,7 @@ import HanabiSeasons from '../../assets/images/hanabi-seasons.jpg';
 import FrenchFilmFestivalUK from '../../assets/images/french-film-festival-uk.jpg';
 
 import { useTranslation } from 'react-i18next';
-import { useState, useContext } from "react";
+import { useState, useEffect, useContext } from "react";
 import { CountryCodeContext } from "../../App";
 
 const images = [MyFrenchFilmFestival, JMusicFestival, CesarAwards, MonteCarloSpringArts, BanlieuesBleues, FrenchFilmFestivalYokohama, BonjourFrance, Beatles, CannesFilmFestival, FrenchConnections, AnnecyInternational, FrancosDeMontreal, ParisJazz, FrancophoneDayParty, CognacBluesPassions, DinardFilmFestival, Cinemania, HanabiSeasons, FrenchFilmFestivalUK];
@@ -33,6 +33,10 @@ const images = [MyFrenchFilmFestival, JMusicFestival, CesarAwards, MonteCarloSpr
 export default function Events() {
     const ns = "events";
     const { t } = useTranslation([ns, 'common']);
+
+    useEffect(() => {
+        document.title = t('title');
+    });
     
     const date = new Date();
     const frenchDate = date.toLocaleDateString("sv", {timeZone: "Europe/Paris"});
@@ -59,7 +63,6 @@ export default function Events() {
 
     return (
         <div className="content"> 
-            <title>Home | L'Hexagone</title>
             <div className="left">
                 <div className="no-category-container events">
                     <div className={"overlay" + (popupData.visible ? " visible" : "")}></div>

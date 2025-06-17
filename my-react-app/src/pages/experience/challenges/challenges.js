@@ -1,9 +1,14 @@
 import './challenges.css';
 import { useTranslation } from 'react-i18next';
+import { useEffect } from 'react';
 
 export default function Challenges() {
     const ns = "experience";
     const { t } = useTranslation(ns);
+
+    useEffect(() => {
+        document.title = t('challenges-title');
+    });
 
     return (
         <div className="category-component">

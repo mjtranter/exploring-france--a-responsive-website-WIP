@@ -3,11 +3,15 @@ import LeftColumn from '../../components/leftColumn/leftColumn';
 import CentralColumn from '../../components/centralColumn/centralColumn';
 import RightColumn from '../../components/rightColumn/rightColumn';
 import { useTranslation } from 'react-i18next';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function Itineraries() {
     const ns = "itineraries";
     const { t } = useTranslation([ns, "common"]);    
+
+    useEffect(() => {
+        document.title = t('title');
+    });
 
     return (
         <div className="content"> 

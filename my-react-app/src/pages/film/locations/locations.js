@@ -1,12 +1,16 @@
 import './locations.css';
 import Button from '../../../components/button/button';
 import Popup from '../../../components/popup/popup';
-import { useEffect, useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 export default function Locations() {
     const ns = "film";
     const { t } = useTranslation(ns);
+
+    useEffect(() => {
+        document.title = t('locations-title');
+    });
 
     const [filterSelected, setFilterSelected] = useState("All");
     
