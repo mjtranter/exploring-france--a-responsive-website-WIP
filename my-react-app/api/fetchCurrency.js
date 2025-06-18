@@ -3,7 +3,6 @@ import { kv } from '@vercel/kv';
 export default async function handler(req, res) {
     try {
         const cacheKey = 'rate' + req.query.currency;
-        console.log(cacheKey);
         const cachedRate = await kv.get(cacheKey);
         console.log(cachedRate);
         
