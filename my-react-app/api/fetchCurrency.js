@@ -8,9 +8,7 @@ export default async function handler(req, res) {
         //check if data has already been read today
         if (cachedRate) {
             const timestamp = Date.now();
-            const nextUpdated = cachedRate.time_next_update_unix;
-            console.log(timestamp);
-            console.log(nextUpdated);
+            const nextUpdated = cachedRate.time_next_update_unix * 1000;
 
             //include one minute buffer
             if (timestamp < nextUpdated + (1000 * 60)) {
