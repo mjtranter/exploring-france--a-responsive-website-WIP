@@ -12,7 +12,7 @@ export default async function handler(req, res) {
 
             //include one minute buffer
             if (timestamp < nextUpdated + (1000 * 60)) {
-                console.log('Using cached:', Boolean(cachedRate && timestamp < nextUpdated + 60000));
+                console.log('Using cached:', cachedRate);
                 return res.status(200).json(cachedRate);
             }
         }
