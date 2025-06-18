@@ -4,13 +4,11 @@ export default async function handler(req, res) {
     try {
         const cacheKey = 'rate' + req.query.currency;
         const cachedRate = await kv.get(cacheKey);
-        console.log(cachedRate);
         
         //check if data has already been read today
         if (cachedRate) {
             const timestamp = Date.now();
             const nextUpdated = cachedRate.time_next_update_unix;
-            console.log(nextUpdated);
 
             //include one minute buffer
             if (timestamp < nextUpdated + (1000 * 60)) {
@@ -21,7 +19,6 @@ export default async function handler(req, res) {
 
         //otherwise fetch API key
         const apiKey = process.env.CURRENCY_API_KEY;
-        console.log(apiKey);
         
         const response = await fetch(`https://v6.exchangerate-api.com/v6/${apiKey}/pair/${req.query.currency}/EUR`);
         const data = await response.json();
