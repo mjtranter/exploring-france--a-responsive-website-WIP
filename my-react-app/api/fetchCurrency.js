@@ -12,7 +12,6 @@ export default async function handler(req, res) {
 
             //include one minute buffer
             if (timestamp < nextUpdated + (1000 * 60)) {
-                console.log('Using cached:', cachedRate);
                 return res.status(200).json(cachedRate);
             }
         }
@@ -22,8 +21,6 @@ export default async function handler(req, res) {
         
         const response = await fetch(`https://v6.exchangerate-api.com/v6/${apiKey}/pair/${req.query.currency}/EUR`);
         const data = await response.json();
-
-        console.log("Send response");
 
         await kv.set(cacheKey, data);
 
