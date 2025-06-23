@@ -95,7 +95,7 @@ export default function EventCalendar({ns, type}) {
 
             {type === "short" && (
                 <div className="short">
-                    <DayPilotMonth {...config} startDate={startDate} events={events} locale={locale} showToolTip={false} timeRangeSelectedHandling="Disabled" eventMoveHandling="Disabled" eventResizeHandling="Disabled" />
+                    <DayPilotMonth {...config} startDate={startDate} events={events} locale={locale} timeRangeSelectedHandling="Disabled" eventMoveHandling="Disabled" eventResizeHandling="Disabled" />
                     <style>{`
                         .short .month_default_main {
                             transform: translateY(-${heightTranslation}px);
