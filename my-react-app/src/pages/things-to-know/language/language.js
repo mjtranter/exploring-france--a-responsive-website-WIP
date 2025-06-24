@@ -44,9 +44,11 @@ import Descendre from '../../../assets/audio/descendre.mp3';
 
 import './language.css';
 
+const clips = [Sortie, Entree, Caisse, Toilettes, Interdit, Ouvert, Ferme, Poussez, Tirez, DefenseDeFumer, AccesInterdit, IssueDeSecours, HorairesDouverture, ParkingInterdit, Stop, Weekend, Bonjour, Bonsoir, Salut, AuRevoir, Merci, MerciBeaucoup, DeRien, SilVousPlait, ExcusezMoi, JeSuisDesole, JeVoudrais, AvezVous, OuEst, OuSontLesToilettes, AuSecours, ParlezVousAnglais, ParlezVousJaponais, Salut, FaireDuShopping, EnAvoirMarre, Descendre];
+
 export default function Language() {
     const ns = "things-to-know";
-    const { t, i18n } = useTranslation(ns);
+    const { t } = useTranslation(ns);
 
     useEffect(() => {
         document.title = t('language-title');
@@ -82,9 +84,15 @@ export default function Language() {
     const [commonSignsTerms, setCommonSignsTerms] = useState([]);
     const [usefulPhrasesTerms, setUsefulPhrasesTerms] = useState([]);
 
+    const [fixedCommonSignsTerms, setFixedCommonSignsTerms] = useState([]);
+    const [fixedUsefulPhrasesTerms, setFixedUsefulPhrasesTerms] = useState([]);
+
     useEffect(() => {
         const commonSigns = t('common-signs-terms', { returnObjects: true });
         const usefulPhrases = t('useful-phrases-terms', { returnObjects: true });
+
+        setFixedCommonSignsTerms(t('common-signs-terms', { returnObjects: true }));
+        setFixedUsefulPhrasesTerms(t('useful-phrases-terms', { returnObjects: true }));
 
         setCommonSignsTerms(shuffle([...commonSigns]));
         setUsefulPhrasesTerms(shuffle([...usefulPhrases]));
@@ -139,177 +147,29 @@ export default function Language() {
                     <Button type={signsFilterSelected === "Practise" ? "filter selected" : "filter"} text={t('practise')} onClick={() => changeSignsFilter("Practise")} />
                 </div><br />
                 {signsFilterSelected === "Learn" && (
-                    <>
-                        {(i18n.resolvedLanguage === "en" || i18n.resolvedLanguage === "ja") && (
-                            <table className="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">{t('french')}</th>
-                                        <th scope="col">{t('current-language-capital')}</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 1, clip: Sortie})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 1 ? "stop_circle" : "play_circle"}</span>
+                    <table className="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">{t('french')}</th>
+                                <th scope="col">{t('current-language-capital')}</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {fixedCommonSignsTerms.map(commonSignsTerm => (
+                                <tr>
+                                    <td>
+                                        <div className="phrase-sound">
+                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: commonSignsTerm.id, clip: clips[commonSignsTerm.id - 1]})}>
+                                                <span class="material-symbols-outlined">{currentlyPlaying === commonSignsTerm.id ? "stop_circle" : "play_circle"}</span>
                                             </button>
-                                            Sortie
-                                        </td>
-                                        <td>{t('exit')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 2, clip: Entree})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 2 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Entrée
-                                        </td>
-                                        <td>{t('entrance')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 3, clip: Caisse})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 3 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Caisse
-                                        </td>
-                                        <td>{t('checkout')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 4, clip: Toilettes})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 4 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Toilettes
-                                        </td>
-                                        <td>{t('toilets')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 5, clip: Interdit})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 5 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Interdit
-                                        </td>
-                                        <td>{t('forbidden')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 6, clip: Ouvert})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 6 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Ouvert
-                                        </td>
-                                        <td>{t('open')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 7, clip: Ferme})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 7 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Fermé
-                                        </td>
-                                        <td>{t('closed')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 8, clip: Poussez})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 8 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Poussez
-                                        </td>
-                                        <td>{t('push')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 9, clip: Tirez})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 9 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Tirez
-                                        </td>
-                                        <td>{t('pull')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 10, clip: DefenseDeFumer})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 10 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Défense de fumer
-                                        </td>
-                                        <td>{t('no-smoking')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 11, clip: AccesInterdit})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 11 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Accès interdit
-                                        </td>
-                                        <td>{t('no-entry')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 12, clip: IssueDeSecours})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 12 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Issue de secours
-                                        </td>
-                                        <td>{t('emergency-exit')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 13, clip: HorairesDouverture})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 13 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Horaires d'ouverture
-                                        </td>
-                                        <td>{t('opening-hours')}</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        )}
-            
-                        {i18n.resolvedLanguage === "fr" && (
-                            <table className="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Français</th>
-                                        <th scope="col">Québécois</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 14, clip: ParkingInterdit})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 14 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Parking interdit
-                                        </td>
-                                        <td>Stationnement interdit</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 15, clip: Stop})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 15 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Stop
-                                        </td>
-                                        <td>Arrêt</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 16, clip: Weekend})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 16 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Week-end
-                                        </td>
-                                        <td>Fin de semaine</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        )}
-                    </>
+                                            {commonSignsTerm.front}
+                                        </div>
+                                    </td>
+                                    <td>{commonSignsTerm.back}</td>
+                                </tr>
+                            ))}                                   
+                        </tbody>
+                    </table>
                 )}
 
                 {signsFilterSelected === "Practise" && (
@@ -338,213 +198,29 @@ export default function Language() {
                     <Button type={phrasesFilterSelected === "Practise" ? "filter selected" : "filter"} text={t('practise')} onClick={() => changePhrasesFilter("Practise")} />
                 </div><br />
                 {phrasesFilterSelected === "Learn" && (
-                    <>
-                        {(i18n.resolvedLanguage === "en" || i18n.resolvedLanguage === "ja") && (
-                            <table className="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">{t('french')}</th>
-                                        <th scope="col">{t('current-language-capital')}</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 17, clip: Bonjour})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 17 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Bonjour
-                                        </td>
-                                        <td>{t('hello')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 18, clip: Bonsoir})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 18 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Bonsoir
-                                        </td>
-                                        <td>{t('good-evening')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 19, clip: Salut})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 19 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Salut
-                                        </td>
-                                        <td>{t('hi')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 20, clip: AuRevoir})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 20 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Au revoir
-                                        </td>
-                                        <td>{t('goodbye')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 21, clip: Merci})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 21 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Merci
-                                        </td>
-                                        <td>{t('thank-you')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 22, clip: MerciBeaucoup})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 22 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Merci beaucoup
-                                        </td>
-                                        <td>{t('thank-you-very-much')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 23, clip: DeRien})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 23 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            De rien
-                                        </td>
-                                        <td>{t('youre-welcome')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 24, clip: SilVousPlait})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 24 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            S'il vous plaît
-                                        </td>
-                                        <td>{t('please')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 25, clip: ExcusezMoi})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 25 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Excusez-moi
-                                        </td>
-                                        <td>{t('excuse-me')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 26, clip: JeSuisDesole})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 26 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Je suis désolé(e)
-                                        </td>
-                                        <td>{t('sorry')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 27, clip: JeVoudrais})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 27 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Je voudrais...
-                                        </td>
-                                        <td>{t('i-would-like')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 28, clip: AvezVous})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 28 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Avez-vous... ?
-                                        </td>
-                                        <td>{t('do-you-have')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 29, clip: OuEst})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 29 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Où est... ?
-                                        </td>
-                                        <td>{t('where-is')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 30, clip: OuSontLesToilettes})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 30 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Où sont les toilettes ?
-                                        </td>
-                                        <td>{t('where-are-the-toilets')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 31, clip: AuSecours})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 31 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Au secours !
-                                        </td>
-                                        <td>{t('help')}</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="phrase-sound">
-                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 32, clip: i18n.resolvedLanguage === "en" ? ParlezVousAnglais : ParlezVousJaponais})}>
-                                                <span class="material-symbols-outlined">{currentlyPlaying === 32 ? "stop_circle" : "play_circle"}</span>
-                                            </button>
-                                            Parlez-vous {t('current-language')} ?
-                                        </td>
-                                        <td>{t('do-you-speak')}</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        )}
-            
-                        {i18n.resolvedLanguage === "fr" && (
-                            <table className="table table-striped">
-                            <thead>
+                    <table className="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">{t('french')}</th>
+                                <th scope="col">{t('current-language-capital')}</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {fixedUsefulPhrasesTerms.map(usefulPhrasesTerm => (
                                 <tr>
-                                    <th scope="col">Français</th>
-                                    <th scope="col">Québécois</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td className="phrase-sound">
-                                        <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 33, clip: Salut})}>
-                                            <span class="material-symbols-outlined">{currentlyPlaying === 33 ? "stop_circle" : "play_circle"}</span>
-                                        </button>
-                                        Salut
+                                    <td>
+                                        <div className="phrase-sound">
+                                            <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: usefulPhrasesTerm.id, clip: clips[usefulPhrasesTerm.id - 1]})}>
+                                                <span class="material-symbols-outlined">{currentlyPlaying === usefulPhrasesTerm.id ? "stop_circle" : "play_circle"}</span>
+                                            </button>
+                                            {usefulPhrasesTerm.front}
+                                        </div>
                                     </td>
-                                    <td>Allô</td>
+                                    <td>{usefulPhrasesTerm.back}</td>
                                 </tr>
-                                <tr>
-                                    <td className="phrase-sound">
-                                        <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 34, clip: FaireDuShopping})}>
-                                            <span class="material-symbols-outlined">{currentlyPlaying === 34 ? "stop_circle" : "play_circle"}</span>
-                                        </button>
-                                        Faire du shopping
-                                    </td>
-                                    <td>Magasiner</td>
-                                </tr>
-                                <tr>
-                                    <td className="phrase-sound">
-                                        <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 35, clip: EnAvoirMarre})}>
-                                            <span class="material-symbols-outlined">{currentlyPlaying === 35 ? "stop_circle" : "play_circle"}</span>
-                                        </button>
-                                        En avoir marre
-                                    </td>
-                                    <td>Être tanné(e)</td>
-                                </tr>
-                                <tr>
-                                    <td className="phrase-sound">
-                                        <button className="btn-song-preview phrase" onClick={() => handleCurrentlyPlaying({id: 36, clip: Descendre})}>
-                                            <span class="material-symbols-outlined">{currentlyPlaying === 36 ? "stop_circle" : "play_circle"}</span>
-                                        </button>
-                                        Descendre (d'un véhicule)
-                                    </td>
-                                    <td>Débarquer</td>
-                                </tr>
-                            </tbody>
-                            </table>
-                        )}
-                    </>
+                            ))}                                   
+                        </tbody>
+                    </table>
                 )}
 
                 {phrasesFilterSelected === "Practise" && (

@@ -45,6 +45,8 @@
     ],
 
     "common-signs": "Différences de signes",
+    "french": "Français",
+    "current-language-capital": "Québécois",
     "learn": "Apprendre",
     "practise": "Pratiquer",
 
@@ -52,19 +54,19 @@
     "next": "Suivant",
     "common-signs-terms": [
         {
-            "id": 1,
+            "id": 14,
             "front": "Parking interdit",
             "back": "Stationnement interdit"
         },
 
         {
-            "id": 2,
+            "id": 15,
             "front": "Stop",
             "back": "Arrêt"
         },
 
         {
-            "id": 3,
+            "id": 16,
             "front": "Week-end",
             "back": "Fin de semaine"
         }
@@ -73,25 +75,25 @@
     "useful-phrases": "Différences d'expressions utiles",
     "useful-phrases-terms": [
         {
-            "id": 1,
+            "id": 34,
             "front": "Salut",
             "back": "Allô"
         },
 
         {
-            "id": 2,
+            "id": 35,
             "front": "Faire du shopping",
             "back": "Magasiner"
         },
 
         {
-            "id": 3,
+            "id": 36,
             "front": "En avoir marre",
             "back": "Être tanné(e)"
         },
 
         {
-            "id": 4,
+            "id": 37,
             "front": "Descendre (d'un véhicule)",
             "back": "Débarquer"
         }

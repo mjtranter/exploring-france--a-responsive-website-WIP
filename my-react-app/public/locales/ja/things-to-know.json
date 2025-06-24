@@ -165,98 +165,98 @@
     "do-you-speak": "日本語は話せますか？",
     "useful-phrases-terms": [
         {
-            "id": 1,
+            "id": 17,
             "front": "Bonjour",
             "back": "こんにちは"
         },
 
         {
-            "id": 2,
+            "id": 18,
             "front": "Bonsoir",
             "back": "こんばんは"
         },
 
         {
-            "id": 3,
+            "id": 19,
             "front": "Salut",
             "back": "やあ"
         },
 
         {
-            "id": 4,
+            "id": 20,
             "front": "Au revoir",
             "back": "さようなら"
         },
 
         {
-            "id": 5,
+            "id": 21,
             "front": "Merci",
             "back": "ありがとう"
         },
 
         {
-            "id": 6,
+            "id": 22,
             "front": "Merci beaucoup",
             "back": "ありがとうございました"
         },
 
         {
-            "id": 7,
+            "id": 23,
             "front": "De rien",
             "back": "どういたしまして"
         },
 
         {
-            "id": 8,
+            "id": 24,
             "front": "S'il vous plaît",
             "back": "お願い"
         },
 
         {
-            "id": 9,
+            "id": 25,
             "front": "Excusez-moi",
             "back": "失礼"
         },
 
         {
-            "id": 10,
+            "id": 26,
             "front": "Je suis désolé(e)",
             "back": "申し訳ない"
         },
 
         {
-            "id": 11,
+            "id": 27,
             "front": "Je voudrais...",
             "back": "私は..."
         },
 
         {
-            "id": 12,
+            "id": 28,
             "front": "Avez-vous... ?",
             "back": "あなたは...？"
         },
 
         {
-            "id": 13,
+            "id": 29,
             "front": "Où est... ?",
             "back": "どこだ...？"
         },
 
         {
-            "id": 14,
+            "id": 30,
             "front": "Où sont les toilettes ?",
             "back": "トイレはどこですか？"
         },
 
         {
-            "id": 15,
+            "id": 31,
             "front": "Au secours !",
             "back": "助けてくれ！"
         },
 
         {
-            "id": 16,
-            "front": "Parlez-vous anglais ?",
+            "id": 33,
+            "front": "Parlez-vous japonais ?",
             "back": "日本語は話せますか？"
         }
     ],
