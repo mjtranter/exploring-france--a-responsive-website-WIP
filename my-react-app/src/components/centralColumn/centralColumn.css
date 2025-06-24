@@ -15,15 +15,31 @@
     width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .central-column {
-        max-width: 96vw;
+        max-width: 100vw;
         width: 100vw;
         margin-top: 60px;
+        padding: 16px;
+        padding-top: 12px;
     }
 
     .central-column.full {
-        max-width: 96vw;
+        max-width: 100vw;
+        width: 100vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .central-column {
+        max-width: 100vw;
+        width: 100vw;
+        margin-top: 60px;
+        padding: 12px;
+    }
+
+    .central-column.full {
+        max-width: 100vw;
         width: 100vw;
     }
 }

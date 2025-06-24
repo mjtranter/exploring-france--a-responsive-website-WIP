@@ -9,6 +9,15 @@ body {
   background-color: var(--secondary-theme);
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  max-width: 100%;
+}
+
 .content {
   display: flex;
   margin-top: 90px;
@@ -170,5 +179,6 @@ body {
 
   .description-image-container.right {
     align-self: flex-end;
+    margin-left: 0;
   }
 }

@@ -20,13 +20,13 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 12px;
 }
 
 .filming-location-description {
     font-size: 0.9em;
     min-width: 200px;
     width: calc(100% - 420px);
+    padding-bottom: 8px;
 }
 
 .location-links {

@@ -88,23 +88,25 @@ export default function Locations() {
                     <h5><b>{filmingLocation.name}</b></h5>
                     <div className="filming-location-details">
                         <div className="filming-location-main">
-                            <div className="filming-location-description" dangerouslySetInnerHTML={{__html: filmingLocation.description}} />
+                            <div className="filming-location-description">
+                                <div className="filming-location-synopsis" dangerouslySetInnerHTML={{__html: filmingLocation.description}} />
+                                <p><b>{t('filming-locations-heading')}</b></p>
+
+                                {filmingLocation.locations.map(location => (
+                                    <div key={location.link} className="location-links">
+                                        <button type="button" className="btn-add-tour" onClick={() => handleLocationClick(location.id)}>
+                                            <span key={location.id + "-" + tourLocations.includes(location.id)} className={"material-symbols-outlined " + tourLocations.includes(location.id) + " animate"}>{tourLocations.includes(location.id) ? "check_circle" : "add_circle"}</span>
+                                        </button>
+                                        <i><a href={location.link} target='_blank' rel='noreferrer'>{location.linkText}</a></i>
+                                    </div>
+                                ))}
+                            </div>
+
                             <div className="description-image-container right location">
                                 <img className="description-image location" src={filmingLocation.image} alt={filmingLocation.name} />
-                                <iframe title={filmingLocation.name} src={filmingLocation.streetview} width={400} height={300} allow="accelerometer; fullscreen; geolocation; gyroscope" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                                <iframe className="filming-location-iframe" title={filmingLocation.name} src={filmingLocation.streetview} width={400} height={240} allow="accelerometer; fullscreen; geolocation; gyroscope" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                             </div>
-                            <br />
-                        </div>
-                        <p><b>{t('filming-locations-heading')}</b></p>
-                        {filmingLocation.locations.map(location => (
-                            <div key={location.link} className="location-links">
-                                <button type="button" className="btn-add-tour" onClick={() => handleLocationClick(location.id)}>
-                                    <span key={location.id + "-" + tourLocations.includes(location.id)} className={"material-symbols-outlined " + tourLocations.includes(location.id) + " animate"}>{tourLocations.includes(location.id) ? "check_circle" : "add_circle"}</span>
-                                </button>
-                                <i><a href={location.link} target='_blank' rel='noreferrer'>{location.linkText}</a></i>
-                            </div>
-                        ))}
-                        
+                        </div>                        
                     </div>
                 </div>
             ))}   
