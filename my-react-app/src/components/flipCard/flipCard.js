@@ -10,16 +10,14 @@ export default function FlipCard({type, front, back}) {
     }
 
     return (
-        <div>
-            <ReactCardFlip isFlipped={isFlipped}>
-                <div className={"card flip-card front " + type} onClick={handleFlip}>
-                    <h3><b>{front}</b></h3>
-                </div>
+        <ReactCardFlip isFlipped={isFlipped}>
+            <div className={"card flip-card front " + type} onClick={handleFlip}>
+                <h3><b>{front}</b></h3>
+            </div>
 
-                <div className={"card flip-card back " + type} onClick={handleFlip}>
-                    {back}
-                </div>
-            </ReactCardFlip>
-        </div>
+            <div className={"card flip-card back " + type} onClick={handleFlip}>
+                {back}
+            </div>
+        </ReactCardFlip>
     )
 }

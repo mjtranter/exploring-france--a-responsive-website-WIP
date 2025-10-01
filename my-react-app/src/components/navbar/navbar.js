@@ -41,6 +41,7 @@ export default function Navbar() {
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
+
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item"><Link className="nav-link" to={"/"}>{t('home')}</Link></li>
@@ -61,16 +62,17 @@ export default function Navbar() {
                         </li>
                     </ul> 
                 </div>    
+                   
                 <ul className="navbar-nav ms-auto">
                     <li className="nav-item dropdown language-select">
                         <Link className="nav-link dropdown-toggle language-dropdown" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span className={getFlag()}></span><span className="language-text">{t('language')}</span></Link>
                         <div className="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
-                            <button className="dropdown-item" onClick={() => changeLanguage("en")}><span className="flag-icon flag-icon-gb"></span><span className="language-text">English</span></button>
-                            <button className="dropdown-item" onClick={() => changeLanguage("fr")}><span className="flag-icon flag-icon-fr"></span><span className="language-text">Français</span></button>
-                            <button className="dropdown-item" onClick={() => changeLanguage("ja")}><span className="flag-icon flag-icon-jp"></span><span className="language-text">日本語</span></button>
+                            <button className="dropdown-item" onClick={() => changeLanguage("en")}><span className="flag-icon flag-icon-gb"></span><span className="dropdown-language-text">English</span></button>
+                            <button className="dropdown-item" onClick={() => changeLanguage("fr")}><span className="flag-icon flag-icon-fr"></span><span className="dropdown-language-text">Français</span></button>
+                            <button className="dropdown-item" onClick={() => changeLanguage("ja")}><span className="flag-icon flag-icon-jp"></span><span className="dropdown-language-text">日本語</span></button>
                         </div>
                     </li>
-                </ul>   
+                </ul>
             </nav>
         </div>
     )
